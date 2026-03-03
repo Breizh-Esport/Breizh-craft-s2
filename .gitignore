@@ -1,5 +1,6 @@
 *
 !/.gitignore
+!/minecraftinstance.json
 !/LICENSE
 !/pakku.json
 !/pakku-lock.json
