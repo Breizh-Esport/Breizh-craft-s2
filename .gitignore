@@ -1,0 +1,9 @@
+*
+!/.gitignore
+!/LICENSE
+!/pakku.json
+!/pakku-lock.json
+!/README.md
+!/config
+!/defaultconfigs
+!/kubejs
