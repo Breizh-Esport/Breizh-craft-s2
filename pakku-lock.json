@@ -6,5 +6,45 @@
     "loaders": {
         "neoforge": "21.1.219"
     },
+    "projects": [
+        {
+            "pakku_id": "DMDk2qfy3hWMD8gm",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "jei"
+            },
+            "name": {
+                "modrinth": "Just Enough Items (JEI)"
+            },
+            "id": {
+                "modrinth": "u6dRKJwZ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Zgmbmpd4/jei-1.21.1-neoforge-19.27.0.336.jar",
+                    "id": "Zgmbmpd4",
+                    "parent_id": "u6dRKJwZ",
+                    "hashes": {
+                        "sha512": "b332974f6b39da4e8cca3a410b62a8bb7a53ae229594ca0d4368d9a136cf97fc3d50a21e98a65dcd1381b01d3b855212a3f43fc9699e3bcfc8687d7c99f4e573",
+                        "sha1": "d02c849e4e321e7b056a48e0242ec641560c2ab8"
+                    },
+                    "required_dependencies": [],
+                    "size": 1529192,
+                    "date_published": "2025-12-29T08:39:31.290472Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
