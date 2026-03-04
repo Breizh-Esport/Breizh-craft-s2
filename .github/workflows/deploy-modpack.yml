@@ -99,6 +99,45 @@ jobs:
           fi
           ZIP_NAME="$(basename "${ZIP_FILE}")"
 
+          echo "Cleaning remote /mods directory with safety guard..."
+          MODS_ROOT="/mods"
+          SAFETY_FILE=".deploy-mods-safety"
+          if [ "${MODS_ROOT}" = "/" ] || [ -z "${MODS_ROOT}" ]; then
+            echo "Refusing to clean unsafe directory target: '${MODS_ROOT}'."
+            exit 1
+          fi
+
+          mods_upload_url="$(api_json GET "/files/upload?directory=%2Fmods" | jq -r '.attributes.url')"
+          if [ -z "${mods_upload_url}" ] || [ "${mods_upload_url}" = "null" ]; then
+            echo "Failed to get upload URL for /mods."
+            exit 1
+          fi
+
+          echo "safe-delete-check" > /tmp/"${SAFETY_FILE}"
+          safety_upload_code="$(curl -sS -o /tmp/ptero-safety-upload-response.txt -w '%{http_code}' -X POST "${mods_upload_url}" \
+            -F "files=@/tmp/${SAFETY_FILE}" \
+            -F "directory=${MODS_ROOT}")"
+          if [ "${safety_upload_code}" -ge 400 ]; then
+            echo "Failed to upload safety file to /mods (HTTP ${safety_upload_code})."
+            cat /tmp/ptero-safety-upload-response.txt || true
+            exit 1
+          fi
+
+          mods_list_json="$(api_json GET "/files/list?directory=%2Fmods")"
+          if ! echo "${mods_list_json}" | jq -e --arg safe "${SAFETY_FILE}" '.data[] | select(.attributes.name == $safe)' >/dev/null; then
+            echo "Safety file was not found in /mods. Aborting cleanup."
+            exit 1
+          fi
+
+          delete_files_json="$(echo "${mods_list_json}" | jq -c --arg safe "${SAFETY_FILE}" '[.data[].attributes.name | select(. != $safe)]')"
+          if [ "${delete_files_json}" != "[]" ]; then
+            delete_payload="$(jq -nc --arg root "${MODS_ROOT}" --argjson files "${delete_files_json}" '{root:$root,files:$files}')"
+            api_json POST "/files/delete" "${delete_payload}" >/dev/null
+          fi
+
+          delete_safety_payload="$(jq -nc --arg root "${MODS_ROOT}" --arg safe "${SAFETY_FILE}" '{root:$root,files:[$safe]}')"
+          api_json POST "/files/delete" "${delete_safety_payload}" >/dev/null
+
           echo "Uploading serverpack archive..."
           upload_url="$(api_json GET "/files/upload?directory=%2F" | jq -r '.attributes.url')"
           if [ -z "${upload_url}" ] || [ "${upload_url}" = "null" ]; then

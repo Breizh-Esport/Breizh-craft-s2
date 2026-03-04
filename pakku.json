@@ -1,9 +1,7 @@
 {
     "name": "BreizhCraft S2",
     "version": "0.0.1",
-    "overrides": [
-        "config"
-    ],
+    "overrides": ["config", "kubejs", "defaultconfigs"],
     "projects": {
         "athena": {
             "side": "BOTH"
