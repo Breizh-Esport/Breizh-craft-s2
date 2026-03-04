@@ -128,7 +128,8 @@ jobs:
             fi
 
             curl -fsSL -X POST "${upload_url}" \
-              -F "files=@${file}"
+              -F "files=@${file}" \
+              -F "directory=${target_dir}"
           done < <(find deploy-serverpack -type f | sort)
 
           echo "Starting server..."
