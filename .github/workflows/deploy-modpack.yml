@@ -97,46 +97,31 @@ jobs:
             echo "No serverpack zip found in build/serverpack."
             exit 1
           fi
+          ZIP_NAME="$(basename "${ZIP_FILE}")"
 
-          rm -rf deploy-serverpack
-          mkdir -p deploy-serverpack
-          unzip -q "${ZIP_FILE}" -d deploy-serverpack
+          echo "Uploading serverpack archive..."
+          upload_url="$(api_json GET "/files/upload?directory=%2F" | jq -r '.attributes.url')"
+          if [ -z "${upload_url}" ] || [ "${upload_url}" = "null" ]; then
+            echo "Failed to get upload URL for root directory."
+            exit 1
+          fi
 
-          # Ensure nested directories exist before file upload.
-          while IFS= read -r dir; do
-            rel="${dir#deploy-serverpack}"
-            rel="${rel#/}"
-            [ -z "${rel}" ] && continue
-            parent="/$(dirname "${rel}")"
-            [ "${parent}" = "/." ] && parent="/"
-            name="$(basename "${rel}")"
-            payload="$(jq -nc --arg root "${parent}" --arg name "${name}" '{root:$root,name:$name}')"
-            api_json POST "/files/create-folder" "${payload}" >/dev/null || true
-          done < <(find deploy-serverpack -type d | sort)
+          http_code="$(curl -sS -o /tmp/ptero-upload-response.txt -w '%{http_code}' -X POST "${upload_url}" \
+            -F "files=@${ZIP_FILE}" \
+            -F "directory=/")"
+          if [ "${http_code}" -ge 400 ]; then
+            echo "Archive upload failed (HTTP ${http_code})"
+            cat /tmp/ptero-upload-response.txt || true
+            exit 1
+          fi
 
-          echo "Uploading files..."
-          while IFS= read -r file; do
-            rel="${file#deploy-serverpack/}"
-            target_dir="/$(dirname "${rel}")"
-            [ "${target_dir}" = "/." ] && target_dir="/"
-            encoded_dir="$(jq -rn --arg v "${target_dir}" '$v|@uri')"
-            upload_url="$(api_json GET "/files/upload?directory=${encoded_dir}" | jq -r '.attributes.url')"
+          echo "Extracting archive on server..."
+          decompress_payload="$(jq -nc --arg root "/" --arg file "${ZIP_NAME}" '{root:$root,file:$file}')"
+          api_json POST "/files/decompress" "${decompress_payload}" >/dev/null
 
-            if [ -z "${upload_url}" ] || [ "${upload_url}" = "null" ]; then
-              echo "Failed to get upload URL for ${rel}"
-              exit 1
-            fi
-
-            http_code="$(curl -sS -o /tmp/ptero-upload-response.txt -w '%{http_code}' -X POST "${upload_url}" \
-              -F "files=@${file}" \
-              -F "directory=${target_dir}")"
-
-            if [ "${http_code}" -ge 400 ]; then
-              echo "Upload failed for ${rel} (HTTP ${http_code})"
-              cat /tmp/ptero-upload-response.txt || true
-              exit 1
-            fi
-          done < <(find deploy-serverpack -type f | sort)
+          echo "Removing uploaded archive..."
+          delete_payload="$(jq -nc --arg file "${ZIP_NAME}" '{root:"/",files:[$file]}')"
+          api_json POST "/files/delete" "${delete_payload}" >/dev/null
 
           echo "Starting server..."
           api_json POST "/power" '{"signal":"start"}' >/dev/null
