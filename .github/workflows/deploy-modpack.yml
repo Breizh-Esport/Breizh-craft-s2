@@ -1,0 +1,137 @@
+name: Deploy Modpack
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-modpack-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PTERODACTYL_PANEL_URL: ${{ vars.PTERODACTYL_PANEL_URL }}
+  PTERODACTYL_SERVER_ID: ${{ vars.PTERODACTYL_SERVER_ID }}
+  PTERODACTYL_API_KEY: ${{ secrets.PTERODACTYL_API_KEY }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq unzip
+
+      - name: Install pakku
+        run: brew install pakku
+
+      - name: Build modpack
+        run: pakku export
+
+      - name: Deploy to Pterodactyl
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "${PTERODACTYL_PANEL_URL}" ] || [ -z "${PTERODACTYL_SERVER_ID}" ] || [ -z "${PTERODACTYL_API_KEY}" ]; then
+            echo "Missing required GitHub variables/secrets."
+            exit 1
+          fi
+
+          PANEL_URL="${PTERODACTYL_PANEL_URL%/}"
+          API_BASE="${PANEL_URL}/api/client/servers/${PTERODACTYL_SERVER_ID}"
+          AUTH_HEADER="Authorization: Bearer ${PTERODACTYL_API_KEY}"
+          ACCEPT_HEADER="Accept: Application/vnd.pterodactyl.v1+json"
+
+          api_json() {
+            local method="$1"
+            local endpoint="$2"
+            local body="${3:-}"
+            if [ -n "${body}" ]; then
+              curl -fsSL -X "${method}" \
+                -H "${AUTH_HEADER}" \
+                -H "${ACCEPT_HEADER}" \
+                -H "Content-Type: application/json" \
+                "${API_BASE}${endpoint}" \
+                -d "${body}"
+            else
+              curl -fsSL -X "${method}" \
+                -H "${AUTH_HEADER}" \
+                -H "${ACCEPT_HEADER}" \
+                "${API_BASE}${endpoint}"
+            fi
+          }
+
+          echo "Stopping server..."
+          api_json POST "/power" '{"signal":"stop"}' || true
+
+          echo "Waiting for server to stop..."
+          for _ in $(seq 1 30); do
+            state="$(api_json GET "/resources" | jq -r '.attributes.current_state')"
+            if [ "${state}" = "offline" ]; then
+              break
+            fi
+            sleep 5
+          done
+
+          final_state="$(api_json GET "/resources" | jq -r '.attributes.current_state')"
+          if [ "${final_state}" != "offline" ]; then
+            echo "Server did not stop in time (state: ${final_state})."
+            exit 1
+          fi
+
+          echo "Preparing serverpack..."
+          ZIP_FILE="$(ls -1 build/serverpack/*.zip | head -n 1)"
+          if [ -z "${ZIP_FILE}" ]; then
+            echo "No serverpack zip found in build/serverpack."
+            exit 1
+          fi
+
+          rm -rf deploy-serverpack
+          mkdir -p deploy-serverpack
+          unzip -q "${ZIP_FILE}" -d deploy-serverpack
+
+          # Ensure nested directories exist before file upload.
+          while IFS= read -r dir; do
+            rel="${dir#deploy-serverpack}"
+            rel="${rel#/}"
+            [ -z "${rel}" ] && continue
+            parent="/$(dirname "${rel}")"
+            [ "${parent}" = "/." ] && parent="/"
+            name="$(basename "${rel}")"
+            payload="$(jq -nc --arg root "${parent}" --arg name "${name}" '{root:$root,name:$name}')"
+            api_json POST "/files/create-folder" "${payload}" >/dev/null || true
+          done < <(find deploy-serverpack -type d | sort)
+
+          echo "Uploading files..."
+          while IFS= read -r file; do
+            rel="${file#deploy-serverpack/}"
+            target_dir="/$(dirname "${rel}")"
+            [ "${target_dir}" = "/." ] && target_dir="/"
+            encoded_dir="$(jq -rn --arg v "${target_dir}" '$v|@uri')"
+            upload_url="$(api_json GET "/files/upload?directory=${encoded_dir}" | jq -r '.attributes.url')"
+
+            if [ -z "${upload_url}" ] || [ "${upload_url}" = "null" ]; then
+              echo "Failed to get upload URL for ${rel}"
+              exit 1
+            fi
+
+            curl -fsSL -X POST "${upload_url}" \
+              -F "files=@${file}"
+          done < <(find deploy-serverpack -type f | sort)
+
+          echo "Starting server..."
+          api_json POST "/power" '{"signal":"start"}' >/dev/null
+
+          echo "Deployment completed."

@@ -1,10 +1,24 @@
+# Ignore everything by default
 *
+
+# Keep repository meta/docs
 !/.gitignore
-!/minecraftinstance.json
 !/LICENSE
+!/README.md
+
+# Keep modpack manifests
+!/minecraftinstance.json
 !/pakku.json
 !/pakku-lock.json
-!/README.md
-!/config
-!/defaultconfigs
-!/kubejs
+
+# Keep tracked config/script trees (including contents)
+!/config/
+!/config/**
+!/defaultconfigs/
+!/defaultconfigs/**
+!/kubejs/
+!/kubejs/**
+
+# Keep CI workflow files
+!/.github/
+!/.github/**
