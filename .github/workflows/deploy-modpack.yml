@@ -117,8 +117,8 @@ jobs:
           echo "Uploading files..."
           while IFS= read -r file; do
             rel="${file#deploy-serverpack/}"
-            target_dir="/$(dirname "${rel}")"
-            [ "${target_dir}" = "/." ] && target_dir="/"
+            target_dir="$(dirname "${rel}")"
+            [ "${target_dir}" = "." ] && target_dir="/"
             encoded_dir="$(jq -rn --arg v "${target_dir}" '$v|@uri')"
             upload_url="$(api_json GET "/files/upload?directory=${encoded_dir}" | jq -r '.attributes.url')"
 
@@ -128,7 +128,7 @@ jobs:
             fi
 
             curl -fsSL -X POST "${upload_url}" \
-              -F "files=@${file}" \
+              -F "files[]=@${file}" \
               -F "directory=${target_dir}"
           done < <(find deploy-serverpack -type f | sort)
 
