@@ -3,5 +3,13 @@
     "version": "0.0.1",
     "overrides": [
         "config"
-    ]
+    ],
+    "projects": {
+        "athena": {
+            "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        }
+    }
 }
