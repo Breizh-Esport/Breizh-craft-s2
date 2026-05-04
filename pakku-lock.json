@@ -1,10 +1,8 @@
 {
     "target": "multiplatform",
-    "mc_versions": [
-        "1.21.1"
-    ],
+    "mc_versions": ["1.21.1"],
     "loaders": {
-        "neoforge": "21.1.216"
+        "neoforge": "21.1.228"
     },
     "projects": [
         {
@@ -27,14 +25,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "appleskin-neoforge-mc1.21-3.0.9.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1", "1.21.2"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
                     "id": "uAKA6Laj",
@@ -50,14 +42,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "appleskin-neoforge-mc1.21-3.0.9.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1", "1.21.2"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7854/442/appleskin-neoforge-mc1.21-3.0.9.jar",
                     "id": "7854442",
@@ -92,13 +78,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "architectury-13.0.8-neoforge.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar",
                     "id": "ZxYGwlk0",
@@ -114,13 +95,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "architectury-13.0.8-neoforge.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/5786/327/architectury-13.0.8-neoforge.jar",
                     "id": "5786327",
@@ -155,12 +131,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "athena-neoforge-1.21.1-4.0.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/HV2wsFB9/athena-neoforge-1.21.1-4.0.5.jar",
                     "id": "HV2wsFB9",
@@ -176,12 +148,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "athena-neoforge-1.21.1-4.0.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/8033/61/athena-neoforge-1.21.1-4.0.5.jar",
                     "id": "8033061",
@@ -198,10 +166,7 @@
         },
         {
             "pakku_id": "izNF0txtFOSxrU1J",
-            "pakku_links": [
-                "C06nVt92W6a4EzMU",
-                "wbV6xV9E3hlH9mZW"
-            ],
+            "pakku_links": ["C06nVt92W6a4EzMU", "wbV6xV9E3hlH9mZW"],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -220,12 +185,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "attributefix-neoforge-1.21.1-21.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/TyNITLDY/attributefix-neoforge-1.21.1-21.1.3.jar",
                     "id": "TyNITLDY",
@@ -234,22 +195,15 @@
                         "sha512": "09e1ff6012d5b7bef7bb701d38feaaab41db4f2fc8b9f669b820fc2c91e53098e093e401062ad80a0ce249c68aa7a6209ac9ee341518b8f640bae2393b1595ae",
                         "sha1": "7aae849f6d2a6cb1368227407ea5deb552e100ba"
                     },
-                    "required_dependencies": [
-                        "aaRl8GiW",
-                        "uy4Cnpcm"
-                    ],
+                    "required_dependencies": ["aaRl8GiW", "uy4Cnpcm"],
                     "size": 19809,
                     "date_published": "2025-10-17T05:18:25.069160Z"
                 },
                 {
                     "type": "curseforge",
                     "file_name": "attributefix-neoforge-1.21.1-21.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7115/922/attributefix-neoforge-1.21.1-21.1.3.jar",
                     "id": "7115922",
@@ -258,10 +212,7 @@
                         "sha1": "7aae849f6d2a6cb1368227407ea5deb552e100ba",
                         "md5": "1552cea16a40215f9773e609114ccce1"
                     },
-                    "required_dependencies": [
-                        "228525",
-                        "1023259"
-                    ],
+                    "required_dependencies": ["228525", "1023259"],
                     "size": 19809,
                     "date_published": "2025-10-17T05:18:21.260Z"
                 }
@@ -287,13 +238,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "better-compatability-checker-neoforge-21.1.8.jar",
-                    "mc_versions": [
-                        "1.21.1",
-                        "1.21.2"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1", "1.21.2"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/KJhXPbHQ/versions/NYkU1ldY/better-compatability-checker-neoforge-21.1.8.jar",
                     "id": "NYkU1ldY",
@@ -309,13 +255,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "better-compatability-checker-neoforge-21.1.8.jar",
-                    "mc_versions": [
-                        "1.21.1",
-                        "1.21.2"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1", "1.21.2"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7404/415/better-compatability-checker-neoforge-21.1.8.jar",
                     "id": "7404415",
@@ -350,12 +291,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "bookshelf-neoforge-1.21.1-21.1.81.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/uy4Cnpcm/versions/1sdJl7J1/bookshelf-neoforge-1.21.1-21.1.81.jar",
                     "id": "1sdJl7J1",
@@ -371,12 +308,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "bookshelf-neoforge-1.21.1-21.1.81.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7606/240/bookshelf-neoforge-1.21.1-21.1.81.jar",
                     "id": "7606240",
@@ -393,9 +326,7 @@
         },
         {
             "pakku_id": "8obV2ofLNvxHnIaJ",
-            "pakku_links": [
-                "Or9Zq4sPgGROHnN9"
-            ],
+            "pakku_links": ["Or9Zq4sPgGROHnN9"],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -414,12 +345,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "Controlling-neoforge-1.21.1-19.0.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar",
                     "id": "FaNppCJJ",
@@ -428,21 +355,15 @@
                         "sha512": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e",
                         "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe"
                     },
-                    "required_dependencies": [
-                        "fuuu3xnx"
-                    ],
+                    "required_dependencies": ["fuuu3xnx"],
                     "size": 77555,
                     "date_published": "2025-03-30T23:44:43.868835Z"
                 },
                 {
                     "type": "curseforge",
                     "file_name": "Controlling-neoforge-1.21.1-19.0.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6368/976/Controlling-neoforge-1.21.1-19.0.5.jar",
                     "id": "6368976",
@@ -451,9 +372,7 @@
                         "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
                         "md5": "7141c2d0bb774dc6e4481be32b685179"
                     },
-                    "required_dependencies": [
-                        "858542"
-                    ],
+                    "required_dependencies": ["858542"],
                     "size": 77555,
                     "date_published": "2025-03-30T23:44:28.983Z"
                 }
@@ -479,12 +398,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "create-1.21.1-6.0.10.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
                     "id": "UjX6dr61",
@@ -500,12 +415,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "create-1.21.1-6.0.10.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7963/363/create-1.21.1-6.0.10.jar",
                     "id": "7963363",
@@ -540,12 +451,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "embeddium-1.0.15+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/J7b96IEd/embeddium-1.0.15+mc1.21.1.jar",
                     "id": "J7b96IEd",
@@ -561,12 +468,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "embeddium-1.0.15+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6118/392/embeddium-1.0.15+mc1.21.1.jar",
                     "id": "6118392",
@@ -602,12 +505,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "entityculling-neoforge-1.10.1-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/LrKSuU8e/entityculling-neoforge-1.10.1-mc1.21.1.jar",
                     "id": "LrKSuU8e",
@@ -623,12 +522,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "entityculling-neoforge-1.10.1-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7900/085/entityculling-neoforge-1.10.1-mc1.21.1.jar",
                     "id": "7900085",
@@ -659,12 +554,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "ftb-library-neoforge-2101.1.31.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7746/959/ftb-library-neoforge-2101.1.31.jar",
                     "id": "7746959",
@@ -673,9 +564,7 @@
                         "sha1": "686d4e784c28c14f7760cc22b2de6a8573b56b74",
                         "md5": "4c526bc440231e459ce23f2beca88937"
                     },
-                    "required_dependencies": [
-                        "419699"
-                    ],
+                    "required_dependencies": ["419699"],
                     "size": 1411181,
                     "date_published": "2026-03-12T13:59:06.853Z"
                 }
@@ -697,12 +586,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "ftb-quests-neoforge-2101.1.24.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7878/289/ftb-quests-neoforge-2101.1.24.jar",
                     "id": "7878289",
@@ -711,11 +596,7 @@
                         "sha1": "abe5eeccbddf10ae4e40c350cdb6e95ee9e4cde1",
                         "md5": "ad5267983443ced1c862b66984d2cdab"
                     },
-                    "required_dependencies": [
-                        "404468",
-                        "404465",
-                        "419699"
-                    ],
+                    "required_dependencies": ["404468", "404465", "419699"],
                     "size": 1466155,
                     "date_published": "2026-04-05T08:32:49.503Z"
                 }
@@ -737,12 +618,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "ftb-teams-neoforge-2101.1.10.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7878/281/ftb-teams-neoforge-2101.1.10.jar",
                     "id": "7878281",
@@ -751,10 +628,7 @@
                         "sha1": "363376ae0fb22cb0527170fdf6a066d1da9b0225",
                         "md5": "6e956386dd563e4ab7a76e72ba627d5a"
                     },
-                    "required_dependencies": [
-                        "404465",
-                        "419699"
-                    ],
+                    "required_dependencies": ["404465", "419699"],
                     "size": 302712,
                     "date_published": "2026-04-05T08:31:58.663Z"
                 }
@@ -780,12 +654,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "ferritecore-7.0.3-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
                     "id": "x7kQWVju",
@@ -801,12 +671,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "ferritecore-7.0.3-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar",
                     "id": "7524151",
@@ -841,12 +707,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "geckolib-neoforge-1.21.1-4.8.4.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/gFmrC8Ru/geckolib-neoforge-1.21.1-4.8.4.jar",
                     "id": "gFmrC8Ru",
@@ -862,12 +724,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "geckolib-neoforge-1.21.1-4.8.4.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7707/149/geckolib-neoforge-1.21.1-4.8.4.jar",
                     "id": "7707149",
@@ -902,13 +760,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/PhxY0iHw/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
                     "id": "PhxY0iHw",
@@ -924,13 +777,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7537/795/ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar",
                     "id": "7537795",
@@ -965,12 +813,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "Jade-1.21.1-NeoForge-15.10.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/yd8FKCmx/Jade-1.21.1-NeoForge-15.10.5.jar",
                     "id": "yd8FKCmx",
@@ -986,12 +830,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "Jade-1.21.1-NeoForge-15.10.5.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7545/219/Jade-1.21.1-NeoForge-15.10.5.jar",
                     "id": "7545219",
@@ -1026,13 +866,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "beta",
                     "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Zgmbmpd4/jei-1.21.1-neoforge-19.27.0.336.jar",
                     "id": "Zgmbmpd4",
@@ -1048,13 +883,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7391/682/jei-1.21.1-neoforge-19.27.0.336.jar",
                     "id": "7391682",
@@ -1089,12 +919,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "kubejs-neoforge-2101.7.2-build.363.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/Fe9CjPws/kubejs-neoforge-2101.7.2-build.363.jar",
                     "id": "Fe9CjPws",
@@ -1110,13 +936,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "kubejs-neoforge-2101.7.2-build.363.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/8012/65/kubejs-neoforge-2101.7.2-build.363.jar",
                     "id": "8012065",
@@ -1125,9 +946,7 @@
                         "sha1": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2",
                         "md5": "b8d47302e577f0ca33d08f46c3e6625b"
                     },
-                    "required_dependencies": [
-                        "416294"
-                    ],
+                    "required_dependencies": ["416294"],
                     "size": 2270442,
                     "date_published": "2026-04-29T22:00:01.697Z"
                 }
@@ -1135,9 +954,7 @@
         },
         {
             "pakku_id": "k6EsPpTpyOM8MCfw",
-            "pakku_links": [
-                "ClJkXpLkVsdyJbY5"
-            ],
+            "pakku_links": ["ClJkXpLkVsdyJbY5"],
             "type": "MOD",
             "slug": {
                 "curseforge": "kubejs-create"
@@ -1152,13 +969,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "kubejs-create-neoforge-2101.3.1-build.18.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "beta",
                     "url": "https://edge.forgecdn.net/files/7213/667/kubejs-create-neoforge-2101.3.1-build.18.jar",
                     "id": "7213667",
@@ -1167,10 +979,7 @@
                         "sha1": "d4dce8f82f2d37545f085522a782c1bfda222154",
                         "md5": "25b13d8e4ac7b369129302aa7afd3b79"
                     },
-                    "required_dependencies": [
-                        "328085",
-                        "238086"
-                    ],
+                    "required_dependencies": ["328085", "238086"],
                     "size": 38630,
                     "date_published": "2025-11-12T09:21:55.690Z"
                 }
@@ -1196,12 +1005,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "lootr-neoforge-1.21.1-1.11.37.119.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/NeEGZYwe/lootr-neoforge-1.21.1-1.11.37.119.jar",
                     "id": "NeEGZYwe",
@@ -1217,12 +1022,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "lootr-neoforge-1.21.1-1.11.37.119.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/8018/341/lootr-neoforge-1.21.1-1.11.37.119.jar",
                     "id": "8018341",
@@ -1257,12 +1058,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "modernfix-neoforge-5.27.4+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/6U8JVjdw/modernfix-neoforge-5.27.4+mc1.21.1.jar",
                     "id": "6U8JVjdw",
@@ -1278,12 +1075,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "modernfix-neoforge-5.27.4+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/8003/21/modernfix-neoforge-5.27.4+mc1.21.1.jar",
                     "id": "8003021",
@@ -1318,13 +1111,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/9I21YYxf/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
                     "id": "9I21YYxf",
@@ -1340,13 +1128,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
                     "id": "5637846",
@@ -1381,13 +1164,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "oritech-neoforge-1.21.1-1.2.5.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/4sYI62kA/versions/cXCIlwHu/oritech-neoforge-1.21.1-1.2.5.jar",
                     "id": "cXCIlwHu",
@@ -1407,13 +1185,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "oritech-neoforge-1.21.1-1.2.5.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/8011/248/oritech-neoforge-1.21.1-1.2.5.jar",
                     "id": "8011248",
@@ -1422,11 +1195,7 @@
                         "sha1": "41afda427be5e14797a381cf713bc30790ee0904",
                         "md5": "f3e35897abc0b29d5fd39f5b24c9c341"
                     },
-                    "required_dependencies": [
-                        "419699",
-                        "841890",
-                        "388172"
-                    ],
+                    "required_dependencies": ["419699", "841890", "388172"],
                     "size": 10675443,
                     "date_published": "2026-04-29T18:38:51.337Z"
                 }
@@ -1448,12 +1217,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "kubejs_oritech-1.0.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7417/77/kubejs_oritech-1.0.0.jar",
                     "id": "7417077",
@@ -1488,12 +1253,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "prickle-neoforge-1.21.1-21.1.11.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/aaRl8GiW/versions/EE1FHDyD/prickle-neoforge-1.21.1-21.1.11.jar",
                     "id": "EE1FHDyD",
@@ -1509,12 +1270,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "prickle-neoforge-1.21.1-21.1.11.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6961/457/prickle-neoforge-1.21.1-21.1.11.jar",
                     "id": "6961457",
@@ -1552,11 +1309,7 @@
                         "1.21.3",
                         "1.21.2"
                     ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge"
-                    ],
+                    "loaders": ["fabric", "forge", "neoforge"],
                     "release_type": "beta",
                     "url": "https://edge.forgecdn.net/files/7104/526/rhino-2101.2.7-build.81.jar",
                     "id": "7104526",
@@ -1591,12 +1344,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "Searchables-neoforge-1.21.1-1.0.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar",
                     "id": "iEE85X0w",
@@ -1612,12 +1361,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "Searchables-neoforge-1.21.1-1.0.2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/5831/692/Searchables-neoforge-1.21.1-1.0.2.jar",
                     "id": "5831692",
@@ -1652,13 +1397,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "voicechat-neoforge-1.21.1-2.6.16.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/rGX4hrtP/voicechat-neoforge-1.21.1-2.6.16.jar",
                     "id": "rGX4hrtP",
@@ -1674,13 +1414,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "voicechat-neoforge-1.21.1-2.6.16.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21", "1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7905/51/voicechat-neoforge-1.21.1-2.6.16.jar",
                     "id": "7905051",
@@ -1729,9 +1464,7 @@
                         "1.21.10",
                         "1.21.11"
                     ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://cdn.modrinth.com/data/HaaH232J/versions/Pp0TjcvD/yeetusexperimentus-neoforge-87.0.0.jar",
                     "id": "Pp0TjcvD",
@@ -1761,9 +1494,7 @@
                         "1.21.10",
                         "1.21.11"
                     ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "loaders": ["neoforge"],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/5444/189/yeetusexperimentus-neoforge-87.0.0.jar",
                     "id": "5444189",
@@ -1798,12 +1529,8 @@
                 {
                     "type": "modrinth",
                     "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "beta",
                     "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
                     "id": "NMCHU6DZ",
@@ -1819,12 +1546,8 @@
                 {
                     "type": "curseforge",
                     "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
+                    "mc_versions": ["1.21.1"],
+                    "loaders": ["neoforge"],
                     "release_type": "beta",
                     "url": "https://edge.forgecdn.net/files/6785/734/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
                     "id": "6785734",
