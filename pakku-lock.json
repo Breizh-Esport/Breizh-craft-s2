@@ -460,7 +460,7 @@
             ]
         },
         {
-            "pakku_id": "AY8yN7IQiK5Wleuw",
+            "pakku_id": "VgfTnxyrXLpCUMoc",
             "type": "MOD",
             "side": "SERVER",
             "slug": {
@@ -478,7 +478,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "create-1.21.1-6.0.10.jar",
+                    "file_name": "create-1.21.1-6.0.9.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -486,20 +486,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
-                    "id": "UjX6dr61",
+                    "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/n7NADxiG/create-1.21.1-6.0.9.jar",
+                    "id": "n7NADxiG",
                     "parent_id": "LNytGWDc",
                     "hashes": {
-                        "sha512": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b",
-                        "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353"
+                        "sha512": "8b3b3d9b6874f31a538add81390dff26b5f9475da6349dc52fc20dbde802edfc32ead511e12291198591574d42605f916f1acbadc2437056eea615d8586bf7cf",
+                        "sha1": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9"
                     },
                     "required_dependencies": [],
-                    "size": 19123767,
-                    "date_published": "2026-04-21T22:20:03.579201Z"
+                    "size": 19019888,
+                    "date_published": "2026-01-02T16:55:33.705214Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "create-1.21.1-6.0.10.jar",
+                    "file_name": "create-1.21.1-6.0.9.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -507,16 +507,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7963/363/create-1.21.1-6.0.10.jar",
-                    "id": "7963363",
+                    "url": "https://edge.forgecdn.net/files/7408/951/create-1.21.1-6.0.9.jar",
+                    "id": "7408951",
                     "parent_id": "328085",
                     "hashes": {
-                        "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
-                        "md5": "179189c52b45a469e683570be4e77188"
+                        "sha1": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9",
+                        "md5": "ec29a125a0298eb44f75847e8f59c7f4"
                     },
                     "required_dependencies": [],
-                    "size": 19123767,
-                    "date_published": "2026-04-21T22:20:00.503Z"
+                    "size": 19019888,
+                    "date_published": "2026-01-02T16:55:32.017Z"
                 }
             ]
         },
@@ -761,7 +761,7 @@
             ]
         },
         {
-            "pakku_id": "oP1AggNmxRzLvaw0",
+            "pakku_id": "T88dUtIHddFs4x9k",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -779,7 +779,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "ferritecore-7.0.3-neoforge.jar",
+                    "file_name": "ferritecore-7.0.2-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -787,20 +787,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
-                    "id": "x7kQWVju",
+                    "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/CnpoQxCx/ferritecore-7.0.2-neoforge.jar",
+                    "id": "CnpoQxCx",
                     "parent_id": "uXXizFIs",
                     "hashes": {
-                        "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417",
-                        "sha1": "9563692efb708b6b568df27a01ec52f6311928ef"
+                        "sha512": "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac",
+                        "sha1": "7279fc52c32a033acc2864a9bcb018b2e04bbd03"
                     },
                     "required_dependencies": [],
-                    "size": 121559,
-                    "date_published": "2026-01-25T12:59:45.271417Z"
+                    "size": 118911,
+                    "date_published": "2024-10-27T07:58:51.198350Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "ferritecore-7.0.3-neoforge.jar",
+                    "file_name": "ferritecore-7.0.2-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -808,16 +808,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar",
-                    "id": "7524151",
+                    "url": "https://edge.forgecdn.net/files/5850/121/ferritecore-7.0.2-neoforge.jar",
+                    "id": "5850121",
                     "parent_id": "429235",
                     "hashes": {
-                        "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
-                        "md5": "e0374dac41d6c641903f9e241911e1d3"
+                        "sha1": "7279fc52c32a033acc2864a9bcb018b2e04bbd03",
+                        "md5": "e176f7b9672b5b36130dc2f46ea96f48"
                     },
                     "required_dependencies": [],
-                    "size": 121559,
-                    "date_published": "2026-01-25T12:59:44.447Z"
+                    "size": 118911,
+                    "date_published": "2024-10-27T07:58:51.757Z"
                 }
             ]
         },
