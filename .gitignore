@@ -22,3 +22,7 @@
 # Keep CI workflow files
 !/.github/
 !/.github/**
+
+# Ignore local configs
+/config/jei/world/
+/config/jei/world/**
