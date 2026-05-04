@@ -2,7 +2,7 @@
     "target": "multiplatform",
     "mc_versions": ["1.21.1"],
     "loaders": {
-        "neoforge": "21.1.228"
+        "neoforge": "21.1.216"
     },
     "projects": [
         {
