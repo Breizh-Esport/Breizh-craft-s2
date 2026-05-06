@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapitre_2"
+	group: "22ED8597D59524D3"
+	id: "20A2D26D7FE81048"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "376DF14A0835C691"
+		tasks: [{
+			id: "5EE30A1E6C3923E9"
+			type: "checkmark"
+		}]
+		x: -3.5d
+		y: 0.0d
+	}]
+}
