@@ -521,6 +521,132 @@
             ]
         },
         {
+            "pakku_id": "wVeGMJBXWh8qJykr",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "emi",
+                "modrinth": "emi"
+            },
+            "name": {
+                "curseforge": "EMI",
+                "modrinth": "EMI"
+            },
+            "id": {
+                "curseforge": "580555",
+                "modrinth": "fRiHVvU7"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi-1.1.22+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/ouSj7NfF/emi-1.1.22+1.21.1+neoforge.jar",
+                    "id": "ouSj7NfF",
+                    "parent_id": "fRiHVvU7",
+                    "hashes": {
+                        "sha512": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca",
+                        "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3"
+                    },
+                    "required_dependencies": [],
+                    "size": 1038248,
+                    "date_published": "2025-04-14T03:34:26.836424Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "emi-1.1.22+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6420/931/emi-1.1.22+1.21.1+neoforge.jar",
+                    "id": "6420931",
+                    "parent_id": "580555",
+                    "hashes": {
+                        "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3",
+                        "md5": "ca9775a6f300989cb4d2063e1833579b"
+                    },
+                    "required_dependencies": [],
+                    "size": 1038248,
+                    "date_published": "2025-04-14T03:34:37.090Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TwDsQnF4WHM7bE7W",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "emi-ores",
+                "modrinth": "emi-ores"
+            },
+            "name": {
+                "curseforge": "EMI Ores",
+                "modrinth": "EMI Ores"
+            },
+            "id": {
+                "curseforge": "974009",
+                "modrinth": "sG4TqDb8"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "emi_ores-1.2+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sG4TqDb8/versions/1jY6MIrK/emi_ores-1.2+1.21.1+neoforge.jar",
+                    "id": "1jY6MIrK",
+                    "parent_id": "sG4TqDb8",
+                    "hashes": {
+                        "sha512": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7",
+                        "sha1": "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 111317,
+                    "date_published": "2025-01-06T18:49:44.897801Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "emi_ores-1.2+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6060/348/emi_ores-1.2+1.21.1+neoforge.jar",
+                    "id": "6060348",
+                    "parent_id": "974009",
+                    "hashes": {
+                        "sha1": "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756",
+                        "md5": "bca123bc7d6bfd512194f900b4c8402e"
+                    },
+                    "required_dependencies": [
+                        "580555"
+                    ],
+                    "size": 111317,
+                    "date_published": "2025-01-06T18:53:11.893Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3gUNbo3Pr1W1cyh8",
             "type": "MOD",
             "side": "CLIENT",
@@ -757,6 +883,45 @@
                     ],
                     "size": 302712,
                     "date_published": "2026-04-05T08:31:58.663Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PgapZLuwQcqBbgfc",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-xmod-compat"
+            },
+            "name": {
+                "curseforge": "FTB XMod Compat"
+            },
+            "id": {
+                "curseforge": "889915"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-xmod-compat-neoforge-21.1.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7715/134/ftb-xmod-compat-neoforge-21.1.8.jar",
+                    "id": "7715134",
+                    "parent_id": "889915",
+                    "hashes": {
+                        "sha1": "0c25fc1a43c99eaa68c883dc77e3ebf4539629e6",
+                        "md5": "2dcc73135a4345e39eda8119094d45d2"
+                    },
+                    "required_dependencies": [
+                        "404465",
+                        "419699"
+                    ],
+                    "size": 141328,
+                    "date_published": "2026-03-05T16:17:50.593Z"
                 }
             ]
         },
@@ -1003,69 +1168,6 @@
                     "required_dependencies": [],
                     "size": 725742,
                     "date_published": "2026-01-29T11:11:45.407Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "W2TeqwGiFY34OVPu",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "jei",
-                "modrinth": "jei"
-            },
-            "name": {
-                "curseforge": "Just Enough Items (JEI)",
-                "modrinth": "Just Enough Items (JEI)"
-            },
-            "id": {
-                "curseforge": "238222",
-                "modrinth": "u6dRKJwZ"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/Zgmbmpd4/jei-1.21.1-neoforge-19.27.0.336.jar",
-                    "id": "Zgmbmpd4",
-                    "parent_id": "u6dRKJwZ",
-                    "hashes": {
-                        "sha512": "b332974f6b39da4e8cca3a410b62a8bb7a53ae229594ca0d4368d9a136cf97fc3d50a21e98a65dcd1381b01d3b855212a3f43fc9699e3bcfc8687d7c99f4e573",
-                        "sha1": "d02c849e4e321e7b056a48e0242ec641560c2ab8"
-                    },
-                    "required_dependencies": [],
-                    "size": 1529192,
-                    "date_published": "2025-12-29T08:39:31.290472Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "jei-1.21.1-neoforge-19.27.0.336.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7391/682/jei-1.21.1-neoforge-19.27.0.336.jar",
-                    "id": "7391682",
-                    "parent_id": "238222",
-                    "hashes": {
-                        "sha1": "d02c849e4e321e7b056a48e0242ec641560c2ab8",
-                        "md5": "d3da422d1a44e31af8a8d036b3d338f7"
-                    },
-                    "required_dependencies": [],
-                    "size": 1529192,
-                    "date_published": "2025-12-29T08:39:17.300Z"
                 }
             ]
         },
@@ -1358,6 +1460,71 @@
                     "required_dependencies": [],
                     "size": 73938,
                     "date_published": "2024-08-17T15:55:16.403Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UW10WVEG7VnnIsSi",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "oracle-index",
+                "modrinth": "oracle-index"
+            },
+            "name": {
+                "curseforge": "Oracle Index",
+                "modrinth": "Oracle Index"
+            },
+            "id": {
+                "curseforge": "1206582",
+                "modrinth": "J8MMsNrL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "oracle_index-neoforge-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/J8MMsNrL/versions/F4sqyw2E/oracle_index-neoforge-1.2.0.jar",
+                    "id": "F4sqyw2E",
+                    "parent_id": "J8MMsNrL",
+                    "hashes": {
+                        "sha512": "dd5e6a812af0024f67307061b31a8d71273f90e7d0a4fc576b092165c714e0b04518dfdfc35633835c57ee74f981612f495835dad3d59b5ac3e648c1ced4aae0",
+                        "sha1": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ"
+                    ],
+                    "size": 29575359,
+                    "date_published": "2026-04-29T18:26:12.065601Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "oracle_index-neoforge-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8011/106/oracle_index-neoforge-1.2.0.jar",
+                    "id": "8011106",
+                    "parent_id": "1206582",
+                    "hashes": {
+                        "sha1": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c",
+                        "md5": "ea20aaa4360e0e3802a58607d66156d8"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 29575359,
+                    "date_published": "2026-04-29T18:26:05.877Z"
                 }
             ]
         },
@@ -1728,6 +1895,71 @@
                     "required_dependencies": [],
                     "size": 4901132,
                     "date_published": "2026-04-10T14:26:18.293Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZVUCaFdUmzbopmop",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "tmrv",
+                "modrinth": "tmrv"
+            },
+            "name": {
+                "curseforge": "TooManyRecipeViewers (TMRV)",
+                "modrinth": "TooManyRecipeViewers"
+            },
+            "id": {
+                "curseforge": "1194921",
+                "modrinth": "yFypjcfd"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yFypjcfd/versions/slJJPeMk/toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+                    "id": "slJJPeMk",
+                    "parent_id": "yFypjcfd",
+                    "hashes": {
+                        "sha512": "79fc75b844bc74c40e885190cdd63f6449085f388428202ae6af175081db891bce3b67d2fba6299078f45090aefbd40e2cfbffb2c4438e82b052f83013b4c774",
+                        "sha1": "266605572d63d834b99e930e477ee01b0b7082df"
+                    },
+                    "required_dependencies": [
+                        "fRiHVvU7"
+                    ],
+                    "size": 1165347,
+                    "date_published": "2026-04-25T17:03:45.565058Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7983/494/toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+                    "id": "7983494",
+                    "parent_id": "1194921",
+                    "hashes": {
+                        "sha1": "266605572d63d834b99e930e477ee01b0b7082df",
+                        "md5": "7c1543ff17c4cf0b3f7fd02329aba4f6"
+                    },
+                    "required_dependencies": [
+                        "580555"
+                    ],
+                    "size": 1165347,
+                    "date_published": "2026-04-25T17:03:41.087Z"
                 }
             ]
         },
