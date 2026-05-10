@@ -104,7 +104,7 @@ jobs:
           unzip -q "${ZIP_FILE}" -d "${EXTRACT_DIR}"
 
           urlencode_path() {
-            python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe='/'))" "$1"
+            python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=''))" "$1"
           }
 
           upload_file() {
