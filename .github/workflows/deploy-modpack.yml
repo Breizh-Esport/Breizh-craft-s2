@@ -118,7 +118,8 @@ jobs:
               return 1
             fi
             http_code="$(curl -sS -o /tmp/ptero-upload-response.txt -w '%{http_code}' -X POST "${upload_url}" \
-              -F "files=@${local_file}")"
+              -F "files=@${local_file}" \
+              -F "directory=${server_dir}")"
             if [ "${http_code}" -ge 400 ]; then
               echo "Upload failed for ${server_dir}/$(basename "${local_file}") (HTTP ${http_code})"
               cat /tmp/ptero-upload-response.txt || true
