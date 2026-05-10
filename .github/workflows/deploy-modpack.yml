@@ -97,7 +97,34 @@ jobs:
             echo "No serverpack zip found in build/serverpack."
             exit 1
           fi
-          ZIP_NAME="$(basename "${ZIP_FILE}")"
+
+          echo "Extracting serverpack locally..."
+          EXTRACT_DIR="$(mktemp -d)"
+          trap 'rm -rf "${EXTRACT_DIR}"' EXIT
+          unzip -q "${ZIP_FILE}" -d "${EXTRACT_DIR}"
+
+          urlencode_path() {
+            python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe='/'))" "$1"
+          }
+
+          upload_file() {
+            local local_file="$1"
+            local server_dir="$2"
+            local encoded_dir upload_url http_code
+            encoded_dir="$(urlencode_path "${server_dir}")"
+            upload_url="$(api_json GET "/files/upload?directory=${encoded_dir}" | jq -r '.attributes.url')"
+            if [ -z "${upload_url}" ] || [ "${upload_url}" = "null" ]; then
+              echo "Failed to get upload URL for ${server_dir}/$(basename "${local_file}")"
+              return 1
+            fi
+            http_code="$(curl -sS -o /tmp/ptero-upload-response.txt -w '%{http_code}' -X POST "${upload_url}" \
+              -F "files=@${local_file}")"
+            if [ "${http_code}" -ge 400 ]; then
+              echo "Upload failed for ${server_dir}/$(basename "${local_file}") (HTTP ${http_code})"
+              cat /tmp/ptero-upload-response.txt || true
+              return 1
+            fi
+          }
 
           echo "Cleaning remote /mods directory with safety guard..."
           MODS_ROOT="/mods"
@@ -125,29 +152,14 @@ jobs:
           delete_marker_payload="$(jq -nc --arg root "${MODS_ROOT}" --arg marker "${SAFETY_MARKER_DIR}" '{root:$root,files:[$marker]}')"
           api_json POST "/files/delete" "${delete_marker_payload}" >/dev/null
 
-          echo "Uploading serverpack archive..."
-          upload_url="$(api_json GET "/files/upload?directory=%2F" | jq -r '.attributes.url')"
-          if [ -z "${upload_url}" ] || [ "${upload_url}" = "null" ]; then
-            echo "Failed to get upload URL for root directory."
-            exit 1
-          fi
-
-          http_code="$(curl -sS -o /tmp/ptero-upload-response.txt -w '%{http_code}' -X POST "${upload_url}" \
-            -F "files=@${ZIP_FILE}" \
-            -F "directory=/")"
-          if [ "${http_code}" -ge 400 ]; then
-            echo "Archive upload failed (HTTP ${http_code})"
-            cat /tmp/ptero-upload-response.txt || true
-            exit 1
-          fi
-
-          echo "Extracting archive on server..."
-          decompress_payload="$(jq -nc --arg root "/" --arg file "${ZIP_NAME}" '{root:$root,file:$file}')"
-          api_json POST "/files/decompress" "${decompress_payload}" >/dev/null
-
-          echo "Removing uploaded archive..."
-          delete_payload="$(jq -nc --arg file "${ZIP_NAME}" '{root:"/",files:[$file]}')"
-          api_json POST "/files/delete" "${delete_payload}" >/dev/null
+          echo "Uploading serverpack files..."
+          while IFS= read -r local_file; do
+            rel_path="${local_file#${EXTRACT_DIR}/}"
+            server_dir="/$(dirname "${rel_path}")"
+            [ "${server_dir}" = "/." ] && server_dir="/"
+            echo "  ${rel_path}"
+            upload_file "${local_file}" "${server_dir}"
+          done < <(find "${EXTRACT_DIR}" -type f | sort)
 
           echo "Starting server..."
           api_json POST "/power" '{"signal":"start"}' >/dev/null
