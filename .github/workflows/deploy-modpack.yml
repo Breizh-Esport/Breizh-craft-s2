@@ -54,7 +54,7 @@ jobs:
             exit 1
           fi
 
-          if [ -z "${PTERODACTYL_SFTP_HOST}" ] || [ -z "${PTERODACTYL_SFTP_USERNAME}" ] || [ -z "${PTERODACTYL_SFTP_PASSWORD}" ]; then
+          if [ -z "${SFTP_HOST}" ] || [ -z "${PTERODACTYL_SFTP_USERNAME}" ] || [ -z "${PTERODACTYL_SFTP_PASSWORD}" ]; then
             echo "Missing required SFTP variables/secrets."
             exit 1
           fi
@@ -64,6 +64,8 @@ jobs:
           AUTH_HEADER="Authorization: Bearer ${PTERODACTYL_API_KEY}"
           ACCEPT_HEADER="Accept: Application/vnd.pterodactyl.v1+json"
           SFTP_PORT="${PTERODACTYL_SFTP_PORT:-2022}"
+          SFTP_HOST="${PTERODACTYL_SFTP_HOST#sftp://}"
+          SFTP_HOST="${SFTP_HOST#ssh://}"
 
           api_json() {
             local method="$1"
@@ -117,12 +119,12 @@ jobs:
 
           echo "Scanning SFTP host key..."
           mkdir -p ~/.ssh && chmod 700 ~/.ssh
-          ssh-keyscan -p "${SFTP_PORT}" -H "${PTERODACTYL_SFTP_HOST}" >> ~/.ssh/known_hosts
+          ssh-keyscan -p "${SFTP_PORT}" -H "${SFTP_HOST}" >> ~/.ssh/known_hosts
 
           echo "Uploading via SFTP..."
           SFTP_USER_ENC="$(python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=''))" "${PTERODACTYL_SFTP_USERNAME}")"
           SFTP_PASS_ENC="$(python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=''))" "${PTERODACTYL_SFTP_PASSWORD}")"
-          SFTP_URL="sftp://${SFTP_USER_ENC}:${SFTP_PASS_ENC}@${PTERODACTYL_SFTP_HOST}:${SFTP_PORT}"
+          SFTP_URL="sftp://${SFTP_USER_ENC}:${SFTP_PASS_ENC}@${SFTP_HOST}:${SFTP_PORT}"
 
           {
             echo "set sftp:auto-confirm yes"
