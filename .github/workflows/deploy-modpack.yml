@@ -54,7 +54,7 @@ jobs:
             exit 1
           fi
 
-          if [ -z "${SFTP_HOST}" ] || [ -z "${PTERODACTYL_SFTP_USERNAME}" ] || [ -z "${PTERODACTYL_SFTP_PASSWORD}" ]; then
+          if [ -z "${PTERODACTYL_SFTP_HOST}" ] || [ -z "${PTERODACTYL_SFTP_USERNAME}" ] || [ -z "${PTERODACTYL_SFTP_PASSWORD}" ]; then
             echo "Missing required SFTP variables/secrets."
             exit 1
           fi
