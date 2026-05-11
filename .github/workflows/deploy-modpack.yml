@@ -121,13 +121,14 @@ jobs:
           SFTP_URL="sftp://${SFTP_USER_ENC}:${SFTP_PASS_ENC}@${PTERODACTYL_SFTP_HOST}:${SFTP_PORT}"
 
           {
-            echo "open '${SFTP_URL}'"
             echo "set sftp:auto-confirm yes"
+            echo "set sftp:connect-program 'ssh -a -x -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'"
             echo "set sftp:max-packets-in-flight 200"
             echo "set net:timeout 60"
             echo "set net:idle 60"
             echo "set net:max-retries 3"
             echo "set net:reconnect-interval-base 5"
+            echo "open '${SFTP_URL}'"
             while IFS= read -r local_dir; do
               remote_dir="/$(basename "${local_dir}")"
               echo "mirror --reverse --delete --parallel=8 --verbose '${local_dir}/' '${remote_dir}/'"
