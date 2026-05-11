@@ -115,6 +115,10 @@ jobs:
           trap 'rm -rf "${EXTRACT_DIR}" "${LFTP_SCRIPT}"' EXIT
           unzip -q "${ZIP_FILE}" -d "${EXTRACT_DIR}"
 
+          echo "Scanning SFTP host key..."
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          ssh-keyscan -p "${SFTP_PORT}" -H "${PTERODACTYL_SFTP_HOST}" >> ~/.ssh/known_hosts
+
           echo "Uploading via SFTP..."
           SFTP_USER_ENC="$(python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=''))" "${PTERODACTYL_SFTP_USERNAME}")"
           SFTP_PASS_ENC="$(python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=''))" "${PTERODACTYL_SFTP_PASSWORD}")"
@@ -122,19 +126,18 @@ jobs:
 
           {
             echo "set sftp:auto-confirm yes"
-            echo "set sftp:connect-program 'ssh -a -x -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'"
             echo "set sftp:max-packets-in-flight 200"
             echo "set net:timeout 60"
             echo "set net:idle 60"
             echo "set net:max-retries 3"
             echo "set net:reconnect-interval-base 5"
-            echo "open '${SFTP_URL}'"
+            echo "open ${SFTP_URL}"
             while IFS= read -r local_dir; do
               remote_dir="/$(basename "${local_dir}")"
-              echo "mirror --reverse --delete --parallel=8 --verbose '${local_dir}/' '${remote_dir}/'"
+              echo "mirror --reverse --delete --parallel=8 --verbose ${local_dir}/ ${remote_dir}/"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type d | sort)
             while IFS= read -r local_file; do
-              echo "put '${local_file}' -o '/$(basename "${local_file}")'"
+              echo "put ${local_file} -o /$(basename "${local_file}")"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type f | sort)
             echo "bye"
           } > "${LFTP_SCRIPT}"
