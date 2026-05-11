@@ -25,6 +25,7 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -122,11 +123,14 @@ jobs:
           {
             echo "open '${SFTP_URL}'"
             echo "set sftp:auto-confirm yes"
+            echo "set sftp:max-packets-in-flight 200"
+            echo "set net:timeout 60"
+            echo "set net:idle 60"
             echo "set net:max-retries 3"
             echo "set net:reconnect-interval-base 5"
             while IFS= read -r local_dir; do
               remote_dir="/$(basename "${local_dir}")"
-              echo "mirror --reverse --delete --parallel=4 '${local_dir}/' '${remote_dir}/'"
+              echo "mirror --reverse --delete --parallel=8 --verbose '${local_dir}/' '${remote_dir}/'"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type d | sort)
             while IFS= read -r local_file; do
               echo "put '${local_file}' -o '/$(basename "${local_file}")'"
