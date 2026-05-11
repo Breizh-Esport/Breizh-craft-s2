@@ -26,3 +26,5 @@
 # Ignore local configs
 /config/jei/world/
 /config/jei/world/**
+
+.probe
