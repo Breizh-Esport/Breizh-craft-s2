@@ -112,10 +112,16 @@ jobs:
         id: cf_versions
         run: |
           VERSIONS=$(curl -sf "https://minecraft.curseforge.com/api/game/versions" \
-            -H "X-Api-Token: $CURSEFORGE_API_TOKEN")
+            -H "X-Api-Token: $CURSEFORGE_API_TOKEN") || {
+            echo "Failed to fetch CurseForge game versions"
+            exit 1
+          }
 
           GAME_VERSION_IDS=$(echo "$VERSIONS" \
-            | jq -c '[.[] | select(.name == "1.21.1" or .name == "NeoForge") | .id]')
+            | jq -c '[.[] | select(.name == "1.21.1" or .name == "NeoForge") | .id]') || {
+            echo "Failed to parse CurseForge game versions"
+            exit 1
+          }
 
           echo "ids=$GAME_VERSION_IDS" >> "$GITHUB_OUTPUT"
 
@@ -139,12 +145,24 @@ jobs:
               gameVersions: $gameVersions
             }')
 
-          FILE_ID=$(curl -sf \
+          RESPONSE=$(curl -sf \
             "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
             -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
             -F "metadata=$METADATA" \
-            -F "file=@${CF_ZIP}" \
-            | jq -r '.id')
+            -F "file=@${CF_ZIP}") || {
+            echo "CurseForge upload request failed"
+            exit 1
+          }
+
+          FILE_ID=$(echo "$RESPONSE" | jq -r '.id') || {
+            echo "Failed to parse CurseForge response: $RESPONSE"
+            exit 1
+          }
+
+          if [[ -z "$FILE_ID" || "$FILE_ID" == "null" ]]; then
+            echo "Unexpected CurseForge response: $RESPONSE"
+            exit 1
+          fi
 
           echo "file_id=$FILE_ID" >> "$GITHUB_OUTPUT"
 
@@ -155,16 +173,21 @@ jobs:
           SERVER_ZIP="${{ steps.meta.outputs.server_zip }}"
           PARENT_FILE_ID="${{ steps.cf_upload.outputs.file_id }}"
 
+          if [[ -z "$PARENT_FILE_ID" ]]; then
+            echo "Error: CurseForge main upload file ID is missing"
+            exit 1
+          fi
+
           METADATA=$(jq -cn \
             --arg displayName "BreizhCraft v${VERSION} - Server Pack" \
             --arg releaseType "$RELEASE_TYPE" \
-            --argjson parentFileID "$PARENT_FILE_ID" \
+            --arg parentFileID "$PARENT_FILE_ID" \
             '{
               changelog: "Server pack",
               changelogType: "text",
               displayName: $displayName,
               releaseType: $releaseType,
-              parentFileID: $parentFileID
+              parentFileID: ($parentFileID | tonumber)
             }')
 
           curl -sf \
