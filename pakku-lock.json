@@ -777,7 +777,7 @@
         {
             "pakku_id": "plkYp1jbQ51o9HLA",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "c2me",
                 "modrinth": "c2me-neoforge"
@@ -838,7 +838,7 @@
         {
             "pakku_id": "ikQkBQLyC8Yscl57",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "continents",
                 "modrinth": "continents"
@@ -1066,7 +1066,7 @@
         {
             "pakku_id": "ELIaWjGTm3uhCjGF",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "create",
                 "modrinth": "create"
@@ -2008,7 +2008,7 @@
         {
             "pakku_id": "FPNFvyWcRGbP1a5i",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "emi",
                 "modrinth": "emi"
@@ -2598,7 +2598,7 @@
         {
             "pakku_id": "Rt5JUe2gF4hcPzJX",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "incendium",
                 "modrinth": "incendium"
@@ -3190,7 +3190,7 @@
         {
             "pakku_id": "HAT4BF2IA7C5TOks",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "nullscape",
                 "modrinth": "nullscape"
@@ -3352,7 +3352,7 @@
         {
             "pakku_id": "lpxJDaoe4NgfFa5G",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "oh-the-trees-youll-grow",
                 "modrinth": "oh-the-trees-youll-grow"
@@ -3996,7 +3996,7 @@
         {
             "pakku_id": "emZVSyUfKhuEnQ68",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "terralith",
                 "modrinth": "terralith"
@@ -4271,7 +4271,7 @@
         {
             "pakku_id": "kfneKaGQJOs42M43",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "xaeros-minimap",
                 "modrinth": "xaeros-minimap"
@@ -4334,7 +4334,7 @@
         {
             "pakku_id": "mwR0csRn6ZfEJWXv",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "xaeros-world-map",
                 "modrinth": "xaeros-world-map"

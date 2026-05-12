@@ -1,7 +1,11 @@
 {
     "name": "BreizhCraft",
     "version": "2.0.0-alpha+002",
-    "overrides": ["config", "kubejs", "defaultconfigs"],
+    "overrides": [
+        "config",
+        "kubejs",
+        "defaultconfigs"
+    ],
     "projects": {
         "probejs": {
             "export": false
@@ -14,7 +18,36 @@
         },
         "lithium": {
             "side": "SERVER"
+        },
+        "c2me": {
+            "side": "BOTH"
+        },
+        "continents": {
+            "side": "BOTH"
+        },
+        "create": {
+            "side": "BOTH"
+        },
+        "incendium": {
+            "side": "BOTH"
+        },
+        "nullscape": {
+            "side": "BOTH"
+        },
+        "terralith": {
+            "side": "BOTH"
+        },
+        "oh-the-trees-youll-grow": {
+            "side": "BOTH"
+        },
+        "emi": {
+            "side": "BOTH"
+        },
+        "xaeros-minimap": {
+            "side": "BOTH"
+        },
+        "xaeros-world-map": {
+            "side": "BOTH"
         }
-    },
-    "export_server_side_projects_to_client": false
+    }
 }
