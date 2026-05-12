@@ -84,6 +84,7 @@ jobs:
           VERSION="${{ steps.meta.outputs.version }}"
           RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
           MR_PACK="${{ steps.meta.outputs.mr_pack }}"
+          SERVER_ZIP="${{ steps.meta.outputs.server_zip }}"
 
           DATA=$(jq -cn \
             --arg name "BreizhCraft v${VERSION}" \
@@ -100,13 +101,14 @@ jobs:
               loaders: ["neoforge"],
               featured: true,
               project_id: $project_id,
-              file_parts: ["mrpack"]
+              file_parts: ["mrpack", "serverpack"]
             }')
 
           curl -sf "https://api.modrinth.com/v2/version" \
             -H "Authorization: $MODRINTH_TOKEN" \
             -F "data=$DATA" \
-            -F "mrpack=@${MR_PACK};type=application/x-modrinth-modpack+zip"
+            -F "mrpack=@${MR_PACK};type=application/x-modrinth-modpack+zip" \
+            -F "serverpack=@${SERVER_ZIP}"
 
       - name: Resolve CurseForge game version IDs
         id: cf_versions
