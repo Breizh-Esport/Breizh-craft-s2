@@ -1,18 +1,20 @@
 {
     "name": "BreizhCraft S2",
     "version": "0.0.1",
-    "overrides": [
-        "config",
-        "kubejs",
-        "defaultconfigs"
-    ],
+    "overrides": ["config", "kubejs", "defaultconfigs"],
     "projects": {
+        "probejs": {
+            "export": false
+        },
         "athena": {
             "side": "BOTH"
         },
         "geckolib": {
             "side": "BOTH"
+        },
+        "lithium": {
+            "side": "SERVER"
         }
     },
-    "export_server_side_projects_to_client": true
+    "export_server_side_projects_to_client": false
 }
