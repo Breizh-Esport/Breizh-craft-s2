@@ -221,7 +221,8 @@ jobs:
               changelogType: "text",
               displayName: $displayName,
               releaseType: $releaseType,
-              parentFileID: ($parentFileID | tonumber)
+              parentFileID: ($parentFileID | tonumber),
+              childFileType: 2
             }')
 
           curl -sf \
