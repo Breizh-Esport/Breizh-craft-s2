@@ -1,0 +1,174 @@
+name: Release Modpack
+
+on:
+  push:
+    tags:
+      - 'v[0-9]*.[0-9]*.[0-9]*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+  CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
+  MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
+  MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Install pakku
+        run: brew install juraj-hrivnak/pakku/pakku
+
+      - name: Export modpack
+        run: pakku export
+
+      - name: Resolve release metadata
+        id: meta
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          VERSION="${TAG#v}"
+
+          if [[ "$VERSION" == *"-alpha"* ]]; then
+            RELEASE_TYPE="alpha"
+            IS_PRERELEASE="true"
+          elif [[ "$VERSION" == *"-beta"* ]]; then
+            RELEASE_TYPE="beta"
+            IS_PRERELEASE="true"
+          else
+            RELEASE_TYPE="release"
+            IS_PRERELEASE="false"
+          fi
+
+          CF_ZIP="$(ls build/curseforge/*.zip | head -1)"
+          MR_PACK="$(ls build/modrinth/*.mrpack | head -1)"
+          SERVER_ZIP="$(ls build/serverpack/*.zip | head -1)"
+
+          echo "version=$VERSION"         >> "$GITHUB_OUTPUT"
+          echo "release_type=$RELEASE_TYPE" >> "$GITHUB_OUTPUT"
+          echo "is_prerelease=$IS_PRERELEASE" >> "$GITHUB_OUTPUT"
+          echo "cf_zip=$CF_ZIP"           >> "$GITHUB_OUTPUT"
+          echo "mr_pack=$MR_PACK"         >> "$GITHUB_OUTPUT"
+          echo "server_zip=$SERVER_ZIP"   >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: BreizhCraft v${{ steps.meta.outputs.version }}
+          prerelease: ${{ steps.meta.outputs.is_prerelease == 'true' }}
+          generate_release_notes: true
+          files: |
+            build/curseforge/*.zip
+            build/modrinth/*.mrpack
+            build/serverpack/*.zip
+
+      - name: Upload to Modrinth
+        run: |
+          VERSION="${{ steps.meta.outputs.version }}"
+          RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
+          MR_PACK="${{ steps.meta.outputs.mr_pack }}"
+
+          DATA=$(jq -cn \
+            --arg name "BreizhCraft v${VERSION}" \
+            --arg version_number "$VERSION" \
+            --arg version_type "$RELEASE_TYPE" \
+            --arg project_id "$MODRINTH_PROJECT_ID" \
+            '{
+              name: $name,
+              version_number: $version_number,
+              changelog: "See GitHub release for full changelog.",
+              dependencies: [],
+              game_versions: ["1.21.1"],
+              version_type: $version_type,
+              loaders: ["neoforge"],
+              featured: true,
+              project_id: $project_id,
+              file_parts: ["mrpack"]
+            }')
+
+          curl -sf "https://api.modrinth.com/v2/version" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -F "data=$DATA" \
+            -F "mrpack=@${MR_PACK};type=application/x-modrinth-modpack+zip"
+
+      - name: Resolve CurseForge game version IDs
+        id: cf_versions
+        run: |
+          VERSIONS=$(curl -sf "https://minecraft.curseforge.com/api/game/versions" \
+            -H "X-Api-Token: $CURSEFORGE_API_TOKEN")
+
+          GAME_VERSION_IDS=$(echo "$VERSIONS" \
+            | jq '[.[] | select(.name == "1.21.1" or .name == "NeoForge") | .id]')
+
+          echo "ids=$GAME_VERSION_IDS" >> "$GITHUB_OUTPUT"
+
+      - name: Upload modpack to CurseForge
+        id: cf_upload
+        run: |
+          VERSION="${{ steps.meta.outputs.version }}"
+          RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
+          CF_ZIP="${{ steps.meta.outputs.cf_zip }}"
+          GAME_VERSIONS='${{ steps.cf_versions.outputs.ids }}'
+
+          METADATA=$(jq -cn \
+            --arg displayName "BreizhCraft v${VERSION}" \
+            --arg releaseType "$RELEASE_TYPE" \
+            --argjson gameVersions "$GAME_VERSIONS" \
+            '{
+              changelog: "See GitHub release for full changelog.",
+              changelogType: "text",
+              displayName: $displayName,
+              releaseType: $releaseType,
+              gameVersions: $gameVersions
+            }')
+
+          FILE_ID=$(curl -sf \
+            "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
+            -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
+            -F "metadata=$METADATA" \
+            -F "file=@${CF_ZIP}" \
+            | jq -r '.id')
+
+          echo "file_id=$FILE_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Upload server pack to CurseForge
+        run: |
+          VERSION="${{ steps.meta.outputs.version }}"
+          RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
+          SERVER_ZIP="${{ steps.meta.outputs.server_zip }}"
+          PARENT_FILE_ID="${{ steps.cf_upload.outputs.file_id }}"
+
+          METADATA=$(jq -cn \
+            --arg displayName "BreizhCraft v${VERSION} - Server Pack" \
+            --arg releaseType "$RELEASE_TYPE" \
+            --argjson parentFileID "$PARENT_FILE_ID" \
+            '{
+              changelog: "Server pack",
+              changelogType: "text",
+              displayName: $displayName,
+              releaseType: $releaseType,
+              parentFileID: $parentFileID
+            }')
+
+          curl -sf \
+            "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
+            -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
+            -F "metadata=$METADATA" \
+            -F "file=@${SERVER_ZIP}"
