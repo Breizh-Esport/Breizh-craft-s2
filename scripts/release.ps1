@@ -47,7 +47,7 @@ Write-Host "Updated version to $Version in pakku.json and config/bcc-common.toml
 git add pakku.json
 git add config/bcc-common.toml
 git commit -m "chore: release $tag"
-git tag $tag
+git tag -a $tag -m "Release $tag"
 git push --follow-tags
 
 Write-Host "Released $tag successfully."
