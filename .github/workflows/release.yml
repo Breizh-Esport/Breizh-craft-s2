@@ -118,13 +118,13 @@ jobs:
           }
 
           MC_TYPE_ID=$(echo "$TYPES" \
-            | jq 'first(.[] | select(.slug == "minecraft-1") | .id)') || {
+            | jq 'first(.[] | select(.slug == "minecraft-1-21") | .id)') || {
             echo "Failed to parse version types"
             exit 1
           }
 
           if [[ -z "$MC_TYPE_ID" || "$MC_TYPE_ID" == "null" ]]; then
-            echo "Could not find Minecraft Java version type (slug 'minecraft-1'). Available types:"
+            echo "Could not find Minecraft 1.21 version type. Available types:"
             echo "$TYPES" | jq '[.[] | {id, name, slug}]'
             exit 1
           fi
