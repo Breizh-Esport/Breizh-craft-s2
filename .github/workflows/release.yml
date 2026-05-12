@@ -145,22 +145,32 @@ jobs:
               gameVersions: $gameVersions
             }')
 
-          RESPONSE=$(curl -sf \
+          RESPONSE=$(curl -s \
+            -w "\n%{http_code}" \
             "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
             -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
             -F "metadata=$METADATA" \
             -F "file=@${CF_ZIP}") || {
-            echo "CurseForge upload request failed"
+            echo "CurseForge upload request failed (network error)"
             exit 1
           }
 
-          FILE_ID=$(echo "$RESPONSE" | jq -r '.id') || {
-            echo "Failed to parse CurseForge response: $RESPONSE"
+          HTTP_STATUS=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          echo "CurseForge response (HTTP ${HTTP_STATUS}): ${BODY}"
+
+          if [[ "$HTTP_STATUS" != "200" ]]; then
+            echo "CurseForge upload failed"
+            exit 1
+          fi
+
+          FILE_ID=$(echo "$BODY" | jq -r '.id') || {
+            echo "Failed to parse CurseForge response"
             exit 1
           }
 
           if [[ -z "$FILE_ID" || "$FILE_ID" == "null" ]]; then
-            echo "Unexpected CurseForge response: $RESPONSE"
+            echo "No file ID in CurseForge response"
             exit 1
           fi
 
