@@ -1,6 +1,6 @@
 {
     "name": "BreizhCraft",
-    "version": "2.0.0-alpha+003",
+    "version": "2.0.0-alpha+004",
     "overrides": [
         "config",
         "kubejs",
