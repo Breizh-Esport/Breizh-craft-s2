@@ -4,7 +4,7 @@
         "1.21.1"
     ],
     "loaders": {
-        "neoforge": "21.1.216"
+        "neoforge": "21.1.228"
     },
     "projects": [
         {
@@ -2841,7 +2841,7 @@
         {
             "pakku_id": "gwzksqiEBu398ykT",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "SERVER",
             "slug": {
                 "curseforge": "lithium",
                 "modrinth": "lithium"
@@ -3546,6 +3546,7 @@
             "id": {
                 "curseforge": "585406"
             },
+            "export": false,
             "files": [
                 {
                     "type": "curseforge",
