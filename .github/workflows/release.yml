@@ -111,6 +111,24 @@ jobs:
       - name: Resolve CurseForge game version IDs
         id: cf_versions
         run: |
+          TYPES=$(curl -sf "https://minecraft.curseforge.com/api/game/version-types" \
+            -H "X-Api-Token: $CURSEFORGE_API_TOKEN") || {
+            echo "Failed to fetch CurseForge version types"
+            exit 1
+          }
+
+          MC_TYPE_ID=$(echo "$TYPES" \
+            | jq 'first(.[] | select(.slug == "minecraft-1") | .id)') || {
+            echo "Failed to parse version types"
+            exit 1
+          }
+
+          if [[ -z "$MC_TYPE_ID" || "$MC_TYPE_ID" == "null" ]]; then
+            echo "Could not find Minecraft Java version type (slug 'minecraft-1'). Available types:"
+            echo "$TYPES" | jq '[.[] | {id, name, slug}]'
+            exit 1
+          fi
+
           VERSIONS=$(curl -sf "https://minecraft.curseforge.com/api/game/versions" \
             -H "X-Api-Token: $CURSEFORGE_API_TOKEN") || {
             echo "Failed to fetch CurseForge game versions"
@@ -118,10 +136,16 @@ jobs:
           }
 
           GAME_VERSION_IDS=$(echo "$VERSIONS" \
-            | jq -c '[.[] | select(.name == "1.21.1") | .id]') || {
+            | jq -c --argjson typeId "$MC_TYPE_ID" \
+            '[.[] | select(.name == "1.21.1" and .gameVersionTypeID == $typeId) | .id]') || {
             echo "Failed to parse CurseForge game versions"
             exit 1
           }
+
+          if [[ "$GAME_VERSION_IDS" == "[]" ]]; then
+            echo "No version ID found for '1.21.1' under type $MC_TYPE_ID"
+            exit 1
+          fi
 
           echo "ids=$GAME_VERSION_IDS" >> "$GITHUB_OUTPUT"
 
