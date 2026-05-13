@@ -48,6 +48,15 @@
         },
         "xaeros-world-map": {
             "side": "BOTH"
+        },
+        "rightclickharvest": {
+            "side": "BOTH"
+        },
+        "baguettelib": {
+            "side": "BOTH"
+        },
+        "corpse-x-curios-api-compat": {
+            "side": "BOTH"
         }
     }
 }

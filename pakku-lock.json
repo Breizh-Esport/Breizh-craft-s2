@@ -379,7 +379,7 @@
         {
             "pakku_id": "xSurmURh7vLXfz0s",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "baguettelib",
                 "modrinth": "baguettelib"
@@ -1202,7 +1202,7 @@
         {
             "pakku_id": "3AFWMzkUUGj5h8Ls",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "corpse-x-curios-api-compat",
                 "modrinth": "corpse-x-curios-api-compat"
@@ -5238,7 +5238,7 @@
         {
             "pakku_id": "XDRpdNkeWDZYO1Lf",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "rightclickharvest",
                 "modrinth": "rightclickharvest"
