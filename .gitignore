@@ -28,5 +28,6 @@
 # Ignore local configs
 /config/jei/world/
 /config/jei/world/**
+/config/spark/activity.json
 
 .probe

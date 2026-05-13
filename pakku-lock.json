@@ -8037,6 +8037,76 @@
             ]
         },
         {
+            "pakku_id": "XF4Taz9yHkeInl9o",
+            "pakku_links": [
+                "bmCXAe1jUfFbBvc9"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "structurify",
+                "modrinth": "structurify"
+            },
+            "name": {
+                "curseforge": "Structurify – Structure Control",
+                "modrinth": "Structurify"
+            },
+            "id": {
+                "curseforge": "1087551",
+                "modrinth": "yz7AM2zx"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yz7AM2zx/versions/YmkYhsGj/structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "id": "YmkYhsGj",
+                    "parent_id": "yz7AM2zx",
+                    "hashes": {
+                        "sha512": "f48f4d1a025af12e288b0e3116ff08256f138522003393831298544cc3d175f88b0a93427bcb1985e9dcaea8c87fc331a68b38540131f53a7a83679a347f9776",
+                        "sha1": "6c6e5c2edc956b2e1fb6909599b862bc2fe68dc4"
+                    },
+                    "required_dependencies": [
+                        "1eAoo2KR"
+                    ],
+                    "size": 372970,
+                    "date_published": "2026-04-08T13:41:37.139541Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7895/93/structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "id": "7895093",
+                    "parent_id": "1087551",
+                    "hashes": {
+                        "sha1": "6c6e5c2edc956b2e1fb6909599b862bc2fe68dc4",
+                        "md5": "85d5acd4788ce08f596c0d2af8b7c375"
+                    },
+                    "required_dependencies": [
+                        "667299"
+                    ],
+                    "size": 372970,
+                    "date_published": "2026-04-08T13:41:35.443Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XUx0uhFnweF52iHY",
             "type": "MOD",
             "side": "BOTH",
@@ -9562,6 +9632,69 @@
                     "required_dependencies": [],
                     "size": 570057,
                     "date_published": "2024-06-19T12:03:09.493Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bmCXAe1jUfFbBvc9",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "yacl",
+                "modrinth": "yacl"
+            },
+            "name": {
+                "curseforge": "YetAnotherConfigLib",
+                "modrinth": "YetAnotherConfigLib (YACL)"
+            },
+            "id": {
+                "curseforge": "667299",
+                "modrinth": "1eAoo2KR"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/7TVdVtxF/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+                    "id": "7TVdVtxF",
+                    "parent_id": "1eAoo2KR",
+                    "hashes": {
+                        "sha512": "583de19b927ce8050c2b7d5e60b75accc69e325e5aac85c27994c82a9dec2e4e078343fa1d4c3a10d4bd7e0e524e0b3b246a18cf03db01e363a1e6f865adcf48",
+                        "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb"
+                    },
+                    "required_dependencies": [],
+                    "size": 1118651,
+                    "date_published": "2026-01-09T16:34:35.988599Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7437/845/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+                    "id": "7437845",
+                    "parent_id": "667299",
+                    "hashes": {
+                        "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb",
+                        "md5": "c346120062c3364a0d215c228354030e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1118651,
+                    "date_published": "2026-01-09T16:34:33.460Z"
                 }
             ]
         },
