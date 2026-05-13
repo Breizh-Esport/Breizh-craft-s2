@@ -1,13 +1,30 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-13_17-25-41",
+  "config_datetime": "2026-05-13_18-44-53",
   "general": {
     "disable_all_structures": false,
-    "prevent_structure_overlap": false,
+    "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": false,
     "global_spacing_and_separation_modifier": 1.0
   },
   "structure_namespaces": [],
-  "structures": [],
+  "structures": [
+    {
+      "name": "dungeons_arise:bandit_towers",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "mtr:stronghold",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "strongholds",
+      "terrain_adaptation": "bury"
+    }
+  ],
   "structure_sets": []
 }
