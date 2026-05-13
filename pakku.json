@@ -57,6 +57,78 @@
         },
         "corpse-x-curios-api-compat": {
             "side": "BOTH"
+        },
+        "formations": {
+            "side": "BOTH"
+        },
+        "formations-nether": {
+            "side": "BOTH"
+        },
+        "formations-overworld": {
+            "side": "BOTH"
+        },
+        "hopo-better-mineshaft": {
+            "side": "BOTH"
+        },
+        "hopo-better-ruined-portals": {
+            "side": "BOTH"
+        },
+        "hopo-better-underwater-ruins": {
+            "side": "BOTH"
+        },
+        "lithostitched": {
+            "side": "BOTH"
+        },
+        "lukis-crazy-chambers": {
+            "side": "BOTH"
+        },
+        "lukis-grand-capitals": {
+            "side": "BOTH"
+        },
+        "lukis-woodland-mansions": {
+            "side": "BOTH"
+        },
+        "moogs-end-structures": {
+            "side": "BOTH"
+        },
+        "mns-moogs-nether-structures": {
+            "side": "BOTH"
+        },
+        "mss-moogs-soaring-structures": {
+            "side": "BOTH"
+        },
+        "mtr-moogs-temples-reimagined": {
+            "side": "BOTH"
+        },
+        "moogs-voyager-structures": {
+            "side": "BOTH"
+        },
+        "moogs-structure-lib": {
+            "side": "BOTH"
+        },
+        "sky-villages-forge": {
+            "side": "BOTH"
+        },
+        "wits": {
+            "side": "BOTH"
+        },
+        "when-dungeons-arise": {
+            "side": "BOTH"
+        },
+        "when-dungeons-arise-seven-seas": {
+            "side": "BOTH"
+        },
+        "yungs-better-dungeons-neoforge": {
+            "side": "BOTH"
+        },
+        "yungs-better-end-island-neoforge": {
+            "side": "BOTH"
+        },
+        "yungs-bridges-neoforge": {
+            "side": "BOTH"
+        },
+        "yungs-extras-neoforge": {
+            "side": "BOTH"
         }
     }
 }
