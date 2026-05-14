@@ -1961,6 +1961,71 @@
             ]
         },
         {
+            "pakku_id": "UMc9bAMSe047QooR",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-integrated-farming",
+                "modrinth": "create-integrated-farming"
+            },
+            "name": {
+                "curseforge": "Create: Integrated Farming",
+                "modrinth": "Create: Integrated Farming"
+            },
+            "id": {
+                "curseforge": "1249131",
+                "modrinth": "9k1pAsfR"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create-integrated-farming-1.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/9k1pAsfR/versions/DKe4Owf4/create-integrated-farming-1.2.2.jar",
+                    "id": "DKe4Owf4",
+                    "parent_id": "9k1pAsfR",
+                    "hashes": {
+                        "sha512": "eb1c1d314e6651dea81d3433b16160034c71ab218328c086bc844febbb23524f09495a6e489c8834889d46ba264cca26283c0ab82a389af3e3659c031275fd69",
+                        "sha1": "e6fb605b92f59fd91f57016d5666f618db740b1a"
+                    },
+                    "required_dependencies": [
+                        "dzb1a5WV"
+                    ],
+                    "size": 408059,
+                    "date_published": "2026-04-20T17:02:26.973162Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "create-integrated-farming-1.2.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7957/107/create-integrated-farming-1.2.2.jar",
+                    "id": "7957107",
+                    "parent_id": "1249131",
+                    "hashes": {
+                        "sha1": "e6fb605b92f59fd91f57016d5666f618db740b1a",
+                        "md5": "4acdf8ec1adb321697e32db103256392"
+                    },
+                    "required_dependencies": [
+                        "1216624"
+                    ],
+                    "size": 408059,
+                    "date_published": "2026-04-20T17:02:23.980Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "icurci6JdDIAefk5",
             "pakku_links": [
                 "fZB5VWXyeUBBvfFS"
@@ -2027,42 +2092,6 @@
                     ],
                     "size": 357511,
                     "date_published": "2026-04-24T16:49:41.783Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "PR4Zrvf2WQ2PQlfN",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-numismatics-create-6-0-integration"
-            },
-            "name": {
-                "curseforge": "Create: Numismatics (Create 6.0 Integration)"
-            },
-            "id": {
-                "curseforge": "1473449"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7687/784/CreateNumismatics-1.0.19integration+neoforge-mc1.21.1.jar",
-                    "id": "7687784",
-                    "parent_id": "1473449",
-                    "hashes": {
-                        "sha1": "14385a77350e9ca85f78eca1143d591a69e36f96",
-                        "md5": "f29e5b167c7615fb75678611c95f27e6"
-                    },
-                    "required_dependencies": [],
-                    "size": 729918,
-                    "date_published": "2026-02-27T21:13:20.170Z"
                 }
             ]
         },
@@ -2810,6 +2839,67 @@
                     ],
                     "size": 7395290,
                     "date_published": "2025-07-10T08:16:29.510Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fGjFpV4w1jL9k7li",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "exposure",
+                "modrinth": "exposure"
+            },
+            "name": {
+                "curseforge": "Exposure",
+                "modrinth": "Exposure"
+            },
+            "id": {
+                "curseforge": "871755",
+                "modrinth": "hB899VmG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "exposure-neoforge-1.21.1-1.9.16.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hB899VmG/versions/OJ3DFzQc/exposure-neoforge-1.21.1-1.9.16.jar",
+                    "id": "OJ3DFzQc",
+                    "parent_id": "hB899VmG",
+                    "hashes": {
+                        "sha512": "8c72cb320cde5aa13af31329d0c27000e16e451ccedba6b72da26d12ed28f61054414b2f914cc7e78954fe770ba42cdd5d81388421ac3d973cf7196734aaa0fc",
+                        "sha1": "b933b1d8c38ced7af391a82bc70f5d5c601ff21b"
+                    },
+                    "required_dependencies": [],
+                    "size": 2189912,
+                    "date_published": "2026-04-02T16:29:47.723287Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "exposure-neoforge-1.21.1-1.9.16.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7862/664/exposure-neoforge-1.21.1-1.9.16.jar",
+                    "id": "7862664",
+                    "parent_id": "871755",
+                    "hashes": {
+                        "sha1": "b933b1d8c38ced7af391a82bc70f5d5c601ff21b",
+                        "md5": "9a1e2fd4cb76452392509b07e01ce08d"
+                    },
+                    "required_dependencies": [],
+                    "size": 2189912,
+                    "date_published": "2026-04-02T16:29:47.540Z"
                 }
             ]
         },
