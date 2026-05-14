@@ -4875,46 +4875,21 @@
             ]
         },
         {
-            "pakku_id": "KMxODBni3bmoEiKm",
+            "pakku_id": "n4Xk9poMhzPNpQAT",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "curseforge": "kubejs",
-                "modrinth": "kubejs"
+                "curseforge": "kubejs"
             },
             "name": {
-                "curseforge": "KubeJS",
-                "modrinth": "KubeJS"
+                "curseforge": "KubeJS"
             },
             "id": {
-                "curseforge": "238086",
-                "modrinth": "umyGl7zF"
+                "curseforge": "238086"
             },
             "files": [
                 {
-                    "type": "modrinth",
-                    "file_name": "kubejs-neoforge-2101.7.2-build.363.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/Fe9CjPws/kubejs-neoforge-2101.7.2-build.363.jar",
-                    "id": "Fe9CjPws",
-                    "parent_id": "umyGl7zF",
-                    "hashes": {
-                        "sha512": "f5becb7d285c5e1e4f1d739f553d0d08b1a0a7cb346e318902f72b5c7a460f4b62f834f26dcf4f6bf66ccd02da0302811824e183f0357cf6a67a1252069a8d65",
-                        "sha1": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2"
-                    },
-                    "required_dependencies": [],
-                    "size": 2270442,
-                    "date_published": "2026-04-29T22:03:00.015752Z"
-                },
-                {
                     "type": "curseforge",
-                    "file_name": "kubejs-neoforge-2101.7.2-build.363.jar",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.368.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4923,18 +4898,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8012/65/kubejs-neoforge-2101.7.2-build.363.jar",
-                    "id": "8012065",
+                    "url": "https://edge.forgecdn.net/files/8083/208/kubejs-neoforge-2101.7.2-build.368.jar",
+                    "id": "8083208",
                     "parent_id": "238086",
                     "hashes": {
-                        "sha1": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2",
-                        "md5": "b8d47302e577f0ca33d08f46c3e6625b"
+                        "sha1": "cd8e1e392d642e4d0f1fbc099d93da105c263d0d",
+                        "md5": "95792a5239ae2f1d478d2a674dcf557f"
                     },
                     "required_dependencies": [
                         "416294"
                     ],
-                    "size": 2270442,
-                    "date_published": "2026-04-29T22:00:01.697Z"
+                    "size": 2281720,
+                    "date_published": "2026-05-13T15:17:34.293Z"
                 }
             ]
         },
@@ -7390,7 +7365,7 @@
             ]
         },
         {
-            "pakku_id": "z9ffHuD0OiFS6Vqi",
+            "pakku_id": "LUGuXsREvFew8riD",
             "type": "MOD",
             "slug": {
                 "curseforge": "probejs"
@@ -7405,7 +7380,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ProbeJS-7.7.2.jar",
+                    "file_name": "ProbeJS-8.0.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -7413,16 +7388,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7105/159/ProbeJS-7.7.2.jar",
-                    "id": "7105159",
+                    "url": "https://edge.forgecdn.net/files/8073/983/ProbeJS-8.0.0.jar",
+                    "id": "8073983",
                     "parent_id": "585406",
                     "hashes": {
-                        "sha1": "3f0b9288845fd547338b535cdaed6ef2bb3787e8",
-                        "md5": "37f5b3a9c854c8a8b5b2d07ab016db10"
+                        "sha1": "a1982dfea630c0df16a355e1df9718eefa35a577",
+                        "md5": "7e8ae62215491f6fec156c554da15282"
                     },
                     "required_dependencies": [],
-                    "size": 4195463,
-                    "date_published": "2025-10-14T02:49:36.610Z"
+                    "size": 2449363,
+                    "date_published": "2026-05-11T15:29:08.860Z"
                 }
             ]
         },
@@ -8416,22 +8391,25 @@
             ]
         },
         {
-            "pakku_id": "lFRjif9DdRBpr5zx",
+            "pakku_id": "6GPopREi8T0hWbpq",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
+                "curseforge": "structurify",
                 "modrinth": "structurify"
             },
             "name": {
+                "curseforge": "Structurify – Structure Control",
                 "modrinth": "Structurify"
             },
             "id": {
+                "curseforge": "1087551",
                 "modrinth": "yz7AM2zx"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "structurify-neoforge-2.0.23+mc1.21.1.jar",
+                    "file_name": "structurify-neoforge-2.0.22+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -8440,18 +8418,42 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yz7AM2zx/versions/y2qFQhHW/structurify-neoforge-2.0.23+mc1.21.1.jar",
-                    "id": "y2qFQhHW",
+                    "url": "https://cdn.modrinth.com/data/yz7AM2zx/versions/YmkYhsGj/structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "id": "YmkYhsGj",
                     "parent_id": "yz7AM2zx",
                     "hashes": {
-                        "sha512": "55efea34889db9702d5583db864b5fc29c54d77e74c77c7fc53f9776effd1967af1fe8262ca0e7245b58e04a48a6341c40bf9d6f2c9123908caecb41ee34cf6d",
-                        "sha1": "5517aaa82672c5edb180521d24adbbe872b98516"
+                        "sha512": "f48f4d1a025af12e288b0e3116ff08256f138522003393831298544cc3d175f88b0a93427bcb1985e9dcaea8c87fc331a68b38540131f53a7a83679a347f9776",
+                        "sha1": "6c6e5c2edc956b2e1fb6909599b862bc2fe68dc4"
                     },
                     "required_dependencies": [
                         "1eAoo2KR"
                     ],
-                    "size": 435020,
-                    "date_published": "2026-05-14T09:34:21.738904Z"
+                    "size": 372970,
+                    "date_published": "2026-04-08T13:41:37.139541Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7895/93/structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "id": "7895093",
+                    "parent_id": "1087551",
+                    "hashes": {
+                        "sha1": "6c6e5c2edc956b2e1fb6909599b862bc2fe68dc4",
+                        "md5": "85d5acd4788ce08f596c0d2af8b7c375"
+                    },
+                    "required_dependencies": [
+                        "667299"
+                    ],
+                    "size": 372970,
+                    "date_published": "2026-04-08T13:41:35.443Z"
                 }
             ]
         },
