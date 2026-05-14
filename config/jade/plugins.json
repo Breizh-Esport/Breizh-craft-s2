@@ -62,6 +62,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "apothic_spawners": {
+    "spawner": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -83,8 +86,14 @@
     "block_properties": false,
     "mod_name": true
   },
+  "apotheosis": {
+    "adventure": true
+  },
   "balm": {
     "jade": true
+  },
+  "apothic_enchanting": {
+    "ench": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -104,9 +113,6 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "productivemetalworks": {
-    "casting": true
   },
   "corpse": {
     "corpse": true
