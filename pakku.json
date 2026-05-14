@@ -129,6 +129,9 @@
         },
         "yungs-extras-neoforge": {
             "side": "BOTH"
+        },
+        "simply-tooltips": {
+            "side": "BOTH"
         }
     }
 }

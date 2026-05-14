@@ -8462,7 +8462,7 @@
         {
             "pakku_id": "bDg9RLdR2jMisa9G",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "simply-tooltips",
                 "modrinth": "simply-tooltips"
