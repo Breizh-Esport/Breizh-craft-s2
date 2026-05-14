@@ -3,6 +3,8 @@
   "betterend:plant_growth": null,
   "betternether:plant_growth": null,
   "corpse:corpse": null,
+  "exposure:lightroom": null,
+  "exposure:photograph_frame": null,
   "ftbquests:barrier": null,
   "jade:block_face": null,
   "jade:block_properties": null,
@@ -78,6 +80,7 @@
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
   "oritech:machine_core_controller": null,
+  "productivemetalworks:casting": null,
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null
