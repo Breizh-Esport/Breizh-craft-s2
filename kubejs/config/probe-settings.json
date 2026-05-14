@@ -2,5 +2,11 @@
     "probejs.modHash": 6068311427460478465,
     "probejs.enabled": true,
     "probejs.complete": true,
-    "probejs.enableDecompiler": false
+    "probejs.enableDecompiler": false,
+    "probejs.hintsForLLM": true,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "neoforge"
+    ]
 }
