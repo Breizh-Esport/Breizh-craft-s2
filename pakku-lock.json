@@ -748,6 +748,69 @@
             ]
         },
         {
+            "pakku_id": "zMsFjKoFnpcYGqXX",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "carbon-config",
+                "modrinth": "carbon-config"
+            },
+            "name": {
+                "curseforge": "Carbon Config",
+                "modrinth": "Carbon Config"
+            },
+            "id": {
+                "curseforge": "898104",
+                "modrinth": "1jDdpgcc"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "CarbonConfig-Neoforge-1.21-2.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1jDdpgcc/versions/mIrUmlpI/CarbonConfig-Neoforge-1.21-2.0.2.jar",
+                    "id": "mIrUmlpI",
+                    "parent_id": "1jDdpgcc",
+                    "hashes": {
+                        "sha512": "55432f191e341a1f245f7c8d518eb198853499b5a2ed25f762717b8e1b490a940c3f58bb9637e03e1c150e3441eb9d3d14ecc790946b38cfa035267544cca083",
+                        "sha1": "b24622e274256f6804d4b98eceb8f717f6941233"
+                    },
+                    "required_dependencies": [],
+                    "size": 1267296,
+                    "date_published": "2026-05-01T00:51:06.435506Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "CarbonConfig-Neoforge-1.21-2.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8018/138/CarbonConfig-Neoforge-1.21-2.0.2.jar",
+                    "id": "8018138",
+                    "parent_id": "898104",
+                    "hashes": {
+                        "sha1": "b24622e274256f6804d4b98eceb8f717f6941233",
+                        "md5": "d04bc7b75422123f8f2d47ff53a5406c"
+                    },
+                    "required_dependencies": [],
+                    "size": 1267296,
+                    "date_published": "2026-05-01T00:51:00.200Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PRWhqcldglMfeyCi",
             "type": "MOD",
             "side": "CLIENT",
@@ -931,105 +994,6 @@
                     "required_dependencies": [],
                     "size": 18382,
                     "date_published": "2024-08-13T07:49:09.587Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ikQkBQLyC8Yscl57",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "continents",
-                "modrinth": "continents"
-            },
-            "name": {
-                "curseforge": "Continents",
-                "modrinth": "Continents"
-            },
-            "id": {
-                "curseforge": "682515",
-                "modrinth": "bQ5TJA1E"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "Continents_26.1_v1.1.13.jar",
-                    "mc_versions": [
-                        "1.20",
-                        "1.20.1",
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5",
-                        "1.20.6",
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11",
-                        "26.1",
-                        "26.1.1",
-                        "26.1.2"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/bQ5TJA1E/versions/WxCjDRzw/Continents_26.1_v1.1.13.jar",
-                    "id": "WxCjDRzw",
-                    "parent_id": "bQ5TJA1E",
-                    "hashes": {
-                        "sha512": "139dffc2ca0f7f1a1a97d4658531084fd8db8071ae012c852eeec95f7df542a29222babf8684e2eac1971b296f49693da2aeccd15b48b3cb9e82e0767c9ed181",
-                        "sha1": "9279e2175d1b3a1032ea0ccf090bb5fb6cbccdf4"
-                    },
-                    "required_dependencies": [],
-                    "size": 60528,
-                    "date_published": "2026-03-29T18:42:27.935126Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "Continents_26.1_v1.1.13.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.8",
-                        "1.21.5",
-                        "1.21.4",
-                        "1.21.1",
-                        "1.21.6",
-                        "1.21.3",
-                        "1.21.7",
-                        "1.21.2",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7842/288/Continents_26.1_v1.1.13.jar",
-                    "id": "7842288",
-                    "parent_id": "682515",
-                    "hashes": {
-                        "sha1": "9279e2175d1b3a1032ea0ccf090bb5fb6cbccdf4",
-                        "md5": "6beb15a4280d9f738a0fdf73f3721d68"
-                    },
-                    "required_dependencies": [],
-                    "size": 60528,
-                    "date_published": "2026-03-29T18:42:28.353Z"
                 }
             ]
         },
@@ -2103,7 +2067,7 @@
             ]
         },
         {
-            "pakku_id": "Ag0SWECqziD9eubZ",
+            "pakku_id": "MJ405eRakYlF7KRD",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -2123,20 +2087,7 @@
                     "type": "modrinth",
                     "file_name": "create_radar-0.4.8-1.21.1.jar",
                     "mc_versions": [
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11",
-                        "26.1",
-                        "26.1.1",
-                        "26.1.2"
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
@@ -2344,7 +2295,7 @@
             ]
         },
         {
-            "pakku_id": "FPNFvyWcRGbP1a5i",
+            "pakku_id": "2uM7BLmdbqSkI1Bp",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -2362,7 +2313,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "emi-1.1.23+1.21.1+neoforge.jar",
+                    "file_name": "emi-1.1.24+1.21.1+neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2370,20 +2321,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/n2jlxdLV/emi-1.1.23+1.21.1+neoforge.jar",
-                    "id": "n2jlxdLV",
+                    "url": "https://cdn.modrinth.com/data/fRiHVvU7/versions/5sIPA1To/emi-1.1.24+1.21.1+neoforge.jar",
+                    "id": "5sIPA1To",
                     "parent_id": "fRiHVvU7",
                     "hashes": {
-                        "sha512": "e20b189646bad0afa5d9877da470d0b27ba7a5f97e1951ac506e9dd5a8f4313156244d93fa1076a15ffbf9f5e8450ea1575c03dc8fcf120a9697c76df02f3fbe",
-                        "sha1": "3ea453bcd0991bec9c963d0a068e4966503d7cdd"
+                        "sha512": "f4c45ed686fe617311d6debadcb6ace5963e66f8cfe0cfed398231f081f87407070efc7a73c8b695d158f1d87a97180737b9107a46771e77df2bc9a7dc715ebd",
+                        "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
                     },
                     "required_dependencies": [],
-                    "size": 1110807,
-                    "date_published": "2026-05-10T22:47:07.071986Z"
+                    "size": 1111538,
+                    "date_published": "2026-05-13T06:21:14.878169Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "emi-1.1.23+1.21.1+neoforge.jar",
+                    "file_name": "emi-1.1.24+1.21.1+neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2391,16 +2342,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8071/81/emi-1.1.23+1.21.1+neoforge.jar",
-                    "id": "8071081",
+                    "url": "https://edge.forgecdn.net/files/8081/408/emi-1.1.24+1.21.1+neoforge.jar",
+                    "id": "8081408",
                     "parent_id": "580555",
                     "hashes": {
-                        "sha1": "3ea453bcd0991bec9c963d0a068e4966503d7cdd",
-                        "md5": "c83b00b6d457248b2aacb03a35c4c54e"
+                        "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a",
+                        "md5": "e4aede758ec7c675d2255234df7ed4ff"
                     },
                     "required_dependencies": [],
-                    "size": 1110807,
-                    "date_published": "2026-05-10T22:47:09.070Z"
+                    "size": 1111538,
+                    "date_published": "2026-05-13T06:32:09.470Z"
                 }
             ]
         },
@@ -6911,6 +6862,67 @@
             ]
         },
         {
+            "pakku_id": "diaggiubzlgYwly6",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "patchouli",
+                "modrinth": "patchouli"
+            },
+            "name": {
+                "curseforge": "Patchouli",
+                "modrinth": "Patchouli"
+            },
+            "id": {
+                "curseforge": "306770",
+                "modrinth": "nU0bVIaL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Patchouli-1.21.1-93-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
+                    "id": "BIogJv2D",
+                    "parent_id": "nU0bVIaL",
+                    "hashes": {
+                        "sha512": "0b5c172db9a6eeecb5ca44b359a83548c3a60be7ff313959acdfc1e5b8039736c18e57e947d435b52d06da31159d2d02ea36e5742668dbc826308a4c99e4039f",
+                        "sha1": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140"
+                    },
+                    "required_dependencies": [],
+                    "size": 646777,
+                    "date_published": "2026-03-08T20:49:51.469086Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Patchouli-1.21.1-93-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7730/942/Patchouli-1.21.1-93-NEOFORGE.jar",
+                    "id": "7730942",
+                    "parent_id": "306770",
+                    "hashes": {
+                        "sha1": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140",
+                        "md5": "8178d65cd07dd7a646446729058ae2bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 646777,
+                    "date_published": "2026-03-08T20:49:54.427Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Bipc6TiqRdjclUF8",
             "type": "MOD",
             "side": "BOTH",
@@ -8037,28 +8049,22 @@
             ]
         },
         {
-            "pakku_id": "XF4Taz9yHkeInl9o",
-            "pakku_links": [
-                "bmCXAe1jUfFbBvc9"
-            ],
+            "pakku_id": "lFRjif9DdRBpr5zx",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "structurify",
                 "modrinth": "structurify"
             },
             "name": {
-                "curseforge": "Structurify – Structure Control",
                 "modrinth": "Structurify"
             },
             "id": {
-                "curseforge": "1087551",
                 "modrinth": "yz7AM2zx"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "structurify-neoforge-2.0.22+mc1.21.1.jar",
+                    "file_name": "structurify-neoforge-2.0.23+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -8067,42 +8073,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/yz7AM2zx/versions/YmkYhsGj/structurify-neoforge-2.0.22+mc1.21.1.jar",
-                    "id": "YmkYhsGj",
+                    "url": "https://cdn.modrinth.com/data/yz7AM2zx/versions/y2qFQhHW/structurify-neoforge-2.0.23+mc1.21.1.jar",
+                    "id": "y2qFQhHW",
                     "parent_id": "yz7AM2zx",
                     "hashes": {
-                        "sha512": "f48f4d1a025af12e288b0e3116ff08256f138522003393831298544cc3d175f88b0a93427bcb1985e9dcaea8c87fc331a68b38540131f53a7a83679a347f9776",
-                        "sha1": "6c6e5c2edc956b2e1fb6909599b862bc2fe68dc4"
+                        "sha512": "55efea34889db9702d5583db864b5fc29c54d77e74c77c7fc53f9776effd1967af1fe8262ca0e7245b58e04a48a6341c40bf9d6f2c9123908caecb41ee34cf6d",
+                        "sha1": "5517aaa82672c5edb180521d24adbbe872b98516"
                     },
                     "required_dependencies": [
                         "1eAoo2KR"
                     ],
-                    "size": 372970,
-                    "date_published": "2026-04-08T13:41:37.139541Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "structurify-neoforge-2.0.22+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7895/93/structurify-neoforge-2.0.22+mc1.21.1.jar",
-                    "id": "7895093",
-                    "parent_id": "1087551",
-                    "hashes": {
-                        "sha1": "6c6e5c2edc956b2e1fb6909599b862bc2fe68dc4",
-                        "md5": "85d5acd4788ce08f596c0d2af8b7c375"
-                    },
-                    "required_dependencies": [
-                        "667299"
-                    ],
-                    "size": 372970,
-                    "date_published": "2026-04-08T13:41:35.443Z"
+                    "size": 435020,
+                    "date_published": "2026-05-14T09:34:21.738904Z"
                 }
             ]
         },
