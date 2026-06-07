@@ -4,7 +4,7 @@
 	filename: "chapitre_1"
 	group: "22ED8597D59524D3"
 	id: "7281B11920F2492B"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -70,6 +70,11 @@
 					count: 2L
 					id: "772A05A08BDFFF8A"
 					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "14311DDA2A76282A"
+					item: { count: 1, id: "create:large_cogwheel" }
 					type: "item"
 				}
 			]

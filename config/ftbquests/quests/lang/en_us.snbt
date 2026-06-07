@@ -1,8 +1,65 @@
 {
-	chapter.20A2D26D7FE81048.title: "Chapitre 2"
-	chapter.7281B11920F2492B.title: "Chapitre 1"
-	chapter_group.22ED8597D59524D3.title: "Progression"
+	chapter.4AE44F8C209CDAE7.title: "Bienvenue"
+	chapter.7281B11920F2492B.title: "Premiers Pas"
+	chapter_group.22ED8597D59524D3.title: "Journal"
+	quest.0A9EE6530626773F.quest_desc: [
+		"La &lWater Wheel&r est l'une des premières sources de rotation de Create. Lorsqu'elle est placée dans un courrant d'eau, elle se met à tourner et produire une rotation continue."
+		""
+		"Cette rotation peut en suite être transmise à l'aide de shafts et cogwheels."
+		""
+		"La Water Wheel n'est pas la source de rotation la plus puissante, mais elle est simple, fiable, et fonctionne indéfiniement sans carburant. C'est donc un excellent point de départ pour constuire ton premier réseau mécanique."
+		""
+		"Farbique une Water Wheel, puis essaie de la placer avec un courant d'eau pour observer son fonctionnement."
+		""
+		"Pour ta première machine, une seule roue suffira pour l'alimenter, mais à terme tu pourras avoir besoin d'en mettre plusieurs bout à bout pour augmenter la capacité de stress de ton réseau."
+	]
+	quest.0A9EE6530626773F.title: "Créer de la rotation"
+	quest.4C93A7DF3C518446.quest_desc: [
+		"Le Mechanical Mixer et le Basin permet de mélanger des ingrédients, mais pour fonctionner il aura généralement besoin d'une source de chaleur."
+		""
+		"C'est le rôle du Blazer Burner. Placé sous un basin, il permet de chauffer les recettes qui en ont besoin, comme par exemple le "
+	]
+	quest.4C93A7DF3C518446.title: "Une source de chaleur"
+	quest.4F317A1DFD568E15.quest_desc: [
+		"Create est un mod permettant de fabriquer des machines visuelles et animées. Au lieu d'avoir juste des bâtiments immobiles, tu peux ajouter des roues qui tournent, des portes géantes qui s'ouvrent, des ascenseurs, des trains, des moulins ou des tapis qui déplacent les objets."
+		""
+		"Que tu souhaites juste rendre ta maison plus vivante ou créer de grandes usines, ce mod est fait pour toi !"
+		""
+		"Dans ce modpack, &lCreate n'est pas juste un supplément&r : il sert de base pour beaucoup d'autres mods."
+		""
+		"Pour débloquer de nombreuses recettes vous aurez besoin de &6Brass Ingot&r. "
+		""
+		"Afin de vous le procurer vous devrez apprendre les bases : faire tourner une roue, transmettre du mouvement, et faire fonctionner une machine simple."
+	]
+	quest.563A55528465391E.quest_desc: ["Bienvenue dans Breizh Craft Saison 2, une aventure communautaire créé par Breizh Esport."]
+	quest.7A2C0AFC1225A3DF.quest_desc: [
+		"Dans Create, les machines ne fonctionnent pas avec de l'énergie classique, mais avec une &lforce de rotation&r mécanique."
+		""
+		"Les shafts servent à transporter cette rotation en ligne droite, comme un axe mécanique. Les cogwheels, elles, permettent de transmettre la rotation entre plusieurs axes, changer de direction, ou de connecter certaines machines."
+		""
+		"Une &lsource de rotation&r -- comme une roue à eau, une manivelle ou un moteur -- peut donc faire tourner un shaft, qui fera tourner d'autres shafts ou cogwheels en les connectants les uns aux autres, jusqu'à atteindre la machine que tu veux alimenter."
+		""
+		"Les engrenages peuvent aussi modifier la &lvitesse de rotation&r. C'est ce qu'on appelle un rapport d'engrenage. Par exemple, faire passer la rotation d'un grand engrenage vers un petit peut l'accélérer, tandis que l'inverse peut la ralentir."
+		""
+		"Attention cependant, aller plus vite n'est pas toujours gratuit. Plus tard, tu découvriras que les machines rapides peuvent augmenter le &lstress&r de ton réseau mécanique et le bloquer."
+		""
+		"Pour l'instant commence par fabriquer quelques shafts et cogwheels. Ce sont les briques de bases pour presque toute construction Create."
+	]
+	quest.7A2C0AFC1225A3DF.title: "Les bases de la rotation"
+	quest.7A4E4C18B8D98D56.quest_desc: [
+		"Le &lMechanical Mixer&r est l'une des premières machines importantes de Create et la seule dont vous aurez besoin pour créer le &6Brass Ingot&r. Placé au dessus d'un &lBasin&r, il permet de mélanger des ingrédients pour créer de nouvelles recettes."
+		""
+		"Pour le faire fonctionner il vous suffira de connecter sa partie suppérieure avec un petit Cogwheel. Mais attention, pour qu'il s'actionne vous devrez également lui fournir une vitesse de rotation suffisamment rapide."
+		""
+		"Une simple Water Wheel produit une rotation qui sera bien trop lente pour l'alimenter directement. Il vous faudra utiliser des engrenage pour augmenter la vitesse de rotation avant de connecter le Mixer."
+		""
+		"Connectez un grand Cogwheel à votre source de rotation, puis connectez un petit Cogwheel à celui-ci. La vitesse du petit engrenage sera suppérieure à celle du grand. Répétez l'opération autant de fois que nécessaire, puis connectez la machine avec un petit Cogwheel."
+		""
+		"Attention cependant, augmenter la vitesse de rotation augmente le stress du système. Si le système est trop stressé il se bloquera et vous devrez augmenter la production d'énergie de rotation."
+	]
+	quest.7A4E4C18B8D98D56.title: "Première Machine"
 	task.095D5AC063087278.title: "Create"
+	task.13A24AAD1E28FF73.title: "Bienvenue"
 	task.24F5E9EF8FC5520D.title: "Mod4"
 	task.33E547D9A7ADA76B.title: "Mod5"
 	task.42252E70893BFB59.title: "Mod1"
