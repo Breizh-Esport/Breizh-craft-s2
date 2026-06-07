@@ -7188,6 +7188,71 @@
             ]
         },
         {
+            "pakku_id": "my7BM66tma4Bkzpc",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "oracle-index",
+                "modrinth": "oracle-index"
+            },
+            "name": {
+                "curseforge": "Oracle Index",
+                "modrinth": "Oracle Index"
+            },
+            "id": {
+                "curseforge": "1206582",
+                "modrinth": "J8MMsNrL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "oracle_index-neoforge-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/J8MMsNrL/versions/F4sqyw2E/oracle_index-neoforge-1.2.0.jar",
+                    "id": "F4sqyw2E",
+                    "parent_id": "J8MMsNrL",
+                    "hashes": {
+                        "sha512": "dd5e6a812af0024f67307061b31a8d71273f90e7d0a4fc576b092165c714e0b04518dfdfc35633835c57ee74f981612f495835dad3d59b5ac3e648c1ced4aae0",
+                        "sha1": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ"
+                    ],
+                    "size": 29575359,
+                    "date_published": "2026-04-29T18:26:12.065601Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "oracle_index-neoforge-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8011/106/oracle_index-neoforge-1.2.0.jar",
+                    "id": "8011106",
+                    "parent_id": "1206582",
+                    "hashes": {
+                        "sha1": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c",
+                        "md5": "ea20aaa4360e0e3802a58607d66156d8"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 29575359,
+                    "date_published": "2026-04-29T18:26:05.877Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MhCPuSpqaXeJttsR",
             "pakku_links": [
                 "0hltTKOUim7N0dbi"
