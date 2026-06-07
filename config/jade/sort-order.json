@@ -8,6 +8,8 @@
   "corpse:corpse": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
+  "framedblocks:framed_block_generic": null,
+  "framedblocks:framed_item_frame": null,
   "ftbquests:barrier": null,
   "jade:block_face": null,
   "jade:block_properties": null,
@@ -87,5 +89,6 @@
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
-  "treechop:plugin": null
+  "treechop:plugin": null,
+  "underlay:overlay": null
 }
