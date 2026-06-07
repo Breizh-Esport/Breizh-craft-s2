@@ -225,8 +225,21 @@ jobs:
               childFileType: 2
             }')
 
-          curl -sf \
+          RESPONSE=$(curl -s \
+            -w "\n%{http_code}" \
             "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
             -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
             -F "metadata=$METADATA" \
-            -F "file=@${SERVER_ZIP}"
+            -F "file=@${SERVER_ZIP}") || {
+            echo "CurseForge server pack upload request failed (network error)"
+            exit 1
+          }
+
+          HTTP_STATUS=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          echo "CurseForge response (HTTP ${HTTP_STATUS}): ${BODY}"
+
+          if [[ "$HTTP_STATUS" != "200" ]]; then
+            echo "CurseForge server pack upload failed"
+            exit 1
+          fi
