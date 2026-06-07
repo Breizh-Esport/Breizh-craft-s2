@@ -1,11 +1,7 @@
 {
     "name": "BreizhCraft",
     "version": "2.0.0-alpha+008",
-    "overrides": [
-        "config",
-        "kubejs",
-        "defaultconfigs"
-    ],
+    "overrides": ["config", "kubejs", "defaultconfigs"],
     "projects": {
         "probejs": {
             "export": false
@@ -131,6 +127,21 @@
             "side": "BOTH"
         },
         "simply-tooltips": {
+            "side": "BOTH"
+        },
+        "farmers-cutting-oh-the-biomes-weve-gone": {
+            "side": "BOTH"
+        },
+        "farmers-cutting-betternether": {
+            "side": "BOTH"
+        },
+        "loading-protection": {
+            "side": "BOTH"
+        },
+        "misc-tweaks": {
+            "side": "BOTH"
+        },
+        "seasonal-integration": {
             "side": "BOTH"
         }
     }
