@@ -1,3 +1,37 @@
+<#
+.SYNOPSIS
+    Publie une nouvelle version du modpack Breizh Craft.
+
+.DESCRIPTION
+    Automatise le processus de release :
+      1. Valide la version fournie (SemVer).
+      2. Vérifie que l'on est sur la branche 'main' avec un arbre de travail propre.
+      3. Vérifie que le tag 'vX.Y.Z' n'existe pas déjà.
+      4. Met à jour la version dans pakku.json et config/bcc-common.toml
+         (fichiers réécrits en UTF-8 sans BOM).
+      5. Commit, crée un tag annoté 'vX.Y.Z' et pousse le commit et le tag
+         via 'git push --follow-tags'.
+
+    Le script s'arrête (exit 1) si l'une des vérifications préalables échoue.
+
+.PARAMETER Version
+    Version SemVer au format X.Y.Z, avec pré-release (-pre) et/ou métadonnée
+    de build (+build) optionnelles. Le préfixe 'v' est ajouté automatiquement
+    pour le tag git.
+
+.EXAMPLE
+    .\scripts\release.ps1 -Version 2.0.0
+    Publie la release stable v2.0.0.
+
+.EXAMPLE
+    .\scripts\release.ps1 -Version 2.0.0-alpha+008
+    Publie une pré-release v2.0.0-alpha+008.
+
+.NOTES
+    À lancer depuis n'importe quel répertoire ; les chemins sont résolus
+    relativement à la racine du dépôt. Après publication, générer les
+    artefacts avec 'pakku export curseforge | modrinth | serverpack'.
+#>
 param(
     [Parameter(Mandatory)]
     [string]$Version
