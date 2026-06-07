@@ -143,6 +143,9 @@
         },
         "seasonal-integration": {
             "side": "BOTH"
+        },
+        "creativecore": {
+            "side": "BOTH"
         }
     }
 }
