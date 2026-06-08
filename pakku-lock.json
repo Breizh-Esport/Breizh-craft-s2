@@ -8,6 +8,46 @@
     },
     "projects": [
         {
+            "pakku_id": "tOf9kj5jFo3Xd42i",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "additionalentityattributes"
+            },
+            "name": {
+                "modrinth": "Additional Entity Attributes"
+            },
+            "id": {
+                "modrinth": "6oFu5eHi"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "additionalentityattributes-1.8.0+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6oFu5eHi/versions/oG5IkkZd/additionalentityattributes-1.8.0+1.21.jar",
+                    "id": "oG5IkkZd",
+                    "parent_id": "6oFu5eHi",
+                    "hashes": {
+                        "sha512": "72814ab49b8ce598ddb8cc8a26ed949fd12e7f2c4dad5858021594fb9fe1b62835d75df3d775894cfe8f8286d0a683a56edb20c164689cb116ba63c32160a90f",
+                        "sha1": "60fc8f163e516d77c9b5babfb4b35fab899bd59a"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 196277,
+                    "date_published": "2024-06-21T13:26:08.921646Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kastXX3pQg6DXj6O",
             "type": "MOD",
             "slug": {
@@ -199,6 +239,78 @@
                     "required_dependencies": [],
                     "size": 536836,
                     "date_published": "2026-05-15T02:47:59.620Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JllJtX8NSTLrwVfJ",
+            "pakku_links": [
+                "0Ak0G2BwBiT1n55R"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "alloy-forgery",
+                "modrinth": "alloy-forgery"
+            },
+            "name": {
+                "curseforge": "Alloy Forgery",
+                "modrinth": "Alloy Forgery"
+            },
+            "id": {
+                "curseforge": "438718",
+                "modrinth": "jhl28YkY"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "alloy-forgery-2.4.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/jhl28YkY/versions/czJc7eUX/alloy-forgery-2.4.1+1.21.jar",
+                    "id": "czJc7eUX",
+                    "parent_id": "jhl28YkY",
+                    "hashes": {
+                        "sha512": "ded73374818ab224946d60cbbf366374cb5b82d9c6bcd6ae7855dc433863c94ef279d558f7c48dce47c2b2a4046f135afb8c80923b799083b317cb5047b64726",
+                        "sha1": "9f7e0f14c5c61a01f11ebec9b62dc1cf3397ece2"
+                    },
+                    "required_dependencies": [
+                        "ccKDOlHs",
+                        "P7dR8mSH"
+                    ],
+                    "size": 302153,
+                    "date_published": "2024-08-09T17:05:33.692605Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "alloy-forgery-2.4.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5611/901/alloy-forgery-2.4.1+1.21.jar",
+                    "id": "5611901",
+                    "parent_id": "438718",
+                    "hashes": {
+                        "sha1": "9f7e0f14c5c61a01f11ebec9b62dc1cf3397ece2",
+                        "md5": "670f6bb729dc7155f72b5a5b101a0809"
+                    },
+                    "required_dependencies": [
+                        "532610",
+                        "306612"
+                    ],
+                    "size": 302153,
+                    "date_published": "2024-08-09T17:05:35.857Z"
                 }
             ]
         },
@@ -2583,6 +2695,71 @@
                     ],
                     "size": 819976,
                     "date_published": "2025-07-25T23:06:35.190Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TJODI1BgGo12W5Xs",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "connector-extras",
+                "modrinth": "connector-extras"
+            },
+            "name": {
+                "curseforge": "Connector Extras",
+                "modrinth": "Connector Extras"
+            },
+            "id": {
+                "curseforge": "913445",
+                "modrinth": "FYpiwiBR"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ConnectorExtras-1.12.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/FYpiwiBR/versions/dgLCqZyo/ConnectorExtras-1.12.1+1.21.1.jar",
+                    "id": "dgLCqZyo",
+                    "parent_id": "FYpiwiBR",
+                    "hashes": {
+                        "sha512": "ff9fc5d48a81e820c8c26b8a045e0ab7a3b0e9b5eaee7369b2eadb3f93d7eb423255073dfc327d131cb667df93be066560f3704b4cc8a12b07486b98a12bad1d",
+                        "sha1": "8ea07df55b26c8343d06df77936505a23e0d2140"
+                    },
+                    "required_dependencies": [
+                        "u58R1TMW"
+                    ],
+                    "size": 86284,
+                    "date_published": "2024-08-11T15:23:36.746376Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "ConnectorExtras-1.12.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5618/470/ConnectorExtras-1.12.1+1.21.1.jar",
+                    "id": "5618470",
+                    "parent_id": "913445",
+                    "hashes": {
+                        "sha1": "8ea07df55b26c8343d06df77936505a23e0d2140",
+                        "md5": "e9c1e6a2818a67565cdeb03b811d6589"
+                    },
+                    "required_dependencies": [
+                        "890127"
+                    ],
+                    "size": 86284,
+                    "date_published": "2024-08-11T15:23:37.413Z"
                 }
             ]
         },
@@ -7191,42 +7368,6 @@
                     "required_dependencies": [],
                     "size": 90717,
                     "date_published": "2026-05-18T17:16:01.960Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "FMmh1WCTvx7kcbdb",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "gobber"
-            },
-            "name": {
-                "curseforge": "Gobber [NEOFORGE/FORGE]"
-            },
-            "id": {
-                "curseforge": "301700"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Gobber-NeoForge-1.21.1-2.10.15.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5788/529/Gobber-NeoForge-1.21.1-2.10.15.jar",
-                    "id": "5788529",
-                    "parent_id": "301700",
-                    "hashes": {
-                        "sha1": "c22c23bfd0f8a4567083cea195d43e9b1fa66da6",
-                        "md5": "67962a0ca8219359700f02d76cbaf34b"
-                    },
-                    "required_dependencies": [],
-                    "size": 674321,
-                    "date_published": "2024-10-06T14:07:58.650Z"
                 }
             ]
         },
@@ -12099,6 +12240,73 @@
                     ],
                     "size": 7133477,
                     "date_published": "2026-01-17T13:57:09.660Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "RxqhJ6H44RACSExN",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mythicmetals",
+                "modrinth": "mythicmetals"
+            },
+            "name": {
+                "curseforge": "Mythic Metals",
+                "modrinth": "Mythic Metals"
+            },
+            "id": {
+                "curseforge": "410127",
+                "modrinth": "bAWzYNRd"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "mythicmetals-0.24.5+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/bAWzYNRd/versions/VtWOvson/mythicmetals-0.24.5+1.21.jar",
+                    "id": "VtWOvson",
+                    "parent_id": "bAWzYNRd",
+                    "hashes": {
+                        "sha512": "0aab31dc2e10bb22b265737e3fd6b3c4c9acc4f3510848bdbbc9e509cf91126741877a6d2542c26755104e08331c2515f37ef3d3a974c93796e3eb4becd3c4ac",
+                        "sha1": "057e3e8e407cbb98df44c8cc25669bcb302b2e7d"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "jhl28YkY"
+                    ],
+                    "size": 3339579,
+                    "date_published": "2026-03-06T16:06:02.727669Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "mythicmetals-0.24.5+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7719/785/mythicmetals-0.24.5+1.21.jar",
+                    "id": "7719785",
+                    "parent_id": "410127",
+                    "hashes": {
+                        "sha1": "057e3e8e407cbb98df44c8cc25669bcb302b2e7d",
+                        "md5": "c5a946ea56642cd084de0635af247d7e"
+                    },
+                    "required_dependencies": [
+                        "306612",
+                        "438718"
+                    ],
+                    "size": 3339579,
+                    "date_published": "2026-03-06T16:06:05.117Z"
                 }
             ]
         },
@@ -17964,6 +18172,67 @@
                     "required_dependencies": [],
                     "size": 752334,
                     "date_published": "2026-04-15T13:06:22.370Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0Ak0G2BwBiT1n55R",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "owo-lib",
+                "modrinth": "owo-lib"
+            },
+            "name": {
+                "curseforge": "oωo (owo-lib)",
+                "modrinth": "oωo (owo-lib)"
+            },
+            "id": {
+                "curseforge": "532610",
+                "modrinth": "ccKDOlHs"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "id": "NMCHU6DZ",
+                    "parent_id": "ccKDOlHs",
+                    "hashes": {
+                        "sha512": "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa",
+                        "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 1221583,
+                    "date_published": "2025-07-19T00:45:19.909132Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6785/734/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "id": "6785734",
+                    "parent_id": "532610",
+                    "hashes": {
+                        "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed",
+                        "md5": "4c8323c3d0493f7e82a2287e5ca9df7f"
+                    },
+                    "required_dependencies": [],
+                    "size": 1221583,
+                    "date_published": "2025-07-19T00:45:21.910Z"
                 }
             ]
         },
