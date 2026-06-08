@@ -150,6 +150,12 @@
         },
         "creativecore": {
             "side": "BOTH"
+        },
+        "farmers-cutting-betterend": {
+            "side": "BOTH"
+        },
+        "spark": {
+            "side": "SERVER"
         }
     }
 }

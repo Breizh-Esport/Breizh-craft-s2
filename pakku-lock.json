@@ -5955,7 +5955,7 @@
                 "IQkNohr2vvauGF9i"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "farmers-cutting-betterend",
                 "modrinth": "farmers-cutting-betterend"
@@ -18363,7 +18363,7 @@
         {
             "pakku_id": "354dutdju9vlAi7v",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "SERVER",
             "slug": {
                 "curseforge": "spark",
                 "modrinth": "spark"
