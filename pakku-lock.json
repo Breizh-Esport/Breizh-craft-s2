@@ -2591,6 +2591,67 @@
             ]
         },
         {
+            "pakku_id": "DQvuGfjA0djKVSQc",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "c2me",
+                "modrinth": "c2me-neoforge"
+            },
+            "name": {
+                "curseforge": "Concurrent Chunk Management Engine",
+                "modrinth": "Concurrent Chunk Management Engine (NeoForge)"
+            },
+            "id": {
+                "curseforge": "533097",
+                "modrinth": "COlSi5iR"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/COlSi5iR/versions/KmfiVd28/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar",
+                    "id": "KmfiVd28",
+                    "parent_id": "COlSi5iR",
+                    "hashes": {
+                        "sha512": "7dbb5cabc4669b900c570547fc636ce77b24e08451f4c699db76ec9ed3c805a256323862d7823e7d8c5acd10baa15e83c27dae3384ed5ea765f7e883a41f6045",
+                        "sha1": "942a6d51d4c475117418a6a36b46833a8128fbc7"
+                    },
+                    "required_dependencies": [],
+                    "size": 4510749,
+                    "date_published": "2026-05-21T13:56:11.649691Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/8123/104/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93.jar",
+                    "id": "8123104",
+                    "parent_id": "533097",
+                    "hashes": {
+                        "sha1": "942a6d51d4c475117418a6a36b46833a8128fbc7",
+                        "md5": "73d8c5d01d956d9692421ba4232cc57d"
+                    },
+                    "required_dependencies": [],
+                    "size": 4510749,
+                    "date_published": "2026-05-21T13:56:16.743Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "1IDA1O11CcERRtpE",
             "type": "MOD",
             "slug": {
