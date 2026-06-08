@@ -4084,7 +4084,7 @@
         {
             "pakku_id": "w5UKwYJzH9mLfmno",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "creativecore",
                 "modrinth": "creativecore"
@@ -5787,7 +5787,7 @@
                 "IQkNohr2vvauGF9i"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "farmers-cutting-betternether",
                 "modrinth": "farmers-cutting-betternether"
@@ -5857,7 +5857,7 @@
                 "IQkNohr2vvauGF9i"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "farmers-cutting-oh-the-biomes-weve-gone",
                 "modrinth": "farmers-cutting-oh-the-biomes-weve-gone"
@@ -9656,7 +9656,7 @@
         {
             "pakku_id": "aojA1oOOqxOwnwvm",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "loading-protection",
                 "modrinth": "login-shield"
@@ -11552,7 +11552,7 @@
         {
             "pakku_id": "GxcA5tDhs40kRAJn",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "misc-tweaks",
                 "modrinth": "misctweaks"
@@ -14553,7 +14553,7 @@
         {
             "pakku_id": "tigM8zb3TAuwsxcf",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "seasonal-integration",
                 "modrinth": "seasonal-integration"

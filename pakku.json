@@ -1,7 +1,11 @@
 {
     "name": "BreizhCraft",
     "version": "2.0.0-alpha+009",
-    "overrides": ["config", "kubejs", "defaultconfigs"],
+    "overrides": [
+        "config",
+        "kubejs",
+        "defaultconfigs"
+    ],
     "projects": {
         "probejs": {
             "export": false
