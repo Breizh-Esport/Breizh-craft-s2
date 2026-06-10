@@ -2095,7 +2095,7 @@
             ]
         },
         {
-            "pakku_id": "sPoDhMWHWTuvVxaa",
+            "pakku_id": "T8P9XzB4Bb3IESvs",
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -2113,7 +2113,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "chunksfadein-neoforge-3.0.21-1.21.jar",
+                    "file_name": "chunksfadein-neoforge-3.0.23-1.21.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -2122,22 +2122,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JaNmzvA8/versions/RoXP8KLC/chunksfadein-neoforge-3.0.21-1.21.jar",
-                    "id": "RoXP8KLC",
+                    "url": "https://cdn.modrinth.com/data/JaNmzvA8/versions/2hqhJET1/chunksfadein-neoforge-3.0.23-1.21.jar",
+                    "id": "2hqhJET1",
                     "parent_id": "JaNmzvA8",
                     "hashes": {
-                        "sha512": "bc938014234ca24d2db1f93f1089b6434aebd48e0c70a0d28ec309c2432916805ac956bc6c737f9c795389f22ddc1484e11f1a5f6ce7c7258323c151b79816f4",
-                        "sha1": "ed8b5adeaf2e784cd671ed6ee10f7e48a85c4e2f"
+                        "sha512": "2ff97e30e035726e1d8f79a0f0f483a475fda003fdb8fa885dd5306cffae69f8667be8a953b48eba7463f7981d1153c500eddebb9dbbf2803dec48c8056fc530",
+                        "sha1": "24b2774abfed190dd3326677af37cdf293ff1095"
                     },
                     "required_dependencies": [
                         "AANobbMI"
                     ],
-                    "size": 631883,
-                    "date_published": "2026-05-24T15:38:17.728138Z"
+                    "size": 671474,
+                    "date_published": "2026-06-07T22:45:13.045517Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "chunksfadein-neoforge-3.0.21-1.21.jar",
+                    "file_name": "chunksfadein-neoforge-3.0.23-1.21.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -2146,18 +2146,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8138/552/chunksfadein-neoforge-3.0.21-1.21.jar",
-                    "id": "8138552",
+                    "url": "https://edge.forgecdn.net/files/8213/746/chunksfadein-neoforge-3.0.23-1.21.jar",
+                    "id": "8213746",
                     "parent_id": "720811",
                     "hashes": {
-                        "sha1": "ed8b5adeaf2e784cd671ed6ee10f7e48a85c4e2f",
-                        "md5": "7d133fdfac526684577fdf1697d6eb91"
+                        "sha1": "24b2774abfed190dd3326677af37cdf293ff1095",
+                        "md5": "e707ea5c77bb450b959bdef31ae3395b"
                     },
                     "required_dependencies": [
                         "394468"
                     ],
-                    "size": 631883,
-                    "date_published": "2026-05-24T15:38:14.067Z"
+                    "size": 671474,
+                    "date_published": "2026-06-07T22:45:09.240Z"
                 }
             ]
         },
@@ -3989,7 +3989,7 @@
             ]
         },
         {
-            "pakku_id": "OhqZZpd8ISY0sWdW",
+            "pakku_id": "gvh654chmS0Lbk9Q",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -4007,7 +4007,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "CreateDragonsPlus-1.11.1b.jar",
+                    "file_name": "CreateDragonsPlus-1.11.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4015,22 +4015,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/V011gYLr/CreateDragonsPlus-1.11.1b.jar",
-                    "id": "V011gYLr",
+                    "url": "https://cdn.modrinth.com/data/dzb1a5WV/versions/WmXib3yc/CreateDragonsPlus-1.11.2.jar",
+                    "id": "WmXib3yc",
                     "parent_id": "dzb1a5WV",
                     "hashes": {
-                        "sha512": "de909f9829ffa592212965da4c2b42ca0c2872c9563ff42aeb81990c52a93df08a5adae20025c76330fb86cec82298af975e4526632ae89836fed18773156485",
-                        "sha1": "0ec28d9412af7f2debf90bbe9fed1fe8aee14b1c"
+                        "sha512": "8aaed7b5b32d2622850c784366603dc149861a0af6fa88e1f33d7bca7e7ffff3e3dab86673117e90ba429e6e5cb28c869048e985cedc7d5c73e1e6924c022c50",
+                        "sha1": "051acd4dd63508cc8f9675ed2b907b0a2c6b013c"
                     },
                     "required_dependencies": [
                         "LNytGWDc"
                     ],
-                    "size": 987095,
-                    "date_published": "2026-06-06T21:31:11.903200Z"
+                    "size": 1006619,
+                    "date_published": "2026-06-08T13:56:34.563087Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "CreateDragonsPlus-1.11.1b.jar",
+                    "file_name": "CreateDragonsPlus-1.11.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4038,18 +4038,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8207/554/CreateDragonsPlus-1.11.1b.jar",
-                    "id": "8207554",
+                    "url": "https://edge.forgecdn.net/files/8216/317/CreateDragonsPlus-1.11.2.jar",
+                    "id": "8216317",
                     "parent_id": "1216624",
                     "hashes": {
-                        "sha1": "0ec28d9412af7f2debf90bbe9fed1fe8aee14b1c",
-                        "md5": "05b93a82329c04dc74c92b8168e300da"
+                        "sha1": "051acd4dd63508cc8f9675ed2b907b0a2c6b013c",
+                        "md5": "983d0b8faf92a50728d835b6502ed2c6"
                     },
                     "required_dependencies": [
                         "328085"
                     ],
-                    "size": 987095,
-                    "date_published": "2026-06-06T21:31:11.020Z"
+                    "size": 1006619,
+                    "date_published": "2026-06-08T13:56:32.533Z"
                 }
             ]
         },
@@ -5733,7 +5733,7 @@
             ]
         },
         {
-            "pakku_id": "fGjFpV4w1jL9k7li",
+            "pakku_id": "nRomd74H8uiX0cog",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -5751,7 +5751,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "exposure-neoforge-1.21.1-1.9.16.jar",
+                    "file_name": "exposure-neoforge-1.21.1-1.9.17.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5759,20 +5759,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/hB899VmG/versions/OJ3DFzQc/exposure-neoforge-1.21.1-1.9.16.jar",
-                    "id": "OJ3DFzQc",
+                    "url": "https://cdn.modrinth.com/data/hB899VmG/versions/A29rZIz6/exposure-neoforge-1.21.1-1.9.17.jar",
+                    "id": "A29rZIz6",
                     "parent_id": "hB899VmG",
                     "hashes": {
-                        "sha512": "8c72cb320cde5aa13af31329d0c27000e16e451ccedba6b72da26d12ed28f61054414b2f914cc7e78954fe770ba42cdd5d81388421ac3d973cf7196734aaa0fc",
-                        "sha1": "b933b1d8c38ced7af391a82bc70f5d5c601ff21b"
+                        "sha512": "0ad5c7fa4368dc08f4e5a43cadfe9dea951e51734fe689524657f5439a06289f48eac78ae3f5d7ec031d75ad28c1ccca7623c0834e0686c5ebb83dcc26648178",
+                        "sha1": "7f979d58add6b477ae299b6de0dab7b25cb8e74a"
                     },
                     "required_dependencies": [],
-                    "size": 2189912,
-                    "date_published": "2026-04-02T16:29:47.723287Z"
+                    "size": 2190343,
+                    "date_published": "2026-06-08T13:54:58.887907Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "exposure-neoforge-1.21.1-1.9.16.jar",
+                    "file_name": "exposure-neoforge-1.21.1-1.9.17.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5780,16 +5780,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7862/664/exposure-neoforge-1.21.1-1.9.16.jar",
-                    "id": "7862664",
+                    "url": "https://edge.forgecdn.net/files/8216/312/exposure-neoforge-1.21.1-1.9.17.jar",
+                    "id": "8216312",
                     "parent_id": "871755",
                     "hashes": {
-                        "sha1": "b933b1d8c38ced7af391a82bc70f5d5c601ff21b",
-                        "md5": "9a1e2fd4cb76452392509b07e01ce08d"
+                        "sha1": "7f979d58add6b477ae299b6de0dab7b25cb8e74a",
+                        "md5": "ac6ae8c9a657c5b05f0d7b6cfe338c55"
                     },
                     "required_dependencies": [],
-                    "size": 2189912,
-                    "date_published": "2026-04-02T16:29:47.540Z"
+                    "size": 2190343,
+                    "date_published": "2026-06-08T13:54:58.370Z"
                 }
             ]
         },
@@ -5832,7 +5832,7 @@
             ]
         },
         {
-            "pakku_id": "pnIdVwHJG1fEEEjy",
+            "pakku_id": "AEHNTEuUOiblmyw3",
             "type": "MOD",
             "slug": {
                 "curseforge": "ftb-quests-forge"
@@ -5846,7 +5846,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-quests-neoforge-2101.1.25.jar",
+                    "file_name": "ftb-quests-neoforge-2101.1.26.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5854,20 +5854,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8195/575/ftb-quests-neoforge-2101.1.25.jar",
-                    "id": "8195575",
+                    "url": "https://edge.forgecdn.net/files/8216/578/ftb-quests-neoforge-2101.1.26.jar",
+                    "id": "8216578",
                     "parent_id": "289412",
                     "hashes": {
-                        "sha1": "c51f43029930cce87e86366b6629a27e4876a03d",
-                        "md5": "0f65ddbe4a4a817575fa1ed91ecf1883"
+                        "sha1": "831328b1f1aefc3b9ce5b7ff8c799a6610ccc1ab",
+                        "md5": "bd01a7bf8a89eee5381247a72215835d"
                     },
                     "required_dependencies": [
-                        "404468",
                         "404465",
-                        "419699"
+                        "419699",
+                        "404468"
                     ],
-                    "size": 1469336,
-                    "date_published": "2026-06-04T12:09:02.087Z"
+                    "size": 1470760,
+                    "date_published": "2026-06-08T14:47:32.133Z"
                 }
             ]
         },
@@ -12101,21 +12101,25 @@
             ]
         },
         {
-            "pakku_id": "yUKWNmrowCiYshgg",
+            "pakku_id": "tR1OhklljVqYID0f",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "selene"
+                "curseforge": "selene",
+                "modrinth": "moonlight"
             },
             "name": {
-                "curseforge": "Moonlight Lib"
+                "curseforge": "Moonlight Lib",
+                "modrinth": "Moonlight Lib"
             },
             "id": {
-                "curseforge": "499980"
+                "curseforge": "499980",
+                "modrinth": "twkfQtEc"
             },
             "files": [
                 {
-                    "type": "curseforge",
-                    "file_name": "moonlight-neoforge-1.21.1-3.0.16.jar",
+                    "type": "modrinth",
+                    "file_name": "moonlight-neoforge-1.21.1-3.0.17.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -12123,16 +12127,37 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8156/754/moonlight-neoforge-1.21.1-3.0.16.jar",
-                    "id": "8156754",
-                    "parent_id": "499980",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/RrSYwKog/moonlight-neoforge-1.21.1-3.0.17.jar",
+                    "id": "RrSYwKog",
+                    "parent_id": "twkfQtEc",
                     "hashes": {
-                        "sha1": "494ac7255ab0321f01a980cc21f1a3a5e4c0cf74",
-                        "md5": "78bfff6f1beb16ff3f3ec13bc279f8c8"
+                        "sha512": "0fb2a1deba8accce89a6f12d3afe53c56477c7d261756638c57f8d2bd472607f9ddc8206e866727ba3eafd126920bc396ec096e7538c349c2c6e021787d28b09",
+                        "sha1": "fb9ff01231bc99aee1769b06a4b2987e6a6a518b"
                     },
                     "required_dependencies": [],
-                    "size": 1576577,
-                    "date_published": "2026-05-27T23:31:06.097Z"
+                    "size": 1589156,
+                    "date_published": "2026-06-08T11:22:30.009815Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "moonlight-neoforge-1.21.1-3.0.17.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8215/787/moonlight-neoforge-1.21.1-3.0.17.jar",
+                    "id": "8215787",
+                    "parent_id": "499980",
+                    "hashes": {
+                        "sha1": "fb9ff01231bc99aee1769b06a4b2987e6a6a518b",
+                        "md5": "b26dd85935091adfcc4397042f4090f6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1589156,
+                    "date_published": "2026-06-08T11:22:21.493Z"
                 }
             ]
         },
@@ -14463,7 +14488,7 @@
             ]
         },
         {
-            "pakku_id": "US3F6lF3mSTmFyHK",
+            "pakku_id": "SbuIAat3Z5v56F6P",
             "type": "MOD",
             "slug": {
                 "curseforge": "rhino"
@@ -14490,7 +14515,7 @@
                         "forge",
                         "neoforge"
                     ],
-                    "release_type": "beta",
+                    "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7104/526/rhino-2101.2.7-build.81.jar",
                     "id": "7104526",
                     "parent_id": "416294",
