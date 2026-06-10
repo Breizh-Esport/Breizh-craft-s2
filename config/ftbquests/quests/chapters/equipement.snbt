@@ -1,0 +1,291 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "equipement"
+	group: "22ED8597D59524D3"
+	id: "152FF23FB363F52B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5C19C500E42BFADB"
+			tasks: [{
+				id: "352793EFB77A08BC"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "6C548CF16C319268"
+			tasks: [{
+				id: "768B2F408BF3452C"
+				item: { count: 1, id: "mythicmetals:quadrillum_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "12D2D28AACCB3471"
+			tasks: [{
+				id: "60F36EC6644F8E6C"
+				item: { count: 1, id: "mythicmetals:banglum_ingot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "52B54E5D9D7FE895"
+			tasks: [{
+				id: "708D2108201368CF"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "54019AD42BEC27D9"
+			tasks: [{
+				id: "4E335CB19C5047F6"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "7F17F2FDD7E3C957"
+			tasks: [{
+				id: "1451E7FF70859FC8"
+				item: { count: 1, id: "mythicmetals:bronze_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "3E32F1FB251429DD"
+			tasks: [{
+				id: "1F20D51CF1CF76CE"
+				item: { count: 1, id: "mythicmetals:aquarium_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			id: "3D1E6D85E50AEC93"
+			tasks: [{
+				id: "5B6397FBDBC7769F"
+				item: { count: 1, id: "mythicmetals:osmium_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			id: "18E5AAAD98CCAD95"
+			tasks: [{
+				id: "17F7383710BB3436"
+				item: { count: 1, id: "mythicmetals:steel_ingot" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			id: "5237BDE73FAB2268"
+			tasks: [{
+				id: "367CC5419EEE2FD6"
+				item: { count: 1, id: "mythicmetals:banglum_chunk" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			id: "04025DE019643D16"
+			tasks: [{
+				id: "5D13814A85593B2E"
+				item: { count: 1, id: "mythicmetals:durasteel_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -14.0d
+		}
+		{
+			id: "292BAE1A18BB722E"
+			tasks: [{
+				id: "36F7A5FEB411076D"
+				item: { count: 1, id: "mythicmetals:kyber_ingot" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.5d
+		}
+		{
+			id: "7C16FD20F54CA66D"
+			tasks: [{
+				id: "5E8FB2EE0F4FB3EC"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -17.0d
+		}
+		{
+			id: "03CD0F573F9B83B7"
+			tasks: [{
+				id: "3C901C32409799A3"
+				item: { count: 1, id: "mythicmetals:prometheum_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: -18.5d
+		}
+		{
+			id: "16F1AC3DE84FCC3D"
+			tasks: [{
+				id: "4F0E4FD26D35A43D"
+				item: { count: 1, id: "mythicmetals:runite_ingot" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -20.0d
+		}
+		{
+			id: "616AD5D73747B2E0"
+			tasks: [{
+				id: "293D1D34F2D0061F"
+				item: { count: 1, id: "mythicmetals:adamantite_ingot" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -21.5d
+		}
+		{
+			id: "55E8EAE17838216E"
+			tasks: [{
+				id: "4DCE8C95FCEDE1E6"
+				item: { count: 1, id: "mythicmetals:stormyx_ingot" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -23.0d
+		}
+		{
+			id: "2C70C8459E062EE8"
+			tasks: [{
+				id: "2B2C1725D71A0425"
+				item: { count: 1, id: "mythicmetals:palladium_ingot" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -24.5d
+		}
+		{
+			id: "1146FE59C532FFB4"
+			tasks: [{
+				id: "08FE680253DAF43D"
+				item: { count: 1, id: "mythicmetals:midas_gold_ingot" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: -26.0d
+		}
+		{
+			id: "7B7BDA451A6082F3"
+			tasks: [{
+				id: "149C9E7F2A60E55E"
+				item: { count: 1, id: "mythicmetals:orichalcum_ingot" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -27.5d
+		}
+		{
+			id: "7551B0F8CF6B54E9"
+			tasks: [{
+				id: "25BCE2D591D78BC4"
+				item: { count: 1, id: "minecraft:fire_coral" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: -29.0d
+		}
+		{
+			id: "5250A916E26A5176"
+			tasks: [{
+				id: "2915E67385B9764C"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -30.5d
+		}
+		{
+			id: "61A8AF45E14725E4"
+			tasks: [{
+				id: "22861E5C84C5CFCB"
+				item: { count: 1, id: "mythicmetals:star_platinum" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -32.0d
+		}
+		{
+			id: "646B24C623F931E7"
+			tasks: [{
+				id: "4DC4C981D0CE0F8F"
+				item: { count: 1, id: "mythicmetals:carmot_ingot" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: -33.5d
+		}
+		{
+			id: "21630170436FEDA7"
+			tasks: [{
+				id: "34EA995B71B16C7C"
+				item: { count: 1, id: "mythicmetals:hallowed_ingot" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -35.0d
+		}
+		{
+			id: "4AEEDF4B559FAC90"
+			tasks: [{
+				id: "75E1BC03B23EA751"
+				item: { count: 1, id: "mythicmetals:mythril_ingot" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -36.5d
+		}
+		{
+			id: "34F3CB21F5464855"
+			tasks: [{
+				id: "26D2E4BC1A1DE29D"
+				item: { count: 1, id: "mythicmetals:metallurgium_ingot" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -38.0d
+		}
+		{
+			id: "53C86834BB7E31BD"
+			tasks: [{
+				id: "28276C9FCA3D56D9"
+				item: { count: 1, id: "mythicmetals:celestium_ingot" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -39.5d
+		}
+	]
+}

@@ -9,6 +9,8 @@
 	quests: [
 		{
 			id: "4F317A1DFD568E15"
+			optional: true
+			progression_mode: "flexible"
 			tasks: [{
 				id: "095D5AC063087278"
 				type: "checkmark"
@@ -17,7 +19,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4F317A1DFD568E15"]
+			dependencies: [
+				"4F317A1DFD568E15"
+				"3941A4CA2F19B8F1"
+			]
+			dependency_requirement: "one_completed"
 			id: "4C93A7DF3C518446"
 			tasks: [{
 				id: "70EA41EBC5C92EE5"
@@ -28,7 +34,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4F317A1DFD568E15"]
+			dependencies: [
+				"4F317A1DFD568E15"
+				"3941A4CA2F19B8F1"
+			]
+			dependency_requirement: "one_completed"
 			id: "7A4E4C18B8D98D56"
 			tasks: [
 				{
@@ -46,7 +56,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4F317A1DFD568E15"]
+			dependencies: [
+				"4F317A1DFD568E15"
+				"3941A4CA2F19B8F1"
+			]
+			dependency_requirement: "one_completed"
 			id: "0A9EE6530626773F"
 			tasks: [{
 				id: "1EF94D00CA35FD4F"
@@ -57,8 +71,13 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4F317A1DFD568E15"]
+			dependencies: [
+				"4F317A1DFD568E15"
+				"3941A4CA2F19B8F1"
+			]
+			dependency_requirement: "one_completed"
 			id: "7A2C0AFC1225A3DF"
+			optional: true
 			tasks: [
 				{
 					count: 5L

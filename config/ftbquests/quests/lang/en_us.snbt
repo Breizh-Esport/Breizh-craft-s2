@@ -1,6 +1,8 @@
 {
+	chapter.152FF23FB363F52B.title: "Equipement"
 	chapter.4AE44F8C209CDAE7.title: "Bienvenue"
 	chapter.7281B11920F2492B.title: "Premiers Pas"
+	chapter.750DFAFA7F917144.title: "Debug"
 	chapter_group.22ED8597D59524D3.title: "Journal"
 	quest.0A9EE6530626773F.quest_desc: [
 		"La &lWater Wheel&r est l'une des premières sources de rotation de Create. Lorsqu'elle est placée dans un courrant d'eau, elle se met à tourner et produire une rotation continue."
@@ -14,6 +16,7 @@
 		"Pour ta première machine, une seule roue suffira pour l'alimenter, mais à terme tu pourras avoir besoin d'en mettre plusieurs bout à bout pour augmenter la capacité de stress de ton réseau."
 	]
 	quest.0A9EE6530626773F.title: "Créer de la rotation"
+	quest.3941A4CA2F19B8F1.title: "Invisible"
 	quest.4C93A7DF3C518446.quest_desc: [
 		"Le Mechanical Mixer et le Basin permet de mélanger des ingrédients, mais pour fonctionner il aura généralement besoin d'une source de chaleur."
 		""
