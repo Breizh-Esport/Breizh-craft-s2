@@ -2,10 +2,12 @@
   "apotheosis:adventure": null,
   "apothic_enchanting:ench": null,
   "apothic_spawners:spawner": null,
+  "ars_nouveau:mob_jar": null,
   "balm:jade": null,
   "betterend:plant_growth": null,
   "betternether:plant_growth": null,
   "corpse:corpse": null,
+  "dynamic_difficulty:level": null,
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
   "framedblocks:framed_block_generic": null,
@@ -89,6 +91,9 @@
   "supplementaries:hat_stand": null,
   "supplementaries:present": null,
   "supplementaries:safe": null,
+  "toms_storage:inventory_config": null,
+  "toms_storage:inventory_connector": null,
+  "toms_storage:inventory_hopper": null,
   "treechop:plugin": null,
   "underlay:overlay": null
 }
