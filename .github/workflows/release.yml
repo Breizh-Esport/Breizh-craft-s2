@@ -70,6 +70,14 @@ jobs:
           echo "mr_pack=$MR_PACK"         >> "$GITHUB_OUTPUT"
           echo "server_zip=$SERVER_ZIP"   >> "$GITHUB_OUTPUT"
 
+      - name: Stage release assets
+        run: |
+          VERSION="${{ steps.meta.outputs.version }}"
+          mkdir -p build/release
+          cp "${{ steps.meta.outputs.cf_zip }}"     "build/release/BreizhCraft-${VERSION}-curseforge.zip"
+          cp "${{ steps.meta.outputs.mr_pack }}"    "build/release/BreizhCraft-${VERSION}.mrpack"
+          cp "${{ steps.meta.outputs.server_zip }}" "build/release/BreizhCraft-${VERSION}-server.zip"
+
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
@@ -77,9 +85,7 @@ jobs:
           prerelease: ${{ steps.meta.outputs.is_prerelease == 'true' }}
           generate_release_notes: true
           files: |
-            build/curseforge/*.zip
-            build/modrinth/*.mrpack
-            build/serverpack/*.zip
+            build/release/*
 
       - name: Upload to Modrinth
         run: |
