@@ -36,7 +36,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq unzip lftp
+          sudo apt-get install -y jq unzip lftp bubblewrap
 
       - name: Install pakku
         run: brew install juraj-hrivnak/pakku/pakku
