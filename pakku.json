@@ -156,6 +156,24 @@
         },
         "spark": {
             "side": "SERVER"
+        },
+        "cc-cbc": {
+            "side": "BOTH"
+        },
+        "double-doors": {
+            "side": "BOTH"
+        },
+        "lmft": {
+            "side": "BOTH"
+        },
+        "seasonal-lets-do": {
+            "side": "BOTH"
+        },
+        "villager-names": {
+            "side": "BOTH"
+        },
+        "cc-sable": {
+            "side": "BOTH"
         }
     }
 }

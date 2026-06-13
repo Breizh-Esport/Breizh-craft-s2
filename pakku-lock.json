@@ -2635,7 +2635,7 @@
         {
             "pakku_id": "dZBNNqW7rWnHkX46",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "cc-sable",
                 "modrinth": "cc-sable"
@@ -2769,7 +2769,7 @@
         {
             "pakku_id": "T4c1HnmeZa0QzAQ5",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "cc-cbc",
                 "modrinth": "cc-cbc"
@@ -7034,7 +7034,7 @@
         {
             "pakku_id": "KAnPef6slO7JZ9We",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "double-doors",
                 "modrinth": "double-doors"
@@ -13522,7 +13522,7 @@
         {
             "pakku_id": "EUUrmuDDTOoHehN9",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "lmft",
                 "modrinth": "lmft"
@@ -19666,7 +19666,7 @@
         {
             "pakku_id": "PGwXyxgyybr481ro",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "seasonal-lets-do",
                 "modrinth": "seasonal-lets-do"
@@ -22258,7 +22258,7 @@
         {
             "pakku_id": "S3VMA3i1jl34jL7Y",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "villager-names",
                 "modrinth": "villager-names-serilum"
