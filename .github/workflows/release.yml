@@ -32,9 +32,11 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq bubblewrap
+          sudo apt-get install -y jq
 
       - name: Install pakku
+        env:
+          HOMEBREW_NO_SANDBOX_LINUX: 1
         run: brew install juraj-hrivnak/pakku/pakku
 
       - name: Export modpack
