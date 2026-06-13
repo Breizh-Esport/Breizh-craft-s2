@@ -37,6 +37,14 @@
     "curseForgeHash": 2969413053,
     "modrinthHash": "f48b8016860645a5fe66b90509feb3df3b7f5788"
   },
+  "aeronauticscompat-1.1.2.jar": {
+    "jarName": "aeronauticscompat-1.1.2.jar",
+    "modId": "aeronauticscompat",
+    "name": "AeronauticsCompat",
+    "version": "1.1.2",
+    "curseForgeHash": 3633248949,
+    "modrinthHash": "64044986287367e7f638012c931d8a23528bee41"
+  },
   "aeroworks-1.2.11.jar": {
     "jarName": "aeroworks-1.2.11.jar",
     "modId": "aeroworks",
@@ -1080,6 +1088,14 @@
     "curseForgeHash": 1639985402,
     "modrinthHash": "cf26fe18c3a9deec525fe0f0e7c2d3b9f4e9f484"
   },
+  "ExplorersCompass-1.21.1-3.4.0-neoforge.jar": {
+    "jarName": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+    "modId": "explorerscompass",
+    "name": "Explorer\u0027s Compass",
+    "version": "1.21.1-3.4.0-neoforge",
+    "curseForgeHash": 2243555533,
+    "modrinthHash": "9f62af344988a6e2d855b113e61cf0e1611c7e0f"
+  },
   "exposure-neoforge-1.21.1-1.9.18.jar": {
     "jarName": "exposure-neoforge-1.21.1-1.9.18.jar",
     "modId": "exposure",
@@ -1111,6 +1127,14 @@
     "version": "1",
     "curseForgeHash": 2362786697,
     "modrinthHash": "58552805ec6e6ab5ea1069fa7fba676d18006470"
+  },
+  "fantasy_armor-neoforge-1.2.4-1.21.1.jar": {
+    "jarName": "fantasy_armor-neoforge-1.2.4-1.21.1.jar",
+    "modId": "fantasy_armor",
+    "name": "Fantasy Armor",
+    "version": "1.2.4-1.21.1",
+    "curseForgeHash": 614379047,
+    "modrinthHash": "2b103680ca80a1d617dcae74630c4df8e93d3c55"
   },
   "farmers-cutting-betterend-1.21.1-2.0-neoforge.jar": {
     "jarName": "farmers-cutting-betterend-1.21.1-2.0-neoforge.jar",
@@ -1503,6 +1527,14 @@
     "version": "1.6.10+1.21.1",
     "curseForgeHash": 1221808790,
     "modrinthHash": "f1f5cccd7cb59d875f44566b2e557ccecc8c33fb"
+  },
+  "immersive_melodies-neoforge-0.6.4+1.21.1.jar": {
+    "jarName": "immersive_melodies-neoforge-0.6.4+1.21.1.jar",
+    "modId": "immersive_melodies",
+    "name": "Immersive Melodies",
+    "version": "0.6.4+1.21.1",
+    "curseForgeHash": 1083640786,
+    "modrinthHash": "7c03c8f750bdcda75847e91d9eedde02ca6d1048"
   },
   "immersivearmorhud-neoforge-1.0.1-1.21.1.jar": {
     "jarName": "immersivearmorhud-neoforge-1.0.1-1.21.1.jar",
@@ -2629,6 +2661,22 @@
     "curseForgeHash": 1307203879,
     "modrinthHash": "57455390641d8dcf4566ff266676390c203894cf"
   },
+  "selfexpression-2.22a-neoforge-1.21.1.jar": {
+    "jarName": "selfexpression-2.22a-neoforge-1.21.1.jar",
+    "modId": "selfexpression",
+    "name": "Selfexpression",
+    "version": "2.22",
+    "curseForgeHash": 2351619670,
+    "modrinthHash": "f0dd7e65512daec9ddea0fa54f02c48b4f2d3842"
+  },
+  "selfexpression_slim-1.5-neoforge-1.21.1.jar": {
+    "jarName": "selfexpression_slim-1.5-neoforge-1.21.1.jar",
+    "modId": "selfexpression_slim",
+    "name": "Selfexpression: Slim",
+    "version": "1.5",
+    "curseForgeHash": 3580942046,
+    "modrinthHash": "ee1f4de5e66902cc13f75903d906fc0a41d2f93e"
+  },
   "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar": {
     "jarName": "SereneSeasons-neoforge-1.21.1-10.1.0.3.jar",
     "modId": "sereneseasons",
@@ -2644,6 +2692,14 @@
     "version": "88.0.1-build.54+mc1.21.1",
     "curseForgeHash": 3694730245,
     "modrinthHash": "3bcccf27fb2f954a81a3984bcb1ee8ea636d7247"
+  },
+  "simplehats-neoforge-1.21.1-0.4.0.jar": {
+    "jarName": "simplehats-neoforge-1.21.1-0.4.0.jar",
+    "modId": "simplehats",
+    "name": "SimpleHats",
+    "version": "0.4.0",
+    "curseForgeHash": 496774725,
+    "modrinthHash": "81748b4f728575d9bbab571ab07e6a24cf3ff126"
   },
   "simplylight-1.5.3+1.21.1-b4.jar": {
     "jarName": "simplylight-1.5.3+1.21.1-b4.jar",
@@ -2725,13 +2781,13 @@
     "curseForgeHash": 1900921493,
     "modrinthHash": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.57.1871.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.57.1871.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.58.1880.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.58.1880.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.57",
-    "curseForgeHash": 2774122784,
-    "modrinthHash": "e2e63bfbd3f8d2b0ee937b0ddcd13bc2fd15b970"
+    "version": "3.25.58",
+    "curseForgeHash": 2343770234,
+    "modrinthHash": "a77b27f14de61d9f57db74a993a52624b13ad49e"
   },
   "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar": {
     "jarName": "sophisticatedbackpackscreateintegration-1.21.1-0.1.6.99.jar",
@@ -2741,21 +2797,21 @@
     "curseForgeHash": 3859949395,
     "modrinthHash": "f314e04a27c699d4fea7bb338ddcb5296b0e9515"
   },
-  "sophisticatedcore-1.21.1-1.4.53.2003.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.53.2003.jar",
+  "sophisticatedcore-1.21.1-1.4.54.2004.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.54.2004.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.53",
-    "curseForgeHash": 1067464038,
-    "modrinthHash": "d73bc50514a7a8af18d5e5b562334eb2671cf5ca"
+    "version": "1.4.54",
+    "curseForgeHash": 2792083402,
+    "modrinthHash": "141a04f9b936722d3dbbf461b95d5affc89c0f60"
   },
-  "sophisticatedstorage-1.21.1-1.5.57.1814.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.57.1814.jar",
+  "sophisticatedstorage-1.21.1-1.5.58.1835.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.58.1835.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.57",
-    "curseForgeHash": 1320547966,
-    "modrinthHash": "e5d37e14ed9efb4df06f1c8e470c33bd1a377615"
+    "version": "1.5.58",
+    "curseForgeHash": 3450778300,
+    "modrinthHash": "91f72a0946a1753145e013cad4f6f1e8e898ed54"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
@@ -2965,6 +3021,22 @@
     "curseForgeHash": 1980226081,
     "modrinthHash": "6faa436709e3c99e01a68e2f1109937897f98624"
   },
+  "vista-neoforge-1.21.1-4.4.11.jar": {
+    "jarName": "vista-neoforge-1.21.1-4.4.11.jar",
+    "modId": "vista",
+    "name": "Vista",
+    "version": "1.21.1-4.4.11",
+    "curseForgeHash": 1126995147,
+    "modrinthHash": "4eba9b2b46a526dadfc7b656f192419367cdf9b7"
+  },
+  "VistaAeronauticsFix-1.0.0.jar": {
+    "jarName": "VistaAeronauticsFix-1.0.0.jar",
+    "modId": "vistafix",
+    "name": "Vista Aeronautics Fix",
+    "version": "1.0.0",
+    "curseForgeHash": 242110117,
+    "modrinthHash": "a00cfcd468377fa210e917b4ff7c6c662e97320e"
+  },
   "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
     "modId": "visualworkbench",
@@ -2980,6 +3052,38 @@
     "version": "1.21.1-2.6.18",
     "curseForgeHash": 679443986,
     "modrinthHash": "c9e638f5c049fc143dc043c585b13e9078a3f71d"
+  },
+  "waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar": {
+    "jarName": "waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar",
+    "modId": "waterframes",
+    "name": "WaterFrames",
+    "version": "2.1.23",
+    "curseForgeHash": 4260530700,
+    "modrinthHash": "855fad475a0a0be7a8ac20d70f2adc2d91ce0d0b"
+  },
+  "watermedia-2.1.37.jar": {
+    "jarName": "watermedia-2.1.37.jar",
+    "modId": "watermedia",
+    "name": "WaterMedia",
+    "version": "2.1.37",
+    "curseForgeHash": 1212325280,
+    "modrinthHash": "4a91d20d9a3aa8d66e01f7962d77c974ad538f4f"
+  },
+  "watermedia_youtube_plugin-2.1.2.jar": {
+    "jarName": "watermedia_youtube_plugin-2.1.2.jar",
+    "modId": "watermedia_youtube_plugin",
+    "name": "WaterMedia YT Plugin",
+    "version": "2.1.2",
+    "curseForgeHash": 4249144081,
+    "modrinthHash": "1f4d208ed9292189dd99147a9dae7c1d4bc95ad5"
+  },
+  "watervision-NF-mc1.21.1-v0.1.0-alpha.jar": {
+    "jarName": "watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
+    "modId": "watervision",
+    "name": "WaterVision",
+    "version": "0.1.0-alpha",
+    "curseForgeHash": 829722122,
+    "modrinthHash": "3fc5620a518583b8a7ea293a6d79584861e75335"
   },
   "watut-neoforge-1.21.0-1.2.7.jar": {
     "jarName": "watut-neoforge-1.21.0-1.2.7.jar",
