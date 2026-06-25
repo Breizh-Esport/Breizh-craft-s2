@@ -1,0 +1,637 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "s_equiper"
+	group: "1A68DCD4EA8C237D"
+	icon: {
+		id: "mythicmetals:bronze_chestplate"
+	}
+	id: "497A4D690000DA7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "apotheosis:apoth_chronicle"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "64484D3426D5EF98"
+			rewards: [{
+				id: "571C8F976EE3EF09"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "27F685305003D938"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["64484D3426D5EF98"]
+			id: "3FD34EFDD03D2866"
+			rewards: [{
+				count: 16
+				id: "39CC8AD3AE0307A3"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6887E4E760E4F539"
+				item: { count: 1, id: "alloy_forgery:bricks_forge_controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "333AF638EF076E71"
+			rewards: [{
+				count: 6
+				id: "3BFEA2E9424F51BA"
+				item: {
+					count: 1
+					id: "mythicmetals:bronze_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EC09561D38D23E4"
+				item: { count: 1, id: "mythicmetals:bronze_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "6136539858D1A56D"
+			optional: true
+			rewards: [{
+				id: "34EE84079FF74D7C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4941B95E2E5EE5FD"
+				item: { count: 1, id: "mythicmetals:bronze_sword" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "1D814ECE69138700"
+			optional: true
+			rewards: [{
+				id: "0063DEDF9B77BFD7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6926DD706EE1E587"
+				item: { count: 1, id: "mythicmetals:bronze_pickaxe" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "2BC430F396D52435"
+			optional: true
+			rewards: [{
+				id: "1019A2C9C5E77AF3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7CD492AC49BDAD62"
+				item: { count: 1, id: "mythicmetals:bronze_axe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "2677CC10891B7307"
+			optional: true
+			rewards: [{
+				id: "30F223AD8FC05A8A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2213D2F6B8B54EAA"
+				item: { count: 1, id: "mythicmetals:bronze_shovel" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "3CA8654F475CD8C9"
+			optional: true
+			rewards: [{
+				id: "024B01F3EAEFFFC0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3F27F55CB503FDAE"
+				item: { count: 1, id: "mythicmetals:bronze_hoe" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "75C014154C2C5101"
+			optional: true
+			rewards: [{
+				id: "184C505CDC27E492"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7388C220348B4B74"
+				item: { count: 1, id: "mythicmetals:bronze_helmet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "5840F66140DC039A"
+			optional: true
+			rewards: [{
+				id: "584330B8DE3D742A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1DAA106D2F6C5346"
+				item: { count: 1, id: "mythicmetals:bronze_chestplate" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "1E67FFE45C24D00D"
+			optional: true
+			rewards: [{
+				id: "00B3622BBDC01FB5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "177675A293D8A320"
+				item: { count: 1, id: "mythicmetals:bronze_leggings" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "501095AC79AB2517"
+			optional: true
+			rewards: [{
+				id: "5621B169A7602132"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4C9980E3B09CBE56"
+				item: { count: 1, id: "mythicmetals:bronze_boots" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "64320393277BBA40"
+			optional: true
+			tasks: [{
+				id: "2B7A47DC1C57DC01"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_chakram" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "03913D5372ACC04B"
+			optional: true
+			tasks: [{
+				id: "161ADB4747078A01"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_claymore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "6761B74DEBDD8FB1"
+			optional: true
+			tasks: [{
+				id: "4DFE72C35B8264BD"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_cutlass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "7FC4A9EDAC7952D1"
+			optional: true
+			tasks: [{
+				id: "0348C2DDBB195453"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_glaive" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "7A35990EFA7AF6C7"
+			optional: true
+			tasks: [{
+				id: "17E482D7DB926802"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_greataxe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "3031D7086D7D28E9"
+			optional: true
+			tasks: [{
+				id: "18FF89234F05F71B"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_greathammer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "7B22FAD03453B2F4"
+			optional: true
+			tasks: [{
+				id: "77D08134C028CFC0"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_halberd" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "011F49D80CA9017B"
+			optional: true
+			tasks: [{
+				id: "144D15023B3D2E98"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_katana" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "3A82744840B45A0D"
+			optional: true
+			tasks: [{
+				id: "58C60225F1768CB1"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_longsword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "3ED8ED62C6E916F3"
+			optional: true
+			tasks: [{
+				id: "6A95C8889C8EB1ED"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_rapier" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "02099E61CF287F57"
+			optional: true
+			tasks: [{
+				id: "4CF272E97FDCA0E2"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_sai" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "56D06257A643889C"
+			optional: true
+			tasks: [{
+				id: "461FE60C7BABB04D"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_scythe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "6ECAD90EC8FBD321"
+			optional: true
+			tasks: [{
+				id: "233F1D222537F2D2"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_spear" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "6F286CA8E84546E1"
+			optional: true
+			tasks: [{
+				id: "33EAA84C1702E996"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_twinblade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "524CD54222758671"
+			optional: true
+			tasks: [{
+				id: "016962346C31CBDE"
+				item: { count: 1, id: "simplyswords:mythicmetals_compat/bronze/bronze_warglaive" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "6921609E25D349EF"
+			optional: true
+			tasks: [{
+				id: "3F9B7FE25A8F05B4"
+				item: { count: 1, id: "simplymore:bronze_backhand_blade" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "6174D6F7410D6CB6"
+			optional: true
+			tasks: [{
+				id: "5FBEE3BD549F8415"
+				item: { count: 1, id: "simplymore:bronze_dagger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "336142D5AE84D2C2"
+			optional: true
+			tasks: [{
+				id: "14D4B73B6F952340"
+				item: { count: 1, id: "simplymore:bronze_deer_horns" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "4B591427F4158BC0"
+			optional: true
+			tasks: [{
+				id: "0080A93E93BCA3AB"
+				item: { count: 1, id: "simplymore:bronze_grandsword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "27EED85C16F4682D"
+			optional: true
+			tasks: [{
+				id: "48AEB4F5579D8922"
+				item: { count: 1, id: "simplymore:bronze_great_katana" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "1E9DEB226DA0B060"
+			optional: true
+			tasks: [{
+				id: "5FB196251F12B8D5"
+				item: { count: 1, id: "simplymore:bronze_great_spear" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "1DEB6C81A9C28E3F"
+			optional: true
+			tasks: [{
+				id: "3DFF8C1388A66535"
+				item: { count: 1, id: "simplymore:bronze_khopesh" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "157EB4A16DC2B9D9"
+			optional: true
+			tasks: [{
+				id: "08AEB559E6CC4D99"
+				item: { count: 1, id: "simplymore:bronze_lance" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "23E3B6C85C90DA4C"
+			optional: true
+			tasks: [{
+				id: "1054192923F016F1"
+				item: { count: 1, id: "simplymore:bronze_pernach" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["333AF638EF076E71"]
+			hide_dependency_lines: true
+			id: "33084E1E9182B4E7"
+			optional: true
+			tasks: [{
+				id: "5DF7486DF11C1A29"
+				item: { count: 1, id: "simplymore:bronze_quarterstaff" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64484D3426D5EF98"]
+			icon: {
+				id: "apotheosis:gem_dust"
+			}
+			id: "0E5F0DD4C6A53BAF"
+			rewards: [{
+				id: "6839810162A04C3B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1E428B44FA7935F4"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "17C2E36D113F75F0"
+			rewards: [{
+				count: 3
+				id: "7B2F4D50F67BCCC5"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05CFA8131B6AA74F"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17C2E36D113F75F0"]
+			id: "6A3F4CDC3FE97CCB"
+			rewards: [{
+				count: 5
+				id: "3535D6B1E9C69089"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE44CF49C39EBA2"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A3F4CDC3FE97CCB"]
+			id: "6563E9CF36EE08F1"
+			rewards: [{
+				count: 3
+				id: "0739A3F4EA47705F"
+				item: {
+					count: 1
+					id: "apotheosis:sigil_of_rebirth"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "766D25906C88ED7D"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+	]
+}

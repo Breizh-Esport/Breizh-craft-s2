@@ -93,14 +93,6 @@
     "curseForgeHash": 2234816779,
     "modrinthHash": "2e9d1bc9bb9801af070f59a808db232c2a6526dd"
   },
-  "another_furniture-neoforge-4.0.2.jar": {
-    "jarName": "another_furniture-neoforge-4.0.2.jar",
-    "modId": "another_furniture",
-    "name": "Another Furniture",
-    "version": "4.0.2",
-    "curseForgeHash": 437611423,
-    "modrinthHash": "9036bc4754f74287f94fbf0102ea0d47d394877d"
-  },
   "Apotheosis-1.21.1-8.5.4.jar": {
     "jarName": "Apotheosis-1.21.1-8.5.4.jar",
     "modId": "apotheosis",
@@ -757,14 +749,6 @@
     "name": "Create Contraption Terminals",
     "curseForgeHash": 3759762823,
     "modrinthHash": "65bef5b4ec20ba8d966ed2fd97ad2992c7fa7d8a"
-  },
-  "createdeco-2.1.3.jar": {
-    "jarName": "createdeco-2.1.3.jar",
-    "modId": "createdeco",
-    "name": "Create Deco",
-    "version": "2.1.3",
-    "curseForgeHash": 2186625105,
-    "modrinthHash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
   },
   "CreateDragonsPlus-1.11.2b.jar": {
     "jarName": "CreateDragonsPlus-1.11.2b.jar",
@@ -2033,14 +2017,6 @@
     "version": "1.1.5",
     "curseForgeHash": 136675996,
     "modrinthHash": "1f8b59e31f889f53b6296b42ee09d447e7e56620"
-  },
-  "mcwbyg-neoforge-1.21.1-1.5.jar": {
-    "jarName": "mcwbyg-neoforge-1.21.1-1.5.jar",
-    "modId": "mcwbyg",
-    "name": "Macaw\u0027s - Oh the Biomes You\u0027ll Go",
-    "version": "1.21.1-1.5",
-    "curseForgeHash": 1142302913,
-    "modrinthHash": "2510e4d5a0217935c8b9239e42ac54b568001f68"
   },
   "Measurements-neoforge-1.21.1-3.0.3.jar": {
     "jarName": "Measurements-neoforge-1.21.1-3.0.3.jar",
