@@ -21,12 +21,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
+      tag: ${{ steps.meta.outputs.tag }}
       version: ${{ steps.meta.outputs.version }}
       release_type: ${{ steps.meta.outputs.release_type }}
       is_prerelease: ${{ steps.meta.outputs.is_prerelease }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Need full history + tags so a manual (workflow_dispatch) run can
+          # resolve the latest release tag with `git describe`.
+          fetch-depth: 0
 
       - name: Setup Homebrew
         uses: Homebrew/actions/setup-homebrew@master
@@ -42,7 +47,20 @@ jobs:
       - name: Resolve release metadata
         id: meta
         run: |
-          TAG="${GITHUB_REF_NAME}"
+          # On a tag push GITHUB_REF_NAME is the tag. On a manual run
+          # (workflow_dispatch) it's the branch name, so fall back to the
+          # latest release tag reachable from HEAD.
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            TAG="$(git describe --tags --abbrev=0 --match 'v[0-9]*.[0-9]*.[0-9]*' 2>/dev/null || true)"
+            if [[ -z "$TAG" ]]; then
+              echo "::error::No valid release tag (v*.*.*) found in history."
+              exit 1
+            fi
+            echo "Manual run: using latest tag $TAG"
+          else
+            TAG="${GITHUB_REF_NAME}"
+          fi
+
           VERSION="${TAG#v}"
 
           if [[ "$VERSION" == *"-alpha"* ]]; then
@@ -56,6 +74,7 @@ jobs:
             IS_PRERELEASE="false"
           fi
 
+          echo "tag=$TAG"                     >> "$GITHUB_OUTPUT"
           echo "version=$VERSION"             >> "$GITHUB_OUTPUT"
           echo "release_type=$RELEASE_TYPE"   >> "$GITHUB_OUTPUT"
           echo "is_prerelease=$IS_PRERELEASE" >> "$GITHUB_OUTPUT"
@@ -96,6 +115,7 @@ jobs:
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ needs.build.outputs.tag }}
           name: BreizhCraft v${{ needs.build.outputs.version }}
           prerelease: ${{ needs.build.outputs.is_prerelease == 'true' }}
           generate_release_notes: true
