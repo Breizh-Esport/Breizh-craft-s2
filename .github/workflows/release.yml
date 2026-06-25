@@ -12,27 +12,23 @@ concurrency:
   group: release-${{ github.ref }}
   cancel-in-progress: false
 
-env:
-  CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
-  CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
-  MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
-  MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-
 jobs:
-  release:
+  # Build once, publish many. Each external target is its own job so that
+  # GitHub's "Re-run failed jobs" replays only the target that failed,
+  # without rebuilding the modpack or re-hitting the targets that succeeded.
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    outputs:
+      version: ${{ steps.meta.outputs.version }}
+      release_type: ${{ steps.meta.outputs.release_type }}
+      is_prerelease: ${{ steps.meta.outputs.is_prerelease }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Homebrew
         uses: Homebrew/actions/setup-homebrew@master
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
 
       - name: Install pakku
         env:
@@ -59,39 +55,89 @@ jobs:
             IS_PRERELEASE="false"
           fi
 
-          CF_ZIP="$(ls build/curseforge/*.zip | head -1)"
-          MR_PACK="$(ls build/modrinth/*.mrpack | head -1)"
-          SERVER_ZIP="$(ls build/serverpack/*.zip | head -1)"
-
-          echo "version=$VERSION"         >> "$GITHUB_OUTPUT"
-          echo "release_type=$RELEASE_TYPE" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION"             >> "$GITHUB_OUTPUT"
+          echo "release_type=$RELEASE_TYPE"   >> "$GITHUB_OUTPUT"
           echo "is_prerelease=$IS_PRERELEASE" >> "$GITHUB_OUTPUT"
-          echo "cf_zip=$CF_ZIP"           >> "$GITHUB_OUTPUT"
-          echo "mr_pack=$MR_PACK"         >> "$GITHUB_OUTPUT"
-          echo "server_zip=$SERVER_ZIP"   >> "$GITHUB_OUTPUT"
 
       - name: Stage release assets
         run: |
           VERSION="${{ steps.meta.outputs.version }}"
-          mkdir -p build/release
-          cp "${{ steps.meta.outputs.cf_zip }}"     "build/release/BreizhCraft-${VERSION}-curseforge.zip"
-          cp "${{ steps.meta.outputs.mr_pack }}"    "build/release/BreizhCraft-${VERSION}.mrpack"
-          cp "${{ steps.meta.outputs.server_zip }}" "build/release/BreizhCraft-${VERSION}-server.zip"
+          CF_ZIP="$(ls build/curseforge/*.zip | head -1)"
+          MR_PACK="$(ls build/modrinth/*.mrpack | head -1)"
+          SERVER_ZIP="$(ls build/serverpack/*.zip | head -1)"
 
+          mkdir -p build/release
+          cp "$CF_ZIP"     "build/release/BreizhCraft-${VERSION}-curseforge.zip"
+          cp "$MR_PACK"    "build/release/BreizhCraft-${VERSION}.mrpack"
+          cp "$SERVER_ZIP" "build/release/BreizhCraft-${VERSION}-server.zip"
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-assets
+          path: build/release/
+          retention-days: 7
+          if-no-files-found: error
+
+  publish-github:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download release artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: release
+
+      # action-gh-release updates an existing release in place, so re-running
+      # this job is safe and idempotent.
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
-          name: BreizhCraft v${{ steps.meta.outputs.version }}
-          prerelease: ${{ steps.meta.outputs.is_prerelease == 'true' }}
+          name: BreizhCraft v${{ needs.build.outputs.version }}
+          prerelease: ${{ needs.build.outputs.is_prerelease == 'true' }}
           generate_release_notes: true
           files: |
-            build/release/*
+            release/*
+
+  publish-modrinth:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MODRINTH_PROJECT_ID: ${{ vars.MODRINTH_PROJECT_ID }}
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+    steps:
+      - name: Download release artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: release
+
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
 
       - name: Upload to Modrinth
         run: |
-          VERSION="${{ steps.meta.outputs.version }}"
-          RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
-          MR_PACK="${{ steps.meta.outputs.mr_pack }}"
+          set -euo pipefail
+
+          VERSION="${{ needs.build.outputs.version }}"
+          RELEASE_TYPE="${{ needs.build.outputs.release_type }}"
+          MR_PACK="release/BreizhCraft-${VERSION}.mrpack"
+
+          # Idempotency guard: skip if this version already exists, so a replay
+          # after a partial failure does not create a duplicate version.
+          EXISTING=$(curl -sf "https://api.modrinth.com/v2/project/${MODRINTH_PROJECT_ID}/version" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            | jq -r --arg v "$VERSION" 'map(select(.version_number == $v)) | length')
+
+          if [[ "$EXISTING" != "0" ]]; then
+            echo "Modrinth already has version ${VERSION}; skipping upload."
+            exit 0
+          fi
 
           DATA=$(jq -cn \
             --arg name "BreizhCraft v${VERSION}" \
@@ -115,6 +161,27 @@ jobs:
             -H "Authorization: $MODRINTH_TOKEN" \
             -F "data=$DATA" \
             -F "mrpack=@${MR_PACK};type=application/x-modrinth-modpack+zip"
+
+  publish-curseforge-modpack:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      file_id: ${{ steps.cf_upload.outputs.file_id }}
+    env:
+      CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+      CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
+    steps:
+      - name: Download release artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: release
+
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
 
       - name: Resolve CurseForge game version IDs
         id: cf_versions
@@ -160,9 +227,9 @@ jobs:
       - name: Upload modpack to CurseForge
         id: cf_upload
         run: |
-          VERSION="${{ steps.meta.outputs.version }}"
-          RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
-          CF_ZIP="${{ steps.meta.outputs.cf_zip }}"
+          VERSION="${{ needs.build.outputs.version }}"
+          RELEASE_TYPE="${{ needs.build.outputs.release_type }}"
+          CF_ZIP="release/BreizhCraft-${VERSION}-curseforge.zip"
           GAME_VERSIONS='${{ steps.cf_versions.outputs.ids }}'
 
           METADATA=$(jq -cn \
@@ -208,12 +275,34 @@ jobs:
 
           echo "file_id=$FILE_ID" >> "$GITHUB_OUTPUT"
 
+  # Split from the modpack upload so that, if only the server pack fails, a
+  # "Re-run failed jobs" replays just this job and reuses the parent file_id
+  # from the (still-successful) modpack job — no duplicate modpack upload.
+  publish-curseforge-serverpack:
+    needs: [build, publish-curseforge-modpack]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CURSEFORGE_PROJECT_ID: ${{ vars.CURSEFORGE_PROJECT_ID }}
+      CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
+    steps:
+      - name: Download release artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: release
+
+      - name: Install jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
       - name: Upload server pack to CurseForge
         run: |
-          VERSION="${{ steps.meta.outputs.version }}"
-          RELEASE_TYPE="${{ steps.meta.outputs.release_type }}"
-          SERVER_ZIP="${{ steps.meta.outputs.server_zip }}"
-          PARENT_FILE_ID="${{ steps.cf_upload.outputs.file_id }}"
+          VERSION="${{ needs.build.outputs.version }}"
+          RELEASE_TYPE="${{ needs.build.outputs.release_type }}"
+          SERVER_ZIP="release/BreizhCraft-${VERSION}-server.zip"
+          PARENT_FILE_ID="${{ needs.publish-curseforge-modpack.outputs.file_id }}"
 
           if [[ -z "$PARENT_FILE_ID" ]]; then
             echo "Error: CurseForge main upload file ID is missing"
