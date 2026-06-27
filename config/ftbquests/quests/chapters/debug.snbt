@@ -6,7 +6,7 @@
 	filename: "debug"
 	group: ""
 	id: "750DFAFA7F917144"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		id: "3941A4CA2F19B8F1"

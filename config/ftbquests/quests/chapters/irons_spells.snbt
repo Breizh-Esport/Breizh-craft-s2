@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells"
+	group: "3DAC737A57C342F2"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 12
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:netherite_spell_book"
+	}
+	id: "3FBB1C3CEB54A6B5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "58B3023890C86298"
+			rewards: [{
+				id: "72B48E28A20F8398"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "03DD6ECAA1D0B2AA"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["58B3023890C86298"]
+			id: "1998D745AA2F313E"
+			rewards: [{
+				id: "42613DCF0FBAC042"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "520520D5D95F3910"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1998D745AA2F313E"]
+			id: "38F396FFE4FCEEE6"
+			rewards: [{
+				id: "59455A8AF7C26E33"
+				item: {
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "474518BFC6ECC70D"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38F396FFE4FCEEE6"]
+			id: "2D811518E3A94F6E"
+			rewards: [{
+				id: "7730EC53F75CECD0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4532FEAF11819946"
+				item: { count: 1, id: "irons_spellbooks:wandering_magician_chestplate" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D811518E3A94F6E"]
+			id: "712157F96C0AFA31"
+			rewards: [{
+				count: 4
+				id: "4EE66282F8FD16CC"
+				item: {
+					count: 1
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15FCBE575AACA925"
+				item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["712157F96C0AFA31"]
+			id: "6524083C1E49F599"
+			rewards: [{
+				id: "35991697565079A6"
+				item: {
+					count: 1
+					id: "irons_spellbooks:upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63532F9BF019560F"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6524083C1E49F599"]
+			id: "4FE5CF8E729B955D"
+			rewards: [{
+				id: "3DAD6DC3329C2A12"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "50B3904393856A5E"
+				item: { count: 1, id: "irons_spellbooks:mana_upgrade_orb" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "340F68F2CEA4D1B0"
+			rewards: [{
+				id: "638F5F754E75693C"
+				item: {
+					count: 1
+					id: "irons_spellbooks:fire_upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:pyromancer"
+				id: "3A563AE1D55E8DF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "6D8A36D6BCE7D181"
+			rewards: [{
+				id: "5ACC1F9C710159D6"
+				item: {
+					count: 1
+					id: "irons_spellbooks:ice_upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				id: "6815DCA67805F08A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "031284E0A37F6E05"
+			rewards: [{
+				id: "2345BE3B8E602424"
+				item: {
+					count: 1
+					id: "irons_spellbooks:evocation_upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "0204F200233FF3E6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "55A99D7A5CF561C5"
+			rewards: [{
+				id: "313E32E78490DBA8"
+				item: {
+					count: 1
+					id: "irons_spellbooks:blood_upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				id: "4657A07B9B93F355"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "060B8469CB75509C"
+			rewards: [{
+				id: "70D34A6BFAA73BB9"
+				item: {
+					count: 1
+					id: "irons_spellbooks:holy_upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:priest"
+				id: "7321AABEC21A0F20"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38F396FFE4FCEEE6"]
+			id: "5B0973CFDB9D795E"
+			rewards: [{
+				id: "6A3DF212F0F035CD"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "639BAB9C3E2A2561"
+				structure: "irons_spellbooks:ancient_battleground"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B0973CFDB9D795E"]
+			id: "6D9DD145F7ECA315"
+			rewards: [{
+				id: "663405520301C1A7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "1C11BF01B4FBD36F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D9DD145F7ECA315"]
+			id: "082420A3C4FC02F2"
+			rewards: [{
+				id: "273E3D10F1E15430"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				id: "184C5D41FCDF07B3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4FE5CF8E729B955D"
+				"082420A3C4FC02F2"
+			]
+			id: "78487D04127E68EA"
+			rewards: [{
+				id: "298F35952E20813B"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "5A8D5617A20C74C7"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 12, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_spell_book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

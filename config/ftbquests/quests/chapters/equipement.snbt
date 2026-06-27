@@ -2,290 +2,379 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "equipement"
-	group: "22ED8597D59524D3"
+	group: "1A68DCD4EA8C237D"
+	icon: {
+		id: "mythicmetals:celestium_ingot"
+	}
 	id: "152FF23FB363F52B"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "5C19C500E42BFADB"
 			tasks: [{
-				id: "352793EFB77A08BC"
+				id: "0294E18FCC623ABC"
 				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			id: "6C548CF16C319268"
 			tasks: [{
-				id: "768B2F408BF3452C"
+				id: "1F2BF4E307FC0B45"
 				item: { count: 1, id: "mythicmetals:quadrillum_ingot" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -0.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			id: "12D2D28AACCB3471"
 			tasks: [{
-				id: "60F36EC6644F8E6C"
+				id: "1A233D5720861529"
 				item: { count: 1, id: "mythicmetals:banglum_ingot" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			id: "52B54E5D9D7FE895"
 			tasks: [{
-				id: "708D2108201368CF"
+				id: "3E540809F5823959"
 				item: { count: 1, id: "minecraft:gold_ingot" }
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.5d
+			y: -6.0d
 		}
 		{
 			id: "54019AD42BEC27D9"
 			tasks: [{
-				id: "4E335CB19C5047F6"
+				id: "54C4DD6EC04BD39C"
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			id: "7F17F2FDD7E3C957"
 			tasks: [{
-				id: "1451E7FF70859FC8"
+				id: "6275C082784A3F75"
 				item: { count: 1, id: "mythicmetals:bronze_ingot" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			id: "3E32F1FB251429DD"
 			tasks: [{
-				id: "1F20D51CF1CF76CE"
+				id: "3C5EE05715ACAF9E"
 				item: { count: 1, id: "mythicmetals:aquarium_ingot" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.0d
+			x: -1.0d
+			y: -9.0d
 		}
 		{
 			id: "3D1E6D85E50AEC93"
 			tasks: [{
-				id: "5B6397FBDBC7769F"
+				id: "4EEE610830560968"
 				item: { count: 1, id: "mythicmetals:osmium_ingot" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			id: "18E5AAAD98CCAD95"
 			tasks: [{
-				id: "17F7383710BB3436"
+				id: "7E0F9D2BBD39C816"
 				item: { count: 1, id: "mythicmetals:steel_ingot" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -11.0d
+			x: 2.5d
+			y: -4.0d
 		}
 		{
 			id: "5237BDE73FAB2268"
 			tasks: [{
-				id: "367CC5419EEE2FD6"
+				id: "643D15726487588A"
 				item: { count: 1, id: "mythicmetals:banglum_chunk" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -12.5d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			id: "04025DE019643D16"
 			tasks: [{
-				id: "5D13814A85593B2E"
+				id: "46C55906A94112D8"
 				item: { count: 1, id: "mythicmetals:durasteel_ingot" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: -14.0d
+			x: 2.5d
+			y: -6.0d
 		}
 		{
 			id: "292BAE1A18BB722E"
 			tasks: [{
-				id: "36F7A5FEB411076D"
+				id: "0499D78E65D21D91"
 				item: { count: 1, id: "mythicmetals:kyber_ingot" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -15.5d
+			x: 2.5d
+			y: -7.0d
 		}
 		{
 			id: "7C16FD20F54CA66D"
 			tasks: [{
-				id: "5E8FB2EE0F4FB3EC"
+				id: "5A9495622DCC7DBC"
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -17.0d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			id: "03CD0F573F9B83B7"
 			tasks: [{
-				id: "3C901C32409799A3"
+				id: "08E0C7CD63269118"
 				item: { count: 1, id: "mythicmetals:prometheum_ingot" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: -18.5d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			id: "16F1AC3DE84FCC3D"
 			tasks: [{
-				id: "4F0E4FD26D35A43D"
+				id: "3114C8B1FCF6565D"
 				item: { count: 1, id: "mythicmetals:runite_ingot" }
 				type: "item"
 			}]
-			x: 15.5d
-			y: -20.0d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			id: "616AD5D73747B2E0"
 			tasks: [{
-				id: "293D1D34F2D0061F"
+				id: "1A52EC13DC492A7B"
 				item: { count: 1, id: "mythicmetals:adamantite_ingot" }
 				type: "item"
 			}]
-			x: 17.0d
-			y: -21.5d
+			x: 6.5d
+			y: -4.0d
 		}
 		{
 			id: "55E8EAE17838216E"
 			tasks: [{
-				id: "4DCE8C95FCEDE1E6"
+				id: "6750BE636E63F1C5"
 				item: { count: 1, id: "mythicmetals:stormyx_ingot" }
 				type: "item"
 			}]
-			x: 18.5d
-			y: -23.0d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			id: "2C70C8459E062EE8"
 			tasks: [{
-				id: "2B2C1725D71A0425"
+				id: "6AF70F080E04BC35"
 				item: { count: 1, id: "mythicmetals:palladium_ingot" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: -24.5d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			id: "1146FE59C532FFB4"
 			tasks: [{
-				id: "08FE680253DAF43D"
+				id: "7330E33D2C6C4D4C"
 				item: { count: 1, id: "mythicmetals:midas_gold_ingot" }
 				type: "item"
 			}]
-			x: 21.5d
-			y: -26.0d
+			x: 6.5d
+			y: -7.0d
 		}
 		{
 			id: "7B7BDA451A6082F3"
 			tasks: [{
-				id: "149C9E7F2A60E55E"
+				id: "447910EBEAFC1103"
 				item: { count: 1, id: "mythicmetals:orichalcum_ingot" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: -27.5d
+			x: 6.5d
+			y: -8.0d
 		}
 		{
 			id: "7551B0F8CF6B54E9"
 			tasks: [{
-				id: "25BCE2D591D78BC4"
+				id: "00FBB865A39299DB"
 				item: { count: 1, id: "minecraft:fire_coral" }
 				type: "item"
 			}]
-			x: 24.5d
-			y: -29.0d
+			x: 6.5d
+			y: -9.0d
 		}
 		{
 			id: "5250A916E26A5176"
 			tasks: [{
-				id: "2915E67385B9764C"
+				id: "6D57D5AA048C97D8"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: -30.5d
+			x: 10.0d
+			y: -5.0d
 		}
 		{
 			id: "61A8AF45E14725E4"
 			tasks: [{
-				id: "22861E5C84C5CFCB"
+				id: "22A1F44D353F7DB9"
 				item: { count: 1, id: "mythicmetals:star_platinum" }
 				type: "item"
 			}]
-			x: 27.5d
-			y: -32.0d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			id: "646B24C623F931E7"
 			tasks: [{
-				id: "4DC4C981D0CE0F8F"
+				id: "72E959B1FEA6B9BC"
 				item: { count: 1, id: "mythicmetals:carmot_ingot" }
 				type: "item"
 			}]
-			x: 29.0d
-			y: -33.5d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			id: "21630170436FEDA7"
 			tasks: [{
-				id: "34EA995B71B16C7C"
+				id: "323BC8D1538B3958"
 				item: { count: 1, id: "mythicmetals:hallowed_ingot" }
 				type: "item"
 			}]
-			x: 30.5d
-			y: -35.0d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			id: "4AEEDF4B559FAC90"
 			tasks: [{
-				id: "75E1BC03B23EA751"
+				id: "7ADA5FB31D006D44"
 				item: { count: 1, id: "mythicmetals:mythril_ingot" }
 				type: "item"
 			}]
-			x: 32.0d
-			y: -36.5d
+			x: 10.0d
+			y: -9.0d
 		}
 		{
 			id: "34F3CB21F5464855"
+			size: 1.5d
 			tasks: [{
-				id: "26D2E4BC1A1DE29D"
+				id: "5C7D5FFB7ABE6351"
 				item: { count: 1, id: "mythicmetals:metallurgium_ingot" }
 				type: "item"
 			}]
-			x: 33.5d
-			y: -38.0d
+			x: 3.5d
+			y: -12.0d
 		}
 		{
 			id: "53C86834BB7E31BD"
+			size: 1.5d
 			tasks: [{
-				id: "28276C9FCA3D56D9"
+				id: "17241C4C848B02DB"
 				item: { count: 1, id: "mythicmetals:celestium_ingot" }
 				type: "item"
 			}]
-			x: 35.0d
-			y: -39.5d
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3E32F1FB251429DD"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "1F9EED478E02A63F"
+			optional: true
+			tasks: [{
+				id: "183AB9527C8F4B7D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5237BDE73FAB2268"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "300723C7548CBCFF"
+			optional: true
+			tasks: [{
+				id: "398676C8D1FE55D3"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03CD0F573F9B83B7"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "072CAE6AA218A91A"
+			optional: true
+			tasks: [{
+				id: "442C34925BFC151E"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1146FE59C532FFB4"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "32D928EAB757CB51"
+			optional: true
+			tasks: [{
+				id: "019B9F51877A9C3C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7551B0F8CF6B54E9"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "23961A6BB722D5E7"
+			optional: true
+			tasks: [{
+				id: "528DD84106F10E28"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["646B24C623F931E7"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "262974034367DDA1"
+			optional: true
+			tasks: [{
+				id: "6A2337B9FFAF91CC"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -7.0d
 		}
 	]
 }

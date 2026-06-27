@@ -1,9 +1,50 @@
 {
-	chapter.152FF23FB363F52B.title: "Equipement"
+	chapter.152FF23FB363F52B.title: "Tier des métaux"
+	chapter.3FBB1C3CEB54A6B5.title: "Iron's Spells"
+	chapter.497A4D690000DA7E.title: "S'équiper"
 	chapter.4AE44F8C209CDAE7.title: "Bienvenue"
+	chapter.6715B2DF8791017F.title: "Ars Nouveau"
 	chapter.7281B11920F2492B.title: "Premiers Pas"
 	chapter.750DFAFA7F917144.title: "Debug"
+	chapter.7F154AB83B8F20A0.title: "Armurerie légendaire"
+	chapter.91CD46FA462963B3.title: "Les bases mécaniques"
+	chapter_group.1A68DCD4EA8C237D.title: "Équipement"
 	chapter_group.22ED8597D59524D3.title: "Journal"
+	chapter_group.3DAC737A57C342F2.title: "Magie"
+	chapter_group.C2E41B56E65E5711.title: "Create"
+	quest.00579D1059CADE9A.quest_desc: ["&9Ars Nouveau&r te laisse &lcréer tes propres sorts&r. Tout part de son guide : le &lTattered Tome&r (livre + lapis). Garde-le, il documente tout le mod."]
+	quest.00579D1059CADE9A.title: "Le Tattered Tome"
+	quest.0276F2405288BA5F.quest_desc: [
+		"&6Apotheosis&r ajoute tout un système de jeu de rôle : raretés, affixes, gemmes, reforge. Son fonctionnement est détaillé dans son guide intégré, le &lChronicle of Shadows&r."
+		""
+		"Valide cette quête pour le &lrecevoir&r, et garde-le à portée de main : c'est ta vraie référence, bien plus complète que ces quêtes."
+		""
+		"Astuce générale : beaucoup de mods ont un guide intégré (souvent un livre &lPatchouli&r), et &lEMI&r te montre la recette de n'importe quel objet."
+	]
+	quest.0276F2405288BA5F.title: "Le Chronicle of Shadows"
+	quest.031284E0A37F6E05.quest_desc: ["L'&lArchevoker&r est un maître de l'&6Évocation&r (vexs, crocs), redoutable en groupe."]
+	quest.031284E0A37F6E05.title: "L'Archevoker"
+	quest.0447925656813F3A.quest_desc: [
+		"Le &lFlimsy Journal&r est le grimoire de départ (2 cuivre + ficelle + 6 papiers), avec 5 slots pour des sorts communs."
+		""
+		"Tu monteras ensuite vers des grimoires de meilleur matériau (fer, or, diamant, netherite) avec plus de slots."
+	]
+	quest.0447925656813F3A.title: "Ton premier grimoire"
+	quest.04EA3ABAD77C2DDD.quest_desc: [
+		"Le &lScroll Forge&r te permet de &lfabriquer tes propres scrolls&r plutôt que de dépendre du loot."
+		""
+		"L'&lencre&r détermine la &lrareté&r (donc le niveau), et le &lfocus&r détermine l'&lécole&r parmi les 10 :"
+		"&cFeu&r, &bGlace&r, &eFoudre&r, &4Sang&r, &5Ender&r, &fHoly&r, &2Nature&r, &6Évocation&r, &8Void&r, &dEldritch&r."
+	]
+	quest.04EA3ABAD77C2DDD.title: "Le Scroll Forge"
+	quest.0584B03A3072F365.quest_desc: ["Le &lMechanical Mixer&r posé sur un &lBasin&r mélange des ingrédients (souvent à chaud). La machine clé pour créer le &6Brass&r."]
+	quest.0584B03A3072F365.title: "Le mixeur & le basin"
+	quest.060B8469CB75509C.quest_desc: ["Le &lPrêtre&r canalise la magie &fHoly&r — un soigneur-combattant tenace."]
+	quest.060B8469CB75509C.title: "Le Prêtre"
+	quest.072CAE6AA218A91A.quest_desc: ["L'équipement en &lPrometheum&r régénère lentement sa &ldurabilité&r tout seul (capacité « Regrowth ») — plus besoin d'enclume pour le réparer."]
+	quest.072CAE6AA218A91A.title: "Prometheum — Auto-réparation"
+	quest.082420A3C4FC02F2.quest_desc: ["Le &lGardien de la Citadelle&r (Ancient Knight) garde la &lCitadel&r — l'un des combats les plus exigeants du mod."]
+	quest.082420A3C4FC02F2.title: "Le Gardien de la Citadelle"
 	quest.0A9EE6530626773F.quest_desc: [
 		"La &lWater Wheel&r est l'une des premières sources de rotation de Create. Lorsqu'elle est placée dans un courrant d'eau, elle se met à tourner et produire une rotation continue."
 		""
@@ -16,13 +57,153 @@
 		"Pour ta première machine, une seule roue suffira pour l'alimenter, mais à terme tu pourras avoir besoin d'en mettre plusieurs bout à bout pour augmenter la capacité de stress de ton réseau."
 	]
 	quest.0A9EE6530626773F.title: "Créer de la rotation"
+	quest.0AC88A746F98319B.quest_desc: ["La &lDominion Wand&r configure et relie tes machines magiques (sources, tourelles...). Un outil indispensable."]
+	quest.0AC88A746F98319B.title: "La Dominion Wand"
+	quest.0DA5FF1064C8CB74.quest_desc: ["Le &lCopper Casing&r est le palier &lfluides&r : pompes, tuyaux et machines à liquides (voir le chapitre Transformation)."]
+	quest.0DA5FF1064C8CB74.title: "Le Copper Casing"
+	quest.0E91F7D33117B419.quest_desc: [
+		"Le &lBrass Casing&r (palier 2) débloque les machines avancées : presses, scies, bras mécaniques... (la suite au chapitre Transformation)."
+		""
+		"Bravo : avec le laiton, tu maîtrises les bases de Create !"
+	]
+	quest.0E91F7D33117B419.title: "Le Brass Casing"
+	quest.1706DB565022ADB0.quest_desc: [
+		"&4Iron's Spells&r est l'autre magie : ici tu ne fabriques pas tes sorts, tu &llances des sorts pré-faits&r, façon RPG."
+		""
+		"La meilleure entrée, c'est le &lloot&r : explore les &lstructures magiques&r pour y trouver des &lScrolls&r (1 scroll = 1 sort). Un scroll se lance une fois directement, ou s'inscrit dans un grimoire."
+	]
+	quest.1706DB565022ADB0.title: "Un premier sort"
+	quest.187F42C2A9488EF6.quest_desc: [
+		"Pour lancer des sorts il faut du &lmana&r. L'&larmure du Wandering Magician&r est une excellente source de mana de début de partie."
+		""
+		"Tes stats magiques (&lSpell Power&r, &lMana&r max, &lCooldown&r) viennent de ton équipement — surveille-les."
+	]
+	quest.187F42C2A9488EF6.title: "Armure du Wandering Magician"
+	quest.18D29C1AA3404D95.quest_desc: [
+		"L'&lImbuement Chamber&r est ta première machine. Alimentée en Source, elle transforme lapis et éclats d'améthyste en &lSource Gems&r — la ressource de craft de base."
+		""
+		"Elle fabrique aussi de nombreux composants magiques."
+	]
+	quest.18D29C1AA3404D95.title: "La Chambre d'Imbuement"
+	quest.1998D745AA2F313E.quest_desc: ["Le &lFlimsy Journal&r est le grimoire de départ (2 cuivre + ficelle + 6 papiers), 5 slots. Tu monteras vers de meilleurs matériaux ensuite."]
+	quest.1998D745AA2F313E.title: "Ton premier grimoire"
+	quest.1F9EED478E02A63F.quest_desc: [
+		"L'armure &lAquarium&r donne des bonus aquatiques (nage, minage et vision sous l'eau, oxygène) — une version &lplus faible&r de l'armure Tidesinger."
+		""
+		"On forge d'ailleurs le &lTidesinger&r en combinant de l'équipement Aquarium avec du &lcorail&r dans une table de forgeron."
+	]
+	quest.1F9EED478E02A63F.title: "Aquarium — Équipement aquatique"
+	quest.2088E3E6C8029BE6.quest_desc: [
+		"La &lGem Cutting Table&r augmente la &lpureté&r d'une gemme — donc sa puissance."
+		""
+		"L'amélioration coûte de la &lGem Dust&r, des &lmatériaux de rareté&r, et une seconde gemme de même pureté. Plus la gemme est pure, plus c'est cher."
+		""
+		"Le coût exact de chaque amélioration est visible dans &lEMI&r."
+	]
+	quest.2088E3E6C8029BE6.title: "Améliorer les gemmes"
+	quest.23961A6BB722D5E7.quest_desc: [
+		"L'armure &lTidesinger&r est l'équipement de nage ultime. Chaque pièce ajoute un bonus :"
+		"&l- Toutes les pièces :&r vitesse dans l'eau"
+		"&l- Casque :&r minage rapide en immersion + vision sous l'eau"
+		"&l- Plastron et jambières :&r bonus d'oxygène"
+		"&l- Bottes :&r efficacité de déplacement dans l'eau"
+	]
+	quest.23961A6BB722D5E7.title: "Tidesinger — Maître des océans"
+	quest.262974034367DDA1.quest_desc: ["Pas besoin d'enchanter : les &loutils&r Carmot (pioche, hache, pelle, houe) ont la &lFortune&r intégrée, et l'&lépée&r le &lButin&r (Looting)."]
+	quest.262974034367DDA1.title: "Carmot — Fortune et Butin"
+	quest.2A44A5B661C0CACB.quest_desc: ["Le &lRitual Brazier&r lance des &lrituels&r : effets de zone puissants (croissance, météo, téléportation...) via des tablettes."]
+	quest.2A44A5B661C0CACB.title: "Les rituels"
+	quest.2D17CD5DAAF81937.quest_desc: [
+		"Tout dans Create part de la &lrotation&r. La &lWater Wheel&r, dans un courant d'eau, en produit gratuitement et sans carburant."
+		""
+		"Alternatives : la &lmanivelle&r (à la main) ou le &lWindmill&r (voiles)."
+	]
+	quest.2D17CD5DAAF81937.title: "Une source de rotation"
+	quest.2D811518E3A94F6E.quest_desc: ["Lancer des sorts coûte du &lmana&r. L'&larmure du Wandering Magician&r en fournit dès le début. Surveille tes stats : Spell Power, Mana, Cooldown."]
+	quest.2D811518E3A94F6E.title: "Le mana"
+	quest.2E41B63F4CD2E039.quest_desc: ["Le &lArchmage Spell Book&r (Tier 3) : le sommet, avec les glyphes ultimes comme &lBlink&r. Il faut le &lMage's Spell Book&r ET le &lWilden Tribute&r."]
+	quest.2E41B63F4CD2E039.title: "L'Archmage Spell Book"
+	quest.2FAC70A449C03DA2.quest_desc: [
+		"Le cœur du système : une &lgemme&r logée dans un &lemplacement&r (socket) confère un bonus puissant à ton équipement."
+		""
+		"Pour la &lsertir&r, combine l'objet (avec un emplacement libre) et la gemme dans une &ltable de forgeron&r (Smithing Table). Beaucoup d'objets à affixes ont déjà un emplacement selon leur rareté."
+		""
+		"Les gemmes se trouvent dans les coffres et sur les boss. Chacune a une &lpureté&r (de Fêlée à Parfaite) qui détermine sa puissance."
+		""
+		"Une fois la base maîtrisée, tu peux les améliorer, reforger ton stuff et recycler le surplus (quêtes liées)."
+	]
+	quest.2FAC70A449C03DA2.title: "Sertir une gemme"
+	quest.2FD7CE2088159EA2.quest_desc: ["L'&lAndesite Casing&r (andésite + tige) est l'enveloppe de la plupart des premières machines. Le palier qui débloque ton arsenal mécanique."]
+	quest.2FD7CE2088159EA2.title: "L'Andesite Casing"
+	quest.300723C7548CBCFF.quest_desc: [
+		"La &lpioche&r et la &lpelle&r Legendary Banglum creusent par &lexplosion&r (blast mining) — toute une zone d'un coup."
+		""
+		"Les &lautres outils et armes&r infligent à la place un &lrecul naturel (Knockback III)&r."
+	]
+	quest.300723C7548CBCFF.title: "Legendary Banglum — Minage explosif"
+	quest.30D32474C4396DB3.quest_desc: ["Le &lBrass&r (laiton) se fabrique au mixeur en combinant &lcuivre et zinc&r. C'est le métal des machines avancées de Create."]
+	quest.30D32474C4396DB3.title: "Le Brass Ingot"
+	quest.31CE949AFDA8308D.quest_desc: ["La &lClé à molette&r (Wrench) fait pivoter les blocs, démonte les mécanismes et configure les composants. Ton outil indispensable."]
+	quest.31CE949AFDA8308D.title: "La clé à molette"
+	quest.32B42F1D8F628AC6.quest_desc: [
+		"La magie tourne à la &lSource&r, stockée dans des &lSource Jars&r. Produis-en avec un &lSourcelink&r (Agronomic, Volcanic...)."
+		""
+		"&6Ars Creo&r permet même d'en générer via &6Create&r."
+	]
+	quest.32B42F1D8F628AC6.title: "La Source"
+	quest.32BED3CC44C6542F.quest_desc: [
+		"Reforger attribue de &lnouveaux affixes&r au hasard à un objet (même non affixé)."
+		""
+		"Fabrique une &lSimple Reforging Table&r (jusqu'à la rareté Rare ; améliore-la en &lReforging Table&r pour Épique et plus)."
+		""
+		"Ses 3 emplacements : l'objet au &lcentre&r, les &lmatériaux de rareté&r en haut à gauche, les &lSigils of Rebirth&r en bas à droite. Comme une table d'enchantement, 3 choix te sont proposés."
+	]
+	quest.32BED3CC44C6542F.title: "Reforger"
+	quest.32D928EAB757CB51.quest_desc: [
+		"L'&larmure&r Midas Gold accorde un bonus de &lchance (Luck)&r."
+		""
+		"L'&lépée&r, elle, possède le &lMidas Touch&r : les monstres tués ont une chance de lâcher du &lRaw Midas Gold&r."
+	]
+	quest.32D928EAB757CB51.title: "Midas Gold — Chance et Midas Touch"
+	quest.340F68F2CEA4D1B0.quest_desc: ["Le &lPyromancien&r maîtrise le &cFeu&r ; il rôde près des tours de pyromancien. Terrasse-le."]
+	quest.340F68F2CEA4D1B0.title: "Le Pyromancien"
+	quest.38F396FFE4FCEEE6.quest_desc: ["À l'&lInscription Table&r, glisse un &lScroll&r dans ton grimoire pour y &linscrire&r le sort définitivement."]
+	quest.38F396FFE4FCEEE6.title: "Inscrire un sort"
 	quest.3941A4CA2F19B8F1.title: "Invisible"
+	quest.3B61CD5B7D31F86C.quest_desc: [
+		"Au sommet : les meilleurs grimoires comme l'&lAncient Codex&r (netherite), l'armure en &lArcane Cloth&r, et les grimoires de loot uniques (&lNecronomicon&r, Grimoire of Evokation...)."
+		""
+		"&6Iron's Apothic&r relie d'ailleurs Iron's Spells aux affixes d'&6Apotheosis&r."
+	]
+	quest.3B61CD5B7D31F86C.title: "Le sommet"
+	quest.3BD73D114789E961.quest_desc: [
+		"&9Ars Nouveau&r te laisse &lfabriquer tes propres sorts&r en combinant des glyphes. Tout commence par son guide : le &lTattered Tome&r."
+		""
+		"Craft-le avec un &llivre + du lapis&r. Il documente tout le mod — garde-le sous la main, c'est ta vraie référence."
+	]
+	quest.3BD73D114789E961.title: "Le Tattered Tome"
+	quest.3DC53122C0608FDC.quest_desc: [
+		"L'&lInscription Table&r est ta station principale : pose ton grimoire, glisse un &lScroll&r dedans pour y &linscrire&r le sort de façon permanente."
+		""
+		"Tu peux aussi y retirer un sort et gérer quels sorts occupent tes slots."
+	]
+	quest.3DC53122C0608FDC.title: "Inscrire un sort"
+	quest.41BD9F39EB24111A.quest_desc: [
+		"Le &lMage's Spell Book&r (Tier 2) débloque des glyphes plus puissants et plus de slots. Il demande un vrai investissement (diamants, blocs de quartz...)."
+		""
+		"C'est le palier intermédiaire de la progression."
+	]
+	quest.41BD9F39EB24111A.title: "Mage's Spell Book"
+	quest.4305CE2C81D5CFFC.quest_desc: ["L'&lEnchanting Apparatus&r (posé sur un &lArcane Core&r) est la station de craft avancée. La plupart des objets puissants s'y fabriquent."]
+	quest.4305CE2C81D5CFFC.title: "L'Appareil d'Enchantement"
 	quest.4C93A7DF3C518446.quest_desc: [
 		"Le Mechanical Mixer et le Basin permet de mélanger des ingrédients, mais pour fonctionner il aura généralement besoin d'une source de chaleur."
 		""
 		"C'est le rôle du Blazer Burner. Placé sous un basin, il permet de chauffer les recettes qui en ont besoin, comme par exemple le "
 	]
 	quest.4C93A7DF3C518446.title: "Une source de chaleur"
+	quest.4E131493A5926688.quest_desc: ["Le &lBlaze Burner&r est ta source de &lchaleur&r. Capture un blaze pour le remplir : il chauffe les recettes du Basin (et peut être surchauffé)."]
+	quest.4E131493A5926688.title: "Le Blaze Burner"
 	quest.4F317A1DFD568E15.quest_desc: [
 		"Create est un mod permettant de fabriquer des machines visuelles et animées. Au lieu d'avoir juste des bâtiments immobiles, tu peux ajouter des roues qui tournent, des portes géantes qui s'ouvrent, des ascenseurs, des trains, des moulins ou des tapis qui déplacent les objets."
 		""
@@ -34,7 +215,136 @@
 		""
 		"Afin de vous le procurer vous devrez apprendre les bases : faire tourner une roue, transmettre du mouvement, et faire fonctionner une machine simple."
 	]
+	quest.4FE5CF8E729B955D.quest_desc: ["Les &lUpgrade Orbs&r (par école, ou Mana/Cooldown/Protection) boostent ton équipement à l'enclume. Empile-les pour un build redoutable."]
+	quest.4FE5CF8E729B955D.title: "Améliorer son stuff"
+	quest.5237BDE73FAB2268.title: "Legendary Banglum"
+	quest.529EA01B07541D29.quest_desc: [
+		"Le &lNovice Spell Book&r est ton premier grimoire : il te permet de lancer des sorts simples (Break Block, Light...) en y inscrivant des glyphes."
+		""
+		"Plus tard tu passeras au &lMage's&r puis à l'&lArchmage Spell Book&r pour des sorts plus puissants."
+	]
+	quest.529EA01B07541D29.title: "Ton premier grimoire"
+	quest.5468DCD76B63F832.quest_desc: ["Le &lMage's Spell Book&r (Tier 2) débloque des glyphes plus puissants et plus de slots (diamants, blocs de quartz)."]
+	quest.5468DCD76B63F832.title: "Le Mage's Spell Book"
+	quest.552440C335D1DA51.quest_desc: [
+		"Le &lArchmage Spell Book&r (Tier 3) est le sommet : il débloque les glyphes ultimes comme &lBlink&r (téléportation)."
+		""
+		"Mais il se mérite : il faut le &lWilden Tribute&r, obtenu en battant le boss &lWilden Chimera&r, plus des matériaux rares (Totems, Ender Pearls)."
+	]
+	quest.552440C335D1DA51.title: "L'Archmage"
+	quest.55A99D7A5CF561C5.quest_desc: ["Le &lNécromancien&r relève les morts (magie du &4Sang&r). Coupe la source avant d'être submergé."]
+	quest.55A99D7A5CF561C5.title: "Le Nécromancien"
+	quest.55DAE8F66EC5A280.quest_desc: [
+		"L'&lAndesite Alloy&r est le matériau de base de tout &9Create&r — tu en fabriqueras des tonnes (andésite + fer ou zinc)."
+		""
+		"Astuce : maintiens &lW&r sur un objet Create pour ouvrir son &lPonder&r, le guide animé intégré du mod."
+	]
+	quest.55DAE8F66EC5A280.title: "L'Andesite Alloy"
 	quest.563A55528465391E.quest_desc: ["Bienvenue dans Breizh Craft Saison 2, une aventure communautaire créé par Breizh Esport."]
+	quest.5684071820B17CC2.quest_desc: ["Ta première machine : alimentée en Source, elle transforme lapis et améthyste en &lSource Gems&r."]
+	quest.5684071820B17CC2.title: "La Chambre d'Imbuement"
+	quest.58B3023890C86298.quest_desc: ["&4Iron's Spells&r : tu &llances des sorts pré-faits&r, façon RPG. La meilleure entrée = le &lloot&r des structures magiques, où tombent des &lScrolls&r (1 = 1 sort)."]
+	quest.58B3023890C86298.title: "Un premier sort"
+	quest.5A6B1AB0C2306E5B.quest_desc: [
+		"La &lSalvaging Table&r décompose les équipements à affixes en &lmatériaux de rareté&r."
+		""
+		"Ces matériaux sont la ressource clé pour &lreforger&r et &laméliorer tes gemmes&r — recycle ton butin en trop plutôt que de le jeter !"
+		""
+		"Chaque rareté donne un matériau différent, de plus en plus précieux."
+	]
+	quest.5A6B1AB0C2306E5B.title: "Recycler les objets"
+	quest.5B0973CFDB9D795E.quest_desc: ["L'&lAncient Battleground&r est une structure majeure, gardée par de puissants mages. Explore-la pour du loot rare."]
+	quest.5B0973CFDB9D795E.title: "Le champ de bataille ancien"
+	quest.5CA93C581402721D.quest_desc: ["Les &lWilden&r hantent les forêts. Chasse les Hunters pour récupérer leurs reliques — et t'entraîner avant le boss."]
+	quest.5CA93C581402721D.title: "Chasser les Wilden"
+	quest.5D2FA96CA1B675D5.quest_desc: ["Le &lWilden Tribute&r tombe du Chimera : c'est la clé du grimoire ultime."]
+	quest.5D2FA96CA1B675D5.title: "Le Wilden Tribute"
+	quest.5D7D0A8A7275D12B.quest_desc: [
+		"La &lvitesse&r compte autant que le stress. Les &lengrenages&r la transmettent et la modifient (grand vers petit = plus rapide)."
+		""
+		"Le &lRotation Speed Controller&r impose une vitesse précise."
+	]
+	quest.5D7D0A8A7275D12B.title: "Vitesse & engrenages"
+	quest.5EEBE145FBCA060E.quest_desc: ["Le &lWilden Chimera&r est LE boss d'Ars Nouveau : invoque-le via un rituel près d'un nid, puis terrasse-le — il change de forme et de résistances !"]
+	quest.5EEBE145FBCA060E.title: "Le Wilden Chimera"
+	quest.6183A112F841DE12.quest_desc: [
+		"L'&lArcane Anvil&r est la station ultime. Avec des &lUpgrade Orbs&r (par école, ou Mana/Cooldown/Protection), tu améliores ton équipement."
+		""
+		"Elle sert aussi à monter tes scrolls en niveau ; les &lRunestones&r débloquent ce haut de gamme."
+	]
+	quest.6183A112F841DE12.title: "L'Enclume Arcanique"
+	quest.642B88D198B5BDA5.quest_desc: [
+		"Un sort = des &lglyphes&r (forme + effets + augments). Apprends-les à la &lScribe's Table&r avec du &lSpell Parchment&r."
+		""
+		"&6Ars Elemental&r en ajoute des élémentaires (air, terre, feu, eau)."
+	]
+	quest.642B88D198B5BDA5.title: "Apprendre des glyphes"
+	quest.64A0F68AF6E307FA.quest_desc: [
+		"La &lAlloy Forge&r (mod &6Alloy Forgery&r) est un &lmultibloc&r en briques qui fond les minerais et fabrique des &lalliages&r — indispensable pour beaucoup de métaux de &6MythicMetals&r."
+		""
+		"&lConstruction (setup minimal) :&r"
+		"1. Fabrique un &lBrick Forge Controller&r."
+		"2. L'étage du bas : un carré plein de &l3x3&r en briques."
+		"3. Les deux étages au-dessus : le même carré 3x3 mais &lsans les coins&r ; le contrôleur prend la place d'un bloc."
+		""
+		"Le schéma exact est sur le &lwiki d'Alloy Forgery&r — réfère-t'y en cas de doute."
+		""
+		"Une fois assemblée, clic droit sur le contrôleur pour l'ouvrir. Astuce : de meilleurs blocs (deepslate, blackstone...) montent la forge en &ltier&r et débloquent des alliages avancés."
+	]
+	quest.64A0F68AF6E307FA.title: "Bâtir la forge à alliage"
+	quest.6524083C1E49F599.quest_desc: ["L'&lArcane Anvil&r est la station ultime : améliore ton stuff avec des &lUpgrade Orbs&r et monte tes scrolls en niveau."]
+	quest.6524083C1E49F599.title: "L'enclume arcanique"
+	quest.668719FB80DA5C0B.quest_desc: [
+		"L'&lEnchanting Apparatus&r est la station de craft avancée. Pose-le sur un &lArcane Core&r (qui lui fournit la Source), entoure-le d'&lArcane Pedestals&r portant les ingrédients, et lance la transmutation."
+		""
+		"La plupart des objets puissants du mod se craftent ici."
+	]
+	quest.668719FB80DA5C0B.title: "L'Appareil d'Enchantement"
+	quest.66D4DD64F75233E2.quest_desc: [
+		"Chaque machine consomme du &lstress&r, chaque source en fournit. Dépasse la capacité et tout se bloque."
+		""
+		"Le &lStressometer&r affiche la charge de ton réseau — surveille-le !"
+	]
+	quest.66D4DD64F75233E2.title: "Comprendre le Stress"
+	quest.69D019E5FF4DBDD8.quest_desc: [
+		"Tous les objets n'ont pas d'emplacement de gemme d'origine. Pour en ajouter un, combine l'objet et un &lSigil of Socketing&r dans une &ltable de forgeron&r (Smithing Table)."
+		""
+		"Pratique pour sertir une gemme sur un équipement qui n'en avait pas. (Pour retirer une gemme : un Sigil of Withdrawal, de la même façon.)"
+	]
+	quest.69D019E5FF4DBDD8.title: "Ajouter un emplacement"
+	quest.6AEB35C29204A1B5.quest_desc: [
+		"La magie d'Ars Nouveau tourne à la &lSource&r, son énergie, stockée dans des &lSource Jars&r."
+		""
+		"Pour en produire, place un &lSourcelink&r : l'&lAgronomic&r (plantes) ou le &lVolcanic&r (brûle des objets), selon ton setup."
+		""
+		"&6Ars Creo&r permet même de générer de la Source via &6Create&r."
+	]
+	quest.6AEB35C29204A1B5.title: "La Source"
+	quest.6D8A36D6BCE7D181.quest_desc: ["Le &lCryomancien&r manie la &bGlace&r — un adversaire glissant à abattre."]
+	quest.6D8A36D6BCE7D181.title: "Le Cryomancien"
+	quest.6D9DD145F7ECA315.quest_desc: ["Le &lDead King&r est un boss : un roi mort-vivant aux sorts dévastateurs. Sa dépouille recèle de grands trésors."]
+	quest.6D9DD145F7ECA315.title: "Le Dead King"
+	quest.7041B59C5AA629C1.quest_desc: [
+		"Un sort = des &lglyphes&r : une &lforme&r (projectile, toucher, self...), des &leffets&r, et des &laugments&r qui les modifient."
+		""
+		"Avec la &lScribe's Table&r et du &lSpell Parchment&r, tu apprends de nouveaux glyphes puis tu assembles tes sorts."
+		""
+		"&6Ars Elemental&r ajoute en plus des glyphes élémentaires (air, terre, feu, eau)."
+	]
+	quest.7041B59C5AA629C1.title: "Apprendre des glyphes"
+	quest.712157F96C0AFA31.quest_desc: ["Le &lScroll Forge&r fabrique tes propres scrolls : l'&lencre&r donne la rareté, le &lfocus&r donne l'école."]
+	quest.712157F96C0AFA31.title: "Forger ses sorts"
+	quest.72CF97DDE91D3D72.quest_desc: ["Les reliques de Wilden (Wing, Horn, Spike) alimentent de nombreux crafts magiques avancés."]
+	quest.72CF97DDE91D3D72.title: "Reliques de Wilden"
+	quest.7551B0F8CF6B54E9.title: "Tidesinger"
+	quest.760B182E57813598.quest_desc: ["Le &lNovice Spell Book&r est ton premier grimoire : lance des sorts simples (Break, Light) en y inscrivant des glyphes."]
+	quest.760B182E57813598.title: "Premier grimoire"
+	quest.78487D04127E68EA.quest_desc: [
+		"L'&lAncient Codex&r (netherite) est le meilleur grimoire de base. Avec l'Arcane Cloth et les books de loot (&lNecronomicon&r...), tu es au sommet."
+		""
+		"&6Iron's Apothic&r relie ces sorts aux affixes d'&6Apotheosis&r."
+	]
+	quest.78487D04127E68EA.title: "Grimoire ultime"
 	quest.7A2C0AFC1225A3DF.quest_desc: [
 		"Dans Create, les machines ne fonctionnent pas avec de l'énergie classique, mais avec une &lforce de rotation&r mécanique."
 		""
@@ -61,6 +371,14 @@
 		"Attention cependant, augmenter la vitesse de rotation augmente le stress du système. Si le système est trop stressé il se bloquera et vous devrez augmenter la production d'énergie de rotation."
 	]
 	quest.7A4E4C18B8D98D56.title: "Première Machine"
+	quest.7FDA84983FE3B8F2.quest_desc: [
+		"Le &lbronze&r est l'alliage parfait pour débuter. Dans la forge à alliage, combine &l2 copper (cuivre) + 1 tin (étain)&r — sans oublier le &lcarburant&r dans l'emplacement dédié — pour obtenir 3 lingots."
+		""
+		"Ce lingot est un début, mais il t'ouvre déjà la porte à tout un &larsenal&r : les &l9 équipements habituels&r (outils + armure), mais aussi &l25 types d'armes inédits&r grâce à &6Simply Swords&r et &6Simply More&r (glaives, faux, lances, katanas, dagues...)."
+		""
+		"Et ce n'est qu'un métal parmi des dizaines : chacun produit le même arsenal, avec ses propres statistiques."
+	]
+	quest.7FDA84983FE3B8F2.title: "Premier alliage : le bronze"
 	task.095D5AC063087278.title: "Create"
 	task.13A24AAD1E28FF73.title: "Bienvenue"
 	task.24F5E9EF8FC5520D.title: "Mod4"

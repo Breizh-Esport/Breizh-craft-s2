@@ -1,0 +1,795 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "armurerie"
+	group: "1A68DCD4EA8C237D"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "7F154AB83B8F20A0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4FECDF7475729FF0"
+			optional: true
+			tasks: [{
+				id: "563C00FB21B24899"
+				item: { count: 1, id: "simplyswords:watcher_claymore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.2d
+		}
+		{
+			id: "038CD210B2F289C0"
+			optional: true
+			tasks: [{
+				id: "46EBDAE896DF3613"
+				item: { count: 1, id: "simplyswords:brimstone_claymore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "486A25303DAA9A52"
+			optional: true
+			tasks: [{
+				id: "0DBB61BE98066658"
+				item: { count: 1, id: "simplyswords:storms_edge" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: -4.8d
+		}
+		{
+			id: "4629AF022EC498E9"
+			optional: true
+			tasks: [{
+				id: "27F8B84C7115E15C"
+				item: { count: 1, id: "simplyswords:stormbringer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.8d
+		}
+		{
+			id: "1683DBA37B727D43"
+			optional: true
+			tasks: [{
+				id: "2EB1A6CC6B56D8AA"
+				item: { count: 1, id: "simplyswords:bramblethorn" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: -4.8d
+		}
+		{
+			id: "31095A09295EA30B"
+			optional: true
+			tasks: [{
+				id: "662400E4B5289E90"
+				item: { count: 1, id: "simplyswords:watching_warglaive" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.6d
+		}
+		{
+			id: "6304DC65C5D9D9A4"
+			optional: true
+			tasks: [{
+				id: "209D18F43D6E39C5"
+				item: { count: 1, id: "simplyswords:toxic_longsword" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: -3.6d
+		}
+		{
+			id: "41539CA901CBB74F"
+			optional: true
+			tasks: [{
+				id: "3C65D50497496D52"
+				item: { count: 1, id: "simplyswords:emberblade" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: -3.6d
+		}
+		{
+			id: "314E51038930D848"
+			optional: true
+			tasks: [{
+				id: "6D3056ECD02CA7CB"
+				item: { count: 1, id: "simplyswords:frostfall" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: -3.6d
+		}
+		{
+			id: "1C5D74F34DBDBFB8"
+			optional: true
+			tasks: [{
+				id: "663AC19D9F5F9DBF"
+				item: { count: 1, id: "simplyswords:soulpyre" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.6d
+		}
+		{
+			id: "6E5BDA1CA5A1E32E"
+			optional: true
+			tasks: [{
+				id: "233E76D1519CB5C2"
+				item: { count: 1, id: "simplyswords:molten_edge" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: -3.6d
+		}
+		{
+			id: "2A70FE51D7A4DE7C"
+			optional: true
+			tasks: [{
+				id: "601070A662A56DBA"
+				item: { count: 1, id: "simplyswords:livyatan" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -3.6d
+		}
+		{
+			id: "3A83009F02FCAE99"
+			optional: true
+			tasks: [{
+				id: "2D349E530240C57B"
+				item: { count: 1, id: "simplyswords:icewhisper" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -3.6d
+		}
+		{
+			id: "66B995B121AEAE87"
+			optional: true
+			tasks: [{
+				id: "0FFC8C8543B01B45"
+				item: { count: 1, id: "simplyswords:arcanethyst" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.6d
+		}
+		{
+			id: "3AFCAA5C89B4830C"
+			optional: true
+			tasks: [{
+				id: "30746AB6BA76E063"
+				item: { count: 1, id: "simplyswords:thunderbrand" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: -2.4d
+		}
+		{
+			id: "370191999E3CF8B4"
+			optional: true
+			tasks: [{
+				id: "0F7CF5B40B89B4B9"
+				item: { count: 1, id: "simplyswords:hearthflame" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: -2.4d
+		}
+		{
+			id: "2C4DE0F1D7AC4DE2"
+			optional: true
+			tasks: [{
+				id: "093042470BB2CE08"
+				item: { count: 1, id: "simplyswords:twisted_blade" }
+				type: "item"
+			}]
+			x: -2.4d
+			y: -2.4d
+		}
+		{
+			id: "4F61E29DDF0EDD22"
+			optional: true
+			tasks: [{
+				id: "062A03785BBC40CE"
+				item: { count: 1, id: "simplyswords:soulrender" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: -2.4d
+		}
+		{
+			id: "5137898436C843B3"
+			optional: true
+			tasks: [{
+				id: "1CC4C6EEE54F1F79"
+				item: { count: 1, id: "simplyswords:soulkeeper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.4d
+		}
+		{
+			id: "59F1C550FC5A0D0A"
+			optional: true
+			tasks: [{
+				id: "1F9C407552FD43DB"
+				item: { count: 1, id: "simplyswords:soulstealer" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: -2.4d
+		}
+		{
+			id: "080C5BBC87C6AACB"
+			optional: true
+			tasks: [{
+				id: "5251F3D7BC96C43A"
+				item: { count: 1, id: "simplyswords:mjolnir" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -2.4d
+		}
+		{
+			id: "5C95B54AF80172B6"
+			optional: true
+			tasks: [{
+				id: "53283FBC81D01609"
+				item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -2.4d
+		}
+		{
+			id: "1FFDBFEE0E2D9A9A"
+			optional: true
+			tasks: [{
+				id: "7E09806860A1AA5C"
+				item: { count: 1, id: "simplyswords:shadowsting" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -2.4d
+		}
+		{
+			id: "3FBEE497316D8AA0"
+			optional: true
+			tasks: [{
+				id: "7C4A6ED12C3BBA3B"
+				item: { count: 1, id: "simplyswords:dormant_relic" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: -1.2d
+		}
+		{
+			id: "05F9859A31578BC7"
+			optional: true
+			tasks: [{
+				id: "5CE5AFC5F4C70C48"
+				item: { count: 1, id: "simplyswords:whisperwind" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: -1.2d
+		}
+		{
+			id: "092B8A38CBAA5177"
+			optional: true
+			tasks: [{
+				id: "050F088531F169E3"
+				item: { count: 1, id: "simplyswords:emberlash" }
+				type: "item"
+			}]
+			x: -2.4d
+			y: -1.2d
+		}
+		{
+			id: "4A78F03E789E4CB5"
+			optional: true
+			tasks: [{
+				id: "755AC32D13743D05"
+				item: { count: 1, id: "simplyswords:waxweaver" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: -1.2d
+		}
+		{
+			id: "12193ADB15BD5687"
+			optional: true
+			tasks: [{
+				id: "5AE59309C55991D7"
+				item: { count: 1, id: "simplyswords:hiveheart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.2d
+		}
+		{
+			id: "15CF4CDBE5FC93BE"
+			optional: true
+			tasks: [{
+				id: "28D6AF3152E8824A"
+				item: { count: 1, id: "simplyswords:stars_edge" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: -1.2d
+		}
+		{
+			id: "2DC584DC396F3032"
+			optional: true
+			tasks: [{
+				id: "25B10980EDE67055"
+				item: { count: 1, id: "simplyswords:wickpiercer" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: -1.2d
+		}
+		{
+			id: "114EAD2484F09F8B"
+			optional: true
+			tasks: [{
+				id: "04636FD2944EA47B"
+				item: { count: 1, id: "simplyswords:tempest" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: -1.2d
+		}
+		{
+			id: "693ED4D5A32FDBB9"
+			optional: true
+			tasks: [{
+				id: "0D4298A11144F6DD"
+				item: { count: 1, id: "simplyswords:flamewind" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: -1.2d
+		}
+		{
+			id: "17F7FD9704526133"
+			optional: true
+			tasks: [{
+				id: "55C5120EEA12E917"
+				item: { count: 1, id: "simplyswords:ribboncleaver" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: 0.0d
+		}
+		{
+			id: "32447CDAC2C7DE38"
+			optional: true
+			tasks: [{
+				id: "5A13D0CB92FCA196"
+				item: { count: 1, id: "simplyswords:caelestis" }
+				type: "item"
+			}]
+			x: -2.4d
+			y: 0.0d
+		}
+		{
+			id: "7851F0470F7B7B36"
+			optional: true
+			tasks: [{
+				id: "3333D45379699002"
+				item: { count: 1, id: "simplyswords:wraithfang" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: 0.0d
+		}
+		{
+			id: "3F39DABCD50027CB"
+			optional: true
+			tasks: [{
+				id: "10D5C2C7742D455E"
+				item: { count: 1, id: "simplyswords:chompolotl" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "095B72206CC6BD4D"
+			optional: true
+			tasks: [{
+				id: "54D376834F9F39B7"
+				item: { count: 1, id: "simplymore:ascended_idol" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 0.0d
+		}
+		{
+			id: "079C898BE24D3CC0"
+			optional: true
+			tasks: [{
+				id: "1FA2D25F350ACA68"
+				item: { count: 1, id: "simplymore:black_pearl" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			id: "2635FFC2473A0D52"
+			optional: true
+			tasks: [{
+				id: "381F4C9A508AFC06"
+				item: { count: 1, id: "simplymore:blade_of_the_grotesque" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 0.0d
+		}
+		{
+			id: "51B3BD29156D2A0E"
+			optional: true
+			tasks: [{
+				id: "35D40CC532528EA5"
+				item: { count: 1, id: "simplymore:boas_fang" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: 1.2d
+		}
+		{
+			id: "378832209AA3A39C"
+			optional: true
+			tasks: [{
+				id: "529C6B504D01400E"
+				item: { count: 1, id: "simplymore:brassturn" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: 1.2d
+		}
+		{
+			id: "47F8A6F9E155CC95"
+			optional: true
+			tasks: [{
+				id: "753AFE0FC7404209"
+				item: { count: 1, id: "simplymore:cindergorge" }
+				type: "item"
+			}]
+			x: -2.4d
+			y: 1.2d
+		}
+		{
+			id: "6DBF168D04672C17"
+			optional: true
+			tasks: [{
+				id: "41B012824CC21279"
+				item: { count: 1, id: "simplymore:culterex" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: 1.2d
+		}
+		{
+			id: "0CFBE7B6833507A5"
+			optional: true
+			tasks: [{
+				id: "2345EAF6EE1A20E2"
+				item: { count: 1, id: "simplymore:darksent" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.2d
+		}
+		{
+			id: "4D871D038AB7CEEE"
+			optional: true
+			tasks: [{
+				id: "678DB1FDFB8DA2BA"
+				item: { count: 1, id: "simplymore:deaths_eyrie" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 1.2d
+		}
+		{
+			id: "43DD553241791F58"
+			optional: true
+			tasks: [{
+				id: "35E43110E20B43D2"
+				item: { count: 1, id: "simplymore:earthshatter" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 1.2d
+		}
+		{
+			id: "06D6F9FEEA253754"
+			optional: true
+			tasks: [{
+				id: "0A0D70C4B0FA73FA"
+				item: { count: 1, id: "simplymore:exedrill" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 1.2d
+		}
+		{
+			id: "2EBB10F65BF3A531"
+			optional: true
+			tasks: [{
+				id: "71BEF5D5F85375E1"
+				item: { count: 1, id: "simplymore:glimmerstep" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 1.2d
+		}
+		{
+			id: "087052D0D0E4F31F"
+			optional: true
+			tasks: [{
+				id: "27246AB452071B18"
+				item: { count: 1, id: "simplymore:grandfrost" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: 2.4d
+		}
+		{
+			id: "2CD034598C55BF2D"
+			optional: true
+			tasks: [{
+				id: "7DD2BCF6DC631CBB"
+				item: { count: 1, id: "simplymore:great_slither" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: 2.4d
+		}
+		{
+			id: "2ADB895E4958AC4C"
+			optional: true
+			tasks: [{
+				id: "5FF18060BC74474F"
+				item: { count: 1, id: "simplymore:holylight" }
+				type: "item"
+			}]
+			x: -2.4d
+			y: 2.4d
+		}
+		{
+			id: "3615C8AE078903E2"
+			optional: true
+			tasks: [{
+				id: "0288F1E75EA4A237"
+				item: { count: 1, id: "simplymore:jester_penetrate" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: 2.4d
+		}
+		{
+			id: "3FCA4013E9A6E415"
+			optional: true
+			tasks: [{
+				id: "72F2F66F6D1B2CA4"
+				item: { count: 1, id: "simplymore:lustrous_moxie" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			id: "00909839D74E49D7"
+			optional: true
+			tasks: [{
+				id: "00DBBBADE89D892C"
+				item: { count: 1, id: "simplymore:matterbane" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 2.4d
+		}
+		{
+			id: "01732984C9D3FEDF"
+			optional: true
+			tasks: [{
+				id: "7FD0658617051775"
+				item: { count: 1, id: "simplymore:mimicry" }
+				type: "item"
+			}]
+			x: 2.4d
+			y: 2.4d
+		}
+		{
+			id: "0A22F44074F624E0"
+			optional: true
+			tasks: [{
+				id: "3B5F16ED61AFE2E7"
+				item: { count: 1, id: "simplymore:molten_flare" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 2.4d
+		}
+		{
+			id: "7D8097B1FDED4FD9"
+			optional: true
+			tasks: [{
+				id: "45E18631850632B8"
+				item: { count: 1, id: "simplymore:myrmedge" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 2.4d
+		}
+		{
+			id: "135DD6C3F45F27AD"
+			optional: true
+			tasks: [{
+				id: "0D8C28175DACB3AB"
+				item: { count: 1, id: "simplymore:perforiscus" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.6d
+		}
+		{
+			id: "20E4A8633E1FCDB6"
+			optional: true
+			tasks: [{
+				id: "7AA340487B8B9B2B"
+				item: { count: 1, id: "simplymore:revvengine" }
+				type: "item"
+			}]
+			x: -4.8d
+			y: 3.6d
+		}
+		{
+			id: "60BE34761D833325"
+			optional: true
+			tasks: [{
+				id: "3900FC6B46006CE4"
+				item: { count: 1, id: "simplymore:ruyi_jingu_bang" }
+				type: "item"
+			}]
+			x: -3.6d
+			y: 3.6d
+		}
+		{
+			id: "22AA6F235C3FA3EA"
+			optional: true
+			tasks: [{
+				id: "18BE5B8BA632EA74"
+				item: { count: 1, id: "simplymore:serpentine_valour" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: 3.6d
+		}
+		{
+			id: "681A41CD870A89FD"
+			optional: true
+			tasks: [{
+				id: "0CF3F4C4637D194E"
+				item: { count: 1, id: "simplymore:smouldering_ruin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.6d
+		}
+		{
+			id: "3323E7C39F162AC4"
+			optional: true
+			tasks: [{
+				id: "3AC2A5A67AAA403E"
+				item: { count: 1, id: "simplymore:soul_foreseer" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 3.6d
+		}
+		{
+			id: "77C6D33442011003"
+			optional: true
+			tasks: [{
+				id: "557F0F3392C7E166"
+				item: { count: 1, id: "simplymore:stasis" }
+				type: "item"
+			}]
+			x: 3.6d
+			y: 3.6d
+		}
+		{
+			id: "47AF92BBFF5E09A7"
+			optional: true
+			tasks: [{
+				id: "4DBCCAB5DFD455E4"
+				item: { count: 1, id: "simplymore:tarnished_idol" }
+				type: "item"
+			}]
+			x: 4.8d
+			y: 3.6d
+		}
+		{
+			id: "741EE1930487E527"
+			optional: true
+			tasks: [{
+				id: "2BBD9FD736525F1D"
+				item: { count: 1, id: "simplymore:the_blood_harvester" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.6d
+		}
+		{
+			id: "48A651DEE8530A14"
+			optional: true
+			tasks: [{
+				id: "04D25501BF72A2B9"
+				item: { count: 1, id: "simplymore:the_pan" }
+				type: "item"
+			}]
+			x: -1.2d
+			y: 4.8d
+		}
+		{
+			id: "59617DD2737AD794"
+			optional: true
+			tasks: [{
+				id: "7D7610D5E03CD50E"
+				item: { count: 1, id: "simplymore:the_vessel_breach" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			id: "3A1F0A889E185DA1"
+			optional: true
+			tasks: [{
+				id: "43ECE0CB6319AAFA"
+				item: { count: 1, id: "simplymore:tidebreaker" }
+				type: "item"
+			}]
+			x: 1.2d
+			y: 4.8d
+		}
+		{
+			id: "5D69A5D9E96AB019"
+			optional: true
+			tasks: [{
+				id: "0FCE37DF343940A7"
+				item: { count: 1, id: "simplymore:timekeeper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "64DA7A4262CB40C1"
+			optional: true
+			tasks: [{
+				id: "24A53A206AE11ED6"
+				item: { count: 1, id: "simplymore:vipers_call" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.2d
+		}
+	]
+}
