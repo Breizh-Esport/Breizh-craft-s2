@@ -4086,7 +4086,7 @@
             ]
         },
         {
-            "pakku_id": "npU9IQ919GyLOwfF",
+            "pakku_id": "7POd4BIsvbrgY8V6",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -11786,147 +11786,6 @@
             ]
         },
         {
-            "pakku_id": "2b66uBZ3VIpr7vU8",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "idas",
-                "modrinth": "idas"
-            },
-            "name": {
-                "curseforge": "Integrated Dungeons and Structures",
-                "modrinth": " Integrated Dungeons and Structures"
-            },
-            "id": {
-                "curseforge": "605375",
-                "modrinth": "Z8OZShAU"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "idas-1.13.7+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/Z8OZShAU/versions/bpMwZSKf/idas-1.13.7+1.21.1-neoforge.jar",
-                    "id": "bpMwZSKf",
-                    "parent_id": "Z8OZShAU",
-                    "hashes": {
-                        "sha512": "916b60a5843e38316f12f5f1c6a4e737364f12ad2afb642e0f43f4e98135858f82af87ce0f262cdbc97dcbc1e0a31822a54af73278747f417fc33ae35cfed18c",
-                        "sha1": "154f275823f5f949ed492ac6ce078a80fc3c759a"
-                    },
-                    "required_dependencies": [
-                        "LNytGWDc",
-                        "V6fKbpBN",
-                        "qnQsVE2z",
-                        "fFEIiSDQ"
-                    ],
-                    "size": 14485475,
-                    "date_published": "2026-06-11T16:09:06.648862Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "idas-1.13.7+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8232/359/idas-1.13.7+1.21.1-neoforge.jar",
-                    "id": "8232359",
-                    "parent_id": "605375",
-                    "hashes": {
-                        "sha1": "154f275823f5f949ed492ac6ce078a80fc3c759a",
-                        "md5": "e214a6552af3845994da96b3f79c516d"
-                    },
-                    "required_dependencies": [
-                        "243121",
-                        "412082",
-                        "328085",
-                        "817709"
-                    ],
-                    "size": 14485475,
-                    "date_published": "2026-06-11T16:07:35.040Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "AIOxFrykBpNIq8Pm",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "integrated-stronghold",
-                "modrinth": "integrated-stronghold"
-            },
-            "name": {
-                "curseforge": "Integrated Stronghold",
-                "modrinth": "Integrated Stronghold"
-            },
-            "id": {
-                "curseforge": "815548",
-                "modrinth": "KUJdfPQz"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "integrated_stronghold-1.1.4+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/KUJdfPQz/versions/GkHH2Wqj/integrated_stronghold-1.1.4+1.21.1-neoforge.jar",
-                    "id": "GkHH2Wqj",
-                    "parent_id": "KUJdfPQz",
-                    "hashes": {
-                        "sha512": "e6101af3cf1eb58232ad30a9f9b936ebe728cbef681653b298edad696952d008e9a8ade03a23a9b6dab3d15e8903430aebca1b0eafa7c13d9da060e1952c6e64",
-                        "sha1": "9c425610a04f04d81ce9491e886c6df3fc4feac8"
-                    },
-                    "required_dependencies": [
-                        "LNytGWDc",
-                        "V6fKbpBN",
-                        "fFEIiSDQ",
-                        "qnQsVE2z"
-                    ],
-                    "size": 5125265,
-                    "date_published": "2026-03-25T01:57:14.843057Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "integrated_stronghold-1.1.4+1.21.1-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7802/495/integrated_stronghold-1.1.4+1.21.1-neoforge.jar",
-                    "id": "7802495",
-                    "parent_id": "815548",
-                    "hashes": {
-                        "sha1": "9c425610a04f04d81ce9491e886c6df3fc4feac8",
-                        "md5": "27211eb209e71e310c93e35bd41a26c7"
-                    },
-                    "required_dependencies": [
-                        "817709",
-                        "412082",
-                        "243121"
-                    ],
-                    "size": 5125265,
-                    "date_published": "2026-03-24T01:09:50.540Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "zfskQpTqVdK1qBBW",
             "type": "MOD",
             "slug": {
@@ -13553,16 +13412,19 @@
             ]
         },
         {
-            "pakku_id": "RF0deXhxyboVuxiG",
+            "pakku_id": "9ydIXuRwddzlTCrG",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
+                "curseforge": "lithostitched",
                 "modrinth": "lithostitched"
             },
             "name": {
+                "curseforge": "Lithostitched",
                 "modrinth": "Lithostitched"
             },
             "id": {
+                "curseforge": "936015",
                 "modrinth": "XaDC71GB"
             },
             "files": [
@@ -13586,6 +13448,27 @@
                     "required_dependencies": [],
                     "size": 852066,
                     "date_published": "2026-06-24T17:43:45.472309Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "lithostitched-1.7.11-neoforge-21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8313/719/lithostitched-1.7.11-neoforge-21.1.jar",
+                    "id": "8313719",
+                    "parent_id": "936015",
+                    "hashes": {
+                        "sha1": "cfadbe2c05c171aa081ea80db34f9bf2ac2f9adf",
+                        "md5": "321074d010331098da439f503ebe611a"
+                    },
+                    "required_dependencies": [],
+                    "size": 852066,
+                    "date_published": "2026-06-24T17:43:33.263Z"
                 }
             ]
         },
@@ -20746,16 +20629,19 @@
             ]
         },
         {
-            "pakku_id": "FMKvDphTgbCBQj6a",
+            "pakku_id": "J3cahhzUn15dZUqe",
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
+                "curseforge": "sodium",
                 "modrinth": "sodium"
             },
             "name": {
+                "curseforge": "Sodium",
                 "modrinth": "Sodium"
             },
             "id": {
+                "curseforge": "394468",
                 "modrinth": "AANobbMI"
             },
             "files": [
@@ -20779,6 +20665,27 @@
                     "required_dependencies": [],
                     "size": 1291421,
                     "date_published": "2026-06-24T15:49:56.642852Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8313/68/sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar",
+                    "id": "8313068",
+                    "parent_id": "394468",
+                    "hashes": {
+                        "sha1": "2b4da8def3970f56e021a1f5109517cd83a4fe84",
+                        "md5": "dcdf9f95e9874c1a18e10741bc482b56"
+                    },
+                    "required_dependencies": [],
+                    "size": 1291421,
+                    "date_published": "2026-06-24T15:49:52.260Z"
                 }
             ]
         },
@@ -21076,6 +20983,42 @@
                     ],
                     "size": 8732437,
                     "date_published": "2025-12-12T18:32:50.433Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Rlvdy2jgVenu0GgU",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spice-of-life-carrot-edition"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Carrot Edition"
+            },
+            "id": {
+                "curseforge": "277616"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "solcarrot-1.21.1-1.16.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7374/98/solcarrot-1.21.1-1.16.6.jar",
+                    "id": "7374098",
+                    "parent_id": "277616",
+                    "hashes": {
+                        "sha1": "32e9bbe18ae1f2f7f672ce08af51ec1928599182",
+                        "md5": "df768d5560ccfb443a33fc6f73671e3b"
+                    },
+                    "required_dependencies": [],
+                    "size": 105355,
+                    "date_published": "2025-12-24T19:03:34.337Z"
                 }
             ]
         },
