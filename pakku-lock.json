@@ -4378,6 +4378,44 @@
             ]
         },
         {
+            "pakku_id": "3jzMZHQLbGjrlNDU",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "connector-server-mixin-fix"
+            },
+            "name": {
+                "curseforge": "Connector Server Mixin Fix"
+            },
+            "id": {
+                "curseforge": "1574643"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "connector-env-strip-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8244/237/connector-env-strip-1.0.0.jar",
+                    "id": "8244237",
+                    "parent_id": "1574643",
+                    "hashes": {
+                        "sha1": "5a2940586fbb028411c471b88a5865a233f8edd4",
+                        "md5": "5435dfefc6a1867b0645224d2a152f21"
+                    },
+                    "required_dependencies": [
+                        "890127"
+                    ],
+                    "size": 8266,
+                    "date_published": "2026-06-13T21:30:46.843Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "eCPr2lIcTlfqYDwj",
             "type": "MOD",
             "slug": {

@@ -341,6 +341,14 @@
     "curseForgeHash": 290890848,
     "modrinthHash": "dd7920e114fbd066986ea1028aa201a5e0742875"
   },
+  "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.112.jar": {
+    "jarName": "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.112.jar",
+    "modId": "c2me",
+    "name": "Concurrent Chunk Management Engine",
+    "version": "0.4.0-alpha.0.112+1.21.1",
+    "curseForgeHash": 2564519765,
+    "modrinthHash": "f557e9db8db10ee4013572a1a14e2b07b08a0562"
+  },
   "caelus-neoforge-7.0.1+1.21.1.jar": {
     "jarName": "caelus-neoforge-7.0.1+1.21.1.jar",
     "modId": "caelus",
