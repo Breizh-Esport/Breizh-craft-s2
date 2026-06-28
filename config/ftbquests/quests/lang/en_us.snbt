@@ -1,17 +1,24 @@
 {
+	chapter.056B57EC805C8EFC.title: "Aviation"
+	chapter.1024A31ABA37AA7F.title: "Transformation"
 	chapter.152FF23FB363F52B.title: "Tier des métaux"
+	chapter.24CCB22AC746E660.title: "Bien demarrer"
+	chapter.274510EAABC5BA8E.title: "Artillerie"
 	chapter.3FBB1C3CEB54A6B5.title: "Iron's Spells"
+	chapter.450EA622A9DE32B9.title: "Bienvenue"
 	chapter.497A4D690000DA7E.title: "S'équiper"
 	chapter.4AE44F8C209CDAE7.title: "Bienvenue"
+	chapter.572E6D9D702BF334.title: "Énergie et déplacement"
 	chapter.6715B2DF8791017F.title: "Ars Nouveau"
 	chapter.7281B11920F2492B.title: "Premiers Pas"
+	chapter.747DA362529D2832.title: "Les bases mécaniques"
 	chapter.750DFAFA7F917144.title: "Debug"
 	chapter.7F154AB83B8F20A0.title: "Armurerie légendaire"
-	chapter.91CD46FA462963B3.title: "Les bases mécaniques"
 	chapter_group.1A68DCD4EA8C237D.title: "Équipement"
+	chapter_group.22B19A8DE31050A8.title: "Create"
 	chapter_group.22ED8597D59524D3.title: "Journal"
 	chapter_group.3DAC737A57C342F2.title: "Magie"
-	chapter_group.C2E41B56E65E5711.title: "Create"
+	chapter_group.B2B0F17AE071D805.title: "Accueil"
 	quest.00579D1059CADE9A.quest_desc: ["&9Ars Nouveau&r te laisse &lcréer tes propres sorts&r. Tout part de son guide : le &lTattered Tome&r (livre + lapis). Garde-le, il documente tout le mod."]
 	quest.00579D1059CADE9A.title: "Le Tattered Tome"
 	quest.0276F2405288BA5F.quest_desc: [
@@ -24,6 +31,10 @@
 	quest.0276F2405288BA5F.title: "Le Chronicle of Shadows"
 	quest.031284E0A37F6E05.quest_desc: ["L'&lArchevoker&r est un maître de l'&6Évocation&r (vexs, crocs), redoutable en groupe."]
 	quest.031284E0A37F6E05.title: "L'Archevoker"
+	quest.034F850C849C99C5.quest_desc: ["Le &lMechanical Piston&r (avec des &lPiston Extension Poles&r) déplace une structure en &lligne droite&r — portes coulissantes, ponts-levis, mineurs mobiles..."]
+	quest.034F850C849C99C5.title: "Le Mechanical Piston"
+	quest.03E7FEEE972211F2.quest_desc: ["Empile plusieurs &ltubes&r aleses pour former le canon. Plus il est long, plus l'obus part vite et loin."]
+	quest.03E7FEEE972211F2.title: "Le premier tube"
 	quest.0447925656813F3A.quest_desc: [
 		"Le &lFlimsy Journal&r est le grimoire de départ (2 cuivre + ficelle + 6 papiers), avec 5 slots pour des sorts communs."
 		""
@@ -37,14 +48,28 @@
 		"&cFeu&r, &bGlace&r, &eFoudre&r, &4Sang&r, &5Ender&r, &fHoly&r, &2Nature&r, &6Évocation&r, &8Void&r, &dEldritch&r."
 	]
 	quest.04EA3ABAD77C2DDD.title: "Le Scroll Forge"
+	quest.051E8720B3AC0F50.quest_desc: ["Les &lPortable Engines&r fournissent la &lpoussée&r de ton vaisseau physique. Combine-les pour plus de puissance."]
+	quest.051E8720B3AC0F50.title: "Le moteur portable"
+	quest.0537FA094F0C91F1.quest_desc: [
+		"Les &lconvoyeurs&r (Mechanical Belts) déplacent les objets dans ton usine : fabrique des &lBelt Connectors&r et relie deux arbres pour créer un tapis."
+		""
+		"Base de toute logistique automatisée. (Ponder : maintiens W dessus.)"
+	]
+	quest.0537FA094F0C91F1.title: "Les convoyeurs"
+	quest.058106D1FAF371F0.quest_desc: ["La &lMechanical Drill&r casse les blocs devant elle — idéale pour le minage automatisé, surtout montée sur une contraption mobile."]
+	quest.058106D1FAF371F0.title: "La perceuse mécanique"
 	quest.0584B03A3072F365.quest_desc: ["Le &lMechanical Mixer&r posé sur un &lBasin&r mélange des ingrédients (souvent à chaud). La machine clé pour créer le &6Brass&r."]
-	quest.0584B03A3072F365.title: "Le mixeur & le basin"
+	quest.0584B03A3072F365.title: "Le mixeur et le basin"
 	quest.060B8469CB75509C.quest_desc: ["Le &lPrêtre&r canalise la magie &fHoly&r — un soigneur-combattant tenace."]
 	quest.060B8469CB75509C.title: "Le Prêtre"
+	quest.0625D043742C3262.quest_desc: ["Le &lLevitite&r est un matériau &lanti-gravité&r : il allège ta structure et facilite le vol. Le &lPearlescent Levitite&r est encore plus puissant."]
+	quest.0625D043742C3262.title: "Le Levitite"
 	quest.072CAE6AA218A91A.quest_desc: ["L'équipement en &lPrometheum&r régénère lentement sa &ldurabilité&r tout seul (capacité « Regrowth ») — plus besoin d'enclume pour le réparer."]
 	quest.072CAE6AA218A91A.title: "Prometheum — Auto-réparation"
 	quest.082420A3C4FC02F2.quest_desc: ["Le &lGardien de la Citadelle&r (Ancient Knight) garde la &lCitadel&r — l'un des combats les plus exigeants du mod."]
 	quest.082420A3C4FC02F2.title: "Le Gardien de la Citadelle"
+	quest.094DC4E164A68671.quest_desc: ["La &lMechanical Press&r aplatit les lingots en &lplaques&r et compacte des matériaux. Au-dessus d'un convoyeur ou d'un Basin, elle traite en série."]
+	quest.094DC4E164A68671.title: "La presse mécanique"
 	quest.0A9EE6530626773F.quest_desc: [
 		"La &lWater Wheel&r est l'une des premières sources de rotation de Create. Lorsqu'elle est placée dans un courrant d'eau, elle se met à tourner et produire une rotation continue."
 		""
@@ -59,14 +84,32 @@
 	quest.0A9EE6530626773F.title: "Créer de la rotation"
 	quest.0AC88A746F98319B.quest_desc: ["La &lDominion Wand&r configure et relie tes machines magiques (sources, tourelles...). Un outil indispensable."]
 	quest.0AC88A746F98319B.title: "La Dominion Wand"
+	quest.0ACC228A6A863EFD.quest_desc: ["Les &lTrain Tracks&r posent un vrai réseau ferroviaire courbe et incliné. Avec la &lTrack Wand&r tu relies des points distants en un clic."]
+	quest.0ACC228A6A863EFD.title: "Les rails de train"
+	quest.0B7092DBF3642DE4.quest_desc: ["Le &lDocking Connector&r (avec les &lRope Connectors&r) permet d'amarrer et relier tes vaisseaux entre eux ou à des structures fixes."]
+	quest.0B7092DBF3642DE4.title: "L'amarrage"
 	quest.0DA5FF1064C8CB74.quest_desc: ["Le &lCopper Casing&r est le palier &lfluides&r : pompes, tuyaux et machines à liquides (voir le chapitre Transformation)."]
 	quest.0DA5FF1064C8CB74.title: "Le Copper Casing"
+	quest.0E02C1E0227E6678.quest_desc: ["Le &lDeployer&r utilise un objet ou un outil &lautomatiquement&r (poser, attaquer, utiliser sur un bloc...). La brique de base de l'automatisation."]
+	quest.0E02C1E0227E6678.title: "Le déployeur"
 	quest.0E91F7D33117B419.quest_desc: [
 		"Le &lBrass Casing&r (palier 2) débloque les machines avancées : presses, scies, bras mécaniques... (la suite au chapitre Transformation)."
 		""
 		"Bravo : avec le laiton, tu maîtrises les bases de Create !"
 	]
 	quest.0E91F7D33117B419.title: "Le Brass Casing"
+	quest.10FC2235CD48C87B.quest_desc: ["Le &lTrain Casing&r sert à fabriquer les &lbogies&r (les roues) et l'ossature de tes trains. La base de toute locomotive Create."]
+	quest.10FC2235CD48C87B.title: "Le Train Casing"
+	quest.135CB4552E7CE2B7.quest_desc: ["Les &lJumelles&r appairees au controleur reseau te laissent &ldesigner une cible a la main&r et asservir les canons connectes a ton regard."]
+	quest.135CB4552E7CE2B7.title: "Visee manuelle"
+	quest.13ADA7D3D483645D.quest_desc: ["Les &lTrain Controls&r te laissent &lpiloter&r ta locomotive (montés dessus). Sinon, le réseau route les trains automatiquement par horaires."]
+	quest.13ADA7D3D483645D.title: "Le poste de pilotage"
+	quest.152DD24504046AD2.quest_desc: ["Le &lPropeller Bearing&r fait tourner tes hélices : relie-le à ton réseau Create pour propulser ton aéronef."]
+	quest.152DD24504046AD2.title: "Le Propeller Bearing"
+	quest.15AE7B9DEBAAEF57.quest_desc: ["L'&lacier&r encaisse des charges de poudre plus lourdes que la fonte : plus de portee et de degats, mais une fabrication plus exigeante."]
+	quest.15AE7B9DEBAAEF57.title: "Le palier acier"
+	quest.1601C542D9264D7F.quest_desc: ["Les &lcontroleurs de lacet et de tangage&r orientent automatiquement l'affut vers la cible verrouillee : l'artillerie tire toute seule."]
+	quest.1601C542D9264D7F.title: "Visee automatique"
 	quest.1706DB565022ADB0.quest_desc: [
 		"&4Iron's Spells&r est l'autre magie : ici tu ne fabriques pas tes sorts, tu &llances des sorts pré-faits&r, façon RPG."
 		""
@@ -87,12 +130,40 @@
 	quest.18D29C1AA3404D95.title: "La Chambre d'Imbuement"
 	quest.1998D745AA2F313E.quest_desc: ["Le &lFlimsy Journal&r est le grimoire de départ (2 cuivre + ficelle + 6 papiers), 5 slots. Tu monteras vers de meilleurs matériaux ensuite."]
 	quest.1998D745AA2F313E.title: "Ton premier grimoire"
+	quest.1A42D626AE165CEA.quest_desc: ["Le &lLinear Chassis&r regroupe des blocs en une &lstructure mobile&r solidaire. Avec de la slime/colle sur ses faces, il entraîne les blocs voisins."]
+	quest.1A42D626AE165CEA.title: "Le châssis"
+	quest.1AE897C8EF857694.quest_desc: [
+		"&c&lAttention&r : le vol a l'elytra est &lmodifie&r dans ce pack."
+		"Les &lfusees&r (fireworks) sont &cpurement cosmetiques&r : elles ne propulsent plus."
+		"Pour prendre de l'altitude, &lsurvole un feu de camp&r : il te &lpousse vers le haut&r. Les enchantements &lSmokestack&r (stocke ces poussees) et &lCloudskipper&r (moins de trainee au-dessus des nuages) approfondissent le vol."
+	]
+	quest.1AE897C8EF857694.title: "Aileron - le vol elytra est revu"
+	quest.1AF6EB35BCCC8027.quest_desc: [
+		"&lEmotecraft&r te permet de jouer des &lemotes&r (animations de personnage)."
+		"Ouvre la &lroue d'emotes&r via la touche dediee pour t'exprimer en jeu."
+	]
+	quest.1AF6EB35BCCC8027.title: "Emotes"
+	quest.1B96B0A9D156AE6A.quest_desc: [
+		"Avec la &lcarte des chunks&r (touche dediee), &lclaime&r les chunks de ta base pour empecher autrui d'y casser ou poser des blocs."
+		"Tu peux aussi les &lforcer a rester charges&r (force-load) pour que tes machines tournent en ton absence."
+	]
+	quest.1B96B0A9D156AE6A.title: "FTB Chunks - proteger sa base"
+	quest.1C49C381E0AAFB49.quest_desc: ["Le &lChargeur&r automatise le bourrage : poudre puis obus, en boucle, pour une cadence de tir sans intervention."]
+	quest.1C49C381E0AAFB49.title: "Chargement automatique"
+	quest.1D2B3FECC86C3502.quest_desc: ["La &lHand Crank&r génère de la rotation à la main (clic droit maintenu) — pratique pour tester ou alimenter ponctuellement. Mais ça fatigue vite !"]
+	quest.1D2B3FECC86C3502.title: "La manivelle"
+	quest.1F0E7E70CAFCCA51.quest_desc: ["&lJade&r affiche en haut de l'ecran des infos sur ce que tu &lvises&r : nom du bloc, &lPV et niveau&r d'un mob, contenu d'une machine, stade de croissance d'une plante..."]
+	quest.1F0E7E70CAFCCA51.title: "Jade - infos au survol"
 	quest.1F9EED478E02A63F.quest_desc: [
 		"L'armure &lAquarium&r donne des bonus aquatiques (nage, minage et vision sous l'eau, oxygène) — une version &lplus faible&r de l'armure Tidesinger."
 		""
 		"On forge d'ailleurs le &lTidesinger&r en combinant de l'équipement Aquarium avec du &lcorail&r dans une table de forgeron."
 	]
 	quest.1F9EED478E02A63F.title: "Aquarium — Équipement aquatique"
+	quest.1FA21E7CE7D641A2.quest_desc: ["&lCreate Big Cannons&r ajoute une vraie &lfonderie&r : fais fondre les metaux et coule-les dans des moules. La &lfonte&r (cast iron) est le metal d'entree de toute l'artillerie."]
+	quest.1FA21E7CE7D641A2.title: "La fonderie"
+	quest.20818EC523A565D1.quest_desc: ["Assemble des &lPlaques radar&r sur le palier pour former le reflecteur. Plus l'antenne est grande, plus la &lportee&r de detection augmente."]
+	quest.20818EC523A565D1.title: "L'antenne"
 	quest.2088E3E6C8029BE6.quest_desc: [
 		"La &lGem Cutting Table&r augmente la &lpureté&r d'une gemme — donc sa puissance."
 		""
@@ -101,6 +172,25 @@
 		"Le coût exact de chaque amélioration est visible dans &lEMI&r."
 	]
 	quest.2088E3E6C8029BE6.title: "Améliorer les gemmes"
+	quest.20A29093546D92F7.quest_desc: [
+		"Bienvenue dans &lBreizhCraft Saison 2&r, le pack &l100% bac a sable&r de &9Breizh Esport&r !"
+		"Ce livre n'impose &laucune progression&r : c'est une &lgalerie guidee&r qui te montre l'etendue des possibles. Pioche ce qui t'interesse, dans l'ordre que tu veux."
+	]
+	quest.20A29093546D92F7.title: "Bienvenue sur BreizhCraft Saison 2"
+	quest.2189C332C66CF845.quest_desc: ["La &lHose Pulley&r aspire (ou remplit) des étendues de liquide entières — une source quasi infinie d'eau ou de lave pour ton usine."]
+	quest.2189C332C66CF845.title: "La Hose Pulley"
+	quest.218C7A633A8E713A.quest_desc: ["Le &lSteering Wheel&r te laisse &lpiloter&r ton dirigeable : monte dessus et dirige-le comme un navire volant."]
+	quest.218C7A633A8E713A.title: "Le gouvernail"
+	quest.222F9826DAAD5D19.quest_desc: [
+		"Le &lsac de couchage&r te laisse passer la nuit &lsans changer ton point de reapparition&r : ideal en expedition loin de chez toi."
+		"Fabriques-en un (consulte EMI) et garde-le dans ton sac."
+	]
+	quest.222F9826DAAD5D19.title: "Comforts - dormir partout"
+	quest.2292D73A57CEADB3.quest_desc: [
+		"BreizhCraft est porte par la communaute &9Breizh Esport&r."
+		"Joue en equipe, partage tes creations et protege ta base (voir le chapitre &lBien demarrer&r)."
+	]
+	quest.2292D73A57CEADB3.title: "Le serveur Breizh Esport"
 	quest.23961A6BB722D5E7.quest_desc: [
 		"L'armure &lTidesinger&r est l'équipement de nage ultime. Chaque pièce ajoute un bonus :"
 		"&l- Toutes les pièces :&r vitesse dans l'eau"
@@ -109,8 +199,25 @@
 		"&l- Bottes :&r efficacité de déplacement dans l'eau"
 	]
 	quest.23961A6BB722D5E7.title: "Tidesinger — Maître des océans"
+	quest.2424136654B5ED64.quest_desc: [
+		"Pour faire entrer/sortir les objets des convoyeurs et coffres, utilise les &lFunnels&r (et les &lChutes&r en vertical). Le &lDepot&r sert de point de dépôt pour une machine."
+		""
+		"C'est le système nerveux de tes machines."
+	]
+	quest.2424136654B5ED64.title: "Funnels et dépôts"
 	quest.262974034367DDA1.quest_desc: ["Pas besoin d'enchanter : les &loutils&r Carmot (pioche, hache, pelle, houe) ont la &lFortune&r intégrée, et l'&lépée&r le &lButin&r (Looting)."]
 	quest.262974034367DDA1.title: "Carmot — Fortune et Butin"
+	quest.2634B3D5D2CC23DD.quest_desc: [
+		"Ici, &lpas de quete obligatoire&r ni de deblocage. Construis, automatise, explore et combats &lcomme bon te semble&r."
+		"Les &longlets&r en haut regroupent les grandes thematiques : equipement, magie, Create..."
+	]
+	quest.2634B3D5D2CC23DD.title: "Un pack bac a sable"
+	quest.266B30F06467A3AA.quest_desc: ["La &lSuper Glue&r colle des blocs pour qu'ils bougent en une seule contraption, sans châssis partout. Indispensable pour les structures complexes."]
+	quest.266B30F06467A3AA.title: "La colle (Super Glue)"
+	quest.2806AD42FB0AAF32.quest_desc: ["Pose le canon sur un &lAffut&r : oriente par la redstone et Create, il vise dans toutes les directions."]
+	quest.2806AD42FB0AAF32.title: "L'affut orientable"
+	quest.2991184DDC7BBCBA.quest_desc: ["Les &lhélices&r (bois, andésite, puis intelligente) convertissent la rotation en &lpoussée&r. Montées sur un Propeller Bearing alimenté."]
+	quest.2991184DDC7BBCBA.title: "Les hélices"
 	quest.2A44A5B661C0CACB.quest_desc: ["Le &lRitual Brazier&r lance des &lrituels&r : effets de zone puissants (croissance, météo, téléportation...) via des tablettes."]
 	quest.2A44A5B661C0CACB.title: "Les rituels"
 	quest.2D17CD5DAAF81937.quest_desc: [
@@ -141,6 +248,8 @@
 		"Les &lautres outils et armes&r infligent à la place un &lrecul naturel (Knockback III)&r."
 	]
 	quest.300723C7548CBCFF.title: "Legendary Banglum — Minage explosif"
+	quest.30875EA2A2088B7A.quest_desc: ["La &lHot Air Envelope&r est le ballon : chauffée par le brûleur, elle génère la portance. Existe en plusieurs couleurs."]
+	quest.30875EA2A2088B7A.title: "L'enveloppe"
 	quest.30D32474C4396DB3.quest_desc: ["Le &lBrass&r (laiton) se fabrique au mixeur en combinant &lcuivre et zinc&r. C'est le métal des machines avancées de Create."]
 	quest.30D32474C4396DB3.title: "Le Brass Ingot"
 	quest.31CE949AFDA8308D.quest_desc: ["La &lClé à molette&r (Wrench) fait pivoter les blocs, démonte les mécanismes et configure les composants. Ton outil indispensable."]
@@ -167,9 +276,29 @@
 	quest.32D928EAB757CB51.title: "Midas Gold — Chance et Midas Touch"
 	quest.340F68F2CEA4D1B0.quest_desc: ["Le &lPyromancien&r maîtrise le &cFeu&r ; il rôde près des tours de pyromancien. Terrasse-le."]
 	quest.340F68F2CEA4D1B0.title: "Le Pyromancien"
+	quest.34C3A767E4C17AC3.quest_desc: [
+		"&lSerene Seasons&r ajoute de vraies &lsaisons&r : chaque culture ne pousse qu'a &lcertaines periodes de l'annee&r."
+		"Surveille le &lHUD de saison&r et &lplanifie tes champs&r en consequence (ou cultive en serre)."
+	]
+	quest.34C3A767E4C17AC3.title: "Les saisons"
+	quest.354D137EAF8A7EE1.quest_desc: ["L'&lElevator Pulley&r crée un vrai &lascenseur&r à étages : associe-le à des Contraption Controls et appelle la cabine à chaque niveau."]
+	quest.354D137EAF8A7EE1.title: "L'ascenseur"
+	quest.35AB06E4B7F9A4A0.quest_desc: ["Le &lContraption Diagram&r sert à concevoir et assembler tes structures volantes du mod &6Simulated&r — la base des dirigeables à physique réelle."]
+	quest.35AB06E4B7F9A4A0.title: "Le plan de contraption"
+	quest.3623675C27450454.quest_desc: [
+		"Les mobs ont un &lniveau&r qui &lmonte&r avec la distance au spawn, la profondeur et l'age du monde."
+		"Plus le niveau est eleve, plus ils &lfrappent fort&r... mais plus ils &llachent d'XP&r. Le niveau d'un mob est visible via &lJade&r."
+	]
+	quest.3623675C27450454.title: "Difficulte dynamique"
 	quest.38F396FFE4FCEEE6.quest_desc: ["À l'&lInscription Table&r, glisse un &lScroll&r dans ton grimoire pour y &linscrire&r le sort définitivement."]
 	quest.38F396FFE4FCEEE6.title: "Inscrire un sort"
 	quest.3941A4CA2F19B8F1.title: "Invisible"
+	quest.394AABE075D03CAE.quest_desc: ["Le &lMechanical Arm&r déplace les objets entre plusieurs points (entrées/sorties configurés à la clé). Parfait pour alimenter plusieurs machines depuis une source."]
+	quest.394AABE075D03CAE.title: "Le bras mécanique"
+	quest.397ABD1FE547B1A2.quest_desc: ["L'&lEncased Fan&r souffle l'air à travers un bloc pour transformer ce qui passe : &llaver&r (eau), &lfondre&r (feu/lave), &lfumer&r, ou &lhanter&r (âmes). Étonnamment polyvalent."]
+	quest.397ABD1FE547B1A2.title: "Le ventilateur (Encased Fan)"
+	quest.39D8BFF09D1F6714.quest_desc: ["Le &lPrecision Mechanism&r est LE composant avancé : il se fabrique au crafter mécanique et entre dans la plupart des machines de haut niveau. Mets-en en production !"]
+	quest.39D8BFF09D1F6714.title: "Le Precision Mechanism"
 	quest.3B61CD5B7D31F86C.quest_desc: [
 		"Au sommet : les meilleurs grimoires comme l'&lAncient Codex&r (netherite), l'armure en &lArcane Cloth&r, et les grimoires de loot uniques (&lNecronomicon&r, Grimoire of Evokation...)."
 		""
@@ -182,12 +311,38 @@
 		"Craft-le avec un &llivre + du lapis&r. Il documente tout le mod — garde-le sous la main, c'est ta vraie référence."
 	]
 	quest.3BD73D114789E961.title: "Le Tattered Tome"
+	quest.3C06A2E5DBDA78E8.quest_desc: ["Le &lPhysics Assembler&r transforme une structure construite en un &lvaisseau à physique simulée&r : il bouge, tangue et flotte vraiment. (Vois le guide du mod pour l'assemblage.)"]
+	quest.3C06A2E5DBDA78E8.title: "L'Assembleur Physique"
+	quest.3C2A4A8110CF9AFE.quest_desc: ["Les tubes sortent des moules &lnon aleses&r. La &lForeuse a canon&r, entrainee par Create, perce l'ame du tube pour le rendre operationnel."]
+	quest.3C2A4A8110CF9AFE.title: "L'aleseuse"
+	quest.3C76A7CF0CFFDFBE.quest_desc: ["La &lSteam Engine&r est la source la plus puissante : un &lFluid Tank&r chauffé par un &lBlaze Burner&r produit de la vapeur. Empile les réservoirs pour multiplier la puissance."]
+	quest.3C76A7CF0CFFDFBE.title: "La machine à vapeur"
+	quest.3CAA3982A9CC994D.quest_desc: ["Le &lControleur reseau&r relie radar, ecran et canons en un seul &lreseau de conduite de tir&r, avec des filtres de cibles."]
+	quest.3CAA3982A9CC994D.title: "Controleur reseau"
+	quest.3CD80B5AA235C3EF.quest_desc: ["Les &lcapteurs&r (altitude, vitesse, gimbal, optique) renseignent ton vaisseau sur sa position et son mouvement — clés pour l'automatisation et la stabilité."]
+	quest.3CD80B5AA235C3EF.title: "Les capteurs"
+	quest.3CF0B44B23F11A50.quest_desc: ["L'&lautocanon&r est une arme a &ltir rapide&r : barillet bronze, ressort de recul et culasse dediee. Ideal contre les cibles mobiles et aeriennes."]
+	quest.3CF0B44B23F11A50.title: "Le canon automatique"
 	quest.3DC53122C0608FDC.quest_desc: [
 		"L'&lInscription Table&r est ta station principale : pose ton grimoire, glisse un &lScroll&r dedans pour y &linscrire&r le sort de façon permanente."
 		""
 		"Tu peux aussi y retirer un sort et gérer quels sorts occupent tes slots."
 	]
 	quest.3DC53122C0608FDC.title: "Inscrire un sort"
+	quest.3DEDDBFD999CD576.quest_desc: ["Les &lSymmetric Sails&r captent le vent pour propulser ton vaisseau sans carburant, façon navire volant."]
+	quest.3DEDDBFD999CD576.title: "Les voiles"
+	quest.3EE8625D86D2134F.quest_desc: [
+		"Chaque &longlet&r (en haut) est une thematique, chaque &lchapitre&r (a gauche) un mod ou un theme."
+		"Les quetes sont des &lreperes&r : elles pointent souvent vers le &lguide integre&r du mod pour aller plus loin."
+	]
+	quest.3EE8625D86D2134F.title: "Le livre de quetes"
+	quest.3FE2A0D679210C49.quest_desc: ["Le &lnethersteel&r est le tier ultime. Les gros calibres se montent en &lcouches&r (built-up) et encaissent les charges les plus violentes."]
+	quest.3FE2A0D679210C49.title: "Acier des enfers"
+	quest.40411956CFFD8089.quest_desc: [
+		"Cree ou rejoins une &lequipe&r pour partager le claim de territoire, la progression du livre et plus encore."
+		"Ouvre le menu des equipes pour &linviter tes amis&r."
+	]
+	quest.40411956CFFD8089.title: "FTB Teams - faire equipe"
 	quest.41BD9F39EB24111A.quest_desc: [
 		"Le &lMage's Spell Book&r (Tier 2) débloque des glyphes plus puissants et plus de slots. Il demande un vrai investissement (diamants, blocs de quartz...)."
 		""
@@ -196,6 +351,25 @@
 	quest.41BD9F39EB24111A.title: "Mage's Spell Book"
 	quest.4305CE2C81D5CFFC.quest_desc: ["L'&lEnchanting Apparatus&r (posé sur un &lArcane Core&r) est la station de craft avancée. La plupart des objets puissants s'y fabriquent."]
 	quest.4305CE2C81D5CFFC.title: "L'Appareil d'Enchantement"
+	quest.431171D2CB406CD4.quest_desc: ["La &lcharge de poudre&r est le propulseur. Empile plusieurs charges pour augmenter la &lvitesse initiale&r... mais gare a la surcharge du tube."]
+	quest.431171D2CB406CD4.title: "Charge de poudre"
+	quest.43BFFA78F202EAEB.quest_desc: ["Le &lFlywheel&r, relié à une Steam Engine, convertit sa puissance en rotation régulière et utilisable. Le couple parfait pour les gros réseaux."]
+	quest.43BFFA78F202EAEB.title: "Le Flywheel"
+	quest.4603382C07C4DE51.quest_desc: [
+		"En multijoueur, au lieu de mourir tu tombes &la terre&r pendant un court instant."
+		"Un &lcoequipier&r peut venir te &lrelever&r avant la fin du compte a rebours."
+	]
+	quest.4603382C07C4DE51.title: "PlayerRevive - etre releve"
+	quest.481B8EA3E31F511D.quest_desc: ["Le &lHot Air Burner&r est le cœur d'une &lmontgolfière&r : alimenté en chaleur, il gonfle une enveloppe d'air chaud qui te fait décoller. La façon la plus simple de voler avec Create."]
+	quest.481B8EA3E31F511D.title: "Le brûleur à air chaud"
+	quest.49DA89FA276C02D8.quest_desc: ["La &lculasse coulissante&r ferme l'arriere du canon : c'est par la qu'on enfourne &lpoudre&r puis &lobus&r avant de tirer."]
+	quest.49DA89FA276C02D8.title: "La culasse"
+	quest.4B15DC4589875843.quest_desc: ["Le &lSpout&r remplit des objets (bouteilles, seaux...) avec un fluide ; l'&lItem Drain&r fait l'inverse. Le duo pour gérer les liquides en série."]
+	quest.4B15DC4589875843.title: "Remplir et vider"
+	quest.4B83CE74B323FD8A.quest_desc: ["Le &lChalumeau a canon&r soude tubes et culasse en une &lseule structure&r, indispensable pour la deplacer comme une contraption."]
+	quest.4B83CE74B323FD8A.title: "Souder l'ensemble"
+	quest.4C0A6054BF2F6B5F.quest_desc: ["La &lSmart Propeller&r s'oriente seule pour pousser vers le haut, et inverse sa poussée à la clé. La plus polyvalente."]
+	quest.4C0A6054BF2F6B5F.title: "L'hélice intelligente"
 	quest.4C93A7DF3C518446.quest_desc: [
 		"Le Mechanical Mixer et le Basin permet de mélanger des ingrédients, mais pour fonctionner il aura généralement besoin d'une source de chaleur."
 		""
@@ -241,10 +415,19 @@
 	]
 	quest.55DAE8F66EC5A280.title: "L'Andesite Alloy"
 	quest.563A55528465391E.quest_desc: ["Bienvenue dans Breizh Craft Saison 2, une aventure communautaire créé par Breizh Esport."]
+	quest.563D9F26576887BC.quest_desc: ["Le &lMillstone&r broie minerais et ingrédients en poudres. Simple, peu coûteux, alimenté par le dessous — parfait pour démarrer le broyage."]
+	quest.563D9F26576887BC.title: "Le Millstone"
+	quest.5654DAEE7713D14D.quest_desc: [
+		"&lEMI&r (a droite de l'inventaire) liste &ltoutes les recettes&r. Clique un objet pour voir &lcomment le fabriquer&r ou &la quoi il sert&r."
+		"Indispensable dans un pack de pres de 400 mods : en cas de doute, &ldemande a EMI&r."
+	]
+	quest.5654DAEE7713D14D.title: "EMI - le livre de recettes"
 	quest.5684071820B17CC2.quest_desc: ["Ta première machine : alimentée en Source, elle transforme lapis et améthyste en &lSource Gems&r."]
 	quest.5684071820B17CC2.title: "La Chambre d'Imbuement"
 	quest.58B3023890C86298.quest_desc: ["&4Iron's Spells&r : tu &llances des sorts pré-faits&r, façon RPG. La meilleure entrée = le &lloot&r des structures magiques, où tombent des &lScrolls&r (1 = 1 sort)."]
 	quest.58B3023890C86298.title: "Un premier sort"
+	quest.596A3C4FC07C4125.quest_desc: ["Le &lWindmill Bearing&r entraîne une structure de voiles : assemble des &lSails&r autour, clic droit, et le vent fournit une rotation gratuite. Plus de voiles = plus de puissance."]
+	quest.596A3C4FC07C4125.title: "Le moulin à vent"
 	quest.5A6B1AB0C2306E5B.quest_desc: [
 		"La &lSalvaging Table&r décompose les équipements à affixes en &lmatériaux de rareté&r."
 		""
@@ -257,6 +440,8 @@
 	quest.5B0973CFDB9D795E.title: "Le champ de bataille ancien"
 	quest.5CA93C581402721D.quest_desc: ["Les &lWilden&r hantent les forêts. Chasse les Hunters pour récupérer leurs reliques — et t'entraîner avant le boss."]
 	quest.5CA93C581402721D.title: "Chasser les Wilden"
+	quest.5CB31472CF19230A.quest_desc: ["Le &lBac a munitions&r alimente l'autocanon en cartouches en continu. Regle l'espacement des &ltraceurs&r pour suivre tes tirs."]
+	quest.5CB31472CF19230A.title: "Bac a munitions"
 	quest.5D2FA96CA1B675D5.quest_desc: ["Le &lWilden Tribute&r tombe du Chimera : c'est la clé du grimoire ultime."]
 	quest.5D2FA96CA1B675D5.title: "Le Wilden Tribute"
 	quest.5D7D0A8A7275D12B.quest_desc: [
@@ -264,9 +449,13 @@
 		""
 		"Le &lRotation Speed Controller&r impose une vitesse précise."
 	]
-	quest.5D7D0A8A7275D12B.title: "Vitesse & engrenages"
+	quest.5D7D0A8A7275D12B.title: "Vitesse et engrenages"
 	quest.5EEBE145FBCA060E.quest_desc: ["Le &lWilden Chimera&r est LE boss d'Ars Nouveau : invoque-le via un rituel près d'un nid, puis terrasse-le — il change de forme et de résistances !"]
 	quest.5EEBE145FBCA060E.title: "Le Wilden Chimera"
+	quest.5FEFAB1B7A83401B.quest_desc: ["La &lfusee&r decide quand l'obus explose : a l'&limpact&r, par &lproximite&r, en &lretarde&r... Visse-la sur l'obus avant de le charger."]
+	quest.5FEFAB1B7A83401B.title: "La fusee d'amorcage"
+	quest.60AF2B8487BDBE01.quest_desc: ["La &lMechanical Saw&r coupe les bûches en planches, abat les arbres et découpe la pierre. Verticale elle scie ; horizontale sur convoyeur elle traite en série."]
+	quest.60AF2B8487BDBE01.title: "La scie mécanique"
 	quest.6183A112F841DE12.quest_desc: [
 		"L'&lArcane Anvil&r est la station ultime. Avec des &lUpgrade Orbs&r (par école, ou Mana/Cooldown/Protection), tu améliores ton équipement."
 		""
@@ -320,10 +509,21 @@
 		"&6Ars Creo&r permet même de générer de la Source via &6Create&r."
 	]
 	quest.6AEB35C29204A1B5.title: "La Source"
+	quest.6C3413AC8932EBA8.quest_desc: ["Les &lMechanical Crafters&r (en grille pointant vers un centre) automatisent les recettes d'établi — indispensable pour produire en masse les composants Create."]
+	quest.6C3413AC8932EBA8.title: "Le crafter mécanique"
+	quest.6D65FBDE7F1F8062.quest_desc: ["L'&lobus explosif&r &cdetone a l'impact&r et pulverise blocs et structures. Il reclame une &lfusee&r pour s'amorcer."]
+	quest.6D65FBDE7F1F8062.title: "Obus explosif (HE)"
 	quest.6D8A36D6BCE7D181.quest_desc: ["Le &lCryomancien&r manie la &bGlace&r — un adversaire glissant à abattre."]
 	quest.6D8A36D6BCE7D181.title: "Le Cryomancien"
 	quest.6D9DD145F7ECA315.quest_desc: ["Le &lDead King&r est un boss : un roi mort-vivant aux sorts dévastateurs. Sa dépouille recèle de grands trésors."]
 	quest.6D9DD145F7ECA315.title: "Le Dead King"
+	quest.6EF6214152425328.quest_desc: ["La &lRope Pulley&r monte et descend une structure le long d'une corde — ascenseurs, plateformes, foreuses verticales."]
+	quest.6EF6214152425328.title: "La Rope Pulley"
+	quest.6F1BE1CE522BB204.quest_desc: [
+		"La &lmini-carte&r (coin de l'ecran) et la &lcarte du monde&r (touche M) t'aident a te reperer."
+		"Pose des &lwaypoints&r pour retrouver ta base, une mine ou une structure."
+	]
+	quest.6F1BE1CE522BB204.title: "Xaero - carte et mini-carte"
 	quest.7041B59C5AA629C1.quest_desc: [
 		"Un sort = des &lglyphes&r : une &lforme&r (projectile, toucher, self...), des &leffets&r, et des &laugments&r qui les modifient."
 		""
@@ -334,17 +534,32 @@
 	quest.7041B59C5AA629C1.title: "Apprendre des glyphes"
 	quest.712157F96C0AFA31.quest_desc: ["Le &lScroll Forge&r fabrique tes propres scrolls : l'&lencre&r donne la rareté, le &lfocus&r donne l'école."]
 	quest.712157F96C0AFA31.title: "Forger ses sorts"
+	quest.7183965EBC29FDBD.quest_desc: ["Le &lMechanical Bearing&r fait &ltourner une structure entière&r (portes, moulins, manèges...). Pose-le, colle des blocs devant, donne-lui de la rotation."]
+	quest.7183965EBC29FDBD.title: "Le Mechanical Bearing"
+	quest.71EA94E3343927BC.quest_desc: ["La &lTrain Station&r assemble et démonte tes trains, et sert d'arrêt programmable. C'est là que ta locomotive prend vie et reçoit ses ordres."]
+	quest.71EA94E3343927BC.title: "La gare"
 	quest.72CF97DDE91D3D72.quest_desc: ["Les reliques de Wilden (Wing, Horn, Spike) alimentent de nombreux crafts magiques avancés."]
 	quest.72CF97DDE91D3D72.title: "Reliques de Wilden"
+	quest.734D7C578C05CDD3.quest_desc: [
+		"A ta mort, ton &linventaire&r est conserve dans un &lcorpse&r a l'endroit du deces."
+		"Reviens sur place et clique dessus pour &ltout reprendre d'un coup&r."
+	]
+	quest.734D7C578C05CDD3.title: "Corpse - recuperer ses affaires"
+	quest.7450D654E14CBB4F.quest_desc: ["Le &lMoniteur&r affiche en temps reel tous les &lcontacts&r reperes par le radar : entites, joueurs et contraptions."]
+	quest.7450D654E14CBB4F.title: "Ecran de controle"
 	quest.7551B0F8CF6B54E9.title: "Tidesinger"
 	quest.760B182E57813598.quest_desc: ["Le &lNovice Spell Book&r est ton premier grimoire : lance des sorts simples (Break, Light) en y inscrivant des glyphes."]
 	quest.760B182E57813598.title: "Premier grimoire"
+	quest.770AAC4A03D1D0F2.quest_desc: ["Les &lAviator's Goggles&r affichent des infos utiles (stress, contenu des blocs...) quand tu regardes tes machines — l'équivalent aérien des Engineer's Goggles."]
+	quest.770AAC4A03D1D0F2.title: "Les lunettes d'aviateur"
 	quest.78487D04127E68EA.quest_desc: [
 		"L'&lAncient Codex&r (netherite) est le meilleur grimoire de base. Avec l'Arcane Cloth et les books de loot (&lNecronomicon&r...), tu es au sommet."
 		""
 		"&6Iron's Apothic&r relie ces sorts aux affixes d'&6Apotheosis&r."
 	]
 	quest.78487D04127E68EA.title: "Grimoire ultime"
+	quest.796A95A0AE6522A0.quest_desc: ["Pour les fluides : la &lMechanical Pump&r pousse les liquides dans les &lFluid Pipes&r, et les &lFluid Tanks&r les stockent. Attention au sens (clic droit pour inverser)."]
+	quest.796A95A0AE6522A0.title: "Pompes et tuyaux"
 	quest.7A2C0AFC1225A3DF.quest_desc: [
 		"Dans Create, les machines ne fonctionnent pas avec de l'énergie classique, mais avec une &lforce de rotation&r mécanique."
 		""
@@ -371,6 +586,14 @@
 		"Attention cependant, augmenter la vitesse de rotation augmente le stress du système. Si le système est trop stressé il se bloquera et vous devrez augmenter la production d'énergie de rotation."
 	]
 	quest.7A4E4C18B8D98D56.title: "Première Machine"
+	quest.7B2FA8271ED57B53.quest_desc: ["Le &lboulet plein&r est le projectile cinetique de base : pas d'explosion, mais une enorme energie de penetration."]
+	quest.7B2FA8271ED57B53.title: "Boulet plein"
+	quest.7B3759DC004BB4C8.quest_desc: ["Une paire de &lCrushing Wheels&r (sens inverse) broie plus vite que le Millstone et peut &ldoubler tes minerais&r. Le broyage industriel."]
+	quest.7B3759DC004BB4C8.title: "Les Crushing Wheels"
+	quest.7DF0550FAB33953B.quest_desc: ["&lCreate Radar&r ajoute la detection. Le &lPalier radar&r fait tourner l'antenne, a la maniere d'un Mechanical Bearing de Create."]
+	quest.7DF0550FAB33953B.title: "Station radar"
+	quest.7EF50C8BBDE97D13.quest_desc: ["Les &lWindmill Sails&r captent le vent (tu peux les teindre). Un grand moulin = beaucoup de stress disponible, sans aucun carburant."]
+	quest.7EF50C8BBDE97D13.title: "Les voiles"
 	quest.7FDA84983FE3B8F2.quest_desc: [
 		"Le &lbronze&r est l'alliage parfait pour débuter. Dans la forge à alliage, combine &l2 copper (cuivre) + 1 tin (étain)&r — sans oublier le &lcarburant&r dans l'emplacement dédié — pour obtenir 3 lingots."
 		""

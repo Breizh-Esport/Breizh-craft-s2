@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_energie"
+	group: "22B19A8DE31050A8"
+	icon: {
+		id: "create:steam_engine"
+	}
+	id: "572E6D9D702BF334"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D2B3FECC86C3502"
+			rewards: [{
+				id: "33547F5B903C9843"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6231E7E8AEBA074F"
+				item: { count: 1, id: "create:hand_crank" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1D2B3FECC86C3502"]
+			id: "596A3C4FC07C4125"
+			rewards: [{
+				id: "384538BBECCBF2E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1959BF7601B98140"
+				item: { count: 1, id: "create:windmill_bearing" }
+				type: "item"
+			}]
+			x: -6.2d
+			y: -5.0d
+		}
+		{
+			dependencies: ["596A3C4FC07C4125"]
+			id: "7EF50C8BBDE97D13"
+			rewards: [{
+				id: "5961317619ADA4B7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "31C0119B0ED148BB"
+				item: { count: 1, id: "create:white_sail" }
+				type: "item"
+			}]
+			x: -6.2d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D2B3FECC86C3502"]
+			id: "3C76A7CF0CFFDFBE"
+			rewards: [{
+				id: "1CA7FDDF6D5198E1"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2D7A8537EEC1282B"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: -3.8d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3C76A7CF0CFFDFBE"]
+			id: "43BFFA78F202EAEB"
+			rewards: [{
+				id: "061D08FA6590338C"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "18A1A363AB6CD490"
+				item: { count: 1, id: "create:flywheel" }
+				type: "item"
+			}]
+			x: -3.8d
+			y: -3.0d
+		}
+		{
+			id: "7183965EBC29FDBD"
+			rewards: [{
+				id: "6C97302106B81EFD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "409B8C883026EE9A"
+				item: { count: 1, id: "create:mechanical_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7183965EBC29FDBD"]
+			id: "1A42D626AE165CEA"
+			rewards: [{
+				id: "4FDD2FEF469853C7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5AA7AC57BEE98872"
+				item: { count: 1, id: "create:linear_chassis" }
+				type: "item"
+			}]
+			x: -0.9d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7183965EBC29FDBD"]
+			id: "266B30F06467A3AA"
+			rewards: [{
+				id: "7058437843B5918D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "08F7007F9F6AADD4"
+				item: { count: 1, id: "create:super_glue" }
+				type: "item"
+			}]
+			x: 0.9d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A42D626AE165CEA"]
+			id: "034F850C849C99C5"
+			rewards: [{
+				id: "684B037ECAC3B041"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "18E9AA84441665AE"
+				item: { count: 1, id: "create:mechanical_piston" }
+				type: "item"
+			}]
+			x: -1.6d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A42D626AE165CEA"]
+			id: "6EF6214152425328"
+			rewards: [{
+				id: "02CD130965CF7D28"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "097016C65A026476"
+				item: { count: 1, id: "create:rope_pulley" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EF6214152425328"]
+			id: "354D137EAF8A7EE1"
+			rewards: [{
+				id: "03B22710B372E5D4"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1FDCEAA40198FBEF"
+				item: { count: 1, id: "create:elevator_pulley" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0ACC228A6A863EFD"
+			rewards: [{
+				count: 16
+				id: "6D7645AF2F88FDB9"
+				item: {
+					count: 1
+					id: "create:track"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52687E71161818B9"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0ACC228A6A863EFD"]
+			id: "10FC2235CD48C87B"
+			rewards: [{
+				count: 4
+				id: "709A8DDC55E83248"
+				item: {
+					count: 1
+					id: "create:railway_casing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E0286842702351"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10FC2235CD48C87B"]
+			id: "71EA94E3343927BC"
+			rewards: [{
+				id: "6A1CEBDDB4A327C5"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "4141094C3C732B7A"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71EA94E3343927BC"]
+			id: "13ADA7D3D483645D"
+			rewards: [{
+				id: "3DE670119C256218"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7EDC284ABC1F63BE"
+				item: { count: 1, id: "create:controls" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+}

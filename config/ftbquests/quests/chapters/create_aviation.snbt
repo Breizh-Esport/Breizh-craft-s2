@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_aviation"
+	group: "22B19A8DE31050A8"
+	icon: {
+		id: "aeronautics:white_envelope"
+	}
+	id: "056B57EC805C8EFC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "481B8EA3E31F511D"
+			rewards: [{
+				id: "509AB45F9CEFB963"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5436A21DDF6C70AB"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["481B8EA3E31F511D"]
+			id: "30875EA2A2088B7A"
+			rewards: [{
+				id: "33811308D5AD16EF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0441D88FD81A0CAB"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -6.0d
+		}
+		{
+			dependencies: ["481B8EA3E31F511D"]
+			id: "2991184DDC7BBCBA"
+			rewards: [{
+				id: "5A80FF6A1E51F3D6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5FE364DA8D291379"
+				item: { count: 1, id: "aeronautics:wooden_propeller" }
+				type: "item"
+			}]
+			x: -1.8d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2991184DDC7BBCBA"]
+			id: "152DD24504046AD2"
+			rewards: [{
+				id: "1383020AC77AB7B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1568FF0B0A9A2A19"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: -1.8d
+			y: -4.0d
+		}
+		{
+			dependencies: ["152DD24504046AD2"]
+			id: "4C0A6054BF2F6B5F"
+			rewards: [{
+				id: "2A5B5F6318611D51"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "12120EFB9D174DBB"
+				item: { count: 1, id: "aeronautics:smart_propeller" }
+				type: "item"
+			}]
+			x: -1.8d
+			y: -2.0d
+		}
+		{
+			dependencies: ["481B8EA3E31F511D"]
+			id: "0625D043742C3262"
+			rewards: [{
+				count: 4
+				id: "44E94441292FE816"
+				item: {
+					count: 1
+					id: "aeronautics:levitite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C65C88087C749C8"
+				item: { count: 1, id: "aeronautics:levitite" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -4.0d
+		}
+		{
+			dependencies: ["481B8EA3E31F511D"]
+			id: "770AAC4A03D1D0F2"
+			rewards: [{
+				id: "2DDC6B58279D9211"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "02D1BE2B4240CEDB"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: -4.2d
+			y: -2.0d
+		}
+		{
+			id: "35AB06E4B7F9A4A0"
+			rewards: [{
+				id: "315974BED562EAA7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1688FC25082D3741"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["35AB06E4B7F9A4A0"]
+			id: "3C06A2E5DBDA78E8"
+			rewards: [{
+				id: "59E8848923F24FF3"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "40F1C9E809DA49C1"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3C06A2E5DBDA78E8"]
+			id: "051E8720B3AC0F50"
+			rewards: [{
+				id: "6D66132915E3E425"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2623E41C224BA99D"
+				item: { count: 1, id: "simulated:black_portable_engine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C06A2E5DBDA78E8"]
+			id: "218C7A633A8E713A"
+			rewards: [{
+				id: "662989BECB352D3C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "14C9F89D823C3FBD"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C06A2E5DBDA78E8"]
+			id: "3DEDDBFD999CD576"
+			rewards: [{
+				id: "7CA4C669E6BF1884"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "008D77828FF9F04E"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C06A2E5DBDA78E8"]
+			id: "3CD80B5AA235C3EF"
+			rewards: [{
+				id: "237C590A298884D1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5FFE4FF851111E29"
+				item: { count: 1, id: "simulated:altitude_sensor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C06A2E5DBDA78E8"]
+			id: "0B7092DBF3642DE4"
+			rewards: [{
+				id: "576D247A992DEE56"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "37C31FA6012CC85A"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+}

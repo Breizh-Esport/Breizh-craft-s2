@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_bases"
-	group: ""
+	group: "22B19A8DE31050A8"
 	icon: {
 		id: "create:brass_casing"
 	}
@@ -42,6 +42,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["31CE949AFDA8308D"]
 			id: "2D17CD5DAAF81937"
 			rewards: [{
 				count: 8
@@ -77,6 +78,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["2FD7CE2088159EA2"]
 			id: "66D4DD64F75233E2"
 			rewards: [{
 				id: "532861156B970016"
@@ -92,6 +94,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["2FD7CE2088159EA2"]
 			id: "5D7D0A8A7275D12B"
 			rewards: [{
 				id: "5C321D18617D6B5F"
@@ -107,6 +110,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["2FD7CE2088159EA2"]
 			id: "0DA5FF1064C8CB74"
 			rewards: [{
 				id: "050CB6D4131740E0"
@@ -122,6 +126,7 @@
 			y: 0.8d
 		}
 		{
+			dependencies: ["2FD7CE2088159EA2"]
 			id: "4E131493A5926688"
 			rewards: [{
 				id: "030FBC8CAB6FF48C"

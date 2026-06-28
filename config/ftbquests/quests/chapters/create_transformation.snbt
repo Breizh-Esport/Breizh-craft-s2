@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_transformation"
+	group: "22B19A8DE31050A8"
+	icon: {
+		id: "create:precision_mechanism"
+	}
+	id: "1024A31ABA37AA7F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0537FA094F0C91F1"
+			rewards: [{
+				id: "5369CC21DAEF1F05"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "65BEBBAA7AAD9778"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0537FA094F0C91F1"]
+			id: "2424136654B5ED64"
+			rewards: [{
+				id: "450AB7506169AF58"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A1FB2367952951C"
+				item: { count: 1, id: "create:andesite_funnel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "563D9F26576887BC"
+			rewards: [{
+				id: "7C24940613579D0A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "05026B9709810B01"
+				item: { count: 1, id: "create:millstone" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["563D9F26576887BC"]
+			id: "7B3759DC004BB4C8"
+			rewards: [{
+				id: "0DC4DF5DCC2AD90F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1540C37BA43D244C"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "094DC4E164A68671"
+			rewards: [{
+				count: 8
+				id: "27A332287CE8B8CC"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "397F64D67DC01A0B"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "397ABD1FE547B1A2"
+			rewards: [{
+				id: "7F7F9FBBE9CFA21B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "481E5DF455CCB190"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "60AF2B8487BDBE01"
+			rewards: [{
+				id: "64B5F1A232301788"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66CA4E98F00437D2"
+				item: { count: 1, id: "create:mechanical_saw" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "058106D1FAF371F0"
+			rewards: [{
+				id: "0A164054665CD25E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "41AD98FD253FB6BC"
+				item: { count: 1, id: "create:mechanical_drill" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "0E02C1E0227E6678"
+			rewards: [{
+				id: "1292E49C81DA6BCC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63A42B7D3F3D3F0F"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E02C1E0227E6678"]
+			id: "394AABE075D03CAE"
+			rewards: [{
+				id: "0F0BD1FCF7F4147D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "47B5E573A3293B7E"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "6C3413AC8932EBA8"
+			rewards: [{
+				id: "317DB3E16DF81489"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7FD4CD4C06F2C17D"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C3413AC8932EBA8"]
+			id: "39D8BFF09D1F6714"
+			rewards: [{
+				count: 2
+				id: "5FD0D7EBA1A71EFC"
+				item: {
+					count: 1
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09DB2C0E1740300E"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2424136654B5ED64"]
+			id: "796A95A0AE6522A0"
+			rewards: [{
+				id: "3B72AA1361D4059A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "26BD041884889B9A"
+				item: { count: 1, id: "create:mechanical_pump" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["796A95A0AE6522A0"]
+			id: "4B15DC4589875843"
+			rewards: [{
+				id: "30A90B966E9DEE1D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "45D4502BE98FDCAC"
+				item: { count: 1, id: "create:spout" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B15DC4589875843"]
+			id: "2189C332C66CF845"
+			rewards: [{
+				id: "440F0191E7AE2825"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5A726D4AD83AD465"
+				item: { count: 1, id: "create:hose_pulley" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+}

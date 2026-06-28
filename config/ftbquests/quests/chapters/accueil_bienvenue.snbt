@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "accueil_bienvenue"
+	group: ""
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "450EA622A9DE32B9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "20A29093546D92F7"
+			rewards: [{
+				id: "771155D9967FFD1C"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "189F7E54A74A8D35"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20A29093546D92F7"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "2634B3D5D2CC23DD"
+			rewards: [{
+				id: "36F3C6FD32D6A612"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D1015DB59B89EA2"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20A29093546D92F7"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "3EE8625D86D2134F"
+			rewards: [{
+				id: "5927AC14CF11EA98"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66F19455E43F6A2B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20A29093546D92F7"]
+			icon: {
+				id: "minecraft:white_banner"
+			}
+			id: "2292D73A57CEADB3"
+			rewards: [{
+				id: "288B559FF3CD0E15"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "73E0600C417E474C"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

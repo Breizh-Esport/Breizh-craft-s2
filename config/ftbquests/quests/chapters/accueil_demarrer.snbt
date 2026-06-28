@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "accueil_demarrer"
+	group: ""
+	icon: {
+		id: "minecraft:knowledge_book"
+	}
+	id: "24CCB22AC746E660"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "5654DAEE7713D14D"
+			rewards: [{
+				id: "2EB7452E609C0758"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5A2B94F6F6EB34B8"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5654DAEE7713D14D"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "1F0E7E70CAFCCA51"
+			rewards: [{
+				id: "143D9C7BECAB4A8B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F7BF89D24356FF6"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5654DAEE7713D14D"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6F1BE1CE522BB204"
+			rewards: [{
+				id: "511F138C379D1F22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "676767875B373329"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5654DAEE7713D14D"]
+			icon: {
+				id: "comforts:sleeping_bag_red"
+			}
+			id: "222F9826DAAD5D19"
+			rewards: [{
+				id: "134B2D0FB1FA2AEA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7FA1EAFC6DB02AE1"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5654DAEE7713D14D"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "734D7C578C05CDD3"
+			rewards: [{
+				id: "6363CB9099C59383"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DA5B19C49D8A4E9"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "4603382C07C4DE51"
+			rewards: [{
+				id: "5536D38897547D82"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4722D1B66251B941"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5654DAEE7713D14D"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "40411956CFFD8089"
+			rewards: [{
+				id: "400BD644B979DE68"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "58E4E6906F7F285D"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "1B96B0A9D156AE6A"
+			rewards: [{
+				id: "732045B3B0CA011E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4E3CEE68857C2A11"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "1AE897C8EF857694"
+			rewards: [{
+				id: "2CD20538BD917AD6"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "562DC58C8ABC0228"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1AE897C8EF857694"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "34C3A767E4C17AC3"
+			rewards: [{
+				id: "07F963D2EEBD251F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "25B1482C8DCAB6AE"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AE897C8EF857694"]
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "3623675C27450454"
+			rewards: [{
+				id: "5C44F216CA0B920F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "57CDE7F3BDB36C33"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1AE897C8EF857694"]
+			icon: {
+				id: "minecraft:armor_stand"
+			}
+			id: "1AF6EB35BCCC8027"
+			rewards: [{
+				id: "6DA01976680278AD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6B87FC17E4766008"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+	]
+}
