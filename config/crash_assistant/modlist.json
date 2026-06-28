@@ -570,11 +570,6 @@
     "curseForgeHash": 170227865,
     "modrinthHash": "8ec2b9acc1881a15d7ae625e3bc3821a2d1af4e1"
   },
-  "connector-env-strip-1.0.0.jar": {
-    "jarName": "connector-env-strip-1.0.0.jar",
-    "curseForgeHash": 3298457523,
-    "modrinthHash": "3af88c4909c044c973bf3804bdb18f98eb7b4513"
-  },
   "ConnectorExtras-1.12.1+1.21.1.jar": {
     "jarName": "ConnectorExtras-1.12.1+1.21.1.jar",
     "modId": "connectorextras",

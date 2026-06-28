@@ -22288,6 +22288,42 @@
             ]
         },
         {
+            "pakku_id": "ursOdHCnp6NAkMUF",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "vista"
+            },
+            "name": {
+                "curseforge": "Vista"
+            },
+            "id": {
+                "curseforge": "1368607"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vista-neoforge-1.21.1-4.4.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8111/107/vista-neoforge-1.21.1-4.4.0.jar",
+                    "id": "8111107",
+                    "parent_id": "1368607",
+                    "hashes": {
+                        "sha1": "035c71648081074c96f1eb2396ab2f11a7d70eab",
+                        "md5": "de85dfe91c9f403c6051ee9244aa0923"
+                    },
+                    "required_dependencies": [],
+                    "size": 5407048,
+                    "date_published": "2026-05-18T22:31:22.597Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lmJUNZD1Cia7je8g",
             "type": "MOD",
             "slug": {
@@ -24595,45 +24631,6 @@
                     "required_dependencies": [],
                     "size": 3642581,
                     "date_published": "2025-02-23T11:38:31.027Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "FS2We6HbXQOocdhA",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "vista_tv"
-            },
-            "name": {
-                "modrinth": "vista"
-            },
-            "id": {
-                "modrinth": "zuARv1N7"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "vista-neoforge-1.21.1-4.4.11.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/zuARv1N7/versions/XDmEbLHW/vista-neoforge-1.21.1-4.4.11.jar",
-                    "id": "XDmEbLHW",
-                    "parent_id": "zuARv1N7",
-                    "hashes": {
-                        "sha512": "7d8fc12f3fb4a09a932782869bc2b91098eecf02c96365d28835285f95ed2e34047496fd6e39759a14eb2e6d86a2854682aeb2911b1350bffe9d6386fa868a47",
-                        "sha1": "4eba9b2b46a526dadfc7b656f192419367cdf9b7"
-                    },
-                    "required_dependencies": [
-                        "twkfQtEc"
-                    ],
-                    "size": 5553570,
-                    "date_published": "2026-06-06T09:58:56.140370Z"
                 }
             ]
         }
