@@ -570,6 +570,11 @@
     "curseForgeHash": 170227865,
     "modrinthHash": "8ec2b9acc1881a15d7ae625e3bc3821a2d1af4e1"
   },
+  "connector-env-strip-1.0.0.jar": {
+    "jarName": "connector-env-strip-1.0.0.jar",
+    "curseForgeHash": 3298457523,
+    "modrinthHash": "3af88c4909c044c973bf3804bdb18f98eb7b4513"
+  },
   "ConnectorExtras-1.12.1+1.21.1.jar": {
     "jarName": "ConnectorExtras-1.12.1+1.21.1.jar",
     "modId": "connectorextras",
@@ -2988,22 +2993,6 @@
     "version": "8.5",
     "curseForgeHash": 1980226081,
     "modrinthHash": "6faa436709e3c99e01a68e2f1109937897f98624"
-  },
-  "vista-neoforge-1.21.1-4.4.0.jar": {
-    "jarName": "vista-neoforge-1.21.1-4.4.0.jar",
-    "modId": "vista",
-    "name": "Vista",
-    "version": "1.21.1-4.4.0",
-    "curseForgeHash": 25743643,
-    "modrinthHash": "035c71648081074c96f1eb2396ab2f11a7d70eab"
-  },
-  "VistaAeronauricsFix-1.0.1.jar": {
-    "jarName": "VistaAeronauricsFix-1.0.1.jar",
-    "modId": "vistafix",
-    "name": "Vista Aeronautics Fix",
-    "version": "1.0.1",
-    "curseForgeHash": 1861970241,
-    "modrinthHash": "0596cfcd4703ef02c3044262caf2b4ee546c2ebb"
   },
   "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",

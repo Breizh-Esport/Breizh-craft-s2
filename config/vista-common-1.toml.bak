@@ -9,8 +9,6 @@
 	# Default: 8
 	# Range: 1 ~ 24
 	max_connected_tv_size = 8
-	#Makes connected tvs just have a square aspect ratio. If you set to false cassettes will be stretched and will look worse as a result
-	square_aspect_ratio = true
 	#Whether creepers should drop tapes when killed by the pillagers.
 	creeper_drop = true
 	#Whether loot chests could contain cassette tapes.
@@ -18,6 +16,8 @@
 	#Where the wave gate is obtainable.
 	#Allowed Values: CRAFTABLE, CREATIVE_ONLY, OFF
 	wave_gate_enabled = "CREATIVE_ONLY"
+	#Makes connected tvs just have a square aspect ratio. If you set to false cassettes will be stretched and will look worse as a result
+	square_aspect_ratio = true
 	#Whether TVs should consume Forge energy (NeoForge only).
 	tv_consume_energy = false
 	#Energy consumption rate per tick when TV is powered and has a cassette.

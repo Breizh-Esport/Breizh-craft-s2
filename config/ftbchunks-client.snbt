@@ -137,7 +137,34 @@
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
-		entity_icon: { }
+		entity_icon: {
+			"minecraft:chicken": true
+			"alexsmobs:rhinoceros": true
+			"artifacts:mimic": true
+			"alexsmobs:fly": true
+			"alexsmobs:kangaroo": true
+			"minecraft:spider": true
+			"minecraft:pig": true
+			"minecraft:wandering_trader": true
+			"minecraft:creeper": true
+			"minecraft:armadillo": true
+			"minecraft:zombie": true
+			"minecraft:skeleton": true
+			"alexsmobs:rocky_roller": true
+			"alexsmobs:emu": true
+			"alexsmobs:gazelle": true
+			"quark:forgotten": true
+			"alexsmobs:cockroach": true
+			"minecraft:glow_squid": true
+			"minecraft:bat": true
+			"quark:toretoise": true
+			"minecraft:enderman": true
+			"minecraft:sheep": true
+			"quark:stoneling": true
+			"minecraft:squid": true
+			"alexsmobs:elephant": true
+			"meadow:water_buffalo": true
+		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5

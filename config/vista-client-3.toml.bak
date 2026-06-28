@@ -61,31 +61,3 @@
 		bilinear_sampling = false
 		#A list of regex which will filter out valid URLs. At least one of these must match for a URL video to work
 		safe_urls = []
-
-[mirror]
-	#Block entity render distance for mirrors. Mirrors beyond this distance will not render their reflection.
-	# Default: 64
-	# Range: 1 ~ 2048
-	render_distance = 64
-	#Scale factor for mirror reflection resolution. Each mirror block is 16 virtual pixels wide; this multiplies that area. Higher values are sharper but more expensive.
-	# Default: 8
-	# Range: 1 ~ 32
-	resolution_scale = 8
-	#How mirror reflections are dispatched. RENDER_TICK_END (default, recommended): the BE renderer queues mirrors into a pending list; the queue is flushed from a top-level frame hook (Fabric mixin after GameRenderer.render; NeoForge RenderFrameEvent.Post) that's guaranteed to run outside any level render — safe under recursive renderLevel calls from other mods. TEXTURE_REFRESH: piggybacks on the live-feed texture refresh dispatch (one render per visible mirror, end-of-frame). Switch to TEXTURE_REFRESH if you suspect a timing-related rendering glitch.
-	#Allowed Values: TEXTURE_REFRESH, RENDER_TICK_END
-	update_mode = "RENDER_TICK_END"
-	#How mirrors-inside-mirrors are handled. OFF: nested mirrors don't render at all (you see the frame, no reflection). SHARED (cheap): each mirror reuses its own self-reflection texture when seen inside another mirror — looks fine at a glance but parallax is wrong at depth >=1 (the deeper reflections won't slide correctly as you move). RECURSIVE (expensive): each chain gets its own off-axis render with correct parallax, up to max_recursion_depth. Beyond the depth cap the nested mirror is not drawn at all.
-	#Allowed Values: OFF, SHARED, RECURSIVE
-	recursion_mode = "SHARED"
-	#Max nesting depth in RECURSIVE recursion_mode. 0 = no recursion (equivalent to OFF). 1 = one level of correct nested reflection. Each extra level multiplies cost, but resolution_divider and distance_divider attenuate per-level cost.
-	# Default: 1
-	# Range: 0 ~ 8
-	max_recursion_depth = 1
-	#Per-level resolution divider for RECURSIVE recursion_mode. Texture resolution at depth D = base * (1 / divider^D). 2.0 means each nesting halves resolution.
-	# Default: 2.0
-	# Range: 1.0 ~ 16.0
-	recursion_resolution_divider = 2.0
-	#Per-level render-distance divider for RECURSIVE recursion_mode. Render distance at depth D = base / divider^D. 2.0 means each nesting halves render distance.
-	# Default: 2.0
-	# Range: 1.0 ~ 16.0
-	recursion_distance_divider = 2.0
