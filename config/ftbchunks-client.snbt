@@ -138,30 +138,30 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:chicken": true
-			"alexsmobs:rhinoceros": true
-			"artifacts:mimic": true
 			"alexsmobs:fly": true
-			"alexsmobs:kangaroo": true
+			"alexsmobs:rhinoceros": true
 			"minecraft:spider": true
-			"minecraft:pig": true
-			"minecraft:wandering_trader": true
-			"minecraft:creeper": true
-			"minecraft:armadillo": true
-			"minecraft:zombie": true
-			"minecraft:skeleton": true
-			"alexsmobs:rocky_roller": true
 			"alexsmobs:emu": true
-			"alexsmobs:gazelle": true
+			"minecraft:pig": true
+			"minecraft:zombie": true
 			"quark:forgotten": true
-			"alexsmobs:cockroach": true
-			"minecraft:glow_squid": true
-			"minecraft:bat": true
+			"minecraft:squid": true
+			"alexsmobs:rocky_roller": true
+			"alexsmobs:gazelle": true
 			"quark:toretoise": true
+			"minecraft:wandering_trader": true
 			"minecraft:enderman": true
+			"minecraft:armadillo": true
+			"minecraft:creeper": true
+			"alexsmobs:kangaroo": true
+			"minecraft:bat": true
+			"minecraft:skeleton": true
+			"minecraft:chicken": true
 			"minecraft:sheep": true
 			"quark:stoneling": true
-			"minecraft:squid": true
+			"alexsmobs:cockroach": true
+			"artifacts:mimic": true
+			"minecraft:glow_squid": true
 			"alexsmobs:elephant": true
 			"meadow:water_buffalo": true
 		}
