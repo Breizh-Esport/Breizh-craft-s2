@@ -1,31 +1,37 @@
-name: Deploy Modpack
+name: Deploy (reusable)
+
+# Reusable deployment workflow. Callers (deploy-preprod.yml / deploy-prod.yml)
+# invoke this via `workflow_call` and pass the target GitHub Environment. All
+# PTERODACTYL_* vars/secrets resolve to that environment's values, so a single
+# script deploys to preprod or prod without duplication.
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+  workflow_call:
+    inputs:
+      environment:
+        description: Target GitHub Environment (preprod or prod).
+        required: true
+        type: string
 
 permissions:
   contents: read
-
-concurrency:
-  group: deploy-modpack-${{ github.ref }}
-  cancel-in-progress: false
-
-env:
-  PTERODACTYL_PANEL_URL: ${{ vars.PTERODACTYL_PANEL_URL }}
-  PTERODACTYL_SERVER_ID: ${{ vars.PTERODACTYL_SERVER_ID }}
-  PTERODACTYL_API_KEY: ${{ secrets.PTERODACTYL_API_KEY }}
-  PTERODACTYL_SFTP_HOST: ${{ vars.PTERODACTYL_SFTP_HOST }}
-  PTERODACTYL_SFTP_PORT: ${{ vars.PTERODACTYL_SFTP_PORT }}
-  PTERODACTYL_SFTP_USERNAME: ${{ vars.PTERODACTYL_SFTP_USERNAME }}
-  PTERODACTYL_SFTP_PASSWORD: ${{ secrets.PTERODACTYL_SFTP_PASSWORD }}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment: ${{ inputs.environment }}
+    concurrency:
+      group: deploy-${{ inputs.environment }}
+      cancel-in-progress: false
+    env:
+      PTERODACTYL_PANEL_URL: ${{ vars.PTERODACTYL_PANEL_URL }}
+      PTERODACTYL_SERVER_ID: ${{ vars.PTERODACTYL_SERVER_ID }}
+      PTERODACTYL_API_KEY: ${{ secrets.PTERODACTYL_API_KEY }}
+      PTERODACTYL_SFTP_HOST: ${{ vars.PTERODACTYL_SFTP_HOST }}
+      PTERODACTYL_SFTP_PORT: ${{ vars.PTERODACTYL_SFTP_PORT }}
+      PTERODACTYL_SFTP_USERNAME: ${{ vars.PTERODACTYL_SFTP_USERNAME }}
+      PTERODACTYL_SFTP_PASSWORD: ${{ secrets.PTERODACTYL_SFTP_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -50,6 +56,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
+          echo "Deploying to environment: ${{ inputs.environment }}"
 
           if [ -z "${PTERODACTYL_PANEL_URL}" ] || [ -z "${PTERODACTYL_SERVER_ID}" ] || [ -z "${PTERODACTYL_API_KEY}" ]; then
             echo "Missing required Pterodactyl API variables/secrets."
@@ -151,4 +159,4 @@ jobs:
           echo "Starting server..."
           api_json POST "/power" '{"signal":"start"}' >/dev/null
 
-          echo "Deployment completed."
+          echo "Deployment to ${{ inputs.environment }} completed."

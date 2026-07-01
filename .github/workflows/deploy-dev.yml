@@ -1,0 +1,21 @@
+name: Deploy Dev
+
+# Auto-deploy the modpack to the dev Pterodactyl server on every push to main.
+# Also dispatchable manually. Preprod and prod stay manual (deploy-preprod.yml /
+# deploy-prod.yml).
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/deploy.yml
+    with:
+      environment: dev
+    secrets: inherit

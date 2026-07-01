@@ -1,0 +1,17 @@
+name: Deploy Preprod
+
+# Manually deploy the modpack to the preprod Pterodactyl server. Pick the branch
+# or tag to deploy from the "Run workflow" dropdown in the Actions tab.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/deploy.yml
+    with:
+      environment: preprod
+    secrets: inherit
