@@ -244,22 +244,43 @@ jobs:
               gameVersions: $gameVersions
             }')
 
-          RESPONSE=$(curl -s \
-            -w "\n%{http_code}" \
-            "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
-            -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
-            -F "metadata=$METADATA" \
-            -F "file=@${CF_ZIP}") || {
-            echo "CurseForge upload request failed (network error)"
-            exit 1
-          }
+          # Retry on transient 5xx / network errors (CurseForge's Cloudflare
+          # front-end returns intermittent 502s). A 4xx is a real error and is
+          # not retried.
+          HTTP_STATUS=""
+          BODY=""
+          for attempt in 1 2 3 4 5; do
+            if ! RESPONSE=$(curl -s \
+              -w "\n%{http_code}" \
+              "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
+              -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
+              -F "metadata=$METADATA" \
+              -F "file=@${CF_ZIP}"); then
+              echo "CurseForge upload request failed (network error, attempt ${attempt})"
+              sleep $((attempt * 10))
+              continue
+            fi
 
-          HTTP_STATUS=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | head -n -1)
-          echo "CurseForge response (HTTP ${HTTP_STATUS}): ${BODY}"
+            HTTP_STATUS=$(echo "$RESPONSE" | tail -1)
+            BODY=$(echo "$RESPONSE" | head -n -1)
+            echo "CurseForge response (HTTP ${HTTP_STATUS}): ${BODY}"
+
+            if [[ "$HTTP_STATUS" == "200" ]]; then
+              break
+            fi
+
+            if [[ "$HTTP_STATUS" =~ ^5 ]]; then
+              echo "Transient HTTP ${HTTP_STATUS}; retrying in $((attempt * 10))s"
+              sleep $((attempt * 10))
+              continue
+            fi
+
+            echo "CurseForge upload failed (non-retryable HTTP ${HTTP_STATUS})"
+            exit 1
+          done
 
           if [[ "$HTTP_STATUS" != "200" ]]; then
-            echo "CurseForge upload failed"
+            echo "CurseForge upload failed after retries"
             exit 1
           fi
 
@@ -322,21 +343,41 @@ jobs:
               childFileType: 2
             }')
 
-          RESPONSE=$(curl -s \
-            -w "\n%{http_code}" \
-            "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
-            -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
-            -F "metadata=$METADATA" \
-            -F "file=@${SERVER_ZIP}") || {
-            echo "CurseForge server pack upload request failed (network error)"
-            exit 1
-          }
+          # Retry on transient 5xx / network errors (CurseForge's Cloudflare
+          # front-end returns intermittent 502s). A 4xx is a real error and is
+          # not retried.
+          HTTP_STATUS=""
+          for attempt in 1 2 3 4 5; do
+            if ! RESPONSE=$(curl -s \
+              -w "\n%{http_code}" \
+              "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_PROJECT_ID}/upload-file" \
+              -H "X-Api-Token: $CURSEFORGE_API_TOKEN" \
+              -F "metadata=$METADATA" \
+              -F "file=@${SERVER_ZIP}"); then
+              echo "CurseForge server pack upload request failed (network error, attempt ${attempt})"
+              sleep $((attempt * 10))
+              continue
+            fi
 
-          HTTP_STATUS=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | head -n -1)
-          echo "CurseForge response (HTTP ${HTTP_STATUS}): ${BODY}"
+            HTTP_STATUS=$(echo "$RESPONSE" | tail -1)
+            BODY=$(echo "$RESPONSE" | head -n -1)
+            echo "CurseForge response (HTTP ${HTTP_STATUS}): ${BODY}"
+
+            if [[ "$HTTP_STATUS" == "200" ]]; then
+              break
+            fi
+
+            if [[ "$HTTP_STATUS" =~ ^5 ]]; then
+              echo "Transient HTTP ${HTTP_STATUS}; retrying in $((attempt * 10))s"
+              sleep $((attempt * 10))
+              continue
+            fi
+
+            echo "CurseForge server pack upload failed (non-retryable HTTP ${HTTP_STATUS})"
+            exit 1
+          done
 
           if [[ "$HTTP_STATUS" != "200" ]]; then
-            echo "CurseForge server pack upload failed"
+            echo "CurseForge server pack upload failed after retries"
             exit 1
           fi
