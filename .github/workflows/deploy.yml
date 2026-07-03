@@ -12,6 +12,15 @@ on:
         description: Target GitHub Environment (preprod or prod).
         required: true
         type: string
+      serverpack_source:
+        description: >
+          Where the server pack comes from. "build" runs `pakku export` from the
+          checked-out ref (dev / continuous delivery). "release" promotes the
+          `*-server.zip` asset already published by the Release pipeline for the
+          selected tag (preprod / prod fixed releases).
+        required: false
+        type: string
+        default: build
 
 permissions:
   contents: read
@@ -37,21 +46,47 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Homebrew
-        uses: Homebrew/actions/setup-homebrew@master
-
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y jq unzip lftp
 
+      # --- serverpack_source: build --- (dev / continuous delivery)
+      - name: Setup Homebrew
+        if: inputs.serverpack_source == 'build'
+        uses: Homebrew/actions/setup-homebrew@master
+
       - name: Install pakku
+        if: inputs.serverpack_source == 'build'
         env:
           HOMEBREW_NO_SANDBOX_LINUX: 1
         run: brew install juraj-hrivnak/pakku/pakku
 
       - name: Build modpack
+        if: inputs.serverpack_source == 'build'
         run: pakku export
+
+      # --- serverpack_source: release --- (preprod / prod fixed releases)
+      # Promote the exact `*-server.zip` published by the Release pipeline for
+      # the selected tag, rather than re-resolving mods at deploy time. This
+      # guarantees preprod/prod deploy the same bytes shipped to CurseForge.
+      - name: Download released server pack
+        if: inputs.serverpack_source == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF_NAME}"
+          echo "Promoting released server pack for tag: ${TAG}"
+
+          mkdir -p build/serverpack
+          if ! gh release download "${TAG}" \
+            --pattern '*-server.zip' \
+            --dir build/serverpack; then
+            echo "No '*-server.zip' asset found on release '${TAG}'."
+            echo "Run the Release pipeline for this tag before deploying ${{ inputs.environment }}."
+            exit 1
+          fi
 
       - name: Deploy to Pterodactyl
         shell: bash
