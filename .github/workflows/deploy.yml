@@ -32,6 +32,7 @@ jobs:
       PTERODACTYL_SFTP_PORT: ${{ vars.PTERODACTYL_SFTP_PORT }}
       PTERODACTYL_SFTP_USERNAME: ${{ vars.PTERODACTYL_SFTP_USERNAME }}
       PTERODACTYL_SFTP_PASSWORD: ${{ secrets.PTERODACTYL_SFTP_PASSWORD }}
+      VOICECHAT_PORT: ${{ vars.VOICECHAT_PORT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -126,6 +127,19 @@ jobs:
           LFTP_SCRIPT="$(mktemp)"
           trap 'rm -rf "${EXTRACT_DIR}" "${LFTP_SCRIPT}"' EXIT
           unzip -q "${ZIP_FILE}" -d "${EXTRACT_DIR}"
+
+          # Simple Voice Chat: all environments run on the same host, so each
+          # server needs a distinct UDP port. The gitted default (24454) is
+          # overwritten here with the per-environment VOICECHAT_PORT variable.
+          if [ -n "${VOICECHAT_PORT:-}" ]; then
+            VC_CONFIG="${EXTRACT_DIR}/config/voicechat/voicechat-server.properties"
+            if [ -f "${VC_CONFIG}" ]; then
+              echo "Setting Simple Voice Chat port to ${VOICECHAT_PORT}"
+              sed -i "s/^port=.*/port=${VOICECHAT_PORT}/" "${VC_CONFIG}"
+            else
+              echo "Warning: ${VC_CONFIG} not found, skipping voice chat port override."
+            fi
+          fi
 
           echo "Scanning SFTP host key..."
           mkdir -p ~/.ssh && chmod 700 ~/.ssh
