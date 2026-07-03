@@ -17818,65 +17818,63 @@
             ]
         },
         {
-            "pakku_id": "3dbqZ2nxhZHfTKpT",
+            "pakku_id": "sC9RG6mNzz3ReFOR",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "ping-wheel",
-                "modrinth": "ping-wheel"
+                "curseforge": "ping",
+                "modrinth": "ping-original"
             },
             "name": {
-                "curseforge": "Ping Wheel",
-                "modrinth": "Ping Wheel"
+                "curseforge": "Ping",
+                "modrinth": "Ping"
             },
             "id": {
-                "curseforge": "734339",
-                "modrinth": "QQXAdCzh"
+                "curseforge": "222967",
+                "modrinth": "Qaq8E11f"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "Ping-Wheel-1.12.2-neoforge-1.21.1.jar",
+                    "file_name": "Ping-neoforge-1.21.1-1.12.4.jar",
                     "mc_versions": [
-                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/QQXAdCzh/versions/Zrh2Fmn9/Ping-Wheel-1.12.2-neoforge-1.21.1.jar",
-                    "id": "Zrh2Fmn9",
-                    "parent_id": "QQXAdCzh",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Qaq8E11f/versions/Kx6ZdsSe/Ping-neoforge-1.21.1-1.12.4.jar",
+                    "id": "Kx6ZdsSe",
+                    "parent_id": "Qaq8E11f",
                     "hashes": {
-                        "sha512": "d9f289464fa85c8af34bc57044a6f03abc0ccf4d93bc67451d1e68386be0e3b55524a68dcbf529773859f9166e09cf1fe848c83f1c0c1d10a374819d120d2554",
-                        "sha1": "bfc416a7bc2edde6ff98672a7df43a3d9930a396"
+                        "sha512": "ab450bde3287d3a36bc6bf937138c5fa74daa1fe7f3fde0b5e1372f7fc43a4088c03fff5784e203d8c04a15f8164d71fa89fdaf51a151b3de78a41287c033e09",
+                        "sha1": "630bd230b2d3d96a33053e3dc775e3c83dab2372"
                     },
                     "required_dependencies": [],
-                    "size": 153528,
-                    "date_published": "2026-04-26T20:43:56.123699Z"
+                    "size": 100888,
+                    "date_published": "2025-12-15T01:21:32.610189Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "Ping-Wheel-1.12.2-neoforge-1.21.1.jar",
+                    "file_name": "Ping-neoforge-1.21.1-1.12.4.jar",
                     "mc_versions": [
-                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7996/932/Ping-Wheel-1.12.2-neoforge-1.21.1.jar",
-                    "id": "7996932",
-                    "parent_id": "734339",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7334/897/Ping-neoforge-1.21.1-1.12.4.jar",
+                    "id": "7334897",
+                    "parent_id": "222967",
                     "hashes": {
-                        "sha1": "bfc416a7bc2edde6ff98672a7df43a3d9930a396",
-                        "md5": "3b4529831b501ab99af3f9dd930ecc58"
+                        "sha1": "630bd230b2d3d96a33053e3dc775e3c83dab2372",
+                        "md5": "cb49f31af9e1f7d24d30f005a0d9d1f7"
                     },
                     "required_dependencies": [],
-                    "size": 153528,
-                    "date_published": "2026-04-26T20:43:56.277Z"
+                    "size": 100888,
+                    "date_published": "2025-12-15T01:24:54.020Z"
                 }
             ]
         },
