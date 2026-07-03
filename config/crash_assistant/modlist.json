@@ -437,14 +437,6 @@
     "curseForgeHash": 527531260,
     "modrinthHash": "6f5395f58139802edfde7cb9170279f92f291971"
   },
-  "chunksfadein-neoforge-3.0.23-1.21.jar": {
-    "jarName": "chunksfadein-neoforge-3.0.23-1.21.jar",
-    "modId": "chunksfadein",
-    "name": "Chunks Fade In",
-    "version": "3.0.23-1.21",
-    "curseForgeHash": 1598631611,
-    "modrinthHash": "24b2774abfed190dd3326677af37cdf293ff1095"
-  },
   "citadel-1.21.1-2.7.6.jar": {
     "jarName": "citadel-1.21.1-2.7.6.jar",
     "modId": "citadel",
