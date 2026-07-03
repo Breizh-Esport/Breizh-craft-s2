@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["481B8EA3E31F511D"]
@@ -38,8 +38,8 @@
 				item: { count: 1, id: "aeronautics:white_envelope" }
 				type: "item"
 			}]
-			x: -4.2d
-			y: -6.0d
+			x: -3.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["481B8EA3E31F511D"]
@@ -54,8 +54,8 @@
 				item: { count: 1, id: "aeronautics:wooden_propeller" }
 				type: "item"
 			}]
-			x: -1.8d
-			y: -6.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2991184DDC7BBCBA"]
@@ -70,8 +70,8 @@
 				item: { count: 1, id: "aeronautics:propeller_bearing" }
 				type: "item"
 			}]
-			x: -1.8d
-			y: -4.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["152DD24504046AD2"]
@@ -86,8 +86,8 @@
 				item: { count: 1, id: "aeronautics:smart_propeller" }
 				type: "item"
 			}]
-			x: -1.8d
-			y: -2.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["481B8EA3E31F511D"]
@@ -106,8 +106,8 @@
 				item: { count: 1, id: "aeronautics:levitite" }
 				type: "item"
 			}]
-			x: -4.2d
-			y: -4.0d
+			x: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["481B8EA3E31F511D"]
@@ -122,8 +122,8 @@
 				item: { count: 1, id: "aeronautics:aviators_goggles" }
 				type: "item"
 			}]
-			x: -4.2d
-			y: -2.0d
+			x: -1.0d
+			y: -6.5d
 		}
 		{
 			id: "35AB06E4B7F9A4A0"
@@ -137,8 +137,8 @@
 				item: { count: 1, id: "simulated:contraption_diagram" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["35AB06E4B7F9A4A0"]
@@ -153,8 +153,8 @@
 				item: { count: 1, id: "simulated:physics_assembler" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3C06A2E5DBDA78E8"]
@@ -169,8 +169,8 @@
 				item: { count: 1, id: "simulated:black_portable_engine" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3C06A2E5DBDA78E8"]
@@ -185,8 +185,8 @@
 				item: { count: 1, id: "simulated:steering_wheel" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C06A2E5DBDA78E8"]
@@ -201,8 +201,8 @@
 				item: { count: 1, id: "simulated:white_symmetric_sail" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3C06A2E5DBDA78E8"]
@@ -217,8 +217,8 @@
 				item: { count: 1, id: "simulated:altitude_sensor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C06A2E5DBDA78E8"]
@@ -233,8 +233,8 @@
 				item: { count: 1, id: "simulated:docking_connector" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: -1.0d
+			y: 1.5d
 		}
 	]
 }

@@ -22,8 +22,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["55DAE8F66EC5A280"]
@@ -38,8 +38,8 @@
 				item: { count: 1, id: "create:wrench" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["31CE949AFDA8308D"]
@@ -58,8 +58,8 @@
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2D17CD5DAAF81937"]
@@ -74,8 +74,8 @@
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2FD7CE2088159EA2"]
@@ -90,8 +90,8 @@
 				item: { count: 1, id: "create:stressometer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2FD7CE2088159EA2"]
@@ -106,8 +106,8 @@
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2FD7CE2088159EA2"]
@@ -122,8 +122,8 @@
 				item: { count: 1, id: "create:copper_casing" }
 				type: "item"
 			}]
-			x: -1.3d
-			y: 0.8d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2FD7CE2088159EA2"]
@@ -138,8 +138,8 @@
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: 2.2d
-			y: 0.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4E131493A5926688"]
@@ -154,8 +154,8 @@
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
-			x: 2.2d
-			y: 2.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0584B03A3072F365"]
@@ -174,8 +174,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 2.2d
-			y: 4.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["30D32474C4396DB3"]
@@ -190,8 +190,8 @@
 				item: { count: 1, id: "create:brass_casing" }
 				type: "item"
 			}]
-			x: 2.2d
-			y: 6.0d
+			x: 9.5d
+			y: -3.0d
 		}
 	]
 }

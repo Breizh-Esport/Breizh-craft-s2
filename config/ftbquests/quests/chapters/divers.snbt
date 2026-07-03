@@ -1,0 +1,386 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divers"
+	group: "633B1CA32DE684B3"
+	icon: {
+		id: "exposure:camera"
+	}
+	id: "4E6A83F20ED84C9E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "tide:fishing_journal"
+			}
+			id: "1756D7A9AE517700"
+			rewards: [{
+				id: "1A648CB35BC6B0C1"
+				item: {
+					count: 1
+					id: "tide:fishing_journal"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "13D449DA3665B6FF"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1756D7A9AE517700"]
+			id: "0DC404E9F4C5269A"
+			rewards: [{
+				id: "73061F7CA4BEE885"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2A2F97D90BF7D987"
+				item: { count: 1, id: "tide:iron_fishing_rod" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1756D7A9AE517700"]
+			id: "00F9497B8FC08081"
+			rewards: [{
+				id: "5CFEBBD36B7B0E8C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C59B368874EB6C1"
+				item: { count: 1, id: "tide:lucky_bait" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			id: "0812B078FD44FE20"
+			rewards: [{
+				id: "5FFA0BD201CB6C13"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3B3C10D88949417A"
+				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "29251AD1A5785341"
+			rewards: [{
+				id: "0D65BA8B42FE9928"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2B9114CE89B43C35"
+				item: { count: 1, id: "relics:researching_table" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29251AD1A5785341"]
+			id: "0B8457B8AE723495"
+			rewards: [{
+				id: "67268640DD9080DE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6995C61E461AABC5"
+				item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 100.26854d }, distance: { initialValue: 693.04031d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:magic_mirror" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			id: "084400B453214DF3"
+			rewards: [{
+				id: "6625FD3FCAF114D9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5668DC57D69FB591"
+				item: { count: 1, id: "computercraft:computer_normal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["084400B453214DF3"]
+			id: "54DB9E5E3A075D62"
+			rewards: [{
+				id: "08AA16CF894484A8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0D6A518D94367905"
+				item: { count: 1, id: "computercraft:turtle_normal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "209745DECD717C25"
+			rewards: [{
+				id: "153188A7E5A03A94"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "693EE151AF456B59"
+				item: { count: 1, id: "mob_grinding_utils:dreadful_dirt" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["209745DECD717C25"]
+			id: "4C31AFA02A557A28"
+			rewards: [{
+				id: "15D94CB2AD9EB727"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "79EC5DD803804BC2"
+				item: { count: 1, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C31AFA02A557A28"]
+			id: "19195FB62EB9B533"
+			rewards: [{
+				id: "28587C5BCBAF63FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1A7E891E3389321C"
+				item: { count: 1, id: "mob_grinding_utils:spikes" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19195FB62EB9B533"]
+			id: "24D8F205CB7173C1"
+			rewards: [{
+				id: "0432F66E3DB6776C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2B88067D0A5AAAB8"
+				item: { count: 1, id: "mob_grinding_utils:absorption_hopper" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24D8F205CB7173C1"]
+			id: "6BA11B8B5359DF04"
+			rewards: [{
+				id: "254A1B9EDF814070"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0B637C7A3C68B1CF"
+				item: { count: 1, id: "mob_grinding_utils:tank" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BA11B8B5359DF04"]
+			id: "58AE2F91F0844B8A"
+			rewards: [{
+				id: "57484537ADD67713"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "578D2FA3ECB08283"
+				item: { count: 1, id: "mob_grinding_utils:xpsolidifier" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "6E4C701C07B01905"
+			rewards: [{
+				id: "2A2FEA591DC1ABCA"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7D8C0070532B2F01"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E4C701C07B01905"]
+			id: "24F52C1925F5153F"
+			rewards: [{
+				id: "73D58BEC4EE3D0E4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4B13F92B01AAC25A"
+				item: { count: 1, id: "exposure:color_film" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["24F52C1925F5153F"]
+			id: "2F4CB1CA40C8A7AF"
+			rewards: [{
+				id: "18F19336D058C404"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0DC99CF698CCB5C1"
+				item: { count: 1, id: "exposure:lightroom" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F4CB1CA40C8A7AF"]
+			id: "02E43CC79DFA7774"
+			rewards: [{
+				id: "38DF76F80F1DDC0A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "720498A1170994AA"
+				item: { count: 1, id: "exposure:photograph_frame" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F4CB1CA40C8A7AF"]
+			id: "347A861810F61080"
+			rewards: [{
+				id: "267E711AD660E528"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5DD2467910B9FF61"
+				item: { count: 1, id: "exposure:interplanar_projector" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "5F1F919CC508582E"
+			rewards: [{
+				id: "4FCAE396D69D6EA8"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "61F41BC3E9E779E2"
+				item: { count: 1, id: "armourers_workshop:skin-library-global" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5F1F919CC508582E"]
+			id: "729B7A7D5C429AFC"
+			rewards: [{
+				id: "7F442AFB595BBBB2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2070AFDE520F38B8"
+				item: { count: 1, id: "armourers_workshop:skin-library" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F1F919CC508582E"]
+			icon: {
+				id: "armourers_workshop:mannequin"
+			}
+			id: "378B03E821EA4CDB"
+			rewards: [{
+				id: "016F2A71F8FC1381"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "35C07A23A9F3CE82"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F1F919CC508582E"]
+			id: "31766EF2818F8C49"
+			rewards: [{
+				id: "4CDC0377D553688E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0D690662601AF98E"
+				item: { count: 1, id: "armourers_workshop:skinning-table" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.0d
+		}
+	]
+}

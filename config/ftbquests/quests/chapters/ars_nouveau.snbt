@@ -11,22 +11,28 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
 			id: "00579D1059CADE9A"
 			rewards: [{
-				id: "7252AA7984759D71"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "005417BB9CB5E993"
-				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				id: "36255E7CD1B984C8"
+				item: {
+					count: 1
+					id: "ars_nouveau:worn_notebook"
+				}
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "450B928F97A5A981"
+				type: "checkmark"
+			}]
 			x: 0.0d
-			y: -10.0d
+			y: -9.75d
 		}
 		{
-			dependencies: ["00579D1059CADE9A"]
 			id: "760B182E57813598"
 			rewards: [{
 				id: "14D3B0B823DFE738"

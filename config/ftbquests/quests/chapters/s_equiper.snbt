@@ -529,6 +529,7 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "7EB13F2D389E4468"
 				type: "checkmark"

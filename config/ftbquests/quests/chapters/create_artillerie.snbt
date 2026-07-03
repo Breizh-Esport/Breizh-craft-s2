@@ -11,22 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1FA21E7CE7D641A2"
-			rewards: [{
-				id: "71A4FC0F428A46C0"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6F60E56AEA8FF447"
-				item: { count: 1, id: "createbigcannons:cast_iron_ingot" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["1FA21E7CE7D641A2"]
 			id: "3C2A4A8110CF9AFE"
 			rewards: [{
 				id: "017CFC7472A50F5B"
@@ -166,8 +150,8 @@
 				item: { count: 1, id: "createbigcannons:bronze_autocannon_barrel" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3CF0B44B23F11A50"]
@@ -182,8 +166,8 @@
 				item: { count: 1, id: "createbigcannons:autocannon_ammo_container" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.0d
+			x: -7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["49DA89FA276C02D8"]
@@ -262,7 +246,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7DF0550FAB33953B"]
@@ -278,7 +262,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["20818EC523A565D1"]
@@ -294,7 +278,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7450D654E14CBB4F"]
@@ -310,7 +294,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3CAA3982A9CC994D"]
@@ -326,7 +310,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3CAA3982A9CC994D"]
@@ -342,7 +326,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: 3.0d
 		}
 	]
 }

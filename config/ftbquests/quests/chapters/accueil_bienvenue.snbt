@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "accueil_bienvenue"
-	group: ""
+	group: "6D1547FA34642275"
 	icon: {
 		id: "minecraft:nether_star"
 	}

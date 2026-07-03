@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cuisine"
+	group: "633B1CA32DE684B3"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "7824225FE02F49E3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "649F8113D684F661"
+			rewards: [{
+				id: "1A556AF6AADEC987"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "37BCD48177134BCF"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["649F8113D684F661"]
+			id: "6EB09BEB5A56E072"
+			rewards: [{
+				id: "71176C6DF6CE1827"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "42DFAE686299CA5B"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["649F8113D684F661"]
+			id: "440910E263ACC12D"
+			rewards: [{
+				id: "5CDE40F0CF35299D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2C7690294CCFEE81"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["649F8113D684F661"]
+			id: "5BE89F0A4E7AB5FB"
+			rewards: [{
+				id: "0F19169DF7FD3202"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0C38E728260B3A72"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["649F8113D684F661"]
+			id: "064FE998B89BD1D9"
+			rewards: [{
+				id: "785F05422E9A352E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "313C21DC19F8B015"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["649F8113D684F661"]
+			icon: {
+				id: "farmersdelight:apple_pie"
+			}
+			id: "0D9DD0E2FD0FE491"
+			rewards: [{
+				id: "3FD29B4CC886296B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4F9626C7D8175B5E"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "39ACE9B74B213E68"
+			rewards: [{
+				id: "6A2C39D742BA48E7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E0FFD34A7FBEA13"
+				item: { count: 1, id: "vinery:apple_wine" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			id: "2D4CE3F4F4836F12"
+			rewards: [{
+				id: "33664BE19154839C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "57E289E49691B26C"
+				item: { count: 1, id: "brewery:copper_brewingstation" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+		{
+			id: "1EEB57AB83CE0753"
+			rewards: [{
+				id: "74A7CF842785ED7C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0065ED743244EE72"
+				item: { count: 1, id: "meadow:cheese_wheel" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			id: "4573990A2803E742"
+			rewards: [{
+				id: "064BEB4B063F0BF4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "083FA36BAE63FD14"
+				item: { count: 1, id: "herbalbrews:tea_kettle" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			id: "107484BA6FA586BC"
+			rewards: [{
+				id: "5ECD1E4CE89A9EBA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DDF393511402764"
+				item: { count: 1, id: "farm_and_charm:farmers_bread" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			id: "365B8CE42EC20AB0"
+			rewards: [{
+				id: "1D18344EE4F0FA86"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "52E7F1A2A9CF9C05"
+				item: { count: 1, id: "pamhc2crops:aridgarden" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["365B8CE42EC20AB0"]
+			id: "2B982A35632B9CDF"
+			rewards: [{
+				id: "3DAC2B8F6CDC66FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "111404F9DC9921C4"
+				item: { count: 1, id: "pamhc2trees:apple_sapling" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["365B8CE42EC20AB0"]
+			id: "23DDA9C2FEECEDAF"
+			rewards: [{
+				id: "72A0A033A94EFC81"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A562B4A4837A4EC"
+				item: { count: 1, id: "pamhc2foodcore:bakewareitem" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			id: "0B6D1A8EA1275CF5"
+			rewards: [{
+				id: "0134CAC5C2A6D186"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3D4602D514C0D132"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			id: "6F374851973E2AB0"
+			rewards: [{
+				id: "61C74DF2E58C679A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "116A72ADF958533E"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6F374851973E2AB0"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "78BE26A01E16D8C6"
+			rewards: [{
+				id: "42C3CB57F02E2FC7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "58A99A503BFD6FBD"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F374851973E2AB0"]
+			id: "2D7DD3064838A3AA"
+			rewards: [{
+				id: "05BCA874E9C84EAA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0265683F4BCFE7E6"
+				item: { count: 1, id: "sliceanddice:sprinkler" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+	]
+}
