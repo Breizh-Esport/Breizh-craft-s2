@@ -103,6 +103,8 @@ jobs:
 
   publish-modrinth:
     needs: build
+    # Temporarily disabled — re-enable by removing this `if` to resume Modrinth publishing.
+    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
