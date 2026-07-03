@@ -4,7 +4,9 @@
     "overrides": [
         "config",
         "kubejs",
-        "defaultconfigs"
+        "defaultconfigs",
+        "emotes",
+        "resourcepacks"
     ],
     "projects": {
         "probejs": {
