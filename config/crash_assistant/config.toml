@@ -352,11 +352,11 @@
 	modpack_logo_large_mode = false
 	#Limit modpack logo height. Default is -1, which means it's calculated automatically.
 	#By default, this should not be needed. But if you have heavily customized GUI or using
-	#a rectangle logo instead of square, you may want to decrease its size, so this option could be needed in such case.
+	#a rectangle logo instead of square, you may want to decrease its size, so this option could be needed in such case. 
 	limit_modpack_logo_height = -1
 	#This option would be needed only if you limited modpack logo height.
 	#Otherwise, the logo will consume all available horizontal space.
-	#If true, the logo will be centered. If false, it will be aligned to the top.
+	#If true, the logo will be centered. If false, it will be aligned to the top. 
 	modpack_logo_aligned_center = true
 
 #Checks crash_assistant compatibility with other incompatible mods.
@@ -376,3 +376,4 @@
 	#Without this fix, crash report generation itself crashes under some rare conditions, preventing the original crash report from being created.
 	#This patch does not change the report contents; it only allows the crash report to be generated successfully.
 	MC307905 = true
+
