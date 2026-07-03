@@ -161,7 +161,11 @@ jobs:
           EXTRACT_DIR="$(mktemp -d)"
           LFTP_SCRIPT="$(mktemp)"
           trap 'rm -rf "${EXTRACT_DIR}" "${LFTP_SCRIPT}"' EXIT
-          unzip -q "${ZIP_FILE}" -d "${EXTRACT_DIR}"
+          # Exclude client-only emotes: EmoteCraft emote files are never needed
+          # server-side, and their long Cyrillic names exceed the 255-byte
+          # filename limit (ENAMETOOLONG). Guards deploys of older release assets
+          # built before emotes became a client_overrides entry.
+          unzip -q "${ZIP_FILE}" -d "${EXTRACT_DIR}" -x 'emotes/*'
 
           # Simple Voice Chat: all environments run on the same host, so each
           # server needs a distinct UDP port. The gitted default (24454) is

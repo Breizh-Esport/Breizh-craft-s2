@@ -5,8 +5,10 @@
         "config",
         "kubejs",
         "defaultconfigs",
-        "emotes",
         "resourcepacks"
+    ],
+    "client_overrides": [
+        "emotes"
     ],
     "projects": {
         "probejs": {
