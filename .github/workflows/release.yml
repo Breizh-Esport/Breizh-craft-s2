@@ -298,11 +298,16 @@ jobs:
 
           echo "file_id=$FILE_ID" >> "$GITHUB_OUTPUT"
 
+  # Disabled — the ~400MB server pack exceeds CurseForge's API upload limit
+  # (HTTP 413). Re-enable by removing the `if: false` below; the pack is also
+  # published as a GitHub release asset, which is what the deploy pipeline uses.
+  #
   # Split from the modpack upload so that, if only the server pack fails, a
   # "Re-run failed jobs" replays just this job and reuses the parent file_id
   # from the (still-successful) modpack job — no duplicate modpack upload.
   publish-curseforge-serverpack:
     needs: [build, publish-curseforge-modpack]
+    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
