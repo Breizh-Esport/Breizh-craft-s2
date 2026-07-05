@@ -2514,6 +2514,14 @@
     "curseForgeHash": 1091566923,
     "modrinthHash": "6f7e53f39eb477d7cee8e21af215cd3db698deda"
   },
+  "reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar": {
+    "jarName": "reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar",
+    "modId": "reeses_sodium_options",
+    "name": "Reese\u0027s Sodium Options",
+    "version": "2.2.2+mc1.21.1",
+    "curseForgeHash": 3825932372,
+    "modrinthHash": "16aeb3c8faa6dfe18df47b48ae2594a7c7dee1cb"
+  },
   "refurbished_furniture-neoforge-1.21.1-1.0.22.jar": {
     "jarName": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
     "modId": "refurbished_furniture",
@@ -2657,6 +2665,14 @@
     "version": "0.4.0",
     "curseForgeHash": 496774725,
     "modrinthHash": "81748b4f728575d9bbab571ab07e6a24cf3ff126"
+  },
+  "simplehatscollection-neoforge-1.21.1-1.0.0.jar": {
+    "jarName": "simplehatscollection-neoforge-1.21.1-1.0.0.jar",
+    "modId": "simplehatscollection",
+    "name": "SimpleHatsCollection",
+    "version": "1.0.0",
+    "curseForgeHash": 1990724332,
+    "modrinthHash": "8a633141ce3784a48707a57d5bf5a26b7c1ad4a6"
   },
   "simplylight-1.5.3+1.21.1-b4.jar": {
     "jarName": "simplylight-1.5.3+1.21.1-b4.jar",

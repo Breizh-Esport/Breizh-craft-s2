@@ -9743,7 +9743,7 @@
             ]
         },
         {
-            "pakku_id": "RL76cQGhsahsdhY0",
+            "pakku_id": "GmK061rhw1EL7KSj",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -9774,7 +9774,11 @@
                         "1.21.8",
                         "1.21.9",
                         "1.21.10",
-                        "1.21.11"
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -18902,6 +18906,71 @@
             ]
         },
         {
+            "pakku_id": "wLSsV4xJ9mpnJ9Af",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "reeses-sodium-options",
+                "modrinth": "reeses-sodium-options"
+            },
+            "name": {
+                "curseforge": "Reese's Sodium Options",
+                "modrinth": "Reese's Sodium Options"
+            },
+            "id": {
+                "curseforge": "511319",
+                "modrinth": "Bh37bMuy"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/O9s4eNST/reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar",
+                    "id": "O9s4eNST",
+                    "parent_id": "Bh37bMuy",
+                    "hashes": {
+                        "sha512": "f1556a8f33f8e1c667ed227109faf50f475cc9a3e04b8827a5222da5bca1568a357c24d793e25814d455c0861cbef088df0d19deccaba7766dd26a07b53e6349",
+                        "sha1": "16aeb3c8faa6dfe18df47b48ae2594a7c7dee1cb"
+                    },
+                    "required_dependencies": [
+                        "AANobbMI"
+                    ],
+                    "size": 258484,
+                    "date_published": "2026-07-03T02:02:02.991673Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8361/384/reeses-sodium-options-neoforge-2.2.2+mc1.21.1.jar",
+                    "id": "8361384",
+                    "parent_id": "511319",
+                    "hashes": {
+                        "sha1": "16aeb3c8faa6dfe18df47b48ae2594a7c7dee1cb",
+                        "md5": "684a0e942057d7e40bb4bc062eeecf59"
+                    },
+                    "required_dependencies": [
+                        "394468"
+                    ],
+                    "size": 258484,
+                    "date_published": "2026-07-03T02:01:57.947Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tfHKDC1N1joFCsEs",
             "type": "MOD",
             "side": "BOTH",
@@ -20115,6 +20184,44 @@
                     ],
                     "size": 1400084,
                     "date_published": "2024-12-07T09:51:22.110Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Ga3iuWX6x3hzc8VP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "simple-hats-collection"
+            },
+            "name": {
+                "curseforge": "Simple Hats Collection"
+            },
+            "id": {
+                "curseforge": "1598955"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "simplehatscollection-neoforge-1.21.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8374/827/simplehatscollection-neoforge-1.21.1-1.0.0.jar",
+                    "id": "8374827",
+                    "parent_id": "1598955",
+                    "hashes": {
+                        "sha1": "8a633141ce3784a48707a57d5bf5a26b7c1ad4a6",
+                        "md5": "45589c55870f6dc6be2eea0538310e56"
+                    },
+                    "required_dependencies": [
+                        "631990"
+                    ],
+                    "size": 48864,
+                    "date_published": "2026-07-05T12:58:13.407Z"
                 }
             ]
         },
