@@ -8785,6 +8785,76 @@
             ]
         },
         {
+            "pakku_id": "YkumX8Oi1ob4sc8e",
+            "pakku_links": [
+                "E9AHwP6POKn7Pkyq"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "fancymenu",
+                "modrinth": "fancymenu"
+            },
+            "name": {
+                "curseforge": "FancyMenu",
+                "modrinth": "FancyMenu"
+            },
+            "id": {
+                "curseforge": "367706",
+                "modrinth": "Wq5SjeWM"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/E22W2MsG/fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+                    "id": "E22W2MsG",
+                    "parent_id": "Wq5SjeWM",
+                    "hashes": {
+                        "sha512": "832167baa1bbf5938a6a9be67925bc491aa35b1b83b89a16ae83ddfcfecfc3d78c56b2e599b65a4f430e87cc20f8366251f5041b0f0277014b0ae1a5f66be55c",
+                        "sha1": "7d5be91bdc108df3cce5c68a10af7dd31dfc9e34"
+                    },
+                    "required_dependencies": [
+                        "J81TRJWm",
+                        "CVT4pFB2"
+                    ],
+                    "size": 25346355,
+                    "date_published": "2026-05-14T20:31:42.979565Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8089/432/fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+                    "id": "8089432",
+                    "parent_id": "367706",
+                    "hashes": {
+                        "sha1": "7d5be91bdc108df3cce5c68a10af7dd31dfc9e34",
+                        "md5": "41e7769dc89dff4a2c123b6e5f3123de"
+                    },
+                    "required_dependencies": [
+                        "410295",
+                        "938643"
+                    ],
+                    "size": 25346355,
+                    "date_published": "2026-05-14T20:31:18.807Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XGXIJaHZ7JDCrHju",
             "type": "MOD",
             "side": "BOTH",
@@ -15658,6 +15728,71 @@
                     "required_dependencies": [],
                     "size": 538109,
                     "date_published": "2026-01-08T23:21:14.223Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "E9AHwP6POKn7Pkyq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "melody",
+                "modrinth": "melody"
+            },
+            "name": {
+                "curseforge": "Melody",
+                "modrinth": "Melody"
+            },
+            "id": {
+                "curseforge": "938643",
+                "modrinth": "CVT4pFB2"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "melody_neoforge_1.0.10_MC_1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/efcdRVZP/melody_neoforge_1.0.10_MC_1.21.jar",
+                    "id": "efcdRVZP",
+                    "parent_id": "CVT4pFB2",
+                    "hashes": {
+                        "sha512": "3bd96b851a65fa95d92d051851e6a7a415927f718fcb05f0dfb5983eb3ca54edfb842ea85f1497e1b3510b5884181b8f9c6080d2b15642ceadac695011c00ec1",
+                        "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698"
+                    },
+                    "required_dependencies": [],
+                    "size": 36096,
+                    "date_published": "2024-06-21T07:53:02.575299Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "melody_neoforge_1.0.10_MC_1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5453/382/melody_neoforge_1.0.10_MC_1.21.jar",
+                    "id": "5453382",
+                    "parent_id": "938643",
+                    "hashes": {
+                        "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698",
+                        "md5": "875f4a68f2cd7ee2cc135904653c93d4"
+                    },
+                    "required_dependencies": [],
+                    "size": 36096,
+                    "date_published": "2024-06-21T07:52:59.533Z"
                 }
             ]
         },
@@ -22725,6 +22860,47 @@
                     ],
                     "size": 256825,
                     "date_published": "2026-05-08T08:32:38.010Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oHjtZxX1NU9bLTIS",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "watermedia-binaries"
+            },
+            "name": {
+                "curseforge": "WATERMeDIA: Binaries"
+            },
+            "id": {
+                "curseforge": "1029438"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "watermedia_binaries-3.0.0-rc.4.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8342/573/watermedia_binaries-3.0.0-rc.4.jar",
+                    "id": "8342573",
+                    "parent_id": "1029438",
+                    "hashes": {
+                        "sha1": "81b8d8108e939625cca3676756e6d4ea1b792d0c",
+                        "md5": "833fd900255e5b15c76a9fdde7df15c4"
+                    },
+                    "required_dependencies": [
+                        "869524"
+                    ],
+                    "size": 143710524,
+                    "date_published": "2026-06-29T19:59:01.427Z"
                 }
             ]
         },
