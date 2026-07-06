@@ -405,6 +405,14 @@
     "curseForgeHash": 2515347654,
     "modrinthHash": "2f0df007d6ed849266a505f0854ab07f55a58b41"
   },
+  "certain_questing_additions-neoforge-1.1.7+mc1.21.1.jar": {
+    "jarName": "certain_questing_additions-neoforge-1.1.7+mc1.21.1.jar",
+    "modId": "certain_questing_additions",
+    "name": "Certain Questing Additions",
+    "version": "1.1.7",
+    "curseForgeHash": 72058761,
+    "modrinthHash": "a948d915c79db31feb6ae0b0ad84e46d47918b8e"
+  },
   "charmofundying-neoforge-9.1.0+1.21.1.jar": {
     "jarName": "charmofundying-neoforge-9.1.0+1.21.1.jar",
     "modId": "charmofundying",
@@ -1261,6 +1269,14 @@
     "curseForgeHash": 1998713974,
     "modrinthHash": "04a62e52e359542d6eaeed3b9229b708115e10d2"
   },
+  "ftb-essentials-neoforge-2101.1.9.jar": {
+    "jarName": "ftb-essentials-neoforge-2101.1.9.jar",
+    "modId": "ftbessentials",
+    "name": "FTB Essentials",
+    "version": "2101.1.9",
+    "curseForgeHash": 2942477040,
+    "modrinthHash": "7d6f274b38d767215549ec066246390c49ac7ad8"
+  },
   "ftb-library-neoforge-2101.1.32.jar": {
     "jarName": "ftb-library-neoforge-2101.1.32.jar",
     "modId": "ftblibrary",
@@ -1850,13 +1866,13 @@
     "curseForgeHash": 3781798999,
     "modrinthHash": "88c574c084ea00ddbda6a8c3ea29f1ec700e5fe2"
   },
-  "LuckPerms-NeoForge-5.4.140.jar": {
-    "jarName": "LuckPerms-NeoForge-5.4.140.jar",
+  "LuckPerms-NeoForge-5.4.150.jar": {
+    "jarName": "LuckPerms-NeoForge-5.4.150.jar",
     "modId": "luckperms",
     "name": "LuckPerms",
-    "version": "5.4.140",
-    "curseForgeHash": 3215286953,
-    "modrinthHash": "bd368d3254d81120a8c287f79c0467478ad2d73e"
+    "version": "5.4.150",
+    "curseForgeHash": 1676466361,
+    "modrinthHash": "fe155d730150d7ee4d707916ed23efe99fdeaac3"
   },
   "lukis-crazy-chambers-1.0.3.jar": {
     "jarName": "lukis-crazy-chambers-1.0.3.jar",
@@ -2977,6 +2993,14 @@
     "version": "1.0.2",
     "curseForgeHash": 3884666855,
     "modrinthHash": "7f1b98594cc611d9502f3bc65d0eaa66542610e8"
+  },
+  "Vanishmod-1.21.1-1.1.21.jar": {
+    "jarName": "Vanishmod-1.21.1-1.1.21.jar",
+    "modId": "vmod",
+    "name": "Vanishmod",
+    "version": "1.1.21",
+    "curseForgeHash": 2334959199,
+    "modrinthHash": "6397006062d4d87e4573721183b70b746b593b8d"
   },
   "villagernames-1.21.1-8.5.jar": {
     "jarName": "villagernames-1.21.1-8.5.jar",
