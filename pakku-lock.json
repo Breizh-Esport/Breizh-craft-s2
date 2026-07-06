@@ -211,49 +211,6 @@
             ]
         },
         {
-            "pakku_id": "BXAjzr8bHOWeXpuZ",
-            "pakku_links": [
-                "DB5ZEKJWEizTTW3p"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "admin-chunk-manager"
-            },
-            "name": {
-                "curseforge": "Admin Chunk Manager"
-            },
-            "id": {
-                "curseforge": "1440421"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "admin_chunk_manager-2.0.0.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7974/918/admin_chunk_manager-2.0.0.jar",
-                    "id": "7974918",
-                    "parent_id": "1440421",
-                    "hashes": {
-                        "sha1": "f48b8016860645a5fe66b90509feb3df3b7f5788",
-                        "md5": "21dafe37aaa7f4b4da870cf85c639996"
-                    },
-                    "required_dependencies": [
-                        "404468",
-                        "404465",
-                        "314906"
-                    ],
-                    "size": 47564,
-                    "date_published": "2026-04-23T23:28:24.497Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "weATdQO9PMflVLn1",
             "type": "MOD",
             "side": "BOTH",
@@ -521,6 +478,67 @@
                     ],
                     "size": 302153,
                     "date_published": "2024-08-09T17:05:35.857Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zEm8THYyQZAnEgYW",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "antixray-forge",
+                "modrinth": "anti-xray"
+            },
+            "name": {
+                "curseforge": "AntiXray ((Neo)Forge)",
+                "modrinth": "AntiXray"
+            },
+            "id": {
+                "curseforge": "560511",
+                "modrinth": "sml2FMaA"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "antixray-neoforge-1.4.8+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sml2FMaA/versions/XUpyMp6c/antixray-neoforge-1.4.8+1.21.1.jar",
+                    "id": "XUpyMp6c",
+                    "parent_id": "sml2FMaA",
+                    "hashes": {
+                        "sha512": "7f5998b5b06f58247afc70e95024f35a162c96c5d8ad537f8da44da709dfae4e064f3ea295540619a69da8afa256d2268b31acbbc47a12392a63cae4b628c725",
+                        "sha1": "49b5f337922319c4a8c30d6b3377a437e87b4b88"
+                    },
+                    "required_dependencies": [],
+                    "size": 128621,
+                    "date_published": "2026-04-24T20:09:26.852537Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "antixray-neoforge-1.4.8+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7979/123/antixray-neoforge-1.4.8+1.21.1.jar",
+                    "id": "7979123",
+                    "parent_id": "560511",
+                    "hashes": {
+                        "sha1": "49b5f337922319c4a8c30d6b3377a437e87b4b88",
+                        "md5": "57409d0f7da2e013f518954dcfa6bb31"
+                    },
+                    "required_dependencies": [],
+                    "size": 128621,
+                    "date_published": "2026-04-24T20:09:24.633Z"
                 }
             ]
         },
@@ -2927,7 +2945,7 @@
             ]
         },
         {
-            "pakku_id": "gsVTZbjPCJTITIAU",
+            "pakku_id": "o96buRrCNPliDH2C",
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -8572,46 +8590,6 @@
             ]
         },
         {
-            "pakku_id": "ZLPRoPVzx2Lqkfqf",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ftb-chunks-forge"
-            },
-            "name": {
-                "curseforge": "FTB Chunks (NeoForge)"
-            },
-            "id": {
-                "curseforge": "314906"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ftb-chunks-neoforge-2101.1.20.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8317/865/ftb-chunks-neoforge-2101.1.20.jar",
-                    "id": "8317865",
-                    "parent_id": "314906",
-                    "hashes": {
-                        "sha1": "f8fd8b158379015302f7aa234785f29a1353803d",
-                        "md5": "6a07d41e10cfd1378a2e43b36bf8d77c"
-                    },
-                    "required_dependencies": [
-                        "419699",
-                        "404465",
-                        "404468"
-                    ],
-                    "size": 655911,
-                    "date_published": "2026-06-25T12:48:27.170Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "1HcQ3Vtmi5OOCHnA",
             "type": "MOD",
             "slug": {
@@ -8725,45 +8703,6 @@
                     ],
                     "size": 1470929,
                     "date_published": "2026-06-15T16:52:56.447Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "WvDRBm6t1jRg4Tbu",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ftb-ranks-forge"
-            },
-            "name": {
-                "curseforge": "FTB Ranks (NeoForge)"
-            },
-            "id": {
-                "curseforge": "314905"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ftb-ranks-neoforge-2101.1.3.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6431/744/ftb-ranks-neoforge-2101.1.3.jar",
-                    "id": "6431744",
-                    "parent_id": "314905",
-                    "hashes": {
-                        "sha1": "07fdfa3a75c3481770ce0118090a347d89e3a560",
-                        "md5": "c273b7fb4b76bc82728bf2215fce7280"
-                    },
-                    "required_dependencies": [
-                        "419699",
-                        "404465"
-                    ],
-                    "size": 88382,
-                    "date_published": "2025-04-17T08:15:07.333Z"
                 }
             ]
         },
@@ -13907,6 +13846,69 @@
             ]
         },
         {
+            "pakku_id": "kHzkma1wEAsaaLwu",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "luckperms",
+                "modrinth": "luckperms"
+            },
+            "name": {
+                "curseforge": "LuckPerms",
+                "modrinth": "LuckPerms"
+            },
+            "id": {
+                "curseforge": "431733",
+                "modrinth": "Vebnzrzj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "LuckPerms-NeoForge-5.4.140.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Vebnzrzj/versions/rnvg05YO/LuckPerms-NeoForge-5.4.140.jar",
+                    "id": "rnvg05YO",
+                    "parent_id": "Vebnzrzj",
+                    "hashes": {
+                        "sha512": "50d94c5a9d2635a445a2bd4f2f16c22172678b93315e3d91fa0829349ccd2b02944354af7baa3e6ae0c7bfe19f497b09af461f84aacc93900b59b75a07cd0290",
+                        "sha1": "bd368d3254d81120a8c287f79c0467478ad2d73e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1434674,
+                    "date_published": "2024-08-22T21:33:54.445681Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "LuckPerms-NeoForge-5.4.140.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/5654/231/LuckPerms-NeoForge-5.4.140.jar",
+                    "id": "5654231",
+                    "parent_id": "431733",
+                    "hashes": {
+                        "sha1": "bd368d3254d81120a8c287f79c0467478ad2d73e",
+                        "md5": "a1ac9ccab8de6d2227896c33efa4c63b"
+                    },
+                    "required_dependencies": [],
+                    "size": 1434674,
+                    "date_published": "2024-08-22T21:33:46.860Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "77EZaZEZcVWXtmsz",
             "type": "MOD",
             "side": "BOTH",
@@ -17205,6 +17207,69 @@
                     "required_dependencies": [],
                     "size": 167431,
                     "date_published": "2026-05-16T01:02:02.233Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UAhULWMapZJ5514X",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "open-parties-and-claims",
+                "modrinth": "open-parties-and-claims"
+            },
+            "name": {
+                "curseforge": "Open Parties and Claims",
+                "modrinth": "Open Parties and Claims"
+            },
+            "id": {
+                "curseforge": "636608",
+                "modrinth": "gF3BGWvG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.27.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/N11y4hWk/open-parties-and-claims-neoforge-1.21.1-0.27.5.jar",
+                    "id": "N11y4hWk",
+                    "parent_id": "gF3BGWvG",
+                    "hashes": {
+                        "sha512": "5ec145d3902354ebd191c41e5328f0970dbc3eaf7498d47f17572a32f2bf4c4cb793f8a44fe5c3409cbd3278d64cb9d4a56777685e4abb13e5c2da36c348537a",
+                        "sha1": "72a83713417b82bcd66f4b1fbe0adaa5f43e363b"
+                    },
+                    "required_dependencies": [],
+                    "size": 1659649,
+                    "date_published": "2026-06-11T10:15:14.104369Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "open-parties-and-claims-neoforge-1.21.1-0.27.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8230/815/open-parties-and-claims-neoforge-1.21.1-0.27.5.jar",
+                    "id": "8230815",
+                    "parent_id": "636608",
+                    "hashes": {
+                        "sha1": "72a83713417b82bcd66f4b1fbe0adaa5f43e363b",
+                        "md5": "d0f6c94d7bd95a0564486c0112d01559"
+                    },
+                    "required_dependencies": [],
+                    "size": 1659649,
+                    "date_published": "2026-06-11T09:48:51.057Z"
                 }
             ]
         },
@@ -22390,6 +22455,67 @@
                     "required_dependencies": [],
                     "size": 273936,
                     "date_published": "2026-06-06T14:30:29.060Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "t0QlSVX6E4xPcDLM",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "vanishmod",
+                "modrinth": "vanishmod"
+            },
+            "name": {
+                "curseforge": "Vanishmod",
+                "modrinth": "Vanishmod"
+            },
+            "id": {
+                "curseforge": "423535",
+                "modrinth": "MihN2cw5"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Vanishmod-1.21.1-1.1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/MihN2cw5/versions/G52aWgtY/Vanishmod-1.21.1-1.1.21.jar",
+                    "id": "G52aWgtY",
+                    "parent_id": "MihN2cw5",
+                    "hashes": {
+                        "sha512": "0b60484fe1777a5f75352f68d973351c77a50a32a19b6642526285209ba7b0bfbaafe99df89fb77162b13688503a1b6432b4282be2811de770707f22df834ca6",
+                        "sha1": "6397006062d4d87e4573721183b70b746b593b8d"
+                    },
+                    "required_dependencies": [],
+                    "size": 75408,
+                    "date_published": "2026-02-23T15:54:14.234590Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Vanishmod-1.21.1-1.1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7668/159/Vanishmod-1.21.1-1.1.21.jar",
+                    "id": "7668159",
+                    "parent_id": "423535",
+                    "hashes": {
+                        "sha1": "6397006062d4d87e4573721183b70b746b593b8d",
+                        "md5": "b1915ad0ad9bd8be221da20fd13d3dda"
+                    },
+                    "required_dependencies": [],
+                    "size": 75408,
+                    "date_published": "2026-02-23T15:49:29.597Z"
                 }
             ]
         },
