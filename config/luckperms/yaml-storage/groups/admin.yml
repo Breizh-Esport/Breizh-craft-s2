@@ -1,0 +1,9 @@
+name: admin
+permissions:
+- '*'
+- weight.100
+parents:
+- moderateur
+prefixes:
+- '&c[Admin] &r':
+    priority: 100

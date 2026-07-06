@@ -198,8 +198,21 @@ jobs:
             echo "set net:reconnect-interval-base 5"
             echo "open ${SFTP_URL}"
             while IFS= read -r local_dir; do
-              remote_dir="/$(basename "${local_dir}")"
-              echo "mirror --reverse --delete --parallel=8 --verbose ${local_dir}/ ${remote_dir}/"
+              base="$(basename "${local_dir}")"
+              remote_dir="/${base}"
+              mirror_opts="--reverse --delete --parallel=8 --verbose"
+              # LuckPerms per-player permission data lives on the server and is
+              # intentionally not shipped in the pack (see .gitignore). Without
+              # these excludes the destructive mirror would wipe every player's
+              # rank assignments on each deploy. Group/track defs stay in the
+              # pack (git) and are still deployed normally.
+              if [ "${base}" = "config" ]; then
+                mirror_opts="${mirror_opts} --exclude luckperms/yaml-storage/users/"
+                mirror_opts="${mirror_opts} --exclude luckperms/yaml-storage/uuidcache.txt"
+                mirror_opts="${mirror_opts} --exclude luckperms/yaml-storage/actions.txt"
+                mirror_opts="${mirror_opts} --exclude luckperms/luckperms-h2-v2.mv.db"
+              fi
+              echo "mirror ${mirror_opts} ${local_dir}/ ${remote_dir}/"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type d | sort)
             while IFS= read -r local_file; do
               echo "put ${local_file} -o /$(basename "${local_file}")"

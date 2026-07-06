@@ -1,0 +1,16 @@
+name: moderateur
+permissions:
+- command.ban
+- command.invsee
+- command.kick
+- command.mute
+- command.near
+- command.pardon
+- command.unmute
+- command.vanish
+- weight.50
+parents:
+- default
+prefixes:
+- '&2[Modo] &r':
+    priority: 50

@@ -1109,6 +1109,14 @@
     "curseForgeHash": 2362786697,
     "modrinthHash": "58552805ec6e6ab5ea1069fa7fba676d18006470"
   },
+  "fancymenu_neoforge_3.9.1_MC_1.21.1.jar": {
+    "jarName": "fancymenu_neoforge_3.9.1_MC_1.21.1.jar",
+    "modId": "fancymenu",
+    "name": "FancyMenu",
+    "version": "3.9.1",
+    "curseForgeHash": 416362275,
+    "modrinthHash": "7d5be91bdc108df3cce5c68a10af7dd31dfc9e34"
+  },
   "fantasy_armor-neoforge-1.2.4-1.21.1.jar": {
     "jarName": "fantasy_armor-neoforge-1.2.4-1.21.1.jar",
     "modId": "fantasy_armor",
@@ -2009,6 +2017,14 @@
     "version": "1.0.2",
     "curseForgeHash": 836426441,
     "modrinthHash": "6efa264eabf4a53283660814be3e395500f339f0"
+  },
+  "melody_neoforge_1.0.10_MC_1.21.jar": {
+    "jarName": "melody_neoforge_1.0.10_MC_1.21.jar",
+    "modId": "melody",
+    "name": "Melody",
+    "version": "1.0.10",
+    "curseForgeHash": 2029427820,
+    "modrinthHash": "e83052a92c4ca0016bcfe7f0207273983dc84698"
   },
   "misctweaks-1.3.0+1.21.1-neoforge.jar": {
     "jarName": "misctweaks-1.3.0+1.21.1-neoforge.jar",
@@ -3041,6 +3057,14 @@
     "version": "2.1.37",
     "curseForgeHash": 1212325280,
     "modrinthHash": "4a91d20d9a3aa8d66e01f7962d77c974ad538f4f"
+  },
+  "watermedia_binaries-3.0.0-rc.4.jar": {
+    "jarName": "watermedia_binaries-3.0.0-rc.4.jar",
+    "modId": "watermedia_binaries",
+    "name": "WaterMedia: Binaries",
+    "version": "3.0.0-rc.4",
+    "curseForgeHash": 3765737269,
+    "modrinthHash": "81b8d8108e939625cca3676756e6d4ea1b792d0c"
   },
   "watermedia_youtube_plugin-2.1.2.jar": {
     "jarName": "watermedia_youtube_plugin-2.1.2.jar",
