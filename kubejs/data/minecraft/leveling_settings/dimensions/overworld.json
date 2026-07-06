@@ -3,5 +3,5 @@
   "max_level": 50,
   "levels_per_distance": 0.005,
   "levels_per_deepness": 0.03,
-  "random_level_bonus": 3
+  "random_level_bonus": 0
 }
