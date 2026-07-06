@@ -3,7 +3,7 @@
 	#This includes dimension, entity, biome, and structure level bonuses for vanilla and various mods
 	#Disable this if you want to start with a clean slate and define all settings yourself
 	#Requires a game restart to take effect
-	use_default_leveling_settings = true
+	use_default_leveling_settings = false
 
 [base_leveling]
 	#Base level for all entities
@@ -11,13 +11,13 @@
 	#Maximum level cap (0 for unlimited)
 	maximum_level = 0
 	#Random bonus levels added to entities (0-value)
-	random_level_bonus = 0
+	random_level_bonus = 3
 	#Additional experience multiplier per level
 	experience_bonus_per_level = 0.1
 
 [environmental_leveling]
 	#How many levels to add per block from world spawn
-	levels_per_block_from_spawn = 0.01
+	levels_per_block_from_spawn = 0.005
 	#How many levels to add per block below sea level (default sea level is Y=64, can be overridden per dimension)
 	levels_per_depth = 0.0
 	#How many levels to add per block above sea level (default sea level is Y=64, can be overridden per dimension)
