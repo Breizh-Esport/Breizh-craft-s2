@@ -9650,7 +9650,7 @@
             ]
         },
         {
-            "pakku_id": "sIiDjLbHN6jTTbKL",
+            "pakku_id": "xub67cN4vpIaS7Yw",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -9681,7 +9681,11 @@
                         "1.21.8",
                         "1.21.9",
                         "1.21.10",
-                        "1.21.11"
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2",
+                        "26.2"
                     ],
                     "loaders": [
                         "fabric",
@@ -12074,7 +12078,7 @@
             ]
         },
         {
-            "pakku_id": "VkApgqxnYrZvymIV",
+            "pakku_id": "hWu3FtFUXgqyRmQ6",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -12092,7 +12096,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "irons_lib-1.21.1-1.1.0.jar",
+                    "file_name": "irons_lib-1.21.1-2.1.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -12100,20 +12104,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/2K9JED9J/irons_lib-1.21.1-1.1.0.jar",
-                    "id": "2K9JED9J",
+                    "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/sQyzhxuH/irons_lib-1.21.1-2.1.0.jar",
+                    "id": "sQyzhxuH",
                     "parent_id": "9nfaJPtX",
                     "hashes": {
-                        "sha512": "99d2fb2de485c6be7d846745085e189e9352f73779edb06c10337ec448884b355d3bacedd46958d81a261db95a3f163a55282390e48d79522dfe89e3ddc7e9d6",
-                        "sha1": "8c275a6292f428fcf10f5bdcbb3df5a88ff0becc"
+                        "sha512": "63f4c2575ac6e031e28d36f87a84d823ebfad389aee49f5315cdf3cfd47af3fa3b8f546af986e48dba72466a0d63c08158b885fc415497c237361ca57dc8e99b",
+                        "sha1": "70fba64d12b6ff9553580e52101d989c89297797"
                     },
                     "required_dependencies": [],
-                    "size": 400168,
-                    "date_published": "2026-06-15T18:32:58.484052Z"
+                    "size": 406284,
+                    "date_published": "2026-07-04T21:36:13.219117Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "irons_lib-1.21.1-1.1.0.jar",
+                    "file_name": "irons_lib-1.21.1-2.1.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -12121,23 +12125,23 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8207/94/irons_lib-1.21.1-1.1.0.jar",
-                    "id": "8207094",
+                    "url": "https://edge.forgecdn.net/files/8364/894/irons_lib-1.21.1-2.1.0.jar",
+                    "id": "8364894",
                     "parent_id": "1492763",
                     "hashes": {
-                        "sha1": "8c275a6292f428fcf10f5bdcbb3df5a88ff0becc",
-                        "md5": "a250c02914fd70fdc31cafae856417d6"
+                        "sha1": "70fba64d12b6ff9553580e52101d989c89297797",
+                        "md5": "5ac685e3e5ce76a9c80d0e865769bd60"
                     },
                     "required_dependencies": [
                         "388172"
                     ],
-                    "size": 400168,
-                    "date_published": "2026-06-06T19:28:00.217Z"
+                    "size": 406284,
+                    "date_published": "2026-07-03T18:27:32.060Z"
                 }
             ]
         },
         {
-            "pakku_id": "FC7NKR6cKKESaxhC",
+            "pakku_id": "kb5qorp1Y9PvL6KN",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -12155,7 +12159,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "irons_spellbooks-1.21.1-3.16.1.jar",
+                    "file_name": "irons_spellbooks-1.21.1-3.16.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -12163,20 +12167,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/l6y70Qts/irons_spellbooks-1.21.1-3.16.1.jar",
-                    "id": "l6y70Qts",
+                    "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/RtvqnbKi/irons_spellbooks-1.21.1-3.16.2.jar",
+                    "id": "RtvqnbKi",
                     "parent_id": "s4OWxYQQ",
                     "hashes": {
-                        "sha512": "173b9311ee01c053af9c611993eb1099f20d7b52f06e4cf0b48f32387b82c78481da9399767d1d590bbd5f9a2aa77e50ec6c004b2e6d0aab5f5626ec6744806d",
-                        "sha1": "9e6d200ebab6e4d321864655764870d878174a8f"
+                        "sha512": "84c3948ac4703e35e9e79d83ede0cb2345995f200909f113d08db506e0368548808f5133b45893cfa9fb855ed4e98952e9e8636d61c86f6a0198101adb7e17b4",
+                        "sha1": "09907e3b4bfdabd7f1f44bfd25aa6432183f39bb"
                     },
                     "required_dependencies": [],
-                    "size": 13789430,
-                    "date_published": "2026-06-15T18:32:00.968194Z"
+                    "size": 13874139,
+                    "date_published": "2026-07-04T21:36:57.465785Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "irons_spellbooks-1.21.1-3.16.1.jar",
+                    "file_name": "irons_spellbooks-1.21.1-3.16.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -12184,21 +12188,21 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8237/97/irons_spellbooks-1.21.1-3.16.1.jar",
-                    "id": "8237097",
+                    "url": "https://edge.forgecdn.net/files/8364/935/irons_spellbooks-1.21.1-3.16.2.jar",
+                    "id": "8364935",
                     "parent_id": "855414",
                     "hashes": {
-                        "sha1": "9e6d200ebab6e4d321864655764870d878174a8f",
-                        "md5": "a05b1b0f1d16b9f922ccd2fdaeba9259"
+                        "sha1": "09907e3b4bfdabd7f1f44bfd25aa6432183f39bb",
+                        "md5": "1982cbf9474f89a4d0f08c9aeba73607"
                     },
                     "required_dependencies": [
-                        "309927",
-                        "388172",
                         "1492763",
-                        "658587"
+                        "658587",
+                        "388172",
+                        "309927"
                     ],
-                    "size": 13789430,
-                    "date_published": "2026-06-12T15:13:41.663Z"
+                    "size": 13874139,
+                    "date_published": "2026-07-03T18:32:20.937Z"
                 }
             ]
         },
@@ -14577,7 +14581,7 @@
             ]
         },
         {
-            "pakku_id": "lzbKdgrJF0uHpeyt",
+            "pakku_id": "cPBjiISmJ0V8ioKX",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -14595,101 +14599,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "MoogsTemplesReimagined-1.21-1.1.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1",
-                        "1.21.2",
-                        "1.21.3",
-                        "1.21.4",
-                        "1.21.5",
-                        "1.21.6",
-                        "1.21.7",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11",
-                        "26.1",
-                        "26.1.1",
-                        "26.1.2"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/UNanzCXS/versions/BVSj6cXd/MoogsTemplesReimagined-1.21-1.1.1.jar",
-                    "id": "BVSj6cXd",
-                    "parent_id": "UNanzCXS",
-                    "hashes": {
-                        "sha512": "ac495bb9ad4246c17dbafe326b6eae80166cc299a5538104f8a907e61c34e4ec0b60445b423077671a247c87d2ab8058243f4dd0e9d33e8918e755c50f766851",
-                        "sha1": "a74a1d61f466a2519348b8af692250db81a804c3"
-                    },
-                    "required_dependencies": [
-                        "1oUDhxuy"
-                    ],
-                    "size": 1431936,
-                    "date_published": "2026-05-07T13:39:05.097875Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "MoogsTemplesReimagined-1.21-1.1.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.8",
-                        "1.21.5",
-                        "1.21.4",
-                        "1.21.1",
-                        "1.21.6",
-                        "1.21.3",
-                        "1.21.7",
-                        "1.21.2",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8052/830/MoogsTemplesReimagined-1.21-1.1.1.jar",
-                    "id": "8052830",
-                    "parent_id": "1339737",
-                    "hashes": {
-                        "sha1": "a74a1d61f466a2519348b8af692250db81a804c3",
-                        "md5": "3d57f2bae1f9f4d117c9c85d103af8c4"
-                    },
-                    "required_dependencies": [
-                        "1337167"
-                    ],
-                    "size": 1431936,
-                    "date_published": "2026-05-07T13:39:05.070Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "J7VpKfVphueWYnw8",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "moogs-voyager-structures",
-                "modrinth": "moogs-voyager-structures"
-            },
-            "name": {
-                "curseforge": "MVS - Moog's Voyager Structures",
-                "modrinth": "MVS - Moog's Voyager Structures"
-            },
-            "id": {
-                "curseforge": "656977",
-                "modrinth": "OQAgZMH1"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "MoogsVoyagerStructures-1.21-5.0.11.jar",
+                    "file_name": "MoogsTemplesReimagined-1.21-1.1.3.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1",
@@ -14714,22 +14624,22 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/cvepxaBC/MoogsVoyagerStructures-1.21-5.0.11.jar",
-                    "id": "cvepxaBC",
-                    "parent_id": "OQAgZMH1",
+                    "url": "https://cdn.modrinth.com/data/UNanzCXS/versions/pI3PZZrR/MoogsTemplesReimagined-1.21-1.1.3.jar",
+                    "id": "pI3PZZrR",
+                    "parent_id": "UNanzCXS",
                     "hashes": {
-                        "sha512": "e20a72cd1cea21470ca3107df8a5686c5820a8a57e631d34d35fcde30c256c10a00d2b7e3ad7c29a933f5e51cbaad7157fa166ca3730f94a6febf62b5f91ac26",
-                        "sha1": "b76969dccad434b7a3576da608651ea4b7708064"
+                        "sha512": "500a1eb2be4b41069c205666390aa58a99587322fc6c44c26a468e079019c6c8ac1e7c08294190e93bfbb66336db28aabbda21c1d90255bce9f2abf769399274",
+                        "sha1": "370f50d51bf951b0b38fc69b4fcc53353d5b215e"
                     },
                     "required_dependencies": [
                         "1oUDhxuy"
                     ],
-                    "size": 1919526,
-                    "date_published": "2026-05-22T15:06:16.554307Z"
+                    "size": 1431956,
+                    "date_published": "2026-07-05T10:06:48.993242Z"
                 },
                 {
                     "type": "curseforge",
-                    "file_name": "MoogsVoyagerStructures-1.21-5.0.11.jar",
+                    "file_name": "MoogsTemplesReimagined-1.21-1.1.3.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.8",
@@ -14750,18 +14660,112 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8128/22/MoogsVoyagerStructures-1.21-5.0.11.jar",
-                    "id": "8128022",
-                    "parent_id": "656977",
+                    "url": "https://edge.forgecdn.net/files/8373/992/MoogsTemplesReimagined-1.21-1.1.3.jar",
+                    "id": "8373992",
+                    "parent_id": "1339737",
                     "hashes": {
-                        "sha1": "b76969dccad434b7a3576da608651ea4b7708064",
-                        "md5": "f92481e68fa3e59502cd3aa3bde5c60b"
+                        "sha1": "370f50d51bf951b0b38fc69b4fcc53353d5b215e",
+                        "md5": "4ba69406ff5e17d50411b0e8b6698a7c"
                     },
                     "required_dependencies": [
                         "1337167"
                     ],
-                    "size": 1919526,
-                    "date_published": "2026-05-22T15:06:15.930Z"
+                    "size": 1431956,
+                    "date_published": "2026-07-05T10:06:48.950Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zjgOvJsOG5gTsoSG",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "moogs-voyager-structures",
+                "modrinth": "moogs-voyager-structures"
+            },
+            "name": {
+                "curseforge": "MVS - Moog's Voyager Structures",
+                "modrinth": "MVS - Moog's Voyager Structures"
+            },
+            "id": {
+                "curseforge": "656977",
+                "modrinth": "OQAgZMH1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MoogsVoyagerStructures-1.21-5.0.14.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/uEZeTQ4b/MoogsVoyagerStructures-1.21-5.0.14.jar",
+                    "id": "uEZeTQ4b",
+                    "parent_id": "OQAgZMH1",
+                    "hashes": {
+                        "sha512": "222668d0608270c8cd1244287a7659a8f55426c3d64389e402c01f4070fcd03ae907098fe8eb8e2f9317c786f227f91ad4ffea58bf3f49bc5b2b43bd6c493ea6",
+                        "sha1": "ee16c9b3efaa7f5fe28f2bb47ebc18db5e009880"
+                    },
+                    "required_dependencies": [
+                        "1oUDhxuy"
+                    ],
+                    "size": 1796857,
+                    "date_published": "2026-07-04T19:20:10.843806Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "MoogsVoyagerStructures-1.21-5.0.14.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.8",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8370/969/MoogsVoyagerStructures-1.21-5.0.14.jar",
+                    "id": "8370969",
+                    "parent_id": "656977",
+                    "hashes": {
+                        "sha1": "ee16c9b3efaa7f5fe28f2bb47ebc18db5e009880",
+                        "md5": "478e947ef57a4ba84e19e2273c1f51a2"
+                    },
+                    "required_dependencies": [
+                        "1337167"
+                    ],
+                    "size": 1796857,
+                    "date_published": "2026-07-04T19:20:10.990Z"
                 }
             ]
         },
@@ -20522,10 +20526,7 @@
             ]
         },
         {
-            "pakku_id": "yxUihiyB9938ntlU",
-            "pakku_links": [
-                "IUMJDrJny84nsWrb"
-            ],
+            "pakku_id": "VK3I2zPPErJWGfTF",
             "type": "MOD",
             "slug": {
                 "curseforge": "sinytra-connector"
@@ -20539,7 +20540,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "connector-2.0.0-beta.14+1.21.1-full.jar",
+                    "file_name": "connector-2.0.0-beta.15+1.21.1-full.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -20547,18 +20548,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7634/148/connector-2.0.0-beta.14+1.21.1-full.jar",
-                    "id": "7634148",
+                    "url": "https://edge.forgecdn.net/files/8368/43/connector-2.0.0-beta.15+1.21.1-full.jar",
+                    "id": "8368043",
                     "parent_id": "890127",
                     "hashes": {
-                        "sha1": "8ec2b9acc1881a15d7ae625e3bc3821a2d1af4e1",
-                        "md5": "06cf27c786fe30a539b5bd23e66b62c9"
+                        "sha1": "5a1ce35ac53ad7d303d616e6e77f6be119ab722f",
+                        "md5": "b2129fe4eb40ebbef0e56e02b3ab53b1"
                     },
                     "required_dependencies": [
                         "889079"
                     ],
-                    "size": 4526785,
-                    "date_published": "2026-02-16T15:38:16.497Z"
+                    "size": 4527066,
+                    "date_published": "2026-07-04T09:40:13.413Z"
                 }
             ]
         },
@@ -20879,7 +20880,7 @@
             ]
         },
         {
-            "pakku_id": "lO2QPJbuTGSK1mc1",
+            "pakku_id": "weFkABg09Li50qQZ",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-backpacks"
@@ -20893,7 +20894,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.21.1-3.25.66.1958.jar",
+                    "file_name": "sophisticatedbackpacks-1.21.1-3.25.67.1964.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -20901,18 +20902,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8360/544/sophisticatedbackpacks-1.21.1-3.25.66.1958.jar",
-                    "id": "8360544",
+                    "url": "https://edge.forgecdn.net/files/8365/718/sophisticatedbackpacks-1.21.1-3.25.67.1964.jar",
+                    "id": "8365718",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "d320bbb47c1b5308a42a960b1f1a16807473d63e",
-                        "md5": "d63d41ce598f41e90ff038033f435b44"
+                        "sha1": "619b5cd7cbccf438efda74d55c7afdfa27614a02",
+                        "md5": "759455ef635e8545e632b3ae68ad72de"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1141757,
-                    "date_published": "2026-07-02T22:26:37.250Z"
+                    "size": 1141984,
+                    "date_published": "2026-07-03T21:22:38.187Z"
                 }
             ]
         },
@@ -20957,7 +20958,7 @@
             ]
         },
         {
-            "pakku_id": "jnW3lzWkqkutKvrM",
+            "pakku_id": "vU6v9YbZJwRrn3tN",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-core"
@@ -20971,7 +20972,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.21.1-1.4.63.2092.jar",
+                    "file_name": "sophisticatedcore-1.21.1-1.4.65.2102.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -20979,21 +20980,21 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8360/513/sophisticatedcore-1.21.1-1.4.63.2092.jar",
-                    "id": "8360513",
+                    "url": "https://edge.forgecdn.net/files/8371/171/sophisticatedcore-1.21.1-1.4.65.2102.jar",
+                    "id": "8371171",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "194a0f87942c84171a18374c0e28b1a119ce6a85",
-                        "md5": "7da01580f964e1869768a9cac32698c4"
+                        "sha1": "7c03084cbfc37672a1e0bd81f6d3c4ab1c73e9bf",
+                        "md5": "662f41e97795e2e05dfed9065fafd26b"
                     },
                     "required_dependencies": [],
-                    "size": 1650446,
-                    "date_published": "2026-07-02T22:17:50.730Z"
+                    "size": 1650572,
+                    "date_published": "2026-07-04T20:09:19.713Z"
                 }
             ]
         },
         {
-            "pakku_id": "ul4jIcHWHQ8PYRhx",
+            "pakku_id": "GixMMJuFbFNypTpU",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-storage"
@@ -21007,7 +21008,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.21.1-1.5.65.1907.jar",
+                    "file_name": "sophisticatedstorage-1.21.1-1.5.66.1919.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -21015,23 +21016,23 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8348/500/sophisticatedstorage-1.21.1-1.5.65.1907.jar",
-                    "id": "8348500",
+                    "url": "https://edge.forgecdn.net/files/8371/203/sophisticatedstorage-1.21.1-1.5.66.1919.jar",
+                    "id": "8371203",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "c0e945bbf6bb481f8e9c782df27548307bb18d1b",
-                        "md5": "1e96df2dd69a67f554ea5d0314dbde05"
+                        "sha1": "fe2903509a7b493220f0a3beec7d33fe6ef200a2",
+                        "md5": "e30090cb8f97bcde0bd40574e179c719"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1782735,
-                    "date_published": "2026-06-30T21:40:45.177Z"
+                    "size": 1782948,
+                    "date_published": "2026-07-04T20:17:07.930Z"
                 }
             ]
         },
         {
-            "pakku_id": "lZIsjkZH2x5xwU7g",
+            "pakku_id": "Emm3RJdxkPHGwI4m",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-storage-create-integration"
@@ -21045,7 +21046,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
+                    "file_name": "sophisticatedstoragecreateintegration-1.21.1-0.1.18.178.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -21053,20 +21054,20 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7974/820/sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
-                    "id": "7974820",
+                    "url": "https://edge.forgecdn.net/files/8365/746/sophisticatedstoragecreateintegration-1.21.1-0.1.18.178.jar",
+                    "id": "8365746",
                     "parent_id": "1226755",
                     "hashes": {
-                        "sha1": "45a0318e8e49e7f3aab213df5cc32b3e7e128b6c",
-                        "md5": "fe4e6d5aa1bfe14335269967795e06be"
+                        "sha1": "696e412222da6d32e79218588a391069ac4fd643",
+                        "md5": "d671935285dc4f2f91159cad016330ef"
                     },
                     "required_dependencies": [
+                        "618298",
                         "619320",
-                        "328085",
-                        "618298"
+                        "328085"
                     ],
-                    "size": 133451,
-                    "date_published": "2026-04-23T22:53:15.093Z"
+                    "size": 134114,
+                    "date_published": "2026-07-03T21:27:25.887Z"
                 }
             ]
         },

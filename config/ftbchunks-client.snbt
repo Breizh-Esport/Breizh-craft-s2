@@ -138,48 +138,48 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"quark:forgotten": true
-			"alexsmobs:murmur_head": true
-			"alexsmobs:elephant": true
-			"minecraft:zombie_villager": true
-			"minecraft:armadillo": true
-			"alexsmobs:fly": true
-			"alexsmobs:murmur": true
-			"minecraft:pig": true
-			"quark:stoneling": true
-			"minecraft:glow_squid": true
-			"minecraft:sheep": true
-			"galosphere:sparkle": true
-			"minecraft:chicken": true
-			"minecraft:bat": true
-			"minecraft:drowned": true
-			"alexsmobs:gazelle": true
-			"alexsmobs:rocky_roller": true
 			"ars_nouveau:starbuncle": true
-			"alexsmobs:rhinoceros": true
-			"minecraft:cow": true
-			"alexsmobs:hummingbird": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:skeleton": true
-			"clutterbestiary:butterfly": true
-			"meadow:water_buffalo": true
-			"minecraft:squid": true
-			"minecraft:enderman": true
-			"alexsmobs:cockroach": true
-			"alexsmobs:crow": true
 			"alexsmobs:kangaroo": true
-			"minecraft:spider": true
-			"minecraft:bee": true
-			"alexsmobs:raccoon": true
-			"minecraft:creeper": true
-			"irons_spellbooks:necromancer": true
-			"artifacts:mimic": true
 			"minecraft:zombie": true
-			"minecraft:wandering_trader": true
-			"alexsmobs:emu": true
-			"minecraft:horse": true
-			"alexsmobs:blue_jay": true
 			"quark:toretoise": true
+			"alexsmobs:fly": true
+			"clutterbestiary:butterfly": true
+			"artifacts:mimic": true
+			"minecraft:chicken": true
+			"minecraft:cow": true
+			"alexsmobs:emu": true
+			"minecraft:squid": true
+			"alexsmobs:blue_jay": true
+			"alexsmobs:murmur_head": true
+			"galosphere:sparkle": true
+			"alexsmobs:crow": true
+			"minecraft:bee": true
+			"alexsmobs:elephant": true
+			"ars_nouveau:whirlisprig": true
+			"alexsmobs:raccoon": true
+			"minecraft:spider": true
+			"quark:forgotten": true
+			"minecraft:zombie_villager": true
+			"alexsmobs:rhinoceros": true
+			"minecraft:drowned": true
+			"alexsmobs:cockroach": true
+			"minecraft:creeper": true
+			"quark:stoneling": true
+			"irons_spellbooks:necromancer": true
+			"minecraft:skeleton": true
+			"minecraft:wandering_trader": true
+			"minecraft:armadillo": true
+			"minecraft:bat": true
+			"meadow:water_buffalo": true
+			"alexsmobs:murmur": true
+			"minecraft:sheep": true
+			"alexsmobs:rocky_roller": true
+			"alexsmobs:gazelle": true
+			"minecraft:horse": true
+			"minecraft:glow_squid": true
+			"alexsmobs:hummingbird": true
+			"minecraft:enderman": true
+			"minecraft:pig": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
