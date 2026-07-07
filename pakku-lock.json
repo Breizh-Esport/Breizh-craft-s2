@@ -7584,7 +7584,7 @@
         {
             "pakku_id": "a8dPEfRTb0Zdh7fv",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "emotecraft-forge",
                 "modrinth": "emotecraft"
