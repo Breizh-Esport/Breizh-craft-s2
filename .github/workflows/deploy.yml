@@ -201,16 +201,15 @@ jobs:
               base="$(basename "${local_dir}")"
               remote_dir="/${base}"
               mirror_opts="--reverse --delete --parallel=8 --verbose"
-              # LuckPerms per-player permission data lives on the server and is
-              # intentionally not shipped in the pack (see .gitignore). Without
-              # these excludes the destructive mirror would wipe every player's
-              # rank assignments on each deploy. Group/track defs stay in the
-              # pack (git) and are still deployed normally.
+              # LuckPerms is entirely server-owned. Its config folder is kept out
+              # of the pack (see .gitignore): on the client the mod skips init but
+              # the mere presence of config/luckperms makes FTB Essentials query
+              # the unloaded API during player placement, crashing singleplayer
+              # ("Invalid player data"). The whole config/luckperms tree is excluded
+              # from this destructive mirror so the server keeps its own
+              # permissions data, group/track defs and settings across deploys.
               if [ "${base}" = "config" ]; then
-                mirror_opts="${mirror_opts} --exclude luckperms/yaml-storage/users/"
-                mirror_opts="${mirror_opts} --exclude luckperms/yaml-storage/uuidcache.txt"
-                mirror_opts="${mirror_opts} --exclude luckperms/yaml-storage/actions.txt"
-                mirror_opts="${mirror_opts} --exclude luckperms/luckperms-h2-v2.mv.db"
+                mirror_opts="${mirror_opts} --exclude luckperms/"
               fi
               echo "mirror ${mirror_opts} ${local_dir}/ ${remote_dir}/"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type d | sort)

@@ -35,9 +35,7 @@
 /config/spark/activity.json
 /config/structurify/structurify_backup*
 /config/ars_nouveau/search_index/*
-/config/luckperms/yaml-storage/users/*
-/config/luckperms/yaml-storage/uuidcache.txt
-/config/luckperms/yaml-storage/actions.txt
-/config/luckperms/luckperms-h2-v2.mv.db
+/config/luckperms/
+/config/luckperms/**
 
 .probe
