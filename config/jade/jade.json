@@ -1,13 +1,13 @@
 {
   "general": {
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "hideFromTabList": true,
     "hideFromGUIs": true,
     "accessibilityModMemory": false,
     "enableAccessibilityPlugin": false,
-    "fluidMode": "ANY",
+    "fluidMode": "NONE",
     "perspectiveMode": "CAMERA",
     "extendedReach": 0.0,
     "debug": false,
