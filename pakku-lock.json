@@ -17320,7 +17320,7 @@
         {
             "pakku_id": "UAhULWMapZJ5514X",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "open-parties-and-claims",
                 "modrinth": "open-parties-and-claims"

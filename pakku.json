@@ -14,6 +14,9 @@
         "probejs": {
             "export": false
         },
+        "open-parties-and-claims": {
+            "side": "BOTH"
+        },
         "emotecraft": {
             "side": "BOTH"
         },
