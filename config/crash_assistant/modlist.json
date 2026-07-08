@@ -301,6 +301,14 @@
     "curseForgeHash": 2088739846,
     "modrinthHash": "b618c2c7325bc04e3f356718661bf30923e4d4d6"
   },
+  "bfcrmod-1.21.1-4.0.1.jar": {
+    "jarName": "bfcrmod-1.21.1-4.0.1.jar",
+    "modId": "bfcrmod",
+    "name": "Better NeoForge Chat Reloaded",
+    "version": "4.0.1",
+    "curseForgeHash": 591829297,
+    "modrinthHash": "3f34f461451a0bacde7cfae4cfc27ab58ab40a14"
+  },
   "blueprint-1.21.1-8.1.0.jar": {
     "jarName": "blueprint-1.21.1-8.1.0.jar",
     "modId": "blueprint",

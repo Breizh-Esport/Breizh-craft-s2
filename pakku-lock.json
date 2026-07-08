@@ -2136,6 +2136,43 @@
             ]
         },
         {
+            "pakku_id": "3qjIYil6sfSLWhLa",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "better-forge-chat-reborn-luckperms"
+            },
+            "name": {
+                "curseforge": "Better Forge Chat Reborn (LuckPerms)"
+            },
+            "id": {
+                "curseforge": "1152077"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bfcrmod-1.21.1-4.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6094/982/bfcrmod-1.21.1-4.0.1.jar",
+                    "id": "6094982",
+                    "parent_id": "1152077",
+                    "hashes": {
+                        "sha1": "3f34f461451a0bacde7cfae4cfc27ab58ab40a14",
+                        "md5": "9383506c6232a1b7488718659f56d447"
+                    },
+                    "required_dependencies": [],
+                    "size": 184048,
+                    "date_published": "2025-01-17T04:25:44.957Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Mjyvcjia2hwHMPNb",
             "type": "MOD",
             "side": "CLIENT",
