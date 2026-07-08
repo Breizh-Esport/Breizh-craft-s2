@@ -25,7 +25,7 @@
 				id: "5A2B94F6F6EB34B8"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -43,7 +43,7 @@
 				id: "6F7BF89D24356FF6"
 				type: "checkmark"
 			}]
-			x: -7.0d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				id: "676767875B373329"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -79,7 +79,7 @@
 				id: "7FA1EAFC6DB02AE1"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -97,8 +97,8 @@
 				id: "1DA5B19C49D8A4E9"
 				type: "checkmark"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["734D7C578C05CDD3"]
@@ -115,29 +115,11 @@
 				id: "4722D1B66251B941"
 				type: "checkmark"
 			}]
-			x: -7.0d
-			y: 0.0d
+			x: -6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5654DAEE7713D14D"]
-			icon: {
-				id: "minecraft:player_head"
-			}
-			id: "40411956CFFD8089"
-			rewards: [{
-				id: "400BD644B979DE68"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "58E4E6906F7F285D"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["40411956CFFD8089"]
 			icon: {
 				id: "minecraft:filled_map"
 			}
@@ -152,7 +134,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -168,7 +150,7 @@
 				id: "562DC58C8ABC0228"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -6.0d
 		}
 		{
@@ -185,7 +167,7 @@
 				id: "25B1482C8DCAB6AE"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -202,7 +184,7 @@
 				id: "57CDE7F3BDB36C33"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -8.5d
 			y: -2.0d
 		}
 		{
@@ -219,8 +201,44 @@
 				id: "6B87FC17E4766008"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -8.5d
 			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "42DB25B9A20AC512"
+			tasks: [{
+				id: "478699D21C368709"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				id: "simplehats:haticon"
+			}
+			id: "6F10BF5DFA699950"
+			tasks: [{
+				id: "18ACC230E87BE448"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "6CBB30C4E6236D30"
+			tasks: [{
+				id: "5E24732269C17785"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
 		}
 	]
 }

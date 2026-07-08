@@ -609,7 +609,7 @@
 			optional: true
 			tasks: [{
 				id: "7FD0658617051775"
-				item: { count: 1, id: "simplymore:mimicry" }
+				item: { count: 1, id: "simplymore:mimicry_longsword" }
 				type: "item"
 			}]
 			x: 2.4d

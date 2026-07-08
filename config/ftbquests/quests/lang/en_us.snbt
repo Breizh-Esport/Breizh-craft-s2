@@ -190,21 +190,21 @@
 	quest.1AE897C8EF857694.quest_desc: [
 		"&c&lAttention&r : le vol a l'elytra est &lmodifie&r dans ce pack."
 		"Les &lfusees&r (fireworks) sont &cpurement cosmetiques&r : elles ne propulsent plus."
-		"Pour prendre de l'altitude, &lsurvole un feu de camp&r : il te &lpousse vers le haut&r. Les enchantements &lSmokestack&r (stocke ces poussees) et &lCloudskipper&r (moins de trainee au-dessus des nuages) approfondissent le vol."
+		"Pour prendre de l'altitude, &lsurvole un feu de camp&r : il te &lpousse vers le haut&r. Les enchantements &lSmokestack&r (stocke ces poussées) et &lCloudskipper&r (moins de trainée au-dessus des nuages) approfondissent le vol."
 	]
 	quest.1AE897C8EF857694.title: "Aileron - le vol elytra est revu"
 	quest.1AF6EB35BCCC8027.quest_desc: [
 		"&lEmotecraft&r te permet de jouer des &lemotes&r (animations de personnage)."
-		"Ouvre la &lroue d'emotes&r via la touche dediee pour t'exprimer en jeu."
+		"Ouvre la &lroue d'emotes&r en appuyant sur &lX&r."
 	]
 	quest.1AF6EB35BCCC8027.title: "Emotes"
 	quest.1B04B3262B9541DE.quest_desc: ["Le &lTemplate Angel&r debloque la pose &len l'air&r (sans support) et peut meme te &lrattraper d'une chute&r ou du vide."]
 	quest.1B04B3262B9541DE.title: "Mode Angel"
 	quest.1B96B0A9D156AE6A.quest_desc: [
-		"Avec la &lcarte des chunks&r (touche dediee), &lclaime&r les chunks de ta base pour empecher autrui d'y casser ou poser des blocs."
-		"Tu peux aussi les &lforcer a rester charges&r (force-load) pour que tes machines tournent en ton absence."
+		"Avec &lOpen parties and claims&r, utilises la carte du monde pour &lclaim&r les chunks de ta maison au spawn pour empecher de casser des blocs ou prendre dans tes coffres."
+		"Si tu souhaites &lpartager ta maison&r avec un ami, vous devrez chacun &lcréer une équipe&r depuis l'interface en haut à gauche de l'inventaire, puis vous ajouter comme &lallié&r"
 	]
-	quest.1B96B0A9D156AE6A.title: "FTB Chunks - proteger sa base"
+	quest.1B96B0A9D156AE6A.title: "Proteger sa base"
 	quest.1C49C381E0AAFB49.quest_desc: ["Le &lChargeur&r automatise le bourrage : poudre puis obus, en boucle, pour une cadence de tir sans intervention."]
 	quest.1C49C381E0AAFB49.title: "Chargement automatique"
 	quest.1C8BDAAC94A34A17.quest_desc: [
@@ -388,8 +388,8 @@
 	quest.35AB06E4B7F9A4A0.quest_desc: ["Le &lContraption Diagram&r sert à concevoir et assembler tes structures volantes du mod &6Simulated&r — la base des dirigeables à physique réelle."]
 	quest.35AB06E4B7F9A4A0.title: "Le plan de contraption"
 	quest.3623675C27450454.quest_desc: [
-		"Les mobs ont un &lniveau&r qui &lmonte&r avec la distance au spawn, la profondeur et l'age du monde."
-		"Plus le niveau est eleve, plus ils &lfrappent fort&r... mais plus ils &llachent d'XP&r. Le niveau d'un mob est visible via &lJade&r."
+		"Les mobs ont un &lniveau&r qui &lmonte&r selon plusieurs paramètres comme la distance du spawn, la profondeur, le niveau des joueurs à proximité..."
+		"Plus le niveau est eleve, plus ils &lfrappent fort&r... mais plus ils &ldonnent d'XP&r. Le niveau d'un mob est visible via &lJade&r."
 	]
 	quest.3623675C27450454.title: "Difficulte dynamique"
 	quest.365B8CE42EC20AB0.quest_desc: ["&lPam's HarvestCraft 2&r seme des &ljardins sauvages&r dans chaque biome. Casse-les pour recolter des dizaines de &lcultures&r et graines a replanter."]
@@ -457,11 +457,6 @@
 	quest.3EE8625D86D2134F.title: "Le livre de quetes"
 	quest.3FE2A0D679210C49.quest_desc: ["Le &lnethersteel&r est le tier ultime. Les gros calibres se montent en &lcouches&r (built-up) et encaissent les charges les plus violentes."]
 	quest.3FE2A0D679210C49.title: "Acier des enfers"
-	quest.40411956CFFD8089.quest_desc: [
-		"Cree ou rejoins une &lequipe&r pour partager le claim de territoire, la progression du livre et plus encore."
-		"Ouvre le menu des equipes pour &linviter tes amis&r."
-	]
-	quest.40411956CFFD8089.title: "FTB Teams - faire equipe"
 	quest.4108DF64C7D11956.quest_desc: ["Ameliore un coffre en &lcuivre, fer, or, diamant puis netherite&r : chaque palier ajoute des &lrangees de slots&r et des &lemplacements d'upgrade&r."]
 	quest.4108DF64C7D11956.title: "Monter en gamme"
 	quest.415D76D927BECED9.quest_desc: ["Le &lStorage Terminal&r affiche &ltout&r le contenu du reseau sur un seul ecran, avec &lrecherche&r et &ltri&r. Ton point d'acces central."]
@@ -474,6 +469,12 @@
 	quest.41BD9F39EB24111A.title: "Mage's Spell Book"
 	quest.41C97E2D807B3118.quest_desc: ["Pas besoin d'objet : active le &lReacharound&r (touche par defaut &l,&r) pour poser des blocs dans le &lvide devant ou sous toi&r et franchir les gouffres sans t'arreter. Reglable pour ne s'activer qu'accroupi."]
 	quest.41C97E2D807B3118.title: "Le pont automatique"
+	quest.42DB25B9A20AC512.quest_desc: [
+		"Le mod &lSpice of life&r vous permet de gagner de la vie en mangeant des nourritures&l différentes&r."
+		"Rendez-vous dans le chapitre &lCuisine et ferme&r pour découvrir l'enssemble des mods de nourriture disponibles dans ce pack."
+		"La commande &o/foodlist size&r vous permet de suivre votre progression."
+	]
+	quest.42DB25B9A20AC512.title: "Spice of life"
 	quest.4305CE2C81D5CFFC.quest_desc: ["L'&lEnchanting Apparatus&r (posé sur un &lArcane Core&r) est la station de craft avancée. La plupart des objets puissants s'y fabriquent."]
 	quest.4305CE2C81D5CFFC.title: "L'Appareil d'Enchantement"
 	quest.431171D2CB406CD4.quest_desc: ["La &lcharge de poudre&r est le propulseur. Empile plusieurs charges pour augmenter la &lvitesse initiale&r... mais gare a la surcharge du tube."]
@@ -498,9 +499,9 @@
 	quest.45C164FF4A5520B4.title: "Ciselage automatique"
 	quest.4603382C07C4DE51.quest_desc: [
 		"En multijoueur, au lieu de mourir tu tombes &la terre&r pendant un court instant."
-		"Un &lcoequipier&r peut venir te &lrelever&r avant la fin du compte a rebours."
+		"Un &lami&r peut venir te &lrelever&r avant la fin du compte a rebours."
 	]
-	quest.4603382C07C4DE51.title: "PlayerRevive - etre releve"
+	quest.4603382C07C4DE51.title: "PlayerRevive - être relevé"
 	quest.4605C3F1E4A146F5.quest_desc: ["Le &lCollapsible Block&r s'enfonce par coins quand tu le frappes : modele des &lformes libres&r (rochers, reliefs) puis camoufle-le."]
 	quest.4605C3F1E4A146F5.title: "Sculpter a la main"
 	quest.4632AA51A28651DB.quest_desc: ["Le &lCiseau&r de &lRechiseled&r donne acces a des dizaines de variantes &lciselees&r et a &ltextures connectees&r (bordures, motifs, piliers...), dalles et escaliers compris. L'outil parfait pour detailler tes murs et sols."]
@@ -720,6 +721,11 @@
 	quest.6BA11B8B5359DF04.title: "Stocker l'XP liquide"
 	quest.6C3413AC8932EBA8.quest_desc: ["Les &lMechanical Crafters&r (en grille pointant vers un centre) automatisent les recettes d'établi — indispensable pour produire en masse les composants Create."]
 	quest.6C3413AC8932EBA8.title: "Le crafter mécanique"
+	quest.6CBB30C4E6236D30.quest_desc: [
+		"&lUn problème&r avec le modpack ? Rejoins le discord de &lBreizh Esport&r et signale-le à &lScottbass&r."
+		"https://discord.gg/NS7p9tRcj"
+	]
+	quest.6CBB30C4E6236D30.title: "Un problème ?"
 	quest.6D65FBDE7F1F8062.quest_desc: ["L'&lobus explosif&r &cdetone a l'impact&r et pulverise blocs et structures. Il reclame une &lfusee&r pour s'amorcer."]
 	quest.6D65FBDE7F1F8062.title: "Obus explosif (HE)"
 	quest.6D8A36D6BCE7D181.quest_desc: ["Le &lCryomancien&r manie la &bGlace&r — un adversaire glissant à abattre."]
@@ -734,8 +740,13 @@
 	quest.6EB09BEB5A56E072.title: "La planche a decouper"
 	quest.6EF6214152425328.quest_desc: ["La &lRope Pulley&r monte et descend une structure le long d'une corde — ascenseurs, plateformes, foreuses verticales."]
 	quest.6EF6214152425328.title: "La Rope Pulley"
+	quest.6F10BF5DFA699950.quest_desc: [
+		"Ton inventaire est &lremplis de chapeaux&r ? Ranges-les dans &lta collection&r !"
+		"&lShift + clic droit&r sur un chapeau depuis ton inventaire pour le ranger. Tu peux également ouvrir un grab-bag en &lmaintenant shift&r pour envoyer le nouveau chapeau directement dans la collection."
+		"&lAccède à ta collectio&rn à n'importe quel moment depuis le menu &lG&r. D'ici tu peux &lrécupérer tes chapeaux&r et &lgérer tes favoris&r !"
+	]
 	quest.6F1BE1CE522BB204.quest_desc: [
-		"La &lmini-carte&r (coin de l'ecran) et la &lcarte du monde&r (touche M) t'aident a te reperer."
+		"La &lmini-carte&r (coin de l'ecran) et la &lcarte du monde&r (touche ?) t'aident a te reperer."
 		"Pose des &lwaypoints&r pour retrouver ta base, une mine ou une structure."
 	]
 	quest.6F1BE1CE522BB204.title: "Xaero - carte et mini-carte"
@@ -831,6 +842,7 @@
 	quest.7FDA84983FE3B8F2.title: "Premier alliage : le bronze"
 	quest.7FDE07B38AF520F3.quest_desc: ["Le &ltonneau&r fonctionne comme un coffre. Les &lbarils limites&r n'acceptent qu'un ou quelques objets mais en &laffichent la quantite&r en facade : parfaits pour une salle de tri."]
 	quest.7FDE07B38AF520F3.title: "Tonneaux et barils d'affichage"
+	task.18ACC230E87BE448.title: "Trop de chapeaux ?"
 	task.506D4FF940C9F8D2.title: "Energy"
 	task.5EE30A1E6C3923E9.title: "Oritech"
 }
