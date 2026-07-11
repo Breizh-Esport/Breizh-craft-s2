@@ -1,0 +1,7 @@
+#Maximum number of active players allowed in the server at once.
+maxActivePlayers = 40
+#Maximum number of players allowed to wait in the queue.
+maxQueueSize = 40
+#Player names that bypass the queue and player limit.
+#Bypassers never take a regular slot, they join on top of the limit.
+bypassPlayers = []

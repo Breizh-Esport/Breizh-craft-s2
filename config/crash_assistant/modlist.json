@@ -1922,6 +1922,22 @@
     "curseForgeHash": 1726490860,
     "modrinthHash": "8ec996b9783d05d4c107a3ea727ff9c7d52ce452"
   },
+  "manas_queue-neoforge-1.0.0.1.jar": {
+    "jarName": "manas_queue-neoforge-1.0.0.1.jar",
+    "modId": "manas_queue",
+    "name": "ManasQueue",
+    "version": "1.0.0.1",
+    "curseForgeHash": 3138241857,
+    "modrinthHash": "dc631e49ae36bf11ec16dc240ceb07397d1fe694"
+  },
+  "manascore-neoforge-4.0.0.2.jar": {
+    "jarName": "manascore-neoforge-4.0.0.2.jar",
+    "modId": "manascore",
+    "name": "ManasCore",
+    "version": "4.0.0.2",
+    "curseForgeHash": 3738690059,
+    "modrinthHash": "f11a0062d7829e26a8705183762a5e0f2d022dd3"
+  },
   "mcw-bridges-3.1.2-mc1.21.1neoforge.jar": {
     "jarName": "mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
     "modId": "mcwbridges",

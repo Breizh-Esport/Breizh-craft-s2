@@ -201,21 +201,11 @@ jobs:
               base="$(basename "${local_dir}")"
               remote_dir="/${base}"
               mirror_opts="--reverse --delete --parallel=8 --verbose"
-              # LuckPerms is entirely server-owned and lives ONLY on the servers
-              # that need it (installed manually by the admin). It is deliberately
-              # kept out of the pack: on the client the mod skips init but merely
-              # having it present makes FTB Essentials query the unloaded API during
-              # player placement, crashing singleplayer ("Invalid player data").
-              # Because it is not in the pack, this destructive mirror would delete
-              # it on every deploy -- so both the LuckPerms jar (mods/) and its whole
-              # config tree (config/luckperms/, permissions data, group/track defs)
-              # are excluded here, leaving whatever the admin put on the server
-              # untouched across deploys.
               if [ "${base}" = "config" ]; then
-                mirror_opts="${mirror_opts} --exclude luckperms/"
+                mirror_opts="${mirror_opts} --exclude luckperms/ --exclude bluemap/ --exclude manas_queue/"
               fi
               if [ "${base}" = "mods" ]; then
-                mirror_opts="${mirror_opts} --exclude LuckPerms"
+                mirror_opts="${mirror_opts} --exclude LuckPerms --exclude bluemap --exclude manascore --exclude manas_queue"
               fi
               echo "mirror ${mirror_opts} ${local_dir}/ ${remote_dir}/"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type d | sort)

@@ -12976,6 +12976,69 @@
             ]
         },
         {
+            "pakku_id": "Wm8pM51GMzVRwpdq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "krypton-fnp",
+                "modrinth": "krypton-fnp"
+            },
+            "name": {
+                "curseforge": "Krypton Reno",
+                "modrinth": "Krypton Reno"
+            },
+            "id": {
+                "curseforge": "1269169",
+                "modrinth": "JkxWVYwU"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/JkxWVYwU/versions/SUeOFygw/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+                    "id": "SUeOFygw",
+                    "parent_id": "JkxWVYwU",
+                    "hashes": {
+                        "sha512": "72892ac3bee596d30ee5e5d64d78c3da237c3e30c913c58cfadc3fad555c0140e4d04db5ce537805d991e111deeb03c23eea0d10e385ad1b7502b674102cac74",
+                        "sha1": "3b9253fcfaa11586ce528fbc0a26175991c9408f"
+                    },
+                    "required_dependencies": [],
+                    "size": 1015871,
+                    "date_published": "2026-01-15T03:00:46.233633Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7461/802/krypton_fnp-neoforge-1.21.1-0.2.28.1-1.21.1.jar",
+                    "id": "7461802",
+                    "parent_id": "1269169",
+                    "hashes": {
+                        "sha1": "3b9253fcfaa11586ce528fbc0a26175991c9408f",
+                        "md5": "1c215ed088f6d5a32d17656b089bae94"
+                    },
+                    "required_dependencies": [],
+                    "size": 1015871,
+                    "date_published": "2026-01-15T03:00:42.033Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "n4Xk9poMhzPNpQAT",
             "type": "MOD",
             "slug": {
@@ -15540,6 +15603,136 @@
                     "required_dependencies": [],
                     "size": 398840,
                     "date_published": "2026-06-27T18:29:11.787Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gwQGiNiCukSqZdqs",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "manascore",
+                "modrinth": "manascore"
+            },
+            "name": {
+                "curseforge": "ManasCore",
+                "modrinth": "ManasCore"
+            },
+            "id": {
+                "curseforge": "619025",
+                "modrinth": "wRRSWpd1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "manascore-neoforge-4.0.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/wRRSWpd1/versions/yhLQMaxS/manascore-neoforge-4.0.0.2.jar",
+                    "id": "yhLQMaxS",
+                    "parent_id": "wRRSWpd1",
+                    "hashes": {
+                        "sha512": "2e9ae47175df3f4c28132cc04269405e65fc131aa405f8160cce4082e41797d47c3d8080f96d86a83b7cddb4ea390b8c688184961307b7499ba30062e7d5e7a7",
+                        "sha1": "f11a0062d7829e26a8705183762a5e0f2d022dd3"
+                    },
+                    "required_dependencies": [
+                        "lhGA9TYQ"
+                    ],
+                    "size": 4687383,
+                    "date_published": "2026-05-01T18:07:15.827792Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "manascore-neoforge-4.0.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8022/425/manascore-neoforge-4.0.0.2.jar",
+                    "id": "8022425",
+                    "parent_id": "619025",
+                    "hashes": {
+                        "sha1": "f11a0062d7829e26a8705183762a5e0f2d022dd3",
+                        "md5": "def87465af975be92f7e39cabb568eb4"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 4687383,
+                    "date_published": "2026-05-01T18:04:52.517Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QqFlwBZXzioNfBo7",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "manasqueue",
+                "modrinth": "manasqueue"
+            },
+            "name": {
+                "curseforge": "ManasQueue",
+                "modrinth": "ManasQueue"
+            },
+            "id": {
+                "curseforge": "1514223",
+                "modrinth": "Kf4vo5wy"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "manas_queue-neoforge-1.0.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Kf4vo5wy/versions/bllUdWKS/manas_queue-neoforge-1.0.0.1.jar",
+                    "id": "bllUdWKS",
+                    "parent_id": "Kf4vo5wy",
+                    "hashes": {
+                        "sha512": "0814fc568fb25b715303f90853b60e098937f475789a2f87c5089a93ce80a57cb07adc5fb9d82a8dc9d0be84f0eb560d1c33980b65bf031e75198ea4b161ae92",
+                        "sha1": "dc631e49ae36bf11ec16dc240ceb07397d1fe694"
+                    },
+                    "required_dependencies": [
+                        "wRRSWpd1"
+                    ],
+                    "size": 3203112,
+                    "date_published": "2026-04-24T20:41:05.067456Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "manas_queue-neoforge-1.0.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7979/256/manas_queue-neoforge-1.0.0.1.jar",
+                    "id": "7979256",
+                    "parent_id": "1514223",
+                    "hashes": {
+                        "sha1": "dc631e49ae36bf11ec16dc240ceb07397d1fe694",
+                        "md5": "eff011c7464fa683f672ca8c8641a4cb"
+                    },
+                    "required_dependencies": [
+                        "619025"
+                    ],
+                    "size": 3203112,
+                    "date_published": "2026-04-24T20:38:13.127Z"
                 }
             ]
         },
@@ -20086,6 +20279,68 @@
                     ],
                     "size": 159205,
                     "date_published": "2025-02-11T19:35:48.860Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "C9XLseK3sAHDePAp",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "servercore",
+                "modrinth": "servercore"
+            },
+            "name": {
+                "curseforge": "ServerCore",
+                "modrinth": "ServerCore"
+            },
+            "id": {
+                "curseforge": "550579",
+                "modrinth": "4WWQxlQP"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "servercore-neoforge-1.5.19+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/4WWQxlQP/versions/6N9hXiRa/servercore-neoforge-1.5.19+1.21.1.jar",
+                    "id": "6N9hXiRa",
+                    "parent_id": "4WWQxlQP",
+                    "hashes": {
+                        "sha512": "55b97df4cc46f52db85b96487188d73c62d511229d98859991c115414c5f1ab37f2f40a0f2edb5692220aa94d6c48b392b0a2d8593b3c3381b1fcbde2a728c8f",
+                        "sha1": "62ce692654e09271b5c55cbb3a1ef7606d067132"
+                    },
+                    "required_dependencies": [],
+                    "size": 1462674,
+                    "date_published": "2026-06-24T12:58:51.451898Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "servercore-neoforge-1.5.19+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8312/220/servercore-neoforge-1.5.19+1.21.1.jar",
+                    "id": "8312220",
+                    "parent_id": "550579",
+                    "hashes": {
+                        "sha1": "62ce692654e09271b5c55cbb3a1ef7606d067132",
+                        "md5": "4fc82f2fe4ad2f93fcbe07130428101b"
+                    },
+                    "required_dependencies": [],
+                    "size": 1462674,
+                    "date_published": "2026-06-24T12:58:50.840Z"
                 }
             ]
         },
