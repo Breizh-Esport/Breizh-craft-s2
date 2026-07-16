@@ -3,10 +3,10 @@
 //   Text.of('a').append(Text.aqua('b')), Text.translate('cle.de.lang')
 const WELCOME_LINES = [
   Text.of('Bievenue sur ').bold(true)
-    .append(Text.warn("Breizh Craft").bold(true))
+    .append(Text.orange("Breizh Craft").bold(true))
     .append(Text.of(' !').bold(true)),
-  Text.of('Informations :'),
-  Text.of('- Si vous avez des difficultés pour accéder aux chunks claims par vos amis, merci de contacter un administrateur.'),
+  Text.warn('Informations :'),
+  Text.of('- Si vous avez des difficultés pour accéder aux chunks claim par vos amis, merci de contacter un administrateur.'),
   Text.of("- Un bug affecte actuellement les portails d'iron spell utilisés à proximité de véhicule create aeronautics. A utiliser avec précaution, au risque de perdre vos créations."),
   Text.of(""),
   Text.of("Bon jeu à toi !").bold(true)
