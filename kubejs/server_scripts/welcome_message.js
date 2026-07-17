@@ -3,7 +3,7 @@
 //   Text.of('a').append(Text.aqua('b')), Text.translate('cle.de.lang')
 const WELCOME_LINES = [
   Text.of('Bievenue sur ').bold(true)
-    .append(Text.orange("Breizh Craft").bold(true))
+    .append(Text.yellow("Breizh Craft").bold(true))
     .append(Text.of(' !').bold(true)),
   Text.warn('Informations :'),
   Text.of('- Si vous avez des difficultés pour accéder aux chunks claim par vos amis, merci de contacter un administrateur.'),
