@@ -1,0 +1,7 @@
+{
+  "_comment": "Override de data/sable/physics_block_properties/fragile.json (jar Sable). Force sable:fragile=false pour supprimer le FragileBlockCallback (freeze natif Rapier au re-bake du collider). Voir kubejs/server_scripts/sable/remove_fragile_blocks.js.",
+  "selector": "#sable:fragile",
+  "properties": {
+    "sable:fragile": false
+  }
+}
