@@ -40,6 +40,8 @@
 	# Default: 0
 	# Range: 0 ~ 2
 	enableFirstPersonSkinRenderer = 0
+	#If enabled the server will allow client use server skins in the resource pack.
+	enableServerSkinsInResourcePack = false
 	#If enabled the link tool will allow bind between different dimensions block.
 	enableLinkDimensional = true
 	#the link tool will allow max range in which blocks can be bound?
@@ -143,7 +145,7 @@
 [cache]
 	#How long in seconds the server will keep skins in it's cache.
 	#Setting to 0 turns off this option.
-	# Default: 0
+	# Default: 86400
 	# Range: 0 ~ 31536000
 	expireTime = 86400
 	#Max size the skin cache can reach before skins are removed.
@@ -158,14 +160,7 @@
 	#Valid override types are: sword, shield, bow, pickaxe, axe, shovel, hoe and item
 	#example ["sword:minecraft:iron_sword","sword:minecraft:gold_sword"]
 	itemOverrides = []
-	#Tries to automatically assign the correct type of skin type without config and object.
+	#Tries to automatically assign the correct type of skin type without config and tag.
 	enableMatchingByItemId = true
 	#If the matching system wrong, you can add the item id here to this ignore it.
 	matchingBlacklistByItemId = []
-
-#Setting for the resource pack.
-[resource-pack]
-	#Allow users to place a encrypted (auth-code mode) skin file into resource packs.
-	resourceAuthCode = ""
-	#If enabled the server will allow client use server skins in the resource pack.
-	allowsServerSkinsInResourcePack = false
