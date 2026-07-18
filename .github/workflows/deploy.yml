@@ -202,10 +202,10 @@ jobs:
               remote_dir="/${base}"
               mirror_opts="--reverse --delete --parallel=8 --verbose"
               if [ "${base}" = "config" ]; then
-                mirror_opts="${mirror_opts} --exclude luckperms/ --exclude bluemap/ --exclude manas_queue/"
+                mirror_opts="${mirror_opts} --exclude luckperms/ --exclude bluemap/ --exclude manas_queue/ --exclude bfcrmod-common.toml"
               fi
               if [ "${base}" = "mods" ]; then
-                mirror_opts="${mirror_opts} --exclude LuckPerms --exclude bluemap --exclude manascore --exclude manas_queue"
+                mirror_opts="${mirror_opts} --exclude LuckPerms --exclude bluemap --exclude manascore --exclude manas_queue --exclude bfcrmod"
               fi
               echo "mirror ${mirror_opts} ${local_dir}/ ${remote_dir}/"
             done < <(find "${EXTRACT_DIR}" -mindepth 1 -maxdepth 1 -type d | sort)
