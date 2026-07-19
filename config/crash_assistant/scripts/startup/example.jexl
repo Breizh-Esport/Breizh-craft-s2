@@ -29,26 +29,26 @@ var formattedXmx = MemoryUtils.formatMemorySize(xmxBytes);
 //}
 
 // 2. Minimum Recommended Check
-//else if (xmxGB < MIN_RECOMMENDED_GB) {
-//    var msg = LanguageProvider.get("custom.min_recommended");
-//    msg = msg.replace("$XMX$", formattedXmx);
-//    msg = msg.replace("$MIN_RECOMMENDED$", MIN_RECOMMENDED_GB.toString());
-//    var lowMemWarn = Startup.addBootWarning(msg);
-//    lowMemWarn.withDontShowAgain("low_memory_check");
-//    lowMemWarn.withMemoryAllocationGuide();
-//}
+if (xmxGB < MIN_RECOMMENDED_GB) {
+    var msg = LanguageProvider.get("custom.min_recommended");
+    msg = msg.replace("$XMX$", formattedXmx);
+    msg = msg.replace("$MIN_RECOMMENDED$", MIN_RECOMMENDED_GB.toString());
+    var lowMemWarn = Startup.addBootWarning(msg);
+    lowMemWarn.withDontShowAgain("low_memory_check");
+    lowMemWarn.withMemoryAllocationGuide();
+}
 
 // 3. Excessive Allocation Check
 // Warning starts exactly when Xmx exceeds MAX_RECOMMENDED_GB.
-//if (xmxGB > MAX_RECOMMENDED_GB) {
-//    var msg = LanguageProvider.get("custom.excessive_allocation");
-//    msg = msg.replace("$XMX$", formattedXmx);
-//    msg = msg.replace("$MIN_RECOMMENDED$", MIN_RECOMMENDED_GB.toString());
-//    msg = msg.replace("$MAX_RECOMMENDED$", MAX_RECOMMENDED_GB.toString());
-//    var excessiveMemWarn = Startup.addBootWarning(msg);
-//    excessiveMemWarn.withDontShowAgain("excessive_memory_check");
-//    excessiveMemWarn.withMemoryAllocationGuide();
-//}
+if (xmxGB > MAX_RECOMMENDED_GB) {
+    var msg = LanguageProvider.get("custom.excessive_allocation");
+    msg = msg.replace("$XMX$", formattedXmx);
+    msg = msg.replace("$MIN_RECOMMENDED$", MIN_RECOMMENDED_GB.toString());
+    msg = msg.replace("$MAX_RECOMMENDED$", MAX_RECOMMENDED_GB.toString());
+    var excessiveMemWarn = Startup.addBootWarning(msg);
+    excessiveMemWarn.withDontShowAgain("excessive_memory_check");
+    excessiveMemWarn.withMemoryAllocationGuide();
+}
 
 // 4. Over-Allocation vs Total Capacity Check (Hardware Limit)
 var totalSystemCapacity = MemoryUtils.getSystemTotalMemoryBytes() + MemoryUtils.getSystemTotalSwapBytes();
