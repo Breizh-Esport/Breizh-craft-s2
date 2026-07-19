@@ -301,14 +301,6 @@
     "curseForgeHash": 2088739846,
     "modrinthHash": "b618c2c7325bc04e3f356718661bf30923e4d4d6"
   },
-  "bfcrmod-1.21.1-4.0.1.jar": {
-    "jarName": "bfcrmod-1.21.1-4.0.1.jar",
-    "modId": "bfcrmod",
-    "name": "Better NeoForge Chat Reloaded",
-    "version": "4.0.1",
-    "curseForgeHash": 591829297,
-    "modrinthHash": "3f34f461451a0bacde7cfae4cfc27ab58ab40a14"
-  },
   "blueprint-1.21.1-8.1.1.jar": {
     "jarName": "blueprint-1.21.1-8.1.1.jar",
     "modId": "blueprint",
@@ -541,6 +533,14 @@
     "curseForgeHash": 2779244934,
     "modrinthHash": "276fbf912ace90281f5faec987c735019884dbe4"
   },
+  "compactflap-neoforge-1.21.1-1.0.4.1.jar": {
+    "jarName": "compactflap-neoforge-1.21.1-1.0.4.1.jar",
+    "modId": "compactflap",
+    "name": "Create Compact Flap",
+    "version": "1.0.4",
+    "curseForgeHash": 2870377560,
+    "modrinthHash": "0018b99ee0a82e066d1acad4de389aae2426b812"
+  },
   "configured-neoforge-1.21.1-2.6.3.jar": {
     "jarName": "configured-neoforge-1.21.1-2.6.3.jar",
     "modId": "configured",
@@ -719,6 +719,14 @@
     "curseForgeHash": 1038481072,
     "modrinthHash": "e545c5d164948cfd1fd2bb9c16731d8c51c81035"
   },
+  "create_connected-1.3.2-mc1.21.1.jar": {
+    "jarName": "create_connected-1.3.2-mc1.21.1.jar",
+    "modId": "create_connected",
+    "name": "Create: Connected",
+    "version": "1.3.2-mc1.21.1",
+    "curseForgeHash": 605663894,
+    "modrinthHash": "920de05b13c32fe1417d0aec0615057aa480cc8d"
+  },
   "create_radar-0.4.9.4-1.21.1.jar": {
     "jarName": "create_radar-0.4.9.4-1.21.1.jar",
     "modId": "create_radar",
@@ -749,6 +757,22 @@
     "name": "Create Contraption Terminals",
     "curseForgeHash": 3759762823,
     "modrinthHash": "65bef5b4ec20ba8d966ed2fd97ad2992c7fa7d8a"
+  },
+  "createdeco-2.1.3.jar": {
+    "jarName": "createdeco-2.1.3.jar",
+    "modId": "createdeco",
+    "name": "Create Deco",
+    "version": "2.1.3",
+    "curseForgeHash": 2186625105,
+    "modrinthHash": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
+  },
+  "createdieselgenerators-1.21.1-1.3.14.jar": {
+    "jarName": "createdieselgenerators-1.21.1-1.3.14.jar",
+    "modId": "createdieselgenerators",
+    "name": "Create Diesel Generators",
+    "version": "1.21.1-1.3.14",
+    "curseForgeHash": 973897945,
+    "modrinthHash": "565e9014912b8692ff8866be17dd739505062374"
   },
   "CreateDragonsPlus-1.11.2b.jar": {
     "jarName": "CreateDragonsPlus-1.11.2b.jar",
@@ -860,6 +884,14 @@
     "version": "26.05.18-1.21-neoforge",
     "curseForgeHash": 1597909522,
     "modrinthHash": "67ee97c66767ae6cc15b0ad3867abfdbfa203ca4"
+  },
+  "Design-n-Decor-1.21.1-2.2b.jar": {
+    "jarName": "Design-n-Decor-1.21.1-2.2b.jar",
+    "modId": "dndecor",
+    "name": "Design n\u0027 Decor",
+    "version": "2.2b",
+    "curseForgeHash": 3871573007,
+    "modrinthHash": "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
   },
   "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar",
@@ -1564,6 +1596,14 @@
     "version": "1.7.4+1.21.1-neoforge",
     "curseForgeHash": 1443521508,
     "modrinthHash": "11e291c2c37a0b7563cf7b8bc7e70aee868e6eb4"
+  },
+  "interiors-1.21.1-neoforge-0.6.1.jar": {
+    "jarName": "interiors-1.21.1-neoforge-0.6.1.jar",
+    "modId": "interiors",
+    "name": "Create: Interiors",
+    "version": "0.6.1",
+    "curseForgeHash": 3220009028,
+    "modrinthHash": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
   },
   "inventoryessentials-neoforge-1.21.1-21.1.17.jar": {
     "jarName": "inventoryessentials-neoforge-1.21.1-21.1.17.jar",
@@ -2522,6 +2562,14 @@
     "curseForgeHash": 655585510,
     "modrinthHash": "709d2f873dd1afc98cda59b133b53e5e797a2d19"
   },
+  "railways-0.2.0+neoforge-mc1.21.1.jar": {
+    "jarName": "railways-0.2.0+neoforge-mc1.21.1.jar",
+    "modId": "railways",
+    "name": "Create: Steam \u0027n\u0027 Rails 1.21.1",
+    "version": "0.2.0+neoforge-mc1.21.1",
+    "curseForgeHash": 2889177364,
+    "modrinthHash": "9d52eef0772b81de397271b98c0201a59733f9c6"
+  },
   "rebind_narrator-1.21.1-neoforge-2025.12.23.jar": {
     "jarName": "rebind_narrator-1.21.1-neoforge-2025.12.23.jar",
     "modId": "rebind_narrator",
@@ -2697,6 +2745,14 @@
     "version": "1.5.19+1.21.1",
     "curseForgeHash": 72204408,
     "modrinthHash": "62ce692654e09271b5c55cbb3a1ef7606d067132"
+  },
+  "sim_copycats-1.3.1.jar": {
+    "jarName": "sim_copycats-1.3.1.jar",
+    "modId": "sim_copycats",
+    "name": "Aeronautics: Simulated Copycats",
+    "version": "1.3.1",
+    "curseForgeHash": 778792933,
+    "modrinthHash": "89505d1df7265282c7aa8a805b7605bd4984a7af"
   },
   "SimpleDiscordRichPresence-neoforge-88.0.1-build.54+mc1.21.1.jar": {
     "jarName": "SimpleDiscordRichPresence-neoforge-88.0.1-build.54+mc1.21.1.jar",
@@ -2985,6 +3041,14 @@
     "version": "1.0.9",
     "curseForgeHash": 895781194,
     "modrinthHash": "c7b03934cce6eb7a8253ee0a8c416f137710f6ee"
+  },
+  "tracks-neoforge-1.21.1-1.0.1.jar": {
+    "jarName": "tracks-neoforge-1.21.1-1.0.1.jar",
+    "modId": "tracks",
+    "name": "Create Tracks",
+    "version": "1.0.1",
+    "curseForgeHash": 3934045438,
+    "modrinthHash": "cccd208606d7ac33f483e1e8a237092712a1a2c0"
   },
   "trading_floor-3.0.16.jar": {
     "jarName": "trading_floor-3.0.16.jar",

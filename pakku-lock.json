@@ -211,6 +211,67 @@
             ]
         },
         {
+            "pakku_id": "Ufpa204ctGLYvsDc",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "aeronautics-simulated-copycats",
+                "modrinth": "simulated-copycats"
+            },
+            "name": {
+                "curseforge": "Aeronautics: simulated copycats",
+                "modrinth": "Aeronautics: simulated copycats"
+            },
+            "id": {
+                "curseforge": "1558561",
+                "modrinth": "NYBH9vVY"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "sim_copycats-1.3.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NYBH9vVY/versions/HQIoiO2c/sim_copycats-1.3.1.jar",
+                    "id": "HQIoiO2c",
+                    "parent_id": "NYBH9vVY",
+                    "hashes": {
+                        "sha512": "74a34cbcb8145a2b9a5fc6bd60115605d208fa21c890861f43b4377b47c0681233c1f8f787f9f6f89d924f9f63231455d028bff9856707cb655b003cb3c0fb38",
+                        "sha1": "89505d1df7265282c7aa8a805b7605bd4984a7af"
+                    },
+                    "required_dependencies": [],
+                    "size": 388185,
+                    "date_published": "2026-06-28T16:12:08.202102Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "sim_copycats-1.3.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8335/560/sim_copycats-1.3.1.jar",
+                    "id": "8335560",
+                    "parent_id": "1558561",
+                    "hashes": {
+                        "sha1": "89505d1df7265282c7aa8a805b7605bd4984a7af",
+                        "md5": "33e04c448c8bf77c9a8a4b7f1a3bdbdb"
+                    },
+                    "required_dependencies": [],
+                    "size": 388185,
+                    "date_published": "2026-06-28T16:13:17.180Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "weATdQO9PMflVLn1",
             "type": "MOD",
             "side": "BOTH",
@@ -5459,6 +5520,67 @@
             ]
         },
         {
+            "pakku_id": "PPoaq0NA3KQ0IsqJ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-deco",
+                "modrinth": "create-deco"
+            },
+            "name": {
+                "curseforge": "Create Deco",
+                "modrinth": "Create Deco"
+            },
+            "id": {
+                "curseforge": "509285",
+                "modrinth": "sMvUb4Rb"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createdeco-2.1.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sMvUb4Rb/versions/qrcMVoBD/createdeco-2.1.3.jar",
+                    "id": "qrcMVoBD",
+                    "parent_id": "sMvUb4Rb",
+                    "hashes": {
+                        "sha512": "c536662f9d47ad57a37419165ded14835b23ad6c3e82a920298ecd7ee074244b0b6062ef9cc7ea4501ddd35919a840faccd7fc64e43eb8df31e12076681c3c0d",
+                        "sha1": "93d9eff58b46c6953e907d071e6be4e3ce07be38"
+                    },
+                    "required_dependencies": [],
+                    "size": 3328498,
+                    "date_published": "2026-04-18T03:50:01.032897Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "createdeco-2.1.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7943/181/createdeco-2.1.3.jar",
+                    "id": "7943181",
+                    "parent_id": "509285",
+                    "hashes": {
+                        "sha1": "93d9eff58b46c6953e907d071e6be4e3ce07be38",
+                        "md5": "16d5818298f6332038528cd13bd4ff1a"
+                    },
+                    "required_dependencies": [],
+                    "size": 3328498,
+                    "date_published": "2026-04-18T03:51:39.807Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZFEZCdhf9DjVr474",
             "type": "MOD",
             "side": "BOTH",
@@ -5697,6 +5819,107 @@
             ]
         },
         {
+            "pakku_id": "I835QW5aGgFzrFzx",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-compact-flap"
+            },
+            "name": {
+                "curseforge": "Create: Compact Flap"
+            },
+            "id": {
+                "curseforge": "1530869"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "compactflap-neoforge-1.21.1-1.0.4.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8031/969/compactflap-neoforge-1.21.1-1.0.4.1.jar",
+                    "id": "8031969",
+                    "parent_id": "1530869",
+                    "hashes": {
+                        "sha1": "0018b99ee0a82e066d1acad4de389aae2426b812",
+                        "md5": "a396e89344dcb61ab026379f2af4748e"
+                    },
+                    "required_dependencies": [],
+                    "size": 145237,
+                    "date_published": "2026-05-03T12:01:52.350Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "hOENFUPQc9SNeODy",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-connected",
+                "modrinth": "create-connected"
+            },
+            "name": {
+                "curseforge": "Create: Connected",
+                "modrinth": "Create: Connected"
+            },
+            "id": {
+                "curseforge": "947914",
+                "modrinth": "Vg5TIO6d"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "create_connected-1.3.2-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Vg5TIO6d/versions/klOWKza5/create_connected-1.3.2-mc1.21.1.jar",
+                    "id": "klOWKza5",
+                    "parent_id": "Vg5TIO6d",
+                    "hashes": {
+                        "sha512": "b07bfbc5ebf0ad63b1db5f7215f0e11490f0263623e344b09a63116d84199a49c7f916610410262ddb640e60017d08e89f3363ada38a6219ac6a5b2fc19322e0",
+                        "sha1": "920de05b13c32fe1417d0aec0615057aa480cc8d"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 6779410,
+                    "date_published": "2026-06-22T10:21:15.684165Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "create_connected-1.3.2-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8299/240/create_connected-1.3.2-mc1.21.1.jar",
+                    "id": "8299240",
+                    "parent_id": "947914",
+                    "hashes": {
+                        "sha1": "920de05b13c32fe1417d0aec0615057aa480cc8d",
+                        "md5": "5ec87500b99fc02cc83f74d995d00044"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 6779410,
+                    "date_published": "2026-06-22T10:21:16.780Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "CGlul6nWwKveqoep",
             "type": "MOD",
             "side": "BOTH",
@@ -5758,6 +5981,137 @@
                     ],
                     "size": 1791747,
                     "date_published": "2025-11-23T03:28:54.930Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "EFEeB9rw4FBTJVTN",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-design-n-decor",
+                "modrinth": "create-design-n-decor"
+            },
+            "name": {
+                "curseforge": "Create: Design n' Decor",
+                "modrinth": "Create: Design n' Decor"
+            },
+            "id": {
+                "curseforge": "923238",
+                "modrinth": "x49wilh8"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Design-n-Decor-1.21.1-2.2b.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/x49wilh8/versions/uQsIRky8/Design-n-Decor-1.21.1-2.2b.jar",
+                    "id": "uQsIRky8",
+                    "parent_id": "x49wilh8",
+                    "hashes": {
+                        "sha512": "d888553c8a254c3654f8da2ae2cae0bb642594546c71988739c93bf6b18668145e0ce5b1c20ae0544b9b6019f17e4da944bd5bc17e4c6b73e7f1374cfa2c9db9",
+                        "sha1": "ff5f0411a3d82e15d69b65617128f6d54e818e1b"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 6329899,
+                    "date_published": "2026-05-28T00:28:08.933330Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "Design-n-Decor-1.21.1-2.2b.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8156/977/Design-n-Decor-1.21.1-2.2b.jar",
+                    "id": "8156977",
+                    "parent_id": "923238",
+                    "hashes": {
+                        "sha1": "ff5f0411a3d82e15d69b65617128f6d54e818e1b",
+                        "md5": "18a1bbc60ad9084d3bdff5eed4b8f953"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 6329899,
+                    "date_published": "2026-05-28T00:28:58.520Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "cSjUaTNRFiFzHoE2",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-diesel-generators",
+                "modrinth": "create-diesel-generators"
+            },
+            "name": {
+                "curseforge": "Create: Diesel Generators",
+                "modrinth": "Create: Diesel Generators"
+            },
+            "id": {
+                "curseforge": "869316",
+                "modrinth": "ZM3tt6p1"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "createdieselgenerators-1.21.1-1.3.14.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ZM3tt6p1/versions/Kijd1iDy/createdieselgenerators-1.21.1-1.3.14.jar",
+                    "id": "Kijd1iDy",
+                    "parent_id": "ZM3tt6p1",
+                    "hashes": {
+                        "sha512": "9386203b0afdb69ccfeb753579311f043104f49049ce99063f279e4ede191361436d9c875b929f30e44e0c69594d3d319a90aeab1d3a08bb6de309fef4d39a0f",
+                        "sha1": "565e9014912b8692ff8866be17dd739505062374"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 3143118,
+                    "date_published": "2026-06-22T08:41:44.079224Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "createdieselgenerators-1.21.1-1.3.14.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8298/898/createdieselgenerators-1.21.1-1.3.14.jar",
+                    "id": "8298898",
+                    "parent_id": "869316",
+                    "hashes": {
+                        "sha1": "565e9014912b8692ff8866be17dd739505062374",
+                        "md5": "5700362abe38d2e61a577b0da032cb69"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 3143118,
+                    "date_published": "2026-06-22T08:42:35.333Z"
                 }
             ]
         },
@@ -5894,6 +6248,69 @@
             ]
         },
         {
+            "pakku_id": "qB4w180SzTJP3GM3",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "interiors",
+                "modrinth": "interiors"
+            },
+            "name": {
+                "curseforge": "Create: Interiors",
+                "modrinth": "Create: Interiors"
+            },
+            "id": {
+                "curseforge": "906239",
+                "modrinth": "r4Knci2k"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "interiors-1.21.1-neoforge-0.6.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/r4Knci2k/versions/gBrfZy6S/interiors-1.21.1-neoforge-0.6.1.jar",
+                    "id": "gBrfZy6S",
+                    "parent_id": "r4Knci2k",
+                    "hashes": {
+                        "sha512": "68b0d915e41fb0ce9d12a8c580d688a604770ded2b21e963058aa6d80cbc5661c481416d051a541395b5c79f461edcb658046e53cfcfb405179a450662ed01b5",
+                        "sha1": "a558777ef4510da2f4d32ca3da6ac7384c9a9940"
+                    },
+                    "required_dependencies": [],
+                    "size": 486912,
+                    "date_published": "2026-01-29T02:53:21.569822Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "interiors-1.21.1-neoforge-0.6.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7544/5/interiors-1.21.1-neoforge-0.6.1.jar",
+                    "id": "7544005",
+                    "parent_id": "906239",
+                    "hashes": {
+                        "sha1": "a558777ef4510da2f4d32ca3da6ac7384c9a9940",
+                        "md5": "dabcfb4a3a7ec2a6a44fc713ba389a77"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 486912,
+                    "date_published": "2026-01-29T02:52:18.553Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "umGXxdQDiclrRZ34",
             "type": "MOD",
             "side": "BOTH",
@@ -6021,6 +6438,42 @@
                     ],
                     "size": 2990812,
                     "date_published": "2026-06-10T17:54:12.423Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NYIOuV3icEZQLGim",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-tracks"
+            },
+            "name": {
+                "curseforge": "Create: Tracks"
+            },
+            "id": {
+                "curseforge": "1519765"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "tracks-neoforge-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7968/280/tracks-neoforge-1.21.1-1.0.1.jar",
+                    "id": "7968280",
+                    "parent_id": "1519765",
+                    "hashes": {
+                        "sha1": "cccd208606d7ac33f483e1e8a237092712a1a2c0",
+                        "md5": "8e9bf934f8640125c5532c02b77f9da6"
+                    },
+                    "required_dependencies": [],
+                    "size": 166455,
+                    "date_published": "2026-04-22T18:05:33.493Z"
                 }
             ]
         },
@@ -21591,6 +22044,71 @@
                     "required_dependencies": [],
                     "size": 105355,
                     "date_published": "2025-12-24T19:03:34.337Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "7ceZYKh02mY3kJZe",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "steam-n-rails-neoforge",
+                "modrinth": "create-steam-n-rails-1.21.1"
+            },
+            "name": {
+                "curseforge": "Steam 'n' Rails Neoforge",
+                "modrinth": "Steam 'n' Rails Neoforge"
+            },
+            "id": {
+                "curseforge": "1414670",
+                "modrinth": "L3Jv0QZI"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "railways-0.2.0+neoforge-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/L3Jv0QZI/versions/oQKsMKfj/railways-0.2.0+neoforge-mc1.21.1.jar",
+                    "id": "oQKsMKfj",
+                    "parent_id": "L3Jv0QZI",
+                    "hashes": {
+                        "sha512": "e91c7db3fabf9d891981e9af545b39acd74eb8c824338bd58bb677cfbf7fa296a1d5ba5275b84cb025512eaf46e4c85b6fc3f46772c3bbbf4793989c1f4fafd8",
+                        "sha1": "9d52eef0772b81de397271b98c0201a59733f9c6"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 12106875,
+                    "date_published": "2026-05-15T23:12:21.469847Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "railways-0.2.0+neoforge-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8095/851/railways-0.2.0+neoforge-mc1.21.1.jar",
+                    "id": "8095851",
+                    "parent_id": "1414670",
+                    "hashes": {
+                        "sha1": "9d52eef0772b81de397271b98c0201a59733f9c6",
+                        "md5": "97aa3c038e0a8a18e3ea057e99b84c35"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 12106875,
+                    "date_published": "2026-05-15T23:13:03.183Z"
                 }
             ]
         },
